@@ -1,0 +1,37 @@
+module Base
+{
+
+    item Rabbit_Suit
+    {
+        Type = Clothing,
+        DisplayName = Robbie The Rabbit Suit,
+        ClothingItem = Rabbit_Suit,
+        BodyLocation = Sweater,
+        Icon = Rabbit_Suit,
+        BloodLocation = Trousers;Jumper,
+        ScratchDefense = 60,
+        BiteDefense = 60,
+        Insulation = 1,
+        WindResistance = 0.85,
+        WaterResistance = 0.80,
+    }
+
+
+    item Hat_Rabbit
+	{
+	Type = Clothing,
+	DisplayName = Robbie The Rabbit Helmet,
+	ClothingItem = Hat_Rabbit,
+	BodyLocation = Hat,
+	Icon = Hat_Rabbit,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	BiteDefense = 120,
+	ScratchDefense = 120,
+	ChanceToFall = 5,
+	Insulation = 0.45,
+	WaterResistance = 0.40,
+        Weight = 1,
+    }
+
+}

@@ -1,0 +1,166 @@
+module Base
+{
+
+	model W_Bag_Smersh_Vest
+	{
+		mesh = WorldItems/W_Bag_Smersh_Vest,
+		texture = Clothes/Bag/Bag_Smersh_Vest,
+		scale = 0.01,
+	}
+	model W_Bag_D3M
+	{
+		mesh = WorldItems/W_Bag_D3M,
+		texture = Clothes/Bag/Bag_D3M,
+		scale = 0.01,
+	}
+	model W_Bag_Blackhawk
+	{
+		mesh = WorldItems/W_Bag_Blackhawk,
+		texture = Clothes/Bag/Bag_Blackhawk,
+		scale = 0.01,
+	}
+	model W_Bag_X_Vest
+	{
+		mesh = WorldItems/W_Bag_X_Vest,
+		texture = Clothes/Bag/Bag_X_Vest,
+		scale = 0.01,
+	}
+	model W_Armor_Defender
+	{
+		mesh = WorldItems/W_Armor_Defender,
+		texture = Clothes/Armor_Defender,
+		scale = 0.01,
+	}
+	model W_Bag_Plate_Carrier
+	{
+		mesh = WorldItems/W_Bag_Plate_Carrier,
+		texture = Clothes/Bag/Bag_Plate_Carrier,
+		scale = 0.01,
+	}
+	model W_Armor_6B13
+	{
+		mesh = WorldItems/W_Armor_6B13,
+		texture = Clothes/Armor_6B13,
+		scale = 0.01,
+	}
+	model W_Bag_Sniper_Pack
+	{
+		mesh = WorldItems/W_Bag_Sniper_Pack,
+		texture = Clothes/Bag/Bag_Sniper_Pack,
+		scale = 0.01,
+	}
+	model W_Bag_ARVN_Rucksack
+	{
+		mesh = WorldItems/W_Bag_ARVN_Rucksack,
+		texture = Clothes/Bag/Bag_ARVN_Rucksack,
+		scale = 0.01,
+	}
+	model W_Bag_ST53_Set
+	{
+		mesh = WorldItems/W_Bag_ST53_Set,
+		texture = Clothes/Bag/Bag_ST53_Set,
+		scale = 0.01,
+	}
+	model W_Bag_SCBA
+	{
+		mesh = WorldItems/W_Bag_SCBA,
+		texture = Clothes/Bag/Bag_SCBA,
+		scale = 0.01,
+	}
+	model W_Bag_ZIP
+	{
+		mesh = WorldItems/W_Bag_ZIP,
+		texture = Clothes/Bag/Bag_ZIP,
+		scale = 0.01,
+	}
+	model W_Bag_SSO
+	{
+		mesh = WorldItems/W_Bag_SSO,
+		texture = Clothes/Bag/Bag_SSO,
+		scale = 0.01,
+	}
+	model W_Bag_Savotta
+	{
+		mesh = WorldItems/W_Bag_Savotta,
+		texture = Clothes/Bag/Bag_Savotta,
+		scale = 0.01,
+	}
+	model W_Bag_Bush
+	{
+		mesh = WorldItems/W_Bag_Bush,
+		texture = Clothes/Bag/Bag_Bush,
+		scale = 0.01,
+	}
+	model W_Bag_Hunting
+	{
+		mesh = WorldItems/W_Bag_Hunting,
+		texture = Clothes/Bag/Bag_Bush,
+		scale = 0.01,
+	}
+	model W_Bag_Radio_Pack
+	{
+		mesh = WorldItems/W_Bag_Radio_Pack,
+		texture = Clothes/Bag/Bag_Radio_Pack,
+		scale = 0.01,
+	}
+	model W_Bag_Tactical_Alice
+	{
+		mesh = WorldItems/W_Bag_Tactical_Alice,
+		texture = Clothes/Bag/Bag_Tactical_Alice,
+		scale = 0.01,
+	}
+	model W_Bag_Tactical_Belt
+	{
+		mesh = WorldItems/W_Bag_Tactical_Belt,
+		texture = Clothes/Bag/Bag_Tactical_Belt,
+		scale = 0.01,
+	}
+	model W_Bag_Duty_Belt
+	{
+		mesh = WorldItems/W_Bag_Duty_Belt,
+		texture = Clothes/Bag/Bag_Duty_Belt,
+		scale = 0.01,
+	}
+	model W_Bag_SKS_Vest
+	{
+		mesh = WorldItems/W_Bag_SKS_Vest,
+		texture = Clothes/Bag/Bag_SKS_Vest,
+		scale = 0.01,
+	}
+	model W_Bag_AK_Vest
+	{
+		mesh = WorldItems/W_Bag_AK_Vest,
+		texture = Clothes/Bag/Bag_AK_Vest,
+		scale = 0.01,
+	}
+	model W_Bag_Cat_Pack
+	{
+		mesh = WorldItems/W_Bag_Cat_Pack,
+		texture = Clothes/Bag/Bag_Cat_Pack_2,
+		scale = 0.01,
+	}
+	model W_Bag_Robbie_Pack
+	{
+		mesh = WorldItems/W_Bag_Robbie_Pack,
+		texture = Clothes/Bag/Bag_Robbie_Pack,
+		scale = 0.01,
+	}
+	model W_Sheriff_Vest_Full
+	{
+		mesh = WorldItems/W_Sheriff_Vest_Full,
+		texture = Clothes/Sheriff_Vest,
+		scale = 0.01,
+	}
+	model W_Sheriff_Vest
+	{
+		mesh = WorldItems/W_Sheriff_Vest,
+		texture = Clothes/Sheriff_Vest,
+		scale = 0.01,
+	}
+	model W_M2A1_Pack
+	{
+		mesh = WorldItems/W_Bag_M2A1_Pack,
+		texture = Clothes/Bag/Bag_M2A1_Pack,
+		scale = 0.01,
+	}
+}

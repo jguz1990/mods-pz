@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>static\clothes\m_MSA_Gas_Mask_AMP</m_MaleModel>
+	<m_FemaleModel>static\clothes\f_MSA_Gas_Mask_AMP</m_FemaleModel>
+	<m_GUID>68dac2c0-0eba-468c-970c-61cfa50cc5f7</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Head</m_AttachBone>
+	<m_HatCategory>nobeard</m_HatCategory>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>clothes\hat\Hat_MSA_Gas_Mask</textureChoices>
+	<textureChoices>clothes\hat\Hat_MSA_Gas_Mask_2</textureChoices>
+	<textureChoices>clothes\hat\Hat_MSA_Gas_Mask_3</textureChoices>	
+</clothingItem>

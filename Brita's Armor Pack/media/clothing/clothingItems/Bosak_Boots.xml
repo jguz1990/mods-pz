@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\backpacks\m_Bosak_Boots</m_MaleModel>
+	<m_FemaleModel>skinned\backpacks\f_Bosak_Boots</m_FemaleModel>
+	<m_GUID>bd49f70f-0042-4121-8a8e-203dfbcfb6ba</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\Bosak_Boots</textureChoices>	
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>	
+</clothingItem>

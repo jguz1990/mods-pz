@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\backpacks\m_Juggernaut_Arm</m_MaleModel>
+	<m_FemaleModel>skinned\backpacks\f_Juggernaut_Arm</m_FemaleModel>
+	<m_GUID>89f547dd-2a8a-4c3c-b66d-8f0edcffade1</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\Armor_Juggernaut</textureChoices>	
+</clothingItem>

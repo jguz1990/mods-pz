@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\M_Ela_Jacket</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\F_Ela_Jacket</m_FemaleModel>
+	<m_GUID>b8eaea62-a5df-4312-9aa0-12fdcfa9b67b</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>13</m_Masks>
+	<m_Masks>14</m_Masks>
+	<m_Masks>3</m_Masks>
+	<m_Masks>5</m_Masks>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Jacket/Masks</m_UnderlayMasksFolder>
+	<textureChoices>clothes\Jacket_Adidas</textureChoices>
+	<textureChoices>clothes\Jacket_Adidas_2</textureChoices>	
+	<textureChoices>clothes\Jacket_Adidas_3</textureChoices>	
+	<textureChoices>clothes\Jacket_Adidas_4</textureChoices>	
+	<textureChoices>clothes\Jacket_Adidas_5</textureChoices>	
+	<textureChoices>clothes\Jacket_Adidas_6</textureChoices>	
+	<textureChoices>clothes\Jacket_Adidas_7</textureChoices>	
+	<textureChoices>clothes\Jacket_Adidas_8</textureChoices>	
+	<textureChoices>clothes\Jacket_Adidas_9</textureChoices>	
+	<textureChoices>clothes\Jacket_Adidas_10</textureChoices>		
+</clothingItem>

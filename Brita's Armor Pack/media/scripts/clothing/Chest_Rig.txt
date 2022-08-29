@@ -1,0 +1,240 @@
+module Base
+{
+    item Bag_D3M
+    {
+        Type = Container,
+        DisplayName = D3M Chest Rig,
+        ClothingItem = Bag_D3M,
+        Icon	=	Bag_D3M,
+        CanBeEquipped = FannyPackFront,
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Bag_D3M_Loose,
+        ClothingItemExtraOption = D3M_Loose,
+        clothingExtraSubmenu = Bag_D3M,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Bag_D3M,
+    }
+
+
+
+    item Bag_D3M_Loose
+    {
+        Type = Container,
+        DisplayName = D3M Chest Rig (Loose),
+        ClothingItem = Bag_D3M_Loose,
+        Icon	=	Bag_D3M,
+        CanBeEquipped = FannyPackFront,
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Bag_D3M,
+        ClothingItemExtraOption = D3M (Tight),
+        clothingExtraSubmenu = Bag_D3M_Loose,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Bag_D3M,
+    }
+
+
+
+    item Bag_Blackhawk
+    {
+        Type = Container,
+        DisplayName = Blackhawk Commando Chest Harness,
+        ClothingItem = Bag_Blackhawk,
+        Icon	=	Bag_Blackhawk,
+        CanBeEquipped = FannyPackFront,
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Bag_Blackhawk_Loose,
+        ClothingItemExtraOption = Blackhawk_Loose,
+        clothingExtraSubmenu = Bag_Blackhawk,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Bag_Blackhawk,
+    }
+
+
+
+    item Bag_Blackhawk_Loose
+    {
+        Type = Container,
+        DisplayName = Blackhawk Commando Chest Harness (Loose),
+        ClothingItem = Bag_Blackhawk_Loose,
+        Icon	=	Bag_Blackhawk,
+        CanBeEquipped = FannyPackFront,
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Bag_Blackhawk,
+        ClothingItemExtraOption = Blackhawk (Tight),
+        clothingExtraSubmenu = Bag_Blackhawk_Loose,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Bag_Blackhawk,
+    }
+
+
+
+    item Bag_X_Vest
+    {
+        Type = Container,
+        DisplayName = Military Combat Webbing Set,
+        ClothingItem = Bag_X_Vest,
+        Icon	=	Bag_X_Vest,
+        CanBeEquipped = FannyPackFront,
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Bag_X_Vest_Loose,
+        ClothingItemExtraOption = X_Vest_Loose,
+        clothingExtraSubmenu = Bag_X_Vest,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Bag_X_Vest,
+    }
+
+
+
+    item Bag_X_Vest_Loose
+    {
+        Type = Container,
+        DisplayName = Military Combat Webbing Set (Loose),
+        ClothingItem = Bag_X_Vest_Loose,
+        Icon	=	Bag_X_Vest,
+        CanBeEquipped = FannyPackFront,
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Bag_X_Vest,
+        ClothingItemExtraOption = X_Vest (Tight),
+        clothingExtraSubmenu = Bag_X_Vest_Loose,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Bag_X_Vest,
+    }
+
+
+
+    item Bag_SKS_Vest
+    {
+        Type = Container,
+        DisplayName = Chicom Type 56 Chest Rig,
+        ClothingItem = Bag_SKS_Vest,
+        Icon	=	Bag_SKS_Vest,
+        CanBeEquipped = FannyPackFront,
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Bag_SKS_Vest_Loose,
+        ClothingItemExtraOption = SKS_Vest_Loose,
+        clothingExtraSubmenu = Bag_SKS_Vest,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Bag_SKS_Vest,
+    }
+
+
+
+    item Bag_SKS_Vest_Loose
+    {
+        Type = Container,
+        DisplayName = Chicom Type 56 Chest Rig (Loose),
+        ClothingItem = Bag_SKS_Vest_Loose,
+        Icon	=	Bag_SKS_Vest,
+        CanBeEquipped = FannyPackFront,
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Bag_SKS_Vest,
+        ClothingItemExtraOption = SKS_Vest (Tight),
+        clothingExtraSubmenu = Bag_SKS_Vest_Loose,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Bag_SKS_Vest,
+    }
+
+
+
+    item Bag_AK_Vest
+    {
+        Type = Container,
+        DisplayName = Chicom Type 81 Chest Rig,
+        ClothingItem = Bag_AK_Vest,
+        Icon	=	Bag_AK_Vest,
+        CanBeEquipped = FannyPackFront,
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Bag_AK_Vest_Loose,
+        ClothingItemExtraOption = AK_Vest_Loose,
+        clothingExtraSubmenu = Bag_AK_Vest,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Bag_AK_Vest,
+    }
+
+
+
+    item Bag_AK_Vest_Loose
+    {
+        Type = Container,
+        DisplayName = Chicom Type 81 Chest Rig (Loose),
+        ClothingItem = Bag_AK_Vest_Loose,
+        Icon	=	Bag_AK_Vest,
+        CanBeEquipped = FannyPackFront,
+        RunSpeedModifier = 0.94,
+        BodyLocation = Tail,
+        BloodLocation = ShirtNoSleeves,
+        ClothingItemExtra = Bag_AK_Vest,
+        ClothingItemExtraOption = AK_Vest (Tight),
+        clothingExtraSubmenu = Bag_AK_Vest_Loose,
+        WeightReduction	=	90,
+        Weight	=	1,
+        Capacity	=	8,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel= W_Bag_AK_Vest,
+    }
+}

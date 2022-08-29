@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\backpacks\m_Sniper_Suit_Off</m_MaleModel>
+	<m_FemaleModel>skinned\backpacks\f_Sniper_Suit_Off</m_FemaleModel>
+	<m_GUID>2e43a241-a541-4aaa-903a-78e39347c79a</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_HatCategory>Group04</m_HatCategory>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>clothes\Bag_Sniper_Suit</textureChoices>
+	<textureChoices>clothes\Bag_Sniper_Suit_2</textureChoices>	
+	<textureChoices>clothes\Bag_Sniper_Suit_3</textureChoices>	
+	<textureChoices>clothes\Bag_Sniper_Suit_4</textureChoices>	
+	<textureChoices>clothes\Bag_Sniper_Suit_5</textureChoices>	
+	<textureChoices>clothes\Bag_Sniper_Suit_6</textureChoices>	
+	<textureChoices>clothes\Bag_Sniper_Suit_7</textureChoices>	
+	<textureChoices>clothes\Bag_Sniper_Suit_8</textureChoices>	
+	<textureChoices>clothes\Bag_Sniper_Suit_9</textureChoices>	
+	<textureChoices>clothes\Bag_Sniper_Suit_10</textureChoices>	
+	<textureChoices>clothes\Bag_Sniper_Suit_11</textureChoices>	
+	<textureChoices>clothes\Bag_Sniper_Suit_12</textureChoices>	
+	<textureChoices>clothes\Bag_Sniper_Suit_13</textureChoices>	
+	<textureChoices>clothes\Bag_Sniper_Suit_14</textureChoices>		
+</clothingItem>

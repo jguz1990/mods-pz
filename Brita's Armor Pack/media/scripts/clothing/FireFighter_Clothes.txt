@@ -1,0 +1,39 @@
+module Base
+{
+    item Fire_Jacket
+    {
+        Type = Clothing,
+        DisplayName = ErgoTech Firefighting Jacket,
+        ClothingItem = Fire_Jacket,
+        BodyLocation = Jacket,
+        BloodLocation = Jumper,
+        Icon = Fire_Jacket,
+        ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 30,
+        ScratchDefense = 30,
+        Insulation = 0.30,
+        WindResistance = 0.80,
+        WaterResistance = 0.60,
+        Weight = 2,
+        FabricType = Denim,
+    }
+
+
+
+    item Fire_Pants
+    {
+        Type = Clothing,
+        DisplayName = EOS Structural Firefighting Pants,
+        ClothingItem = Fire_Pants,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = Fire_Pants,
+        BiteDefense = 30,
+        ScratchDefense = 30,
+        Insulation = 0.30,
+        WindResistance = 0.80,
+        WaterResistance = 0.60,
+        FabricType = Denim,
+    }
+}

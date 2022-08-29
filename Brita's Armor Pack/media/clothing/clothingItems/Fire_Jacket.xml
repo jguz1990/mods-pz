@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\M_Combat_Jumper</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\F_Combat_Jumper</m_FemaleModel>
+	<m_GUID>cbef106e-84f2-4762-bfba-7cec035c3388</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>13</m_Masks>
+	<m_Masks>14</m_Masks>
+	<m_Masks>3</m_Masks>
+	<m_Masks>5</m_Masks>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Jacket/Masks</m_UnderlayMasksFolder>
+	<textureChoices>clothes\Fire_Jacket</textureChoices>		
+	<textureChoices>clothes\Fire_Jacket_2</textureChoices>	
+	<textureChoices>clothes\Fire_Jacket_3</textureChoices>	
+	<textureChoices>clothes\Fire_Jacket_4</textureChoices>		
+</clothingItem>

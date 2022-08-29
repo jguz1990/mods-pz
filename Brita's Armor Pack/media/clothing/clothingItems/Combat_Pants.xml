@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\M_Combat_Pants</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\F_Combat_Pants</m_FemaleModel>
+	<m_GUID>6cb52b78-25ce-4efd-8995-d6e8fb6936e0</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Jacket/Masks</m_UnderlayMasksFolder>
+	<textureChoices>clothes\Combat_Pants</textureChoices>	
+	<textureChoices>clothes\Combat_Pants_2</textureChoices>		
+	<textureChoices>clothes\Combat_Pants_3</textureChoices>	
+	<textureChoices>clothes\Combat_Pants_4</textureChoices>	
+	<textureChoices>clothes\Combat_Pants_5</textureChoices>	
+	<textureChoices>clothes\Combat_Pants_6</textureChoices>	
+	<textureChoices>clothes\Combat_Pants_7</textureChoices>	
+	<textureChoices>clothes\Combat_Pants_8</textureChoices>	
+	<textureChoices>clothes\Combat_Pants_9</textureChoices>	
+	<textureChoices>clothes\Combat_Pants_10</textureChoices>		
+</clothingItem>

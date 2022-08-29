@@ -1,0 +1,70 @@
+module Base
+{
+    item Bag_Sniper_Hood
+    {
+        Type = Clothing,
+        DisplayName = Sniper Viper Hood,
+        ClothingItem = Bag_Sniper_Hood,
+        BodyLocation = Necklace_Long,
+        Weight	=	1,
+        Icon	=	Bag_Sniper_Hood,
+        Insulation = 0.30,
+        WindResistance = 0.80,
+        WaterResistance = 1,
+        BiteDefense = 30,
+        ScratchDefense = 30,
+    }
+
+
+	item Bag_Shemagh_Half
+	{
+        Type = Clothing,
+        DisplayName = Half Balaclava Mask,
+        ClothingItem = Bag_Shemagh_Half,
+        BodyLocation = Mask,
+        Weight	=	0.1,
+        Icon	=	Bag_Shemagh_Half,
+        ScratchDefense = 10,
+        Insulation = 1.0,
+        WindResistance = 1.0,
+        FabricType = Cotton,
+	}
+
+
+
+    item Bag_Sniper_Suit
+    {
+        Type = Clothing,
+        DisplayName = Tactics Ghillie Suit Coats w/ Hood,
+        ClothingItem = Bag_Sniper_Suit,
+        BodyLocation = Necklace_Long,
+        Weight	=	1,
+        Icon	=	Bag_Sniper_Suit,
+        Insulation = 0.30,
+        WindResistance = 0.80,
+        BiteDefense = 30,
+        ScratchDefense = 30,
+        ClothingItemExtra = Bag_Sniper_Suit_Off,
+        ClothingItemExtraOption = Hood_OFF,
+        clothingExtraSubmenu = Hood_ON,
+    }
+
+
+
+    item Bag_Sniper_Suit_Off
+    {
+        Type = Clothing,
+        DisplayName = Tactics Ghillie Suit Coats,
+        ClothingItem = Bag_Sniper_Suit_Off,
+        BodyLocation = Necklace_Long,
+        Weight	=	1,
+        Icon	=	Bag_Sniper_Suit,
+        Insulation = 0.30,
+        WindResistance = 0.80,
+        BiteDefense = 30,
+        ScratchDefense = 30,
+        ClothingItemExtra = Bag_Sniper_Suit,
+        ClothingItemExtraOption = Hood_ON,
+        clothingExtraSubmenu = Hood_OFF,
+    }
+}

@@ -1,0 +1,986 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<outfitManager>
+
+<!-- **********************************************************
+	USE THIS SECTION FOR OVER-RIDE TYPES ONLY
+	CUSTOM ZOMBIE TYPES SECTION AT THE BOTTOM OF THIS FILE
+	
+	EXAMPLES ARE AIRCREW, POLICE, ARMY SERVICE WHERE I 
+	LOOKED UP THE EXISTING CLOTHING SECTION, AND ADDED
+	MOD ITEMS IN THE CORRECT GROUP (Hats with hats, etc)
+*************************************************************** -->
+
+<!-- **********************************************************
+	Brita_Sheriff
+	ADD 
+*************************************************************** -->
+	<m_FemaleOutfits>
+		<m_Name>Brita_Sheriff</m_Name>
+		<m_Guid>1101721c-3d8f-4ccd-8344-b9cf13321475</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Tactical Cap --> <m_items>
+			<itemGUID>a949610e-8798-4529-9d79-d51137ea0d61</itemGUID>
+		</m_items>
+<!-- Sheriff_Jumper --> <m_items> 
+			<itemGUID>b34bbbbd-12e1-4375-920d-09f59e9e8cdc</itemGUID>
+		</m_items>
+<!-- Combat Pants -->	<m_items> 
+			<itemGUID>6cb52b78-25ce-4efd-8995-d6e8fb6936e0</itemGUID>
+		</m_items>
+<!-- Sheriff Vest --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>b640ec9f-19bc-4629-aeee-0a53e2a0a699</itemGUID>
+		</m_items>		
+<!-- Sordin Headset --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>f3528572-7691-433c-8314-dd92b696073c</itemGUID>
+		</m_items>			
+	</m_FemaleOutfits>
+	
+	
+	
+	<m_MaleOutfits>
+		<m_Name>Brita_Sheriff_2</m_Name>
+		<m_Guid>a0d4376c-c48a-4196-a6ce-062fd2b6056b</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Tactical Cap Camo --> <m_items>
+			<itemGUID>1753efff-5f82-4b98-8420-dac1be6eb3c0</itemGUID>
+		</m_items>
+<!-- Sheriff_Jumper --> <m_items> 
+			<itemGUID>b34bbbbd-12e1-4375-920d-09f59e9e8cdc</itemGUID>
+		</m_items>
+<!-- Combat Pants -->	<m_items> 
+			<itemGUID>6cb52b78-25ce-4efd-8995-d6e8fb6936e0</itemGUID>
+		</m_items>
+<!-- Sheriff Vest Full --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>da782abd-b212-445d-b729-c3e90cb24f17</itemGUID>
+		</m_items>		
+<!-- Sordin Headset --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>f3528572-7691-433c-8314-dd92b696073c</itemGUID>
+		</m_items>			
+	</m_MaleOutfits>	
+	
+	
+<!-- **********************************************************
+	Brita_Prison_Unit
+	ADD 
+*************************************************************** -->
+	<m_FemaleOutfits>
+		<m_Name>Brita_Prison_Unit</m_Name>
+		<m_Guid>d66fafe4-a01a-4e4d-b253-937a2269d0d2</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- PSGT Helmet Camo --> <m_items>
+			<itemGUID>6b4cd828-8bfa-4f82-9a53-b0e12b63d4c6</itemGUID>
+		</m_items>
+<!-- PSGT Helmet Visor --> <m_items>
+			<itemGUID>da88c083-79e6-42bc-879b-0b9286bd6bd5</itemGUID>
+		</m_items>		
+<!-- PSGT Helmet Neck Protection --> <m_items>
+			<itemGUID>58770567-0947-4588-b31e-1e2cd10164fd</itemGUID>
+		</m_items>			
+<!-- Sheriff_Jumper --> <m_items> 
+			<itemGUID>b34bbbbd-12e1-4375-920d-09f59e9e8cdc</itemGUID>
+		</m_items>
+<!-- Combat Pants -->	<m_items> 
+			<itemGUID>6cb52b78-25ce-4efd-8995-d6e8fb6936e0</itemGUID>
+		</m_items>		
+<!-- MSA Gas Mask --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>3a23e843-480e-4bf7-b1bc-a48a798ba7b4</itemGUID>
+		</m_items>			
+	</m_FemaleOutfits>
+	
+	
+	
+	<m_MaleOutfits>
+		<m_Name>Brita_Prison_Unit_2</m_Name>
+		<m_Guid>c043c5e3-ef7a-4d39-b76a-89529b80b6cb</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- PSGT Helmet --> <m_items>
+			<itemGUID>f1852f25-f422-4c83-9324-75835d9d9847</itemGUID>
+		</m_items>
+<!-- PSGT Helmet Riot Visor --> <m_items>
+			<itemGUID>7a9cb488-7819-44fd-a2ba-6c97cff2eb6e</itemGUID>
+		</m_items>		
+<!-- PSGT Helmet Neck Protection --> <m_items>
+			<itemGUID>58770567-0947-4588-b31e-1e2cd10164fd</itemGUID>
+		</m_items>			
+<!-- Sheriff_Jumper --> <m_items> 
+			<itemGUID>b34bbbbd-12e1-4375-920d-09f59e9e8cdc</itemGUID>
+		</m_items>
+<!-- Combat Pants -->	<m_items> 
+			<itemGUID>6cb52b78-25ce-4efd-8995-d6e8fb6936e0</itemGUID>
+		</m_items>
+<!-- MSA Gas Mask --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>3a23e843-480e-4bf7-b1bc-a48a798ba7b4</itemGUID>
+		</m_items>		
+	</m_MaleOutfits>		
+
+<!-- **********************************************************
+	Brita_Police
+	ADD 
+*************************************************************** -->
+	<m_FemaleOutfits>
+		<m_Name>Brita_Police</m_Name>
+		<m_Guid>8a7a915d-2c1e-4582-a9a6-5123cc61d138</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Tactical Cap --> <m_items>
+			<itemGUID>a949610e-8798-4529-9d79-d51137ea0d61</itemGUID>
+		</m_items>
+<!-- Napier Glass --> <m_items>
+			<itemGUID>58f05a80-61fd-4b10-827d-0f13a2cbf7ff</itemGUID>
+		</m_items>		
+<!-- Y Shirts --> <m_items> 
+			<itemGUID>93412c30-6ff7-4939-8c37-ebb00c0af5b2</itemGUID>
+		</m_items>
+<!-- Office Skirt Long -->	<m_items> 
+			<itemGUID>aff9d6ca-7539-4e8c-a23e-0de7b9e4fb4c</itemGUID>
+		</m_items>
+<!-- Duty Belt --> <m_items>
+			<itemGUID>5d903124-42ac-4119-87f2-a17c8a82d4b7</itemGUID>
+		</m_items>		
+	</m_FemaleOutfits>
+	
+	
+	
+	<m_MaleOutfits>
+		<m_Name>Brita_Police_2</m_Name>
+		<m_Guid>67568a2e-8f0d-4a12-99e7-711748aaa099</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Tactical Cap --> <m_items>
+			<itemGUID>a949610e-8798-4529-9d79-d51137ea0d61</itemGUID>
+		</m_items>
+<!-- Napier Glass --> <m_items>
+			<itemGUID>58f05a80-61fd-4b10-827d-0f13a2cbf7ff</itemGUID>
+		</m_items>		
+<!-- Y Shirts --> <m_items> 
+			<itemGUID>93412c30-6ff7-4939-8c37-ebb00c0af5b2</itemGUID>
+		</m_items>
+<!-- Combat Pants -->	<m_items> 
+			<itemGUID>6cb52b78-25ce-4efd-8995-d6e8fb6936e0</itemGUID>
+		</m_items>
+<!-- Duty Belt --> <m_items>
+			<itemGUID>5d903124-42ac-4119-87f2-a17c8a82d4b7</itemGUID>
+		</m_items>		
+	</m_MaleOutfits>
+	
+<!-- **********************************************************
+	Brita_Fire
+	ADD 
+*************************************************************** -->
+	<m_FemaleOutfits>
+		<m_Name>Brita_Fire</m_Name>
+		<m_Guid>3a6c43cb-a40b-4d0e-9125-468e24bc2d03</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Fire 880 Helmet --> <m_items>
+			<itemGUID>a1627c93-d304-4bc5-99f8-792af05c3707</itemGUID>
+		</m_items>
+<!-- Fire 880 Helmet Visor --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>42ff337d-b6ce-49c1-b99c-964a130733dc</itemGUID>
+		</m_items>		
+<!-- Fire Jacket --> <m_items> 
+			<itemGUID>cbef106e-84f2-4762-bfba-7cec035c3388</itemGUID>
+		</m_items>
+<!-- Fire Pants -->	<m_items> 
+			<itemGUID>a7abea44-ab0b-43f1-ba4f-00d4da987dd3</itemGUID>
+		</m_items>
+<!-- SCBA --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>37e3c052-c819-4c60-9e81-eefb2557a1c4</itemGUID>
+		</m_items>			
+	</m_FemaleOutfits>
+	
+	
+	
+	<m_MaleOutfits>
+		<m_Name>Brita_Fire_2</m_Name>
+		<m_Guid>85af0924-d964-41b1-97d0-57f9e387cc1c</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Fire 880 Helmet --> <m_items>
+			<itemGUID>a1627c93-d304-4bc5-99f8-792af05c3707</itemGUID>
+		</m_items>
+<!-- Fire 880 Helmet Visor --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>42ff337d-b6ce-49c1-b99c-964a130733dc</itemGUID>
+		</m_items>		
+<!-- Fire Jacket --> <m_items> 
+			<itemGUID>cbef106e-84f2-4762-bfba-7cec035c3388</itemGUID>
+		</m_items>
+<!-- Fire Pants -->	<m_items> 
+			<itemGUID>a7abea44-ab0b-43f1-ba4f-00d4da987dd3</itemGUID>
+		</m_items>
+<!-- SCBA --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>37e3c052-c819-4c60-9e81-eefb2557a1c4</itemGUID>
+		</m_items>	
+	</m_MaleOutfits>	
+	
+<!-- **********************************************************
+	Brita_School
+	ADD 
+*************************************************************** -->
+	<m_FemaleOutfits>
+		<m_Name>Brita_School</m_Name>
+		<m_Guid>913cc71f-6b70-4437-8947-cf98f3c0ad34</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Yoga Pants --> <m_items>
+			<itemGUID>7bd1479d-8803-4c1a-b921-5ed87a79027e</itemGUID>
+		</m_items>
+<!-- Office Sweater Long --> <m_items>
+			<itemGUID>287390d4-20bd-48de-a03e-33dec6c04430</itemGUID>
+		</m_items>		
+<!-- Y Shirts Long --> <m_items> 
+			<itemGUID>93412c30-6ff7-4939-8c37-ebb00c0af5b2</itemGUID>
+		</m_items>
+<!-- Office Skirts Long -->	<m_items> 
+			<itemGUID>aff9d6ca-7539-4e8c-a23e-0de7b9e4fb4c</itemGUID>
+		</m_items>
+<!-- Cat Pack --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>b7757cc8-6563-42e2-8745-9698d51a81f2</itemGUID>
+		</m_items>			
+	</m_FemaleOutfits>	
+	
+	
+	<m_FemaleOutfits>
+		<m_Name>Brita_School_2</m_Name>
+		<m_Guid>e89c832f-b000-43d3-9333-dcc77c858dc7</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Tank Top --> <m_items>
+			<itemGUID>28198184-f6fe-417d-8ab9-3d68d320d96e</itemGUID>
+		</m_items>
+<!-- Office Sweater --> <m_items>
+			<itemGUID>c955587f-35ef-4784-a5c2-2f0a7e80bbc4</itemGUID>
+		</m_items>		
+<!-- Y Shirts --> <m_items> 
+			<itemGUID>782bd42b-67c4-4380-a627-44fee483c115</itemGUID>
+		</m_items>
+<!-- Office Skirts -->	<m_items> 
+			<itemGUID>8a2a618b-865b-4a01-b8ea-c3571e76a11d</itemGUID>
+		</m_items>			
+	</m_FemaleOutfits>
+	
+	
+	<m_FemaleOutfits>
+		<m_Name>Brita_School_3</m_Name>
+		<m_Guid>6f6c17c1-a1e5-49cc-9694-392673002965</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Tank Top --> <m_items>
+			<itemGUID>28198184-f6fe-417d-8ab9-3d68d320d96e</itemGUID>
+		</m_items>
+<!-- Adidas Jacket --> <m_items>
+			<itemGUID>b8eaea62-a5df-4312-9aa0-12fdcfa9b67b</itemGUID>
+		</m_items>		
+<!-- Adidas Pants --> <m_items> 
+			<itemGUID>40156330-9c5c-47b9-b93d-ffc1cccc5c97</itemGUID>
+		</m_items>
+<!-- Office Skirts -->	<m_items> 
+			<itemGUID>8a2a618b-865b-4a01-b8ea-c3571e76a11d</itemGUID>
+		</m_items>
+<!-- Robbie Pack --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>52ddf990-7e46-4db5-ad35-b2b4cfa8cd3f</itemGUID>
+		</m_items>			
+	</m_FemaleOutfits>	
+	
+	
+<!-- **********************************************************
+	Brita_Nurse
+	ADD 
+*************************************************************** -->
+	<m_FemaleOutfits>
+		<m_Name>Brita_Nurse</m_Name>
+		<m_Guid>78bc2ed8-18dc-46d4-a3fb-867344280985</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Skirt Nurse --> <m_items>
+			<itemGUID>a3e733a9-a8a9-46bf-b4bd-2ac72806778d</itemGUID>
+		</m_items>
+<!-- Lisa Cap --> <m_items>
+			<itemGUID>e58ca58d0ce84cd7b777818ff7c77535</itemGUID>
+		</m_items>				
+	</m_FemaleOutfits>	
+
+	
+<!-- **********************************************************
+	Brita_Office
+	ADD 
+*************************************************************** -->
+	<m_FemaleOutfits>
+		<m_Name>Brita_Office</m_Name>
+		<m_Guid>beb25d2e-ef82-471d-84e6-1576c4e5aa5b</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Turtle Neck --> <m_items>
+			<itemGUID>6d34d09a-5bd1-44a9-8b54-2db1f75ed6da</itemGUID>
+		</m_items>		
+<!-- Office Skirts Long -->	<m_items> 
+			<itemGUID>aff9d6ca-7539-4e8c-a23e-0de7b9e4fb4c</itemGUID>
+		</m_items>		
+	</m_FemaleOutfits>		
+	
+	
+	<m_FemaleOutfits>
+		<m_Name>Brita_Office_2</m_Name>
+		<m_Guid>ace28a89-8db6-4844-bcd8-0cab418adeb0</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Turtle Neck Belly --> <m_items>
+			<itemGUID>1f855f21-6438-4bcd-bc1b-f847f2203656</itemGUID>
+		</m_items>
+<!-- Office Skirts -->	<m_items> 
+			<itemGUID>8a2a618b-865b-4a01-b8ea-c3571e76a11d</itemGUID>
+		</m_items>		
+	</m_FemaleOutfits>	
+
+
+<!-- **********************************************************
+	Brita_Sniper
+	ADD 
+*************************************************************** -->
+	<m_FemaleOutfits>
+		<m_Name>Brita_Sniper</m_Name>
+		<m_Guid>36e2ddc6-5e86-409b-ba56-64ef8930cd4e</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Tactical Boonie --> <m_items>
+			<itemGUID>0b974716-1c28-4e03-afce-6f73990b332c</itemGUID>
+		</m_items>
+<!-- Combat_Jumper --> <m_items> 
+			<itemGUID>e8026351-f875-4612-9fd5-99db6eabc733</itemGUID>
+		</m_items>
+<!-- Combat Pants -->	<m_items> 
+			<itemGUID>6cb52b78-25ce-4efd-8995-d6e8fb6936e0</itemGUID>
+		</m_items>
+<!-- SKS Vest --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>fe680555-5a87-422a-8efb-bb6d195e05ed</itemGUID>
+		</m_items>		
+<!-- Sniper Suit --> <m_items>
+			<itemGUID>2e43a241-a541-4aaa-903a-78e39347c79a</itemGUID>
+		</m_items>	
+<!-- Shemagh Mask --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>a500e850-53c0-489c-918f-6fc1ad8aa7db</itemGUID>
+		</m_items>			
+<!-- Bag Sniper Pack --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>0c7e27dc-b6e0-4fb8-896f-f6cdabfea0cf</itemGUID>
+		</m_items>			
+	</m_FemaleOutfits>
+	
+	
+	
+	<m_MaleOutfits>
+		<m_Name>Brita_Sniper_2</m_Name>
+		<m_Guid>9ba209d9-b03a-4aa0-914b-cfbc274f5e43</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Tactical Boonie Fold --> <m_items>
+			<itemGUID>26e0dc46-2756-48dd-91eb-8658db000ed1</itemGUID>
+		</m_items>
+<!-- Combat_Jumper --> <m_items> 
+			<itemGUID>e8026351-f875-4612-9fd5-99db6eabc733</itemGUID>
+		</m_items>
+<!-- Combat Pants -->	<m_items> 
+			<itemGUID>6cb52b78-25ce-4efd-8995-d6e8fb6936e0</itemGUID>
+		</m_items>
+<!-- AK Vest --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>3adf1b49-7932-4341-81d7-198a4fccd833</itemGUID>
+		</m_items>		
+<!-- Sniper Suit --> <m_items>
+			<itemGUID>2e43a241-a541-4aaa-903a-78e39347c79a</itemGUID>
+		</m_items>	
+<!-- Shemagh Mask --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>a500e850-53c0-489c-918f-6fc1ad8aa7db</itemGUID>
+		</m_items>				
+<!-- Bag Radio Pack --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>1f6d8433-4cbb-4824-af38-2d5818089285</itemGUID>
+		</m_items>			
+	</m_MaleOutfits>
+	
+	
+<!-- **********************************************************
+	Brita_Ela
+	ADD 
+*************************************************************** -->
+	<m_FemaleOutfits>
+		<m_Name>Brita_Ela</m_Name>
+		<m_Guid>79b64a22-df6c-4bcd-bc37-24496330224a</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Tactical Cap --> <m_items>
+			<itemGUID>a949610e-8798-4529-9d79-d51137ea0d61</itemGUID>
+		</m_items>
+<!-- Sordin Headset --> <m_items>
+			<itemGUID>f3528572-7691-433c-8314-dd92b696073c</itemGUID>
+		</m_items>		
+<!-- X1000 Glasses --> <m_items>
+			<itemGUID>e78023a7-050e-4794-a60f-49f9ba79ea15</itemGUID>
+		</m_items>				
+<!-- Ela Jacket --> <m_items> 
+			<itemGUID>1a95a0a4-ba88-4e88-8189-dfd2c9cf962d</itemGUID>
+		</m_items>
+<!-- Ela Pants -->	<m_items> 
+			<itemGUID>73901eed-94d0-4a61-b100-77edb7e6d535</itemGUID>
+		</m_items>		
+<!-- X Vest --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>23fd65df-563b-41c7-acc6-9ed14542bcec</itemGUID>
+		</m_items>	
+<!-- Shemagh Mask --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>a500e850-53c0-489c-918f-6fc1ad8aa7db</itemGUID>
+		</m_items>			
+<!-- Bag ST53 --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>c6362e3b-2d14-450c-9c87-c1ed7d39920a</itemGUID>
+		</m_items>			
+	</m_FemaleOutfits>	
+	
+	
+	
+<!-- **********************************************************
+	Brita_Gorka Soldier
+	ADD 
+*************************************************************** -->
+	<m_FemaleOutfits>
+		<m_Name>Brita_Gorka</m_Name>
+		<m_Guid>db70e223-bbf5-44cf-bb3e-ca5a9d4869b7</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Maska Helmet --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>e2941dfc-1453-453e-a642-bb7363b9ce49</itemGUID>
+		</m_items>
+<!-- Maska Helmet Visor --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>c33eaf93-6fff-4b29-a5ae-f4ffa13ea3aa</itemGUID>
+		</m_items>		
+<!-- Gorka Suits --> <m_items> 
+			<itemGUID>0cfb52f4-39e3-4853-9ca2-f97cf942adf1</itemGUID>
+		</m_items>
+<!-- Gorka Pants -->	<m_items> 
+			<itemGUID>f08ac0d8-9ab7-4719-aa9b-583d17ff188c</itemGUID>
+		</m_items>
+<!-- Smersh Vest --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>ae2387f6-a43b-4e8f-b005-d3e133e90920</itemGUID>
+		</m_items>		
+<!-- Shemagh Mask --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>a500e850-53c0-489c-918f-6fc1ad8aa7db</itemGUID>
+		</m_items>			
+<!-- SSO Pack --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>13948bef-f0f3-435d-ad1c-041cab2c3200</itemGUID>
+		</m_items>	
+<!-- Defender Armor --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>8f7ba88a-3bd6-4fcc-a8c5-8a32d078358d</itemGUID>
+		</m_items>		
+	</m_FemaleOutfits>
+	
+	
+	
+	<m_MaleOutfits>
+		<m_Name>Brita_Gorka_2</m_Name>
+		<m_Guid>04d9b9ce-b312-407d-b308-ed4f2f98787f</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Maska Helmet --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>e2941dfc-1453-453e-a642-bb7363b9ce49</itemGUID>
+		</m_items>
+<!-- Maska Helmet Visor 2 --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>69824282-0b3b-4bcc-a8a2-c21f51afe5c1</itemGUID>
+		</m_items>		
+<!-- Gorka Suits --> <m_items> 
+			<itemGUID>0cfb52f4-39e3-4853-9ca2-f97cf942adf1</itemGUID>
+		</m_items>
+<!-- Gorka Pants -->	<m_items> 
+			<itemGUID>f08ac0d8-9ab7-4719-aa9b-583d17ff188c</itemGUID>
+		</m_items>
+<!-- Smersh Vest --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>ae2387f6-a43b-4e8f-b005-d3e133e90920</itemGUID>
+		</m_items>		
+<!-- Shemagh Mask --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>a500e850-53c0-489c-918f-6fc1ad8aa7db</itemGUID>
+		</m_items>			
+<!-- SSO Pack --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>13948bef-f0f3-435d-ad1c-041cab2c3200</itemGUID>
+		</m_items>
+<!-- Defender Armor --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>8f7ba88a-3bd6-4fcc-a8c5-8a32d078358d</itemGUID>
+		</m_items>		
+	</m_MaleOutfits>	
+	
+	
+<!-- **********************************************************
+	Brita_Silent_Hill
+	ADD 
+*************************************************************** -->
+	<m_FemaleOutfits>
+		<m_Name>Brita_Heather</m_Name>
+		<m_Guid>4fada7d1-76fc-4798-aac3-933d2370c3eb</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Turtle Neck --> <m_items>
+			<itemGUID>6d34d09a-5bd1-44a9-8b54-2db1f75ed6da</itemGUID>
+		</m_items>
+<!-- Office Skirt Long --> <m_items>
+			<itemGUID>aff9d6ca-7539-4e8c-a23e-0de7b9e4fb4c</itemGUID>
+		</m_items>	
+<!-- Heather Jacket --> <m_items>
+			<itemGUID>6a4c3819-c7fb-4c77-bc4b-2d4db8a8d3ab</itemGUID>
+		</m_items>		
+<!-- Tank Top --> <m_items>
+			<itemGUID>28198184-f6fe-417d-8ab9-3d68d320d96e</itemGUID>
+		</m_items>		
+	</m_FemaleOutfits>
+	
+	
+	
+	<m_MaleOutfits>
+		<m_Name>Brita_Robbie</m_Name>
+		<m_Guid>3b3a2698-bf9f-476d-ab1b-934934951514</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Robbie Hat --> <m_items>
+			<itemGUID>f01dbf5d-cfa0-43aa-bec7-59080cd37ae6</itemGUID>
+		</m_items>
+<!-- Robbie suit --> <m_items>
+			<itemGUID>24152b5d-f8e3-4c59-9e08-ba9b68985a22</itemGUID>
+		</m_items>	
+<!-- Robbie Pack --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>52ddf990-7e46-4db5-ad35-b2b4cfa8cd3f</itemGUID>
+		</m_items>		
+	</m_MaleOutfits>	
+	
+<!-- **********************************************************
+	Brita_Killa
+	ADD 
+*************************************************************** -->	
+	<m_MaleOutfits>
+		<m_Name>Brita_Killa</m_Name>
+		<m_Guid>b65da233-efaa-45d5-84f6-f49b6de238aa</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Killa Helmet --> <m_items>
+			<itemGUID>66c296c2-1186-4b7e-ba1a-24837660ad94</itemGUID>
+		</m_items>
+<!-- Killa Helmet Visor --> <m_items>
+			<itemGUID>1d46b666-6564-48c8-8081-89551ec83fc5</itemGUID>
+		</m_items>	
+<!-- Blackhawk Rig --> <m_items>
+			<itemGUID>5f946f88-51b2-4836-b558-6619084183dd</itemGUID>
+		</m_items>		
+<!-- 6B13 Armor --> <m_items>
+			<itemGUID>ecf09feb-05d1-4c80-b62b-8f597a63ff1e</itemGUID>
+		</m_items>
+<!-- Adidas Jacket --> <m_items>
+			<itemGUID>b8eaea62-a5df-4312-9aa0-12fdcfa9b67b</itemGUID>
+		</m_items>		
+<!-- Adidas Pants --> <m_items>
+			<itemGUID>40156330-9c5c-47b9-b93d-ffc1cccc5c97</itemGUID>
+		</m_items>			
+	</m_MaleOutfits>
+	
+<!-- **********************************************************
+	Brita_Crewman
+	ADD 
+*************************************************************** -->
+	<m_FemaleOutfits>
+		<m_Name>Brita_Crewman</m_Name>
+		<m_Guid>66ccf720-e51e-4c6c-86d5-0346c0893a1a</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- HGU56 Helmet --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>75f3115e-e3fb-44a8-afd1-f0350d7afebd</itemGUID>
+		</m_items>
+<!-- HGU56 Face Shield --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>482b5e68-1761-4e46-8ed1-c05d39a1b543</itemGUID>
+		</m_items>
+<!-- HGU56 Visor --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>9eef5509-059b-424a-bbf0-1242b5017841</itemGUID>
+		</m_items>		
+<!-- Combat Jumper --> <m_items> 
+			<itemGUID>e8026351-f875-4612-9fd5-99db6eabc733</itemGUID>
+		</m_items>
+<!-- Combat Pants -->	<m_items> 
+			<itemGUID>6cb52b78-25ce-4efd-8995-d6e8fb6936e0</itemGUID>
+		</m_items>
+<!-- Tactical Belt --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>10415735-225e-46d9-b558-d44c829a379b</itemGUID>
+		</m_items>		
+<!-- Shemagh Mask --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>a500e850-53c0-489c-918f-6fc1ad8aa7db</itemGUID>
+		</m_items>			
+<!-- ZIP Pack --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>7090c30c-8e3a-46bf-a730-b9966cd8d2ef</itemGUID>
+		</m_items>	
+<!-- Plate Carrier --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>f9d9d735-da97-469a-84ad-bf7200e741ca</itemGUID>
+		</m_items>		
+	</m_FemaleOutfits>
+	
+	
+	
+	<m_MaleOutfits>
+		<m_Name>Brita_Crewman_2</m_Name>
+		<m_Guid>54fde501-5b87-4d3a-b086-74b2d694c0b6</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- GENTEX Helmet --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>3f013b5b-6b66-4307-b69c-2774de3b53ca</itemGUID>
+		</m_items>
+<!-- NV18 Night Vision --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>7b698b42-97c9-4ebd-ae0e-2ebbf85ff25f</itemGUID>
+		</m_items>
+<!-- Crewman Goggles --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>594009af-3341-4056-9508-2fcbfe97545d</itemGUID>
+		</m_items>		
+<!-- Combat Jumper --> <m_items> 
+			<itemGUID>e8026351-f875-4612-9fd5-99db6eabc733</itemGUID>
+		</m_items>
+<!-- Combat Pants -->	<m_items> 
+			<itemGUID>6cb52b78-25ce-4efd-8995-d6e8fb6936e0</itemGUID>
+		</m_items>
+<!-- Tactical Belt --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>10415735-225e-46d9-b558-d44c829a379b</itemGUID>
+		</m_items>		
+<!-- Shemagh Mask --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>a500e850-53c0-489c-918f-6fc1ad8aa7db</itemGUID>
+		</m_items>			
+<!-- Savotta Pack --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>fe88b02d-9f8e-41ec-a1a2-a76b42f3778c</itemGUID>
+		</m_items>	
+<!-- Plate Carrier --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>f9d9d735-da97-469a-84ad-bf7200e741ca</itemGUID>
+		</m_items>		
+	</m_MaleOutfits>		
+	
+	
+<!-- **********************************************************
+	Brita_SPECOPS
+	ADD 
+*************************************************************** -->
+	<m_FemaleOutfits>
+		<m_Name>Brita_SPECOPS</m_Name>
+		<m_Guid>f033a656-d685-434b-9025-312b81bf7087</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- OPSCORE FAST Helmet --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>96993ec6-25b0-499c-8bec-dc530dea9619</itemGUID>
+		</m_items>
+<!-- OPSCORE Face Shield --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>cd9012c3-a325-44a7-9204-bfd2795ad43a</itemGUID>
+		</m_items>
+<!-- Helmet Headset --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>50c8a591-7cac-4a51-b1cb-c2d2d47fddab</itemGUID>
+		</m_items>		
+<!-- Napier Glasses --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>58f05a80-61fd-4b10-827d-0f13a2cbf7ff</itemGUID>
+		</m_items>			
+<!-- NV18 Night Vision --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>7b698b42-97c9-4ebd-ae0e-2ebbf85ff25f</itemGUID>
+		</m_items>			
+<!-- Chempak Suit --> <m_items> 
+			<itemGUID>4588722b-8de2-42ef-9b73-cbfb97b05fa3</itemGUID>
+		</m_items>
+<!-- D3M Rig --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>1334bf67-c161-41f3-a9f9-054d4a3605ed</itemGUID>
+		</m_items>		
+<!-- Shemagh Mask --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>a500e850-53c0-489c-918f-6fc1ad8aa7db</itemGUID>
+		</m_items>			
+<!-- ST53 Pack --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>c6362e3b-2d14-450c-9c87-c1ed7d39920a</itemGUID>
+		</m_items>	
+<!-- Plate Carrier --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>f9d9d735-da97-469a-84ad-bf7200e741ca</itemGUID>
+		</m_items>		
+	</m_FemaleOutfits>
+	
+	
+	
+	<m_MaleOutfits>
+		<m_Name>Brita_SPECOPS_2</m_Name>
+		<m_Guid>da65a93f-ae93-43fe-b60e-cb18220c6066</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- OPSCORE FAST Helmet --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>96993ec6-25b0-499c-8bec-dc530dea9619</itemGUID>
+		</m_items>
+<!-- FM53 Gas Mask --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>3b8d1489-6642-4450-8b8e-dcdcc257c6aa</itemGUID>
+		</m_items>
+<!-- Astrocom Headset --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>bd83cfe9-e3c9-4281-be7d-f2a054c94a5c</itemGUID>
+		</m_items>		
+<!-- NV18 Night Vision --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>7b698b42-97c9-4ebd-ae0e-2ebbf85ff25f</itemGUID>
+		</m_items>		
+<!-- Chempak Suit --> <m_items> 
+			<itemGUID>4588722b-8de2-42ef-9b73-cbfb97b05fa3</itemGUID>
+		</m_items>
+<!-- D3M Rig --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>1334bf67-c161-41f3-a9f9-054d4a3605ed</itemGUID>
+		</m_items>		
+<!-- Shemagh Mask --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>a500e850-53c0-489c-918f-6fc1ad8aa7db</itemGUID>
+		</m_items>			
+<!-- ST53 Pack --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>c6362e3b-2d14-450c-9c87-c1ed7d39920a</itemGUID>
+		</m_items>	
+<!-- Plate Carrier --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>f9d9d735-da97-469a-84ad-bf7200e741ca</itemGUID>
+		</m_items>		
+	</m_MaleOutfits>
+	
+	
+<!-- **********************************************************
+	Brita_ARMY
+	ADD 
+*************************************************************** -->
+	<m_FemaleOutfits>
+		<m_Name>Brita_ARMY</m_Name>
+		<m_Guid>907421f6-9858-4b9b-8e1c-da7d95ceee55</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- PSGT Helmet --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>f1852f25-f422-4c83-9324-75835d9d9847</itemGUID>
+		</m_items>
+<!-- Napier Glasses --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>58f05a80-61fd-4b10-827d-0f13a2cbf7ff</itemGUID>
+		</m_items>						
+<!-- Combat Jumper --> <m_items> 
+			<itemGUID>e8026351-f875-4612-9fd5-99db6eabc733</itemGUID>
+		</m_items>
+<!-- Combat Pants --> <m_items> 
+			<itemGUID>6cb52b78-25ce-4efd-8995-d6e8fb6936e0</itemGUID>
+		</m_items>		
+<!-- X Vest --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>23fd65df-563b-41c7-acc6-9ed14542bcec</itemGUID>
+		</m_items>		
+<!-- M45 Gas Mask --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>27959da7-cfe3-4877-9035-d352fa2aa6a5</itemGUID>
+		</m_items>			
+<!-- Alice Backpack --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>2177c2b6-f4cb-4924-8df4-943acf595c08</itemGUID>
+		</m_items>		
+	</m_FemaleOutfits>
+	
+	
+	
+	<m_MaleOutfits>
+		<m_Name>Brita_ARMY_2</m_Name>
+		<m_Guid>7ac3fe9e-e150-446b-ae58-d6e84df38294</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- PSGT Helmet Camo --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>6b4cd828-8bfa-4f82-9a53-b0e12b63d4c6</itemGUID>
+		</m_items>
+<!-- X1000 --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>a4f7f5b6-23f5-45f0-9487-d8f833c915cd</itemGUID>
+		</m_items>						
+<!-- Combat Jumper --> <m_items> 
+			<itemGUID>e8026351-f875-4612-9fd5-99db6eabc733</itemGUID>
+		</m_items>
+<!-- Combat Pants --> <m_items> 
+			<itemGUID>6cb52b78-25ce-4efd-8995-d6e8fb6936e0</itemGUID>
+		</m_items>		
+<!-- X Vest --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>23fd65df-563b-41c7-acc6-9ed14542bcec</itemGUID>
+		</m_items>		
+<!-- M50 Gas Mask --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>7d35edc27-abc4-4524-95f3-505bb7245f53</itemGUID>
+		</m_items>			
+<!-- Alice Backpack --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>2177c2b6-f4cb-4924-8df4-943acf595c08</itemGUID>
+		</m_items>			
+	</m_MaleOutfits>
+
+
+	<m_MaleOutfits>
+		<m_Name>Brita_ARMY_3</m_Name>
+		<m_Guid>3d391f7d-7996-43ee-9caf-d7e5e79d16d7</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Beret --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>3ab156fc-e3a6-42b9-b6c5-ceb9f27e9af1</itemGUID>
+		</m_items>					
+<!-- Combat Jumper --> <m_items> 
+			<itemGUID>e8026351-f875-4612-9fd5-99db6eabc733</itemGUID>
+		</m_items>
+<!-- Combat Pants --> <m_items> 
+			<itemGUID>6cb52b78-25ce-4efd-8995-d6e8fb6936e0</itemGUID>
+		</m_items>		
+<!-- X Vest --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>23fd65df-563b-41c7-acc6-9ed14542bcec</itemGUID>
+		</m_items>		
+<!-- Shemagh Mask --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>a500e850-53c0-489c-918f-6fc1ad8aa7db</itemGUID>
+		</m_items>			
+<!-- ARVN Rucksack --> <m_items>
+			<probability>0.3</probability>
+			<itemGUID>315573a2-9b44-4b1a-95d8-b159a84ffe1f</itemGUID>
+		</m_items>			
+	</m_MaleOutfits>	
+	
+</outfitManager>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\backpacks\m_Shemagh_Half</m_MaleModel>
+	<m_FemaleModel>skinned\backpacks\f_Shemagh_Half</m_FemaleModel>
+	<m_GUID>a500e850-53c0-489c-918f-6fc1ad8aa7db</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>clothes\Bag\Bag_Shemagh_Half</textureChoices>
+	<textureChoices>clothes\Bag\Bag_Shemagh_Half_2</textureChoices>	
+	<textureChoices>clothes\Bag\Bag_Shemagh_Half_3</textureChoices>	
+	<textureChoices>clothes\Bag\Bag_Shemagh_Half_4</textureChoices>	
+	<textureChoices>clothes\Bag\Bag_Shemagh_Half_5</textureChoices>	
+	<textureChoices>clothes\Bag\Bag_Shemagh_Half_6</textureChoices>	
+	<textureChoices>clothes\Bag\Bag_Shemagh_Half_7</textureChoices>	
+	<textureChoices>clothes\Bag\Bag_Shemagh_Half_8</textureChoices>	
+	<textureChoices>clothes\Bag\Bag_Shemagh_Half_9</textureChoices>		
+	<textureChoices>clothes\Bag\Bag_Shemagh_Half_10</textureChoices>		
+	<textureChoices>clothes\Bag\Bag_Shemagh_Half_11</textureChoices>		
+	<textureChoices>clothes\Bag\Bag_Shemagh_Half_12</textureChoices>		
+	<textureChoices>clothes\Bag\Bag_Shemagh_Half_13</textureChoices>		
+	<textureChoices>clothes\Bag\Bag_Shemagh_Half_14</textureChoices>		
+</clothingItem>

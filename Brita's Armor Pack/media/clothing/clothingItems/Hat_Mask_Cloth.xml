@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\M_Mask_Cloth</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\F_Mask_Cloth</m_FemaleModel>
+	<m_GUID>a59bdc79-7824-491e-b842-2ce76d856f04</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Head</m_AttachBone>
+	<m_HatCategory>Group04</m_HatCategory>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>clothes\hat\Hat_Mask_Cloth</textureChoices>
+</clothingItem>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\backpacks\m_M2A1_Pack</m_MaleModel>
+	<m_FemaleModel>skinned\backpacks\f_M2A1_Pack</m_FemaleModel>
+	<m_GUID>d6343af6-e34e-45e3-823f-33825caedfe6</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\Bag\Bag_M2A1_Pack</textureChoices>
+</clothingItem>

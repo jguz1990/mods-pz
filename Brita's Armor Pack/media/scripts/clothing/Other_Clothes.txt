@@ -1,0 +1,205 @@
+module Base
+{
+
+
+
+    item Skirt_Nurse
+    {
+        Type = Clothing,
+        DisplayName = Silent Hill Nurse Skirt,
+        ClothingItem = Skirt_Nurse,
+        BodyLocation = Skirt,
+        BloodLocation = Trousers,
+        Icon = Skirt_Nurse,
+        Insulation = 0.1,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+    }
+
+
+    item Pants_Yoga
+    {
+        Type = Clothing,
+        DisplayName = Dolphin Short Pants,
+        ClothingItem = Pants_Yoga,
+        BodyLocation = Underwear,
+        BloodLocation = Trousers,
+        Icon = Pants_Yoga,
+        Insulation = 0.5,
+        WindResistance = 0.3,
+        WaterResistance = 0.3,
+        FabricType = Cotton,
+    }
+
+
+
+    item Turtleneck
+    {
+        Type = Clothing,
+        DisplayName = Turtleneck Sleeveless,
+        ClothingItem = Turtleneck,
+        BodyLocation = Sweater,
+        BloodLocation = Trousers,
+        Icon = Turtleneck,
+        Insulation = 0.55,
+        WindResistance = 0.45,
+        FabricType = Cotton,
+    }
+
+
+
+    item Belly_Turtleneck
+    {
+        Type = Clothing,
+        DisplayName = Belly Turtleneck Sleeveless,
+        ClothingItem = Belly_Turtleneck,
+        BodyLocation = Sweater,
+        BloodLocation = Trousers,
+        Icon = Belly_Turtleneck,
+        Insulation = 0.55,
+        WindResistance = 0.45,
+        FabricType = Cotton,
+    }
+
+
+
+    item S_Tank_Top
+    {
+        Type = Clothing,
+        DisplayName = Sleeveless Tank Top,
+        ClothingItem = S_Tank_Top,
+        BodyLocation = TankTop,
+        BloodLocation = Trousers,
+        Icon = S_Tank_Top,
+        Insulation = 0.1,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+    }
+
+
+
+    item Y_Shirts
+    {
+        Type = Clothing,
+        DisplayName = Office Shirts,
+        ClothingItem = Y_Shirts,
+        BodyLocation = Shirt,
+        BloodLocation = Trousers,
+        Icon = Y_Shirts,
+        Insulation = 0.20,
+        WindResistance = 0.15,
+        FabricType = Cotton,
+    }
+
+
+
+    item Y_Shirts_Long
+    {
+        Type = Clothing,
+        DisplayName = Office Shirts Long,
+        ClothingItem = Y_Shirts_Long,
+        BodyLocation = Shirt,
+        BloodLocation = Trousers,
+        Icon = Y_Shirts_Long,
+        Insulation = 0.20,
+        WindResistance = 0.15,
+        FabricType = Cotton,
+    }
+
+
+
+    item Skirt_Office
+    {
+        Type = Clothing,
+        DisplayName = Office Skirt,
+        ClothingItem = Skirt_Office,
+        BodyLocation = Skirt,
+        BloodLocation = Trousers,
+        Icon = Skirt_Office,
+        Insulation = 0.1,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+    }
+
+
+
+    item Skirt_Office_Long
+    {
+        Type = Clothing,
+        DisplayName = Office Skirt Long,
+        ClothingItem = Skirt_Office_Long,
+        BodyLocation = Skirt,
+        BloodLocation = Trousers,
+        Icon = Skirt_Office_Long,
+        Insulation = 0.1,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+    }
+
+
+
+    item Office_Sweater
+    {
+        Type = Clothing,
+        DisplayName = Office Cardigan,
+        ClothingItem = Office_Sweater,
+        BodyLocation = Sweater,
+        BloodLocation = Trousers,
+        Icon = Office_Sweater,
+        ScratchDefense = 10,
+        Insulation = 0.55,
+        WindResistance = 0.45,
+        FabricType = Cotton,
+    }
+
+
+
+    item Office_Sweater_Long
+    {
+        Type = Clothing,
+        DisplayName = Office Long Cardigan,
+        ClothingItem = Office_Sweater_Long,
+        BodyLocation = Sweater,
+        BloodLocation = Trousers,
+        Icon = Office_Sweater_Long,
+        ScratchDefense = 10,
+        Insulation = 0.55,
+        WindResistance = 0.45,
+        FabricType = Cotton,
+    }
+
+
+
+    item Pants_Adidas
+    {
+        Type = Clothing,
+        DisplayName = Adidas Leggings,
+        ClothingItem = Pants_Adidas,
+        BodyLocation = Underwear,
+        BloodLocation = Trousers,
+        Icon = Pants_Adidas,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.3,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+    }
+
+
+
+    item Jacket_Adidas
+    {
+        Type = Clothing,
+        DisplayName = Adidas Track Top,
+        ClothingItem = Jacket_Adidas,
+        BodyLocation = Jacket,
+        BloodLocation = Jumper,
+        Icon = Jacket_Adidas,
+        ScratchDefense = 20,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.40,
+        WindResistance = 0.2,
+        Weight = 2,
+        FabricType = Denim,
+    }
+}

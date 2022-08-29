@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>static\clothes\m_PSGT_Helmet</m_MaleModel>
+	<m_FemaleModel>static\clothes\f_PSGT_Helmet</m_FemaleModel>
+	<m_GUID>f1852f25-f422-4c83-9324-75835d9d9847</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Head</m_AttachBone>
+	<m_HatCategory>Group02</m_HatCategory>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>clothes\hat\Hat_PSGT_Helmet</textureChoices>
+	<textureChoices>clothes\hat\Hat_PSGT_Helmet_2</textureChoices>	
+	<textureChoices>clothes\hat\Hat_PSGT_Helmet_3</textureChoices>	
+	<textureChoices>clothes\hat\Hat_PSGT_Helmet_4</textureChoices>	
+	<textureChoices>clothes\hat\Hat_PSGT_Helmet_5</textureChoices>		
+</clothingItem>

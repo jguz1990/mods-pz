@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>static\clothes\m_Tactical_Boonie</m_MaleModel>
+	<m_FemaleModel>static\clothes\f_Tactical_Boonie</m_FemaleModel>
+	<m_GUID>0b974716-1c28-4e03-afce-6f73990b332c</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Head</m_AttachBone>
+	<m_HatCategory>Group01</m_HatCategory>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>clothes\hat\Hat_Tactical_Boonie</textureChoices>
+	<textureChoices>clothes\hat\Hat_Tactical_Boonie_2</textureChoices>	
+	<textureChoices>clothes\hat\Hat_Tactical_Boonie_3</textureChoices>	
+	<textureChoices>clothes\hat\Hat_Tactical_Boonie_4</textureChoices>	
+	<textureChoices>clothes\hat\Hat_Tactical_Boonie_5</textureChoices>	
+	<textureChoices>clothes\hat\Hat_Tactical_Boonie_6</textureChoices>	
+	<textureChoices>clothes\hat\Hat_Tactical_Boonie_7</textureChoices>	
+	<textureChoices>clothes\hat\Hat_Tactical_Boonie_8</textureChoices>	
+	<textureChoices>clothes\hat\Hat_Tactical_Boonie_9</textureChoices>	
+	<textureChoices>clothes\hat\Hat_Tactical_Boonie_10</textureChoices>		
+</clothingItem>

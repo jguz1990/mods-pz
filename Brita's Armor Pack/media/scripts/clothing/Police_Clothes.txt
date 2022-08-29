@@ -1,0 +1,42 @@
+module Base
+{
+    item Sheriff_Jumper
+    {
+        Type = Clothing,
+        DisplayName = Sheriff Patrol Jacket,
+        ClothingItem = Sheriff_Jumper,
+        BodyLocation = Jacket,
+        BloodLocation = Jumper,
+        Icon = Sheriff_Jumper,
+        ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 30,
+        ScratchDefense = 30,
+        Insulation = 0.30,
+        WindResistance = 0.80,
+        WaterResistance = 0.60,
+        Weight = 2,
+        FabricType = Denim,
+    }
+
+
+
+    item Police_Jumper
+    {
+        Type = Clothing,
+        DisplayName = Police Patrol Jacket,
+        ClothingItem = Police_Jumper,
+        BodyLocation = Jacket,
+        BloodLocation = Jumper,
+        Icon = Police_Jumper,
+        ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        BiteDefense = 30,
+        ScratchDefense = 30,
+        Insulation = 0.30,
+        WindResistance = 0.80,
+        WaterResistance = 0.60,
+        Weight = 2,
+        FabricType = Denim,
+    }
+}

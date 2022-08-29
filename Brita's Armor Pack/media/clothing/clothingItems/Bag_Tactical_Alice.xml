@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\backpacks\m_Tactical_Alice</m_MaleModel>
+	<m_FemaleModel>skinned\backpacks\f_Tactical_Alice</m_FemaleModel>
+	<m_GUID>2177c2b6-f4cb-4924-8df4-943acf595c08</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\Bag\Bag_Tactical_Alice</textureChoices>
+	<textureChoices>clothes\Bag\Bag_Tactical_Alice_2</textureChoices>	
+	<textureChoices>clothes\Bag\Bag_Tactical_Alice_3</textureChoices>
+	<textureChoices>clothes\Bag\Bag_Tactical_Alice_4</textureChoices>
+	<textureChoices>clothes\Bag\Bag_Tactical_Alice_5</textureChoices>
+	<textureChoices>clothes\Bag\Bag_Tactical_Alice_6</textureChoices>
+	<textureChoices>clothes\Bag\Bag_Tactical_Alice_7</textureChoices>
+	<textureChoices>clothes\Bag\Bag_Tactical_Alice_8</textureChoices>
+	<textureChoices>clothes\Bag\Bag_Tactical_Alice_9</textureChoices>
+	<textureChoices>clothes\Bag\Bag_Tactical_Alice_10</textureChoices>
+	<textureChoices>clothes\Bag\Bag_Tactical_Alice_11</textureChoices>
+	<textureChoices>clothes\Bag\Bag_Tactical_Alice_12</textureChoices>	
+</clothingItem>

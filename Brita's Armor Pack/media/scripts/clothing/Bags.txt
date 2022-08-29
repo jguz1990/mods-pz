@@ -1,0 +1,331 @@
+module Base
+{
+    item Bag_Sniper_Pack
+    {
+        Type = Container,
+        DisplayName = G3 Phantom Sniper Pack,
+        ClothingItem = Bag_Sniper_Pack,
+        CanBeEquipped = Back,
+        WeightReduction	=	85,
+        Weight	=	2,
+        Capacity	=	38,
+        Icon	=	Bag_Sniper_Pack,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.94,
+        CanHaveHoles = false,
+        AttachmentReplacement = Bag,
+        ReplaceInSecondHand = Bag_ALICEpack_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_ALICEpack_RHand holdingbagright,
+        WorldStaticModel= W_Bag_Sniper_Pack,
+    }
+
+
+
+    item Bag_ARVN_Rucksack
+    {
+        Type = Container,
+        DisplayName = ARVN Rucksack,
+        ClothingItem = Bag_ARVN_Rucksack,
+        CanBeEquipped = Back,
+        WeightReduction	=	85,
+        Weight	=	2,
+        Capacity	=	38,
+        Icon	=	Bag_ARVN_Rucksack,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.94,
+        CanHaveHoles = false,
+        AttachmentReplacement = Bag,
+        ReplaceInSecondHand = Bag_ALICEpack_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_ALICEpack_RHand holdingbagright,
+        WorldStaticModel= W_Bag_ARVN_Rucksack,
+    }
+
+
+
+    item Bag_ST53_Set
+    {
+        Type = Container,
+        DisplayName = Avon Protection ST53 SCBA Set,
+        ClothingItem = Bag_ST53_Set,
+        CanBeEquipped = Back,
+        WeightReduction	=	85,
+        Weight	=	2,
+        Capacity	=	38,
+        Icon	=	Bag_ST53_Set,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.94,
+        CanHaveHoles = false,
+        AttachmentReplacement = Bag,
+        ReplaceInSecondHand = Bag_ALICEpack_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_ALICEpack_RHand holdingbagright,
+        WorldStaticModel= W_Bag_ST53_Set,
+    }
+
+
+    item Bag_SCBA
+    {
+        Type = Container,
+        DisplayName = MSA Safety SCBA Set,
+        ClothingItem = Bag_SCBA,
+        CanBeEquipped = Back,
+        WeightReduction	=	85,
+        Weight	=	2,
+        Capacity	=	38,
+        Icon	=	Bag_SCBA,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.94,
+        CanHaveHoles = false,
+        AttachmentReplacement = Bag,
+        ReplaceInSecondHand = Bag_ALICEpack_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_ALICEpack_RHand holdingbagright,
+        WorldStaticModel= W_Bag_SCBA,
+    }
+
+
+    item Bag_ZIP
+    {
+        Type = Container,
+        DisplayName = Y-ZIP City Assault Backpack,
+        ClothingItem = Bag_ZIP,
+        CanBeEquipped = Back,
+        WeightReduction	=	85,
+        Weight	=	2,
+        Capacity	=	38,
+        Icon	=	Bag_ZIP,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.94,
+        CanHaveHoles = false,
+        AttachmentReplacement = Bag,
+        ReplaceInSecondHand = Bag_ALICEpack_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_ALICEpack_RHand holdingbagright,
+        WorldStaticModel= W_Bag_ZIP,
+    }
+
+
+    item Bag_SSO
+    {
+        Type = Container,
+        DisplayName = SPOSN SSO Bober-M Assault Backpack,
+        ClothingItem = Bag_SSO,
+        CanBeEquipped = Back,
+        WeightReduction	=	85,
+        Weight	=	2,
+        Capacity	=	38,
+        Icon	=	Bag_SSO,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.94,
+        CanHaveHoles = false,
+        AttachmentReplacement = Bag,
+        ReplaceInSecondHand = Bag_ALICEpack_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_ALICEpack_RHand holdingbagright,
+        WorldStaticModel= W_Bag_SSO,
+    }
+
+
+    item Bag_Savotta
+    {
+        Type = Container,
+        DisplayName = Savotta Jaakari S Backpack,
+        ClothingItem = Bag_Savotta,
+        CanBeEquipped = Back,
+        WeightReduction	=	85,
+        Weight	=	2,
+        Capacity	=	38,
+        Icon	=	Bag_Savotta,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.94,
+        CanHaveHoles = false,
+        AttachmentReplacement = Bag,
+        ReplaceInSecondHand = Bag_ALICEpack_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_ALICEpack_RHand holdingbagright,
+        WorldStaticModel= W_Bag_Savotta,
+    }
+
+
+    item Bag_Bush
+    {
+        Type = Container,
+        DisplayName = Survival Bushcraft Backpack,
+        ClothingItem = Bag_Bush,
+        CanBeEquipped = Back,
+        WeightReduction	=	85,
+        Weight	=	2,
+        Capacity	=	38,
+        Icon	=	Bag_Bush,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.94,
+        CanHaveHoles = false,
+        AttachmentReplacement = Bag,
+        ReplaceInSecondHand = Bag_ALICEpack_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_ALICEpack_RHand holdingbagright,
+        WorldStaticModel= W_Bag_Bush,
+    }
+
+
+
+    item Bag_Hunting
+    {
+        Type = Container,
+        DisplayName = Survival Bushcraft Backpack w/ Axe,
+        ClothingItem = Bag_Hunting,
+        CanBeEquipped = Back,
+        WeightReduction	=	85,
+        Weight	=	2,
+        Capacity	=	38,
+        Icon	=	Bag_Hunting,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.94,
+        CanHaveHoles = false,
+        AttachmentReplacement = Bag,
+        ReplaceInSecondHand = Bag_ALICEpack_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_ALICEpack_RHand holdingbagright,
+        WorldStaticModel= W_Bag_Hunting,
+    }
+
+
+
+    item Bag_Radio_Pack
+    {
+        Type = Container,
+        DisplayName = AN/PRC-77 Radio Man Pack,
+        ClothingItem = Bag_Radio_Pack,
+        CanBeEquipped = Back,
+        WeightReduction	=	85,
+        Weight	=	2,
+        Capacity	=	38,
+        Icon	=	Bag_Radio_Pack,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.94,
+        CanHaveHoles = false,
+        AttachmentReplacement = Bag,
+        ReplaceInSecondHand = Bag_ALICEpack_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_ALICEpack_RHand holdingbagright,
+        WorldStaticModel= W_Bag_Radio_Pack,
+    }
+
+
+
+    item Bag_Tactical_Alice
+    {
+        Type = Container,
+        DisplayName = Military Alice Backpack,
+        ClothingItem = Bag_Tactical_Alice,
+        CanBeEquipped = Back,
+        WeightReduction	=	85,
+        Weight	=	3,
+        Capacity	=	38,
+        Icon	=	Bag_Tactical_Alice,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.94,
+        CanHaveHoles = false,
+        AttachmentReplacement = Bag,
+        ReplaceInSecondHand = Bag_ALICEpack_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_ALICEpack_RHand holdingbagright,
+        WorldStaticModel= W_Bag_Tactical_Alice,
+    }
+
+
+
+    item Bag_Cat_Pack
+    {
+        Type = Container,
+        DisplayName = Bushcraft Kitty Pack,
+        ClothingItem = Bag_Cat_Pack,
+        CanBeEquipped = Back,
+        WeightReduction	=	85,
+        Weight	=	3,
+        Capacity	=	38,
+        Icon	=	Bag_Cat_Pack,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.94,
+        CanHaveHoles = false,
+        AttachmentReplacement = Bag,
+        ReplaceInSecondHand = Bag_ALICEpack_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_ALICEpack_RHand holdingbagright,
+        WorldStaticModel= W_Bag_Cat_Pack,
+    }
+
+
+
+    item Bag_Robbie_Pack
+    {
+        Type = Container,
+        DisplayName = Robbie the Rabbit Pack,
+        ClothingItem = Bag_Robbie_Pack,
+        CanBeEquipped = Back,
+        WeightReduction	=	85,
+        Weight	=	3,
+        Capacity	=	38,
+        Icon	=	Bag_Robbie_Pack,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.94,
+        CanHaveHoles = false,
+        AttachmentReplacement = Bag,
+        ReplaceInSecondHand = Bag_ALICEpack_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_ALICEpack_RHand holdingbagright,
+        WorldStaticModel= W_Bag_Robbie_Pack,
+    }
+
+
+
+    item Bag_M2A1_Pack
+    {
+        Type = Container,
+        DisplayName = M2-2 Flamethrower Backpack,
+        ClothingItem = Bag_M2A1_Pack,
+        CanBeEquipped = Back,
+        WeightReduction	=	85,
+        Weight	=	3,
+        Capacity	=	38,
+        Icon	=	Bag_M2A1_Pack,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.94,
+        CanHaveHoles = false,
+        AttachmentReplacement = Bag,
+        ReplaceInSecondHand = Bag_ALICEpack_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_ALICEpack_RHand holdingbagright,
+        WorldStaticModel= W_M2A1_Pack,
+    }
+}

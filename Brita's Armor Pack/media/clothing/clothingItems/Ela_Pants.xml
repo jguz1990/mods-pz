@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>73901eed-94d0-4a61-b100-77edb7e6d535</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>14</m_Masks>
+	<m_Masks>15</m_Masks>
+	<m_Masks>7</m_Masks>
+	<m_Masks>9</m_Masks>	
+	<m_BaseTextures>clothes\Ela_Pants</m_BaseTextures>
+	<m_BaseTextures>clothes\Ela_Pants_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Ela_Pants_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Ela_Pants_4</m_BaseTextures>
+	<m_BaseTextures>clothes\Ela_Pants_5</m_BaseTextures>	
+</clothingItem>

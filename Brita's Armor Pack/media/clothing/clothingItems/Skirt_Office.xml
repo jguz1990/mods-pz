@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>8a2a618b-865b-4a01-b8ea-c3571e76a11d</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Skirt_Office</m_BaseTextures>
+	<m_BaseTextures>clothes\Skirt_Office_2</m_BaseTextures>	
+	<m_BaseTextures>clothes\Skirt_Office_3</m_BaseTextures>	
+	<m_BaseTextures>clothes\Skirt_Office_4</m_BaseTextures>		
+</clothingItem>

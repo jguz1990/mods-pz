@@ -1,0 +1,86 @@
+module Base
+{
+
+
+    item Armor_Juggernaut
+    {
+        Type = Clothing,
+        DisplayName = Juggernaut BodyArmor,
+        ClothingItem = Armor_Juggernaut,
+        BodyLocation = TorsoExtra,
+        Weight	=	8,
+        Icon	=	Armor_Juggernaut,
+        BloodLocation = ShirtNoSleeves,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.95,
+        Insulation = 0.65,
+        WindResistance = 0.30,
+        BiteDefense = 100,
+        ScratchDefense = 100,
+        BulletDefense = 150,
+        NeckProtectionModifier = 0.5,
+    }
+
+
+
+    item Armor_Arm
+    {
+        Type = Clothing,
+        DisplayName = Juggernaut Arm Armor,
+        ClothingItem = Armor_Juggernaut_Arm,
+        BodyLocation = Necklace
+        Weight	=	8,
+        Icon	=	Armor_Juggernaut_Arm,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.95,
+        Insulation = 0.65,
+        WindResistance = 0.30,
+        BiteDefense = 100,
+        ScratchDefense = 100,
+        BulletDefense = 150,
+        NeckProtectionModifier = 0.5,
+    }
+
+
+
+    item Armor_Foot
+    {
+        Type = Clothing,
+        DisplayName = Juggernaut Foot Armor,
+        ClothingItem = Armor_Juggernaut_Foot,
+        BodyLocation = Necklace_Long,
+        Weight	=	8,
+        Icon	=	Armor_Juggernaut_Foot,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.95,
+        Insulation = 0.65,
+        WindResistance = 0.30,
+        BiteDefense = 100,
+        ScratchDefense = 100,
+        BulletDefense = 150,
+        NeckProtectionModifier = 0.5,
+    }
+
+
+
+    item Bag_Juggernaut_Bag
+    {
+        Type = Container,
+        DisplayName = Juggernaut Backpack,
+        ClothingItem = Bag_Juggernaut_Bag,
+        CanBeEquipped = Back,
+        WeightReduction	=	85,
+        Weight	=	2,
+        Capacity	=	35,
+        Icon	=	Bag_Juggernaut_Bag,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.94,
+        CanHaveHoles = false,
+        AttachmentReplacement = Bag,
+        ReplaceInSecondHand = Bag_ALICEpack_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_ALICEpack_RHand holdingbagright,
+    }
+}

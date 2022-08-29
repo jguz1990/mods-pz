@@ -1,0 +1,133 @@
+module Base
+{
+
+    item Hat_PSGT_Helmet
+	{
+	Type = Clothing,
+	DisplayName = Military PASGT Helmet,
+	ClothingItem = Hat_PSGT_Helmet,
+	BodyLocation = Hat,
+	Icon = Hat_PSGT_Helmet,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	BiteDefense = 120,
+	ScratchDefense = 120,
+	ChanceToFall = 5,
+	Insulation = 0.45,
+	WaterResistance = 0.40,
+        Weight = 1.5,
+    }
+
+
+
+    item Hat_PSGT_Helmet_Camo
+	{
+	Type = Clothing,
+	DisplayName = Military PASGT Helmet w/ Camouflage Cover,
+	ClothingItem = Hat_PSGT_Helmet_Camo,
+	BodyLocation = Hat,
+	Icon = Hat_PSGT_Helmet_Camo,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	BiteDefense = 120,
+	ScratchDefense = 120,
+	ChanceToFall = 5,
+	Insulation = 0.45,
+	WaterResistance = 0.40,
+        Weight = 1.5,
+    }
+
+
+
+    item Hat_PSGT_Visor
+	{
+	Type = Clothing,
+	DisplayName = Military PASGT Helmet Visor,
+	ClothingItem = Hat_PSGT_Visor,
+	BodyLocation = Ears,
+	Icon = Hat_PSGT_Visor,
+        CanHaveHoles = false,
+        BloodLocation = Head,
+	BiteDefense = 20,
+	ScratchDefense = 20,
+        Weight = 1,
+        ClothingItemExtra = Hat_PSGT_Visor_UP,
+        ClothingItemExtraOption = Visor3_OFF,
+        clothingExtraSubmenu = Visor3_ON,
+    }
+
+
+
+
+    item Hat_PSGT_Visor_UP
+	{
+	Type = Clothing,
+	DisplayName = Military PASGT Helmet Visor UP,
+	ClothingItem = Hat_PSGT_Visor_UP,
+	BodyLocation = Ears,
+	Icon = Hat_PSGT_Visor,
+        CanHaveHoles = false,
+        BloodLocation = Head,
+	BiteDefense = 20,
+	ScratchDefense = 20,
+        Weight = 1,
+        ClothingItemExtra = Hat_PSGT_Visor,
+        ClothingItemExtraOption = Visor3_ON,
+        clothingExtraSubmenu = Visor3_OFF,
+    }
+
+
+
+    item Hat_Riot_Visor
+	{
+	Type = Clothing,
+	DisplayName = Police PASGT Helmet Visor,
+	ClothingItem = Hat_Riot_Visor,
+	BodyLocation = Ears,
+	Icon = Hat_Riot_Visor,
+        CanHaveHoles = false,
+        BloodLocation = Head,
+	BiteDefense = 20,
+	ScratchDefense = 20,
+        Weight = 1,
+        ClothingItemExtra = Hat_Riot_Visor_UP,
+        ClothingItemExtraOption = Visor4_OFF,
+        clothingExtraSubmenu = Visor4_ON,
+    }
+
+
+
+    item Hat_Riot_Visor_UP
+	{
+	Type = Clothing,
+	DisplayName = Police PASGT Helmet Visor UP,
+	ClothingItem = Hat_Riot_Visor_UP,
+	BodyLocation = Ears,
+	Icon = Hat_Riot_Visor,
+        CanHaveHoles = false,
+        BloodLocation = Head,
+	BiteDefense = 20,
+	ScratchDefense = 20,
+        Weight = 1,
+        ClothingItemExtra = Hat_Riot_Visor,
+        ClothingItemExtraOption = Visor4_ON,
+        clothingExtraSubmenu = Visor4_OFF,
+    }
+
+
+
+
+    item Hat_PSGT_Neck
+	{
+	Type = Clothing,
+	DisplayName = Police PASGT Helmet Neck Protection,
+	ClothingItem = Hat_PSGT_Neck,
+	BodyLocation = EarTop,
+	Icon = Hat_PSGT_Neck,
+        CanHaveHoles = false,
+        BloodLocation = Head,
+	BiteDefense = 20,
+	ScratchDefense = 20,
+        Weight = 0.5,
+    }
+}

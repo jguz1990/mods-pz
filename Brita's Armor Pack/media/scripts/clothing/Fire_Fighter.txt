@@ -1,0 +1,57 @@
+module Base
+{
+
+    item Hat_880_Helmet
+	{
+	Type = Clothing,
+	DisplayName = MSA Cairns 880 Fire Helmet,
+	ClothingItem = Hat_880_Helmet,
+	BodyLocation = Hat,
+	Icon = Hat_880_Helmet,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	BiteDefense = 90,
+	ScratchDefense = 90,
+	ChanceToFall = 5,
+	Insulation = 0.45,
+	WaterResistance = 0.40,
+        Weight = 1,
+    }
+
+
+    item Hat_880_Visor
+	{
+	Type = Clothing,
+	DisplayName = MSA Cairns 880 Fire Helmet Visor,
+	ClothingItem = Hat_880_Visor,
+	BodyLocation = Ears,
+	Icon = Hat_880_Visor,
+        CanHaveHoles = false,
+        BloodLocation = Head,
+	BiteDefense = 20,
+	ScratchDefense = 20,
+        Weight = 1,
+        ClothingItemExtra = Hat_880_Visor_UP,
+        ClothingItemExtraOption = 880_Visor_OFF,
+        clothingExtraSubmenu = 880_Visor_ON,
+    }
+
+
+
+    item Hat_880_Visor_UP
+	{
+	Type = Clothing,
+	DisplayName = MSA Cairns 880 Fire Helmet Visor UP,
+	ClothingItem = Hat_880_Visor_UP,
+	BodyLocation = Ears,
+	Icon = Hat_880_Visor,
+        CanHaveHoles = false,
+        BloodLocation = Head,
+	BiteDefense = 20,
+	ScratchDefense = 20,
+        Weight = 1,
+        ClothingItemExtra = Hat_880_Visor,
+        ClothingItemExtraOption = Killa_880_ON,
+        clothingExtraSubmenu = Killa_880_OFF,
+    }
+}

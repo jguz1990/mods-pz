@@ -1,0 +1,129 @@
+module Base
+{
+    item Armor_Defender
+    {
+        Type = Clothing,
+        DisplayName = Defender 2 Armor,
+        ClothingItem = Armor_Defender,
+        BodyLocation = TorsoExtra,
+        Weight	=	8,
+        Icon	=	Armor_Defender,
+        BloodLocation = ShirtNoSleeves,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.95,
+        Insulation = 0.65,
+        WindResistance = 0.30,
+        BiteDefense = 100,
+        ScratchDefense = 100,
+        BulletDefense = 150,
+        NeckProtectionModifier = 0.5,
+        WorldStaticModel= W_Armor_Defender,
+    }
+
+
+
+    item Bag_Plate_Carrier
+    {
+        Type = Clothing,
+        DisplayName = Emerson Gear Tactical Plate Carrier,
+        ClothingItem = Bag_Plate_Carrier,
+        BodyLocation = TorsoExtra,
+        Weight	=	5,
+        Icon	=	Bag_Plate_Carrier,
+        BloodLocation = ShirtNoSleeves,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.95,
+        Insulation = 0.35,
+        WindResistance = 0.30,
+        BiteDefense = 50,
+        ScratchDefense = 50,
+        BulletDefense = 100,
+        NeckProtectionModifier = 0.5,
+        WorldStaticModel= W_Bag_Plate_Carrier,
+    }
+
+
+
+    item Armor_6B13
+    {
+        Type = Clothing,
+        DisplayName = Assault Bodyarmor 6B13,
+        ClothingItem = Armor_6B13,
+        BodyLocation = TorsoExtra,
+        Weight	=	8,
+        Icon	=	Armor_6B13,
+        BloodLocation = ShirtNoSleeves,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.95,
+        Insulation = 0.65,
+        WindResistance = 0.30,
+        BiteDefense = 100,
+        ScratchDefense = 100,
+        BulletDefense = 150,
+        NeckProtectionModifier = 0.5,
+        WorldStaticModel= W_Armor_6B13,
+    }
+
+
+
+    item Jacket_Heather
+    {
+        Type = Clothing,
+        DisplayName = Heather Mason's Jacket,
+        ClothingItem = Jacket_Heather,
+        BodyLocation = TorsoExtra,
+        Weight	=	1.5,
+        Icon	=	Jacket_Heather,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.30,
+        WindResistance = 0.30,
+        BiteDefense = 50,
+        ScratchDefense = 50,
+        FabricType = Denim,
+    }
+
+
+
+    item Sheriff_Vest
+    {
+        Type = Clothing,
+        DisplayName = Sheriff TGS Patrol Tactical Vest,
+        ClothingItem = Sheriff_Vest,
+        BodyLocation = TorsoExtra,
+        Weight	=	5,
+        Icon	=	Sheriff_Vest,
+        BloodLocation = ShirtNoSleeves,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.95,
+        Insulation = 0.65,
+        WindResistance = 0.30,
+        BiteDefense = 100,
+        ScratchDefense = 100,
+        BulletDefense = 120,
+        NeckProtectionModifier = 0.5,
+        WorldStaticModel= W_Sheriff_Vest,
+    }
+
+
+
+    item Sheriff_Vest_Full
+    {
+        Type = Clothing,
+        DisplayName = Sheriff TGS Patrol Tactical Vest w/ Full set,
+        ClothingItem = Sheriff_Vest_Full,
+        BodyLocation = TorsoExtra,
+        Weight	=	5,
+        Icon	=	Sheriff_Vest_Full,
+        BloodLocation = ShirtNoSleeves,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.95,
+        Insulation = 0.65,
+        WindResistance = 0.30,
+        BiteDefense = 100,
+        ScratchDefense = 100,
+        BulletDefense = 120,
+        NeckProtectionModifier = 0.5,
+        WorldStaticModel= W_Sheriff_Vest_Full,
+    }
+
+}

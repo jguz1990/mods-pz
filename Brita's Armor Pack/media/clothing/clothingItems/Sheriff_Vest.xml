@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\backpacks\m_Sheriff_Vest</m_MaleModel>
+	<m_FemaleModel>skinned\backpacks\f_Sheriff_Vest</m_FemaleModel>
+	<m_GUID>b640ec9f-19bc-4629-aeee-0a53e2a0a699</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\Sheriff_Vest</textureChoices>	
+	<textureChoices>clothes\Sheriff_Vest_2</textureChoices>
+	<textureChoices>clothes\Sheriff_Vest_3</textureChoices>
+	<textureChoices>clothes\Sheriff_Vest_4</textureChoices>		
+</clothingItem>

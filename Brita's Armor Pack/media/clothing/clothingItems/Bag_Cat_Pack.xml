@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\backpacks\m_Cat_Pack</m_MaleModel>
+	<m_FemaleModel>skinned\backpacks\f_Cat_Pack</m_FemaleModel>
+	<m_GUID>b7757cc8-6563-42e2-8745-9698d51a81f2</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\Bag\Bag_Cat_Pack</textureChoices>
+	<textureChoices>clothes\Bag\Bag_Cat_Pack_2</textureChoices>
+	<textureChoices>clothes\Bag\Bag_Cat_Pack_3</textureChoices>
+	<textureChoices>clothes\Bag\Bag_Cat_Pack_4</textureChoices>
+	<textureChoices>clothes\Bag\Bag_Cat_Pack_5</textureChoices>	
+</clothingItem>

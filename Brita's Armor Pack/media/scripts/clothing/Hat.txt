@@ -1,0 +1,113 @@
+module Base
+{
+
+
+
+    item Hat_Tactical_Boonie
+	{
+	Type = Clothing,
+	DisplayName = Tactical Boonie Hat,
+	ClothingItem = Hat_Tactical_Boonie,
+	BodyLocation = Hat,
+	Icon = Hat_Tactical_Boonie,
+        CanHaveHoles = false,
+        ChanceToFall = 50,
+        Insulation = 0.3,
+        BloodLocation = Head,
+        Weight = 0.5,
+    }
+
+
+
+    item Hat_Tactical_Boonie_Fold
+	{
+	Type = Clothing,
+	DisplayName = Striker Boonie Hat,
+	ClothingItem = Hat_Tactical_Boonie_Fold,
+	BodyLocation = Hat,
+	Icon = Hat_Tactical_Boonie_Fold,
+        CanHaveHoles = false,
+        ChanceToFall = 50,
+        Insulation = 0.3,
+        BloodLocation = Head,
+        Weight = 0.5,
+    }
+
+
+
+    item Hat_Lisa_Cap
+	{
+	Type = Clothing,
+	DisplayName = Silent Hill Nurse Cap,
+	ClothingItem = Hat_Lisa_Cap,
+	BodyLocation = Hat,
+	Icon = Hat_Lisa_Cap,
+        CanHaveHoles = false,
+        ChanceToFall = 50,
+        Insulation = 0.3,
+        BloodLocation = Head,
+        Weight = 0.1,
+    }
+
+
+
+    item Hat_Tactical_Cap
+	{
+	Type = Clothing,
+	DisplayName = Duck Tactical Cap,
+	ClothingItem = Hat_Tactical_Cap,
+	BodyLocation = Hat,
+	Icon = Hat_Tactical_Cap,
+	BloodLocation = Head,
+		CanHaveHoles = false,
+		ChanceToFall = 50,
+		Insulation = 0.10,
+        Weight = 0.5,
+    }
+
+
+    item Hat_Tactical_Cap_Camo
+	{
+	Type = Clothing,
+	DisplayName = Condor Camouflage Cap,
+	ClothingItem = Hat_Tactical_Cap_Camo,
+	BodyLocation = Hat,
+	Icon = Hat_Tactical_Cap_Camo,
+	BloodLocation = Head,
+		CanHaveHoles = false,
+		ChanceToFall = 50,
+		Insulation = 0.10,
+        Weight = 0.5,
+    }
+
+
+    item Hat_Patrol_Cap
+	{
+	Type = Clothing,
+	DisplayName = Helikon Tex Patrol Cap,
+	ClothingItem = Hat_Patrol_Cap,
+	BodyLocation = Hat,
+	Icon = Hat_Patrol_Cap,
+	BloodLocation = Head,
+		CanHaveHoles = false,
+		ChanceToFall = 50,
+		Insulation = 0.10,
+        Weight = 0.5,
+    }
+
+
+
+    item Hat_Tactical_Beret
+	{
+	Type = Clothing,
+	DisplayName = Tactical Beret,
+	ClothingItem = Hat_Tactical_Beret,
+	BodyLocation = Hat,
+	Icon = Hat_Tactical_Beret,
+        CanHaveHoles = false,
+        ChanceToFall = 50,
+        Insulation = 0.3,
+        BloodLocation = Head,
+        Weight = 0.5,
+    }
+}

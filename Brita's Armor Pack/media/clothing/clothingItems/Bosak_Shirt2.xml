@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\M_Bosak_Shirt2</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\F_Bosak_Shirt2</m_FemaleModel>
+	<m_GUID>118981d8-383c-4c3e-90b2-41d533b058ef</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>3</m_Masks>
+	<m_Masks>5</m_Masks>	
+	<m_Masks>12</m_Masks>
+    <m_Masks>13</m_Masks>	
+	<m_UnderlayMasksFolder>media/textures/Clothes/Jacket/Masks</m_UnderlayMasksFolder>
+	<textureChoices>clothes\Bosak_Shirt2</textureChoices>
+</clothingItem>

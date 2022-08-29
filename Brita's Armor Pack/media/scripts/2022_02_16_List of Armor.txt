@@ -1,0 +1,129 @@
+-- means used Distro
+OO means used Zeds
+
+Clothes
+--OO				"Base.Skirt_Nurse",
+--OO				"Base.Pants_Yoga",
+--OO				"Base.Turtleneck",
+--OO				"Base.Belly_Turtleneck",
+--OO				"Base.S_Tank_Top",
+--OO				"Base.Y_Shirts",
+--OO				"Base.Y_Shirts_Long",
+--OO				"Base.Skirt_Office",
+--OO				"Base.Skirt_Office_Long",
+--OO				"Base.Office_Sweater",		
+--OO				"Base.Office_Sweater_Long",	
+--OO				"Base.Pants_Adidas",		
+--OO				"Base.Jacket_Adidas",			
+			
+Suits
+--OO				"Base.Ela_Jacket",
+--OO				"Base.Ela_Pants",	
+-OO				"Base.Combat_Jumper",
+-OO				"Base.Combat_Pants",				
+--OO				"Base.Suit_Chempak",
+				"Base.Killa_Jacket",
+				"Base.Killa_Pants",
+--OO				"Base.Fire_Pants",
+--OO				"Base.Fire_Jacket",
+-OO				"Base.Gorka_Jacket_New",
+-OO				"Base.Gorka_Pants_New",		
+--				"Base.police_Jumper",	
+--OO				"Base.Sheriff_Jumper",		
+
+Helmet
+--OO				"Base.Hat_FAST_Opscore",		
+--				"Base.Hat_M1_Helmet",
+--				"Base.Hat_M1_Helmet_Ori",
+--OO				"Base.Hat_Maska",		
+--OO				"Base.Hat_Gentex_Helmet",
+--OO				"Base.Hat_Killa",		
+--OO				"Base.Hat_880_Helmet",					
+--OO				"Base.Hat_HGU56",	
+--OO				"Base.Hat_PSGT_Helmet",		
+--OO				"Base.Hat_PSGT_Helmet_Camo",	
+				"Base.Hat_MX_Helmet",						
+
+Helmet Attachments
+--OO				"Base.Hat_Face_Shield",			
+--OO				"Base.Hat_Helmet_Headset",	
+--OO				"Base.Hat_Maska_Visor", 			
+--OO				"Base.Hat_Maska_Visor2",
+--OO				"Base.Hat_Killa_Visor",		
+--OO				"Base.Hat_880_Visor",
+--OO				"Base.Hat_HGU56_Shield",		
+--OO				"Base.Hat_HGU56_Visor",		
+--OO				"Base.Hat_PSGT_Visor",	
+--OO				"Base.Hat_Riot_Visor",			
+--OO				"Base.Hat_PSGT_Neck",						
+NV
+--				"Base.Hat_Sam_NV",
+--OO				"Base.Hat_PVS15_ON",	
+--OO				"Base.Hat_NV18_ON",					
+Cap & Hat
+
+--				"Base.Hat_Ela_Hat",
+--				"Base.Hat_Ela_Hat_Only",		
+--				"Base.Hat_Beret_Tactical_Only",	
+--OO				"Base.Hat_Tactical_Boonie",
+--OO				"Base.Hat_Tactical_Boonie_Fold",
+--OO				"Base.Hat_Lisa_Cap",
+--OO				"Base.Hat_Tactical_Cap",
+--OO				"Base.Hat_Tactical_Cap_Camo",
+--				"Base.Hat_Patrol_Cap",
+--				"Base.Hat_Tactical_Beret",			
+Armor
+-OO				"Base.Armor_Defender",
+-OO				"Base.Bag_Plate_Carrier",	
+-OO				"Base.Armor_6B13",		
+OO				"Base.Jacket_Heather",	
+--OO				"Base.Sheriff_Vest",	
+--OO				"Base.Sheriff_Vest_Full",					
+Gas Mask
+--				"Base.Hat_MCU_GasMask",
+--OO				"Base.Hat_M45_GasMask",			
+--OO				"Base.Hat_FM53",		
+--OO				"Base.Hat_M50",		
+--OO				"Base.Hat_MSA_Gas_Mask",		
+Chest Rig
+--OO				"Base.Bag_D3M",
+--OO				"Base.Bag_Smersh_Vest",
+--OO				"Base.Bag_Blackhawk",
+--OO				"Base.Bag_X_Vest",			
+--OO				"Base.Bag_SKS_Vest",	
+--OO				"Base.Bag_AK_Vest",				
+Belt
+--OO				"Base.Bag_Tactical_Belt_Front",	
+--OO				"Base.Bag_Duty_Belt_Front",
+				
+Bags				
+--OO				"Base.Bag_Sniper_Pack",
+--OO				"Base.Bag_ARVN_Rucksack",
+--OO				"Base.Bag_ST53_Set",	
+OO				"Base.Bag_ZIP",
+--OO				"Base.Bag_SSO",
+OO				"Base.Bag_Savotta",
+--				"Base.Bag_Bush",
+--				"Base.Bag_Hunting",
+--OO				"Base.Bag_Radio_Pack",
+--OO				"Base.Bag_Tactical_Alice",		
+--OO				"Base.Bag_SCBA",	
+OO				"Base.Bag_Cat_Pack",	
+OO				"Base.Bag_Robbie_Pack",		
+				"Base.Bag_M2A1_Pack",		
+
+Goggles
+--OO				"Base.Glasses_X1000",
+--OO				"Base.Glasses_Napier",			
+--OO				"Base.Glasses_Crewman_Goggles",
+Headset
+--OO				"Base.Hat_Sordin",				
+--OO				"Base.Hat_Astrocom",
+Hood
+--				"Base.Bag_Sniper_Hood",	
+OO				"Base.Bag_Shemagh_Half",			
+Costume
+OO				"Base.Rabbit_Suit",
+OO				"Base.Hat_Rabbit",		
+
+

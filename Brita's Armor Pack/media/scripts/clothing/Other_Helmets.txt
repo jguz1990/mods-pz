@@ -1,0 +1,43 @@
+module Base
+{
+
+    item Hat_MX_Helmet
+	{
+	Type = Clothing,
+	DisplayName = Dirt Bike Helmet,
+	ClothingItem = Hat_MX_Helmet,
+	BodyLocation = Hat,
+	Icon = Hat_MX_Helmet,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	BiteDefense = 120,
+	ScratchDefense = 120,
+	Insulation = 0.45,
+	WaterResistance = 0.40,
+        Weight = 1.5,
+        ClothingItemExtra = Hat_MX_Helmet_Glass,
+        ClothingItemExtraOption = Glass_OFF,
+        clothingExtraSubmenu = Glass_ON,
+    }
+
+
+
+    item Hat_MX_Helmet_Glass
+	{
+	Type = Clothing,
+	DisplayName = Dirt Bike Helmet w/Ggoggles,
+	ClothingItem = Hat_MX_Helmet_Glass,
+	BodyLocation = Hat,
+	Icon = Hat_MX_Helmet_Glass,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	BiteDefense = 120,
+	ScratchDefense = 120,
+	Insulation = 0.45,
+	WaterResistance = 0.40,
+        Weight = 1.5,
+        ClothingItemExtra = Hat_MX_Helmet,
+        ClothingItemExtraOption = Glass_ON,
+        clothingExtraSubmenu = Glass_OFF,
+    }
+}

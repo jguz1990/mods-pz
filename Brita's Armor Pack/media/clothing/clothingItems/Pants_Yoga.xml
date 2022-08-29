@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>7bd1479d-8803-4c1a-b921-5ed87a79027e</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Pants_Yoga</m_BaseTextures>	
+	<m_BaseTextures>clothes\Pants_Yoga_2</m_BaseTextures>		
+	<m_BaseTextures>clothes\Pants_Yoga_3</m_BaseTextures>	
+	<m_BaseTextures>clothes\Pants_Yoga_4</m_BaseTextures>	
+	<m_BaseTextures>clothes\Pants_Yoga_5</m_BaseTextures>	
+	<m_BaseTextures>clothes\Pants_Yoga_6</m_BaseTextures>	
+	<m_BaseTextures>clothes\Pants_Yoga_7</m_BaseTextures>		
+</clothingItem>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\M_Gorka_Pants</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\F_Gorka_Pants</m_FemaleModel>
+	<m_GUID>a7abea44-ab0b-43f1-ba4f-00d4da987dd3</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Jacket/Masks</m_UnderlayMasksFolder>
+	<textureChoices>clothes\Fire_Pants</textureChoices>		
+	<textureChoices>clothes\Fire_Pants_2</textureChoices>	
+	<textureChoices>clothes\Fire_Pants_3</textureChoices>	
+	<textureChoices>clothes\Fire_Pants_4</textureChoices>		
+</clothingItem>
