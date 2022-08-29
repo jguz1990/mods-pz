@@ -1,0 +1,176 @@
+
+module Base
+{
+
+	item P21_Chainsaw	{
+
+        DisplayName			=	Pioneer P21 Chainsaw,
+        DisplayCategory 		=	Weapon,
+        Icon				=	P21_Chainsaw,
+        WeaponSprite			=	P21_Chainsaw,				
+	Type                        	=	Weapon,	
+	SubCategory                 	=	Firearm,	
+	Ranged                      	=	TRUE,
+	IsAimedFirearm              	=	TRUE,
+	IsAimedHandWeapon              	=	TRUE,
+	haveChamber			=	FALSE,
+	WeaponReloadType            	=	shotgun,
+	FireMode                    	=	Auto,
+	AttachmentType              	=	rifle,
+	TwoHandWeapon               	=	TRUE,	
+	RequiresEquippedBothHands   	=	TRUE,
+	UseEndurance                	=	FALSE,	
+	/* ============ PERFORMANCE DATA ============= */			
+	MinRange                    	=	0	,		/* DONT SHOVE SO MUCH	*/
+	MaxRange                    	=	0.1	,
+	AimingPerkRangeModifier     	=	0	,		/* NOT AIM SKILL	*/
+	MinDamage                   	=	0.1	,		/* FOR GRIND EFFECT	*/
+	MaxDamage                   	=	0.1	,		/* FOR GRIND EFFECT	*/
+	CriticalChance              	=	80	,		/* MORE SPLAT		*/
+	HitChance                   	=	100	,
+	ToHitModifier               	=	1.5,	
+	AimingPerkHitChanceModifier 	=	0	,		/* NOT AIM SKILL	*/
+	MinAngle                     	=	0.90	,
+/*	AngleFalloff                	=	TRUE,						*/
+	AimingPerkMinAngleModifier  	=	0	,		/* NOT AIM SKILL	*/
+	ConditionMax                	=	20	,	
+	ConditionLowerChanceOneIn   	=	100	,	
+	MultipleHitConditionAffected	=	FALSE	,	
+	JamGunChance                	=	0.5	,	
+	AimingTime                  	=	70	,
+	ReloadTime                  	=	100	,	
+	SwingTime                   	=	1.0	,
+	MinimumSwingTime            	=	1.0	,
+	SwingAmountBeforeImpact     	=	0.2	,		/* SPOOL UP		*/
+	RecoilDelay                 	=	0	,
+	Weight                      	=	3.0	,
+	OAL				=	1.0	,
+	/* ============= AMMUNITION DATA ============= */			
+	AmmoType                    	=	Base.FlameFuel,		/* MUST HAVE AMMOTYPE	*/
+	MaxAmmo                     	=	120	,
+	ProjectileCount             	=	2	,
+	MaxHitCount                 	=	2	,
+	ShareDamage                 	=	FALSE	,
+	DamageCategory			=	Slash	,
+	DamageMakeHole			=	TRUE	,
+	SplatSize                   	=	4	,
+	SplatNumber                 	=	4	,
+	SplatBloodOnNoDeath         	=	TRUE	,
+	PushBackMod                 	=	1.0	,
+	KnockBackOnNoDeath          	=	TRUE	,
+	DoorDamage                  	=	20	,
+	TreeDamage                  	=	40	,
+	/* ============ ANIMATION & SOUND ============ */
+	RunAnim                     	=	Run_Weapon2,	
+	MetalValue                  	=	30,	
+	SoundVolume                 	=	10,	
+	SoundRadius                 	=	10,	
+	SoundGain                   	=	2,	
+	NPCSoundBoost               	=	1.5,
+
+	BringToBearSound		=	stopGenerator,
+	SwingSound			=	[0]Chainsaw,
+	HitSound			=	PZ_HeadSmash_02,
+	ClickSound			=	startGenerator,
+        Impact				=	KatanaHit,
+	RackSound                   	=	startGenerator,
+	BreakSound                  	=	BreakMetalItem,
+	ImpactSound                 	=	null,
+	/* =========== TRANSFORM VARIABLES =========== */
+/*	Integral			=	Launcher,	*/
+	}
+
+
+	model P21_Chainsaw
+	{
+		mesh = weapons/2handed/P21_Chainsaw,
+		texture = Weapons/2handed/P21_Chainsaw,
+	}
+
+	recipe Refill Chainsaw
+	{
+		P21_Chainsaw,
+		PetrolCan = 1,			/* 1 UNIT BECOMES 30 LOADED */
+	        Result	:P21_Chainsaw,
+		Category:Firearm,
+		Sound	:PZ_GetWater,
+	        Time	:40.0,
+		OnCreate:Fill_LiquidAmmo,
+	}
+
+
+	item P31_Chainsaw	{
+
+        DisplayName			=	Pioneer P31 Chainsaw,
+        DisplayCategory 		=	Weapon,
+        Icon				=	P21_Chainsaw,
+        WeaponSprite			=	P21_Chainsaw,
+	Type                        	=	Weapon,
+	Categories			=	Blunt,
+	SubCategory                 	=	Swinging,
+        SwingAnim			=	Bat,
+	Ranged                      	=	FALSE,
+
+	IsAimedFirearm              	=	FALSE,		
+	IsAimedHandWeapon              	=	TRUE,		
+/*	haveChamber			=	FALSE,		*/
+/*	WeaponReloadType            	=	shotgun,	*/
+/*	FireMode                    	=	Auto,		*/
+/*	AttachmentType              	=	rifle,		*/
+	TwoHandWeapon               	=	TRUE,	
+/*	RequiresEquippedBothHands   	=	TRUE,		*/
+	UseEndurance                	=	FALSE,	
+	/* ============ PERFORMANCE DATA ============= */			
+	MinRange                    	=	0	,		/* DONT SHOVE SO MUCH	*/
+	MaxRange                    	=	0.1	,
+	MinDamage                   	=	0.1	,		/* FOR GRIND EFFECT	*/
+	MaxDamage                   	=	0.1	,		/* FOR GRIND EFFECT	*/
+	CriticalChance              	=	80	,		/* MORE SPLAT		*/
+	HitChance                   	=	100	,
+	ToHitModifier               	=	1.5,	
+	MinAngle                     	=	0.90	,
+	ConditionMax                	=	20	,	
+	ConditionLowerChanceOneIn   	=	100	,	
+	MultipleHitConditionAffected	=	FALSE	,	
+	SwingTime                   	=	1.0	,
+	MinimumSwingTime            	=	1.0	,
+	SwingAmountBeforeImpact     	=	0.2	,		/* SPOOL UP		*/
+	Weight                      	=	3.0	,
+	OAL				=	1.0	,
+	/* ============= AMMUNITION DATA ============= */			
+	AmmoType                    	=	Base.FlameFuel,		/* MUST HAVE AMMOTYPE	*/
+	MaxAmmo                     	=	120	,
+	ProjectileCount             	=	2	,
+	MaxHitCount                 	=	2	,
+	ShareDamage                 	=	FALSE	,
+	DamageCategory			=	Slash	,
+	DamageMakeHole			=	TRUE	,
+	SplatSize                   	=	4	,
+	SplatNumber                 	=	4	,
+	SplatBloodOnNoDeath         	=	TRUE	,
+	PushBackMod                 	=	1.0	,
+	KnockBackOnNoDeath          	=	TRUE	,
+	DoorDamage                  	=	20	,
+	TreeDamage                  	=	40	,
+	/* ============ ANIMATION & SOUND ============ */
+	RunAnim                     	=	Run_Weapon2,	
+	MetalValue                  	=	30,	
+	SoundVolume                 	=	10,	
+	SoundRadius                 	=	10,	
+	SoundGain                   	=	2,	
+	NPCSoundBoost               	=	1.5,
+
+	BringToBearSound		=	stopGenerator,
+	SwingSound			=	[0]Chainsaw,
+	HitSound			=	PZ_HeadSmash_02,
+	ClickSound			=	startGenerator,
+        Impact				=	KatanaHit,
+	RackSound                   	=	startGenerator,
+	BreakSound                  	=	BreakMetalItem,
+	ImpactSound                 	=	null,
+	/* =========== TRANSFORM VARIABLES =========== */
+/*	Integral			=	Launcher,	*/
+	}
+
+
+}

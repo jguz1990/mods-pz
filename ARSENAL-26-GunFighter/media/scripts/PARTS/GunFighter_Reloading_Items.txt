@@ -1,0 +1,451 @@
+module Base
+{
+
+/*************************************/
+/**	RELOADING MANUAL			**/
+/*************************************/
+	item Lyman49th_Manual
+	{
+		Weight		=	1,
+		Type			=	Literature,
+		DisplayName		=	Lyman 49th Edition Reloading Manual,
+		DisplayCategory	=	SkillBook,
+		Icon			=	Lyman49th,
+		TeachedRecipes	=	Make 5.7x28mm Ammunition;
+						Make 380-ACP Ammunition;
+						Make 9mm Ammunition;
+						Make 38-SPC Ammunition;
+						Make 357-MAG Ammunition;
+						Make 45-ACP Ammunition;
+						Make 45-LC Ammunition;
+						Make 44-MAG Ammunition;
+						Make 50-MAG Ammunition;
+						Make 45-70 GOV Ammunition;
+						Make 223-REM Ammunition;
+						Make 5.56x45mm Ammunition;
+						Make 5.45x39mm Ammunition;
+						Make 7.62x39mm Ammunition;
+						Make 308-WIN Ammunition;
+						Make 7.62x51mm Ammunition;
+						Make 7.62x54mm-R Ammunition;
+						Make 30-06 SPG Ammunition;
+						Make 50-BMG Ammunition;
+						Make 410g ShotShell;
+						Make 20g ShotShell;
+						Make 12g ShotShell;
+						Make 10g ShotShell;
+						Make 4g ShotShell;
+						Scrap 5.7x28mm Ammunition;
+						Scrap 380-ACP Ammunition;
+						Scrap 9mm Ammunition;
+						Scrap 38-SPC Ammunition;
+						Scrap 357-MAG Ammunition;
+						Scrap 45-ACP Ammunition;
+						Scrap 45-LC Ammunition;
+						Scrap 44-MAG Ammunition;
+						Scrap 50-MAG Ammunition;
+						Scrap 45-70 GOV Ammunition;
+						Scrap 223-REM Ammunition;
+						Scrap 5.56x45mm Ammunition;
+						Scrap 5.45x39mm Ammunition;
+						Scrap 7.62x39mm Ammunition;
+						Scrap 308-WIN Ammunition;
+						Scrap 7.62x51mm Ammunition;
+						Scrap 7.62x54mm-R Ammunition;
+						Scrap 30-06 SPG Ammunition;
+						Scrap 50-BMG Ammunition;
+						Scrap 410g Shotgun Shell;
+						Scrap 20g Shotgun Shell;
+						Scrap 12g Shotgun Shell;
+						Scrap 10g Shotgun Shell;
+						Scrap 4g Shotgun Shell,
+		ReplaceOnUse	=	Lyman49th_Manual,
+		StaticModel		=	Book,
+		WorldStaticModel	=	Lyman49th_Ground,
+	}
+
+/*************************************/
+/**	RELOADING PRESS			**/
+/*************************************/
+	item Lyman_TMag
+	{								
+		Type		= Container,
+		DisplayName	= Lyman T-Mag Reloading Press,
+		DisplayCategory	= ReloadingTool,
+		Capacity	= 10,
+		Icon		= Lyman_TMag,
+		WorldStaticModel= W_Lyman_TMag,
+		Weight		= 20,
+	}
+
+	item Lee_LoadMaster
+	{								
+		Type		= Container,
+		DisplayName	= Lee Load-Master Reloading Press,
+		DisplayCategory	= ReloadingTool,
+		Capacity	= 10,
+		Icon		= Lee_LoadMaster,
+		WorldStaticModel= W_Lee_LoadMaster,
+		Weight		= 20,
+	}
+
+/*************************************/
+/**	POWDER (OVERRIDE)			**/
+/*************************************/
+	item GunPowder
+	{
+	        DisplayCategory = Components,
+	        Weight		= 0.5,
+	        Type		= Drainable,
+	        UseDelta	= 0.005,		/* 500 UNITS	*/
+        	UseWhileEquipped= FALSE,
+	        DisplayName	= Gunpowder,
+        	Icon		= GunpowderJar,
+	        WeightEmpty	= 0.01,
+        	WorldStaticModel= GunpowderJar,
+	}
+
+/*************************************/
+/**	PRIMERS				**/
+/*************************************/
+	item PrimerSM_Pack
+	{
+		DisplayCategory = Components,
+		Weight		= 0.1,
+		UseWhileEquipped= FALSE,
+		DisplayName	= Pack of Primers (Small),
+        	Icon		= PrimerSM_Pack,
+		WorldStaticModel	= W_Primer_Pack_1,
+	}
+	recipe Open Pack of Small Primers
+	{
+		PrimerSM_Pack,
+		Result:PrimerSM=100,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:5.0,
+	}
+	recipe Place Small Primers in Pack
+	{
+		PrimerSM=100,
+		Result:PrimerSM_Pack,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:5.0,
+	}
+
+	item PrimerLG_Pack
+	{
+		DisplayCategory = Components,
+		Weight		= 0.1,
+        	UseWhileEquipped= FALSE,
+		DisplayName	= Pack of Primers (Large),
+        	Icon		= PrimerLG_Pack,
+		WorldStaticModel	= W_Primer_Pack_2,
+	}
+	recipe Open Pack of Large Primers
+	{
+		PrimerLG_Pack,
+		Result:PrimerLG=100,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:5.0,
+	}
+	recipe Place Large Primers in Pack
+	{
+		PrimerLG=100,
+		Result:PrimerLG_Pack,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:5.0,
+	}
+
+	item PrimerSG_Pack
+	{
+		DisplayCategory = Components,
+		Weight		= 0.1,
+		UseWhileEquipped= FALSE,
+		DisplayName	= Pack of Primers (Shotgun),
+		Icon		= PrimerSG_Pack,
+		WorldStaticModel	= W_Primer_Pack_3,
+	}
+	recipe Open Pack of Shotgun Primers
+	{
+		PrimerSG_Pack,
+		Result:PrimerSG=100,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:5.0,
+	}
+	recipe Place Shotgun Primers in Pack
+	{
+		PrimerSG=100,
+		Result:PrimerSG_Pack,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:5.0,
+	}
+
+/*************************************/
+/**	PROJECTILE BULLETS		**/
+/*************************************/
+	item Lead57_Pack
+	{
+		DisplayCategory = Components,
+		Weight		= 0.5,
+        	UseWhileEquipped= FALSE,
+		DisplayName	= Pack of Projectiles (5.7mm),
+        	Icon		= Lead_Pack,
+		WorldStaticModel	= W_Projectiles_Pack,
+	}
+	recipe Open Pack of 5.7mm Projectiles
+	{
+		Lead57_Pack,
+		Result:Lead57=100,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:5.0,
+	}
+	recipe Place 5.7mm Projectiles in Pack
+	{
+		Lead57=100,
+		Result:Lead57_Pack,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:5.0,
+	}
+
+	item Lead9_Pack
+	{
+		DisplayCategory	= Components,
+		Weight		= 0.5,
+		UseWhileEquipped	= FALSE,
+		DisplayName		= Pack of Projectiles (9mm),
+		Icon			= Lead_Pack,
+		WorldStaticModel	= W_Projectiles_Pack,
+	}
+	recipe Open Pack of 9mm Projectiles
+	{
+		Lead9_Pack,
+		Result:Lead9=100,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:5.0,
+	}
+	recipe Place 9mm Projectiles in Pack
+	{
+		Lead9=100,
+		Result:Lead9_Pack,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:5.0,
+	}
+
+	item Lead38_Pack
+	{
+		DisplayCategory = Components,
+		Weight		= 0.6,
+        	UseWhileEquipped= FALSE,
+		DisplayName	= Pack of Projectiles (38-Cal),
+        	Icon		= Lead_Pack,
+		WorldStaticModel	= W_Projectiles_Pack,
+	}
+	recipe Open Pack of 38-Cal Projectiles
+	{
+		Lead38_Pack,
+		Result:Lead38=100,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:5.0,
+	}
+	recipe Place 38-Cal Projectiles in Pack
+	{
+		Lead38=100,
+		Result:Lead38_Pack,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:5.0,
+	}
+
+	item Lead45_Pack
+	{
+		DisplayCategory = Components,
+		Weight		= 0.65,
+		UseWhileEquipped= FALSE,
+		DisplayName	= Pack of Projectiles (45-Cal),
+		Icon		= Lead_Pack,
+		WorldStaticModel	= W_Projectiles_Pack,
+	}
+	recipe Open Pack of 45-Cal Projectiles
+	{
+		Lead45_Pack,
+		Result:Lead45=100,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:5.0,
+	}
+	recipe Place 45-Cal Projectiles in Pack
+	{
+		Lead45=100,
+		Result:Lead45_Pack,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:5.0,
+	}
+
+	item Lead44_Pack
+	{
+		DisplayCategory = Components,
+		Weight		= 0.7,
+        	UseWhileEquipped= FALSE,
+		DisplayName	= Pack of Projectiles (44-Cal),
+        	Icon		= Lead_Pack,
+		WorldStaticModel	= W_Projectiles_Pack,
+	}
+	recipe Open Pack of 44-Cal Projectiles
+	{
+		Lead44_Pack,
+		Result:Lead44=100,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:5.0,
+	}
+	recipe Place 44-Cal Projectiles in Pack
+	{
+		Lead44=100,
+		Result:Lead44_Pack,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:5.0,
+	}
+
+	item Lead50_Pack
+	{
+		DisplayCategory = Components,
+		Weight		= 2.5,
+        	UseWhileEquipped= FALSE,
+		DisplayName	= Pack of Projectiles (50-Cal),
+        	Icon		= Lead_Pack,
+		WorldStaticModel	= W_Projectiles_Pack,
+	}
+	recipe Open Pack of 50-Cal Projectiles
+	{
+		Lead50_Pack,
+		Result:Lead50=100,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:5.0,
+	}
+	recipe Place 50-Cal Projectiles in Pack
+	{
+		Lead50=100,
+		Result:Lead50_Pack,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:5.0,
+	}
+
+	item Lead556_Pack
+	{
+		DisplayCategory	= Components,
+		Weight		= 0.75,
+        	UseWhileEquipped	= FALSE,
+		DisplayName		= Pack of Projectiles (5.56mm),
+		Icon			= Lead_Pack,
+		WorldStaticModel	= W_Projectiles_Pack,
+	}
+	recipe Open Pack of 5.56mm Projectiles
+	{
+		Lead556_Pack,
+		Result:Lead556=100,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:5.0,
+	}
+	recipe Place 5.56mm Projectiles in Pack
+	{
+		Lead556=100,
+		Result:Lead556_Pack,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:5.0,
+	}
+
+	item Lead545_Pack
+	{
+		DisplayCategory = Components,
+		Weight		= 1.0,
+        	UseWhileEquipped= FALSE,
+		DisplayName	= Pack of Projectiles (5.45mm),
+        	Icon		= Lead_Pack,
+		WorldStaticModel	= W_Projectiles_Pack,
+	}
+	recipe Open Pack of 5.45mm Projectiles
+	{
+		Lead545_Pack,
+		Result:Lead545=100,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:5.0,
+	}
+	recipe Place 5.45mm Projectiles in Pack
+	{
+		Lead545=100,
+		Result:Lead545_Pack,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:5.0,
+	}
+
+	item Lead30_Pack
+	{
+		DisplayCategory = Components,
+		Weight		= 1.4,
+        	UseWhileEquipped= FALSE,
+		DisplayName	= Pack of Projectiles (30-Cal),
+        	Icon		= Lead_Pack,
+		WorldStaticModel	= W_Projectiles_Pack,
+	}
+	recipe Open Pack of 30-Cal Projectiles
+	{
+		Lead30_Pack,
+		Result:Lead30=100,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:5.0,
+	}
+	recipe Place 30-Cal Projectiles in Pack
+	{
+		Lead30=100,
+		Result:Lead30_Pack,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:5.0,
+	}
+
+	item Lead00Buck_Pack
+	{
+		DisplayCategory = Components,
+		Weight		= 1.5,
+        	UseWhileEquipped= FALSE,
+		DisplayName	= Pack of Projectiles (00-Buckshot),
+        	Icon		= Lead_Pack,
+		WorldStaticModel	= W_Projectiles_Pack,
+	}
+	recipe Open Pack of 00-Buckshot Projectiles
+	{
+		Lead00Buck_Pack,
+		Result:Lead00Buck=100,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:5.0,
+	}
+	recipe Place 00-Buckshot Projectiles in Pack
+	{
+		Lead00Buck=100,
+		Result:Lead00Buck_Pack,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:5.0,
+	}
+}	

@@ -1,0 +1,131 @@
+/******************** ATTACHMENT MODELS **********************
+	EXPERIMENTAL STUFF
+**************************************************************/
+
+module Base
+{
+	model Standard_Mag_556MiniCan
+	{
+		mesh = AmmoCan50,
+		texture = AmmoCan50,
+	}
+
+	model Standard_Mag_Rocket
+	{
+		mesh = weapons/parts/Standard_Mag_Rocket,
+		texture = weapons/firearm/RPG_7,
+	}
+
+	model Spent_LR_Brass
+	{
+		mesh = Worlditems/Spent_LR_Brass,
+		texture = Worlditems/Brass,
+	}
+	model Spent_P_Brass
+	{
+		mesh = Worlditems/Spent_P_Brass,
+		texture = Worlditems/Brass,
+	}
+	model Spent_PM_Brass
+	{
+		mesh = Worlditems/Spent_PM_Brass,
+		texture = Worlditems/Brass,
+	}
+	model Spent_PL_Brass
+	{
+		mesh = Worlditems/Spent_PL_Brass,
+		texture = Worlditems/Brass,
+	}
+	model Spent_R_Brass
+	{
+		mesh = Worlditems/Spent_R_Brass,
+		texture = Worlditems/Brass,
+	}
+	model Spent_RL_Brass
+	{
+		mesh = Worlditems/Spent_RL_Brass,
+		texture = Worlditems/Brass,
+	}
+	model Spent_BMG_Brass
+	{
+		mesh = Worlditems/Spent_BMG_Brass,
+		texture = Worlditems/Brass,
+	}
+	model Spent_410_Hull
+	{
+		mesh = Worlditems/Spent_410_Hull,
+		texture = Worlditems/Green,
+	}
+	model Spent_20_Hull
+	{
+		mesh = Worlditems/Spent_20_Hull,
+		texture = Worlditems/Blue,
+	}
+	model Spent_12_Hull
+	{
+		mesh = Worlditems/Spent_12_Hull,
+		texture = Worlditems/Red,
+	}
+	model Spent_10_Hull
+	{
+		mesh = Worlditems/Spent_10_Hull,
+		texture = Worlditems/Orange,
+	}
+	model Spent_4_Hull
+	{
+		mesh = Worlditems/Spent_4_Hull,
+		texture = Worlditems/Green,
+	}
+
+
+	model Lyman_TMag
+	{
+		mesh = Worlditems/Lyman_TMag,
+		texture = weapons/firearm/Lyman_TMag,
+	}
+
+
+	model W_Projectiles_Pack
+	{
+		mesh = WorldItems/W_Project_Pack,
+		texture = Worlditems/W_Project_Pack,
+		scale = 0.01,
+	}
+	model W_Primer_Pack_1
+	{
+		mesh = WorldItems/W_Primer_Pack,
+		texture = Worlditems/W_Primer_Pack_1,
+		scale = 0.01,
+	}
+	model W_Primer_Pack_2
+	{
+		mesh = WorldItems/W_Primer_Pack,
+		texture = Worlditems/W_Primer_Pack_2,
+		scale = 0.01,
+	}
+	model W_Primer_Pack_3
+	{
+		mesh = WorldItems/W_Primer_Pack,
+		texture = Worlditems/W_Primer_Pack_3,
+		scale = 0.01,
+	}
+	model W_Projectiles
+	{
+		mesh = WorldItems/W_Project,
+		texture = Worlditems/W_Project,
+		scale = 0.01,
+	}
+	model W_Primer
+	{
+		mesh = WorldItems/W_Primer,
+		texture = Worlditems/W_Primer,
+		scale = 0.01,
+	}
+
+	model Lyman49th_Ground
+	{
+		mesh = WorldItems/Magazine,
+		texture = WorldItems/Lyman49th,
+		scale = 0.4,
+	}
+}	

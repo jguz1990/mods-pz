@@ -1,0 +1,689 @@
+
+module Base
+{
+/*	-------------------------------------------------------------------------------- 	*/
+/*	------------------------	[1] SHOT NORMAL		------------------------ 	*/
+/*	-------------------------------------------------------------------------------- 	*/
+
+	sound [1]Shot_4g
+	{	category = World,
+		clip
+		{
+			file = media/sound/[1]Shot_4g.wav,
+			distanceMin = 0,
+			distanceMax = 100,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound [1]Shot_9
+	{	category = World,
+		clip
+		{	
+			file = media/sound/[1]Shot_9.wav,	
+			distanceMin = 0,
+			distanceMax = 50,
+			reverbMaxRange = 10,
+			reverbFactor = 10,
+			volume = 0.5,
+		}
+	}
+	sound [1]Shot_10g
+	{	category = World,
+		clip
+		{
+			file = media/sound/[1]Shot_10g.wav,
+			distanceMin = 0,
+			distanceMax = 100,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound [1]Shot_12g
+	{	category = World,
+		clip
+		{
+			file = media/sound/[1]Shot_12g.wav,
+			distanceMin = 0,
+			distanceMax = 100,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound [1]Shot_20g
+	{	category = World,
+		clip
+		{
+			file = media/sound/[1]Shot_20g.wav,
+			distanceMin = 0,
+			distanceMax = 100,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound [1]Shot_22
+	{	category = World,
+		clip
+		{
+			file = media/sound/[1]Shot_22.wav,
+			distanceMin = 0,
+			distanceMax = 30,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound [1]Shot_38
+	{	category = World,
+		clip
+		{
+			file = media/sound/[1]Shot_38.wav,
+			distanceMin = 0,
+			distanceMax = 50,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound [1]Shot_40mm
+	{	category = World,
+		clip
+		{
+			file = media/sound/[1]Shot_40mm.wav,
+			distanceMin = 0,
+			distanceMax = 20,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound [1]Shot_44
+	{	category = World,
+		clip
+			file = media/sound/[1]Shot_44.wav,
+			distanceMin = 0,
+			distanceMax = 70,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound [1]Shot_45
+	{	category = World,
+		clip
+		{
+			file = media/sound/[1]Shot_45.wav,
+			distanceMin = 0,
+			distanceMax = 60,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound [1]Shot_45LC
+	{	category = World,
+		clip
+		{
+			file = media/sound/[1]Shot_45LC.wav,
+			distanceMin = 0,
+			distanceMax = 100,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound [1]Shot_50
+	{	category = World,
+		clip
+		{
+			file = media/sound/[1]Shot_50.wav,
+			distanceMin = 0,
+			distanceMax = 200,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound [1]Shot_50MAG
+	{	category = World,
+		clip
+		{
+			file = media/sound/[1]Shot_50MAG.wav,
+			distanceMin = 0,
+			distanceMax = 100,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound [1]Shot_57
+	{	category = World,
+		clip
+		{
+			file = media/sound/[1]Shot_57.wav,
+			distanceMin = 0,
+			distanceMax = 40,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound [1]Shot_223
+	{	category = World,
+		clip
+		{
+			file = media/sound/[1]Shot_223.wav,
+			distanceMin = 0,
+			distanceMax = 100,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound [1]Shot_308
+	{	category = World,
+		clip
+		{
+			file = media/sound/[1]Shot_308.wav,
+			distanceMin = 0,
+			distanceMax = 150,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound [1]Shot_357
+	{	category = World,
+		clip
+		{
+			file = media/sound/[1]Shot_357.wav,
+			distanceMin = 0,
+			distanceMax = 60,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound [1]Shot_380
+	{	category = World,
+		clip
+		{
+			file = media/sound/[1]Shot_380.wav,
+			distanceMin = 0,
+			distanceMax = 40,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound [1]Shot_410g
+	{	category = World,
+		clip
+		{
+			file = media/sound/[1]Shot_410g.wav,
+			distanceMin = 0,
+			distanceMax = 80,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound [1]Shot_545
+	{	category = World,
+		clip
+		{
+			file = media/sound/[1]Shot_545.wav,
+			distanceMin = 0,
+			distanceMax = 100,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound [1]Shot_556
+	{	category = World,
+		clip
+		{
+			file = media/sound/[1]Shot_556.wav,
+			distanceMin = 0,
+			distanceMax = 100,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound [1]Shot_762x39
+	{	category = World,
+		clip
+		{
+			file = media/sound/[1]Shot_762x39.wav,
+			distanceMin = 0,
+			distanceMax = 120,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound [1]Shot_762x54r
+	{	category = World,
+		clip
+		{
+			file = media/sound/[1]Shot_762x54r.wav,
+			distanceMin = 0,
+			distanceMax = 150,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound [1]Shot_3006
+	{	category = World,
+		clip
+		{
+			file = media/sound/[1]Shot_3006.wav,
+			distanceMin = 0,
+			distanceMax = 150,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound [1]Shot_4570
+	{	category = World,
+		clip
+		{
+			file = media/sound/[1]Shot_4570.wav,
+			distanceMin = 0,
+			distanceMax = 100,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound [1]Shot_BB177
+	{	category = World,
+		clip
+		{
+			file = media/sound/[1]Shot_BB177.wav,
+			distanceMin = 0,
+			distanceMax = 20,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+
+/*	-------------------------------------------------------------------------------- 	*/
+/*	------------------------	[1] SHOT SUPPRESSED	------------------------ 	*/
+/*	-------------------------------------------------------------------------------- 	*/
+	sound SD[1]Shot_4g
+	{	category = Item,
+		clip
+		{
+			file = media/sound/SD[1]Shot_4g.wav,
+			distanceMin = 0,
+			distanceMax = 40,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound SD[1]Shot_9
+	{	category = Item,
+		clip
+		{
+			file = media/sound/SD[1]Shot_9.wav,
+			distanceMin = 0,
+			distanceMax = 20,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound SD[1]Shot_10g
+	{	category = Item,
+		clip
+		{
+			file = media/sound/SD[1]Shot_10g.wav,
+			distanceMin = 0,
+			distanceMax = 40,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound SD[1]Shot_12g
+	{	category = Item,
+		clip
+		{
+			file = media/sound/SD[1]Shot_12g.wav,
+			distanceMin = 0,
+			distanceMax = 40,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound SD[1]Shot_20g
+	{	category = Item,
+		clip
+		{
+			file = media/sound/SD[1]Shot_20g.wav,
+			distanceMin = 0,
+			distanceMax = 40,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound SD[1]Shot_22
+	{	category = Item,
+		clip
+		{
+			file = media/sound/SD[1]Shot_22.wav,
+			distanceMin = 0,
+			distanceMax = 10,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound SD[1]Shot_38
+	{	category = Item,
+		clip
+		{
+			file = media/sound/SD[1]Shot_38.wav,
+			distanceMin = 0,
+			distanceMax = 20,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound SD[1]Shot_40mm
+	{	category = Item,
+		clip
+		{
+			file = media/sound/SD[1]Shot_40mm.wav,
+			distanceMin = 0,
+			distanceMax = 10,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound SD[1]Shot_44
+	{	category = Item,
+		clip
+		{
+			file = media/sound/SD[1]Shot_44.wav,
+			distanceMin = 0,
+			distanceMax = 30,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound SD[1]Shot_45
+	{	category = Item,
+		clip
+		{
+			file = media/sound/SD[1]Shot_45.wav,
+			distanceMin = 0,
+			distanceMax = 20,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound SD[1]Shot_45LC
+	{	category = Item,
+		clip
+		{
+			file = media/sound/SD[1]Shot_45LC.wav,
+			distanceMin = 0,
+			distanceMax = 40,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound SD[1]Shot_50
+	{	category = Item,
+		clip
+		{
+			file = media/sound/SD[1]Shot_50.wav,
+			distanceMin = 0,
+			distanceMax = 60,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound SD[1]Shot_50MAG
+	{	category = Item,
+		clip
+		{
+			file = media/sound/SD[1]Shot_50MAG.wav,
+			distanceMin = 0,
+			distanceMax = 40,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound SD[1]Shot_57
+	{	category = Item,
+		clip
+		{
+			file = media/sound/SD[1]Shot_57.wav,
+			distanceMin = 0,
+			distanceMax = 20,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound SD[1]Shot_223
+	{	category = Item,
+		clip
+		{
+			file = media/sound/SD[1]Shot_223.wav,
+			distanceMin = 0,
+			distanceMax = 40,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound SD[1]Shot_308
+	{	category = Item,
+		clip
+		{
+			file = media/sound/SD[1]Shot_308.wav,
+			distanceMin = 0,
+			distanceMax = 40,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound SD[1]Shot_357
+	{	category = Item,
+		clip
+		{
+			file = media/sound/SD[1]Shot_357.wav,
+			distanceMin = 0,
+			distanceMax = 30,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound SD[1]Shot_380
+	{	category = Item,
+		clip
+		{
+			file = media/sound/SD[1]Shot_380.wav,
+			distanceMin = 0,
+			distanceMax = 20,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound SD[1]Shot_410g
+	{	category = Item,
+		clip
+		{
+			file = media/sound/SD[1]Shot_410g.wav,
+			distanceMin = 0,
+			distanceMax = 30,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound SD[1]Shot_545
+	{	category = Item,
+		clip
+		{
+			file = media/sound/SD[1]Shot_545.wav,
+			distanceMin = 0,
+			distanceMax = 40,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound SD[1]Shot_556
+	{	category = Item,
+		clip
+		{
+			file = media/sound/SD[1]Shot_556.wav,
+			distanceMin = 0,
+			distanceMax = 40,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound SD[1]Shot_762x39
+	{	category = Item,
+		clip
+		{
+			file = media/sound/SD[1]Shot_762x39.wav,
+			distanceMin = 0,
+			distanceMax = 40,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound SD[1]Shot_762x54r
+	{	category = Item,
+		clip
+		{
+			file = media/sound/SD[1]Shot_762x54r.wav,
+			distanceMin = 0,
+			distanceMax = 50,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound SD[1]Shot_3006
+	{	category = Item,
+		clip
+		{
+			file = media/sound/SD[1]Shot_3006.wav,
+			distanceMin = 0,
+			distanceMax = 50,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound SD[1]Shot_4570
+	{	category = Item,
+		clip
+		{
+			file = media/sound/SD[1]Shot_4570.wav,
+			distanceMin = 0,
+			distanceMax = 40,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound SD[1]Shot_BB177
+	{	category = Item,
+		clip
+		{
+			file = media/sound/SD[1]Shot_BB177.wav,
+			distanceMin = 0,
+			distanceMax = 10,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+
+
+/*	-------------------------------------------------------------------------------- 	*/
+/*	------------------------	[6] ROTARY 		------------------------ 	*/
+/*	-------------------------------------------------------------------------------- 	*/
+	sound [6]Minigun_556
+	{	category = Item,
+		clip
+		{
+			file = media/sound/[6]Minigun_556.wav,
+			distanceMin = 0,
+			distanceMax = 100,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound [6]Minigun_308
+	{	category = Item,
+		clip
+		{
+			file = media/sound/[6]Minigun_308.wav,
+			distanceMin = 0,
+			distanceMax = 150,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+	sound [6]Minigun_50
+	{	category = Item,
+		clip
+		{
+			file = media/sound/[6]Minigun_50.wav,
+			distanceMin = 0,
+			distanceMax = 200,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+
+
+/*	-------------------------------------------------------------------------------- 	*/
+/*	------------------------	OTHER SHOT SOUND	------------------------ 	*/
+/*	-------------------------------------------------------------------------------- 	*/
+	sound [1]Shot_Rocket
+	{	category = World,
+		clip
+		{
+			file = media/sound/[1]Shot_Rocket.wav,
+			distanceMin = 0,
+			distanceMax = 30,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+
+	sound [1]Explode
+	{	category = Item,
+		clip
+		{
+			event = Weapon/Firearm/SawnOffJS2000Shotgun/Shoot,
+/*			file = media/sound/explode.ogg,
+			SoundVolume	= 100,	
+			SoundRadius	= 100,	
+			distanceMin = 20,
+			distanceMax = 200,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.8,		*/
+	}	}
+
+	sound Flame_Fire
+	{	category = World,
+		clip
+		{
+			file = media/sound/Flame_Fire.wav,
+			distanceMin = 0,
+			distanceMax = 10,
+			reverbMaxRange = 0,
+			reverbFactor = 0,
+			volume = 0.5,
+	}	}
+
+}
+
+
+
+/* VANILLA SOUND EVENTS
+event = Weapon/Firearm/M9/Shoot,
+event = Weapon/Firearm/DesertEagle/Shoot,
+event = Weapon/Firearm/DoubleBarrelShotgun/Shoot,
+event = Weapon/Firearm/SawnOffDoubleBarrelShotgun/Shoot,
+event = Weapon/Firearm/JS2000Shotgun/Shoot,
+event = Weapon/Firearm/SawnOffJS2000Shotgun/Shoot,
+event = Weapon/Firearm/SniperRifle/Shoot,
+
+event = Weapon/Firearm/M14/Shoot,
+event = Weapon/Firearm/M16/Shoot,
+event = Weapon/Firearm/M36/Shoot,
+
+event = Weapon/Firearm/M625/Shoot,
+event = Weapon/Firearm/M1911/Shoot,
+event = Weapon/Firearm/Magnum/Shoot,
+event = Weapon/Firearm/MSR700/Shoot,
+event = Weapon/Firearm/MSR788/Shoot,
+event = Weapon/Firearm/Pistol/Shoot,
+*/

@@ -1,0 +1,813 @@
+module Base
+{
+
+/*************************/
+/**	SOLVENT TRAP	**/
+/*************************/
+	recipe Make Solvent Trap
+	{
+		Base.SolventTrap_Adapter,
+		Base.Oil_Filter,
+		Result:Base.Suppressor_Oil,
+		Category:Firearm,
+		Sound:SolventTrap_Adapter,
+		Time:100.0,
+	}
+
+/*************************/
+/**	MIX AMMO		**/
+/*************************/
+	recipe Mix 223 & 556
+	{
+		Base.223Bullets,
+		Result:Base.556Bullets,
+		Category:Firearm,
+		Sound:TransAmmo,
+		Time:10.0,
+	}
+	recipe Mix 556 & 223
+	{
+		Base.556Bullets,
+		Result:Base.223Bullets,
+		Category:Firearm,
+		Sound:TransAmmo,
+		Time:10.0,
+	}
+
+	recipe Mix 762x51 & 308
+	{
+		Base.762x51Bullets,
+		Result:Base.308Bullets,
+		Category:Firearm,
+		Sound:TransAmmo,
+		Time:10.0,
+	}
+	recipe Mix 308 & 762x51
+	{
+		Base.308Bullets,
+		Result:Base.762x51Bullets,
+		Category:Firearm,
+		Sound:TransAmmo,
+		Time:10.0,
+	}
+
+/*************************/
+/**	MINIGUN CAN		**/
+/*************************/
+	recipe Use AmmoCan as 5.56x45mm Minigun Magazine
+	{
+		AmmoCan50_EMPTY/AmmoCan50_223/AmmoCan50_556/AmmoCan50_762x39/AmmoCan50_308/AmmoCan50_762x51/AmmoCan50_762x54r/AmmoCan50_3006/AmmoCan50_50/AmmoCan50_410/AmmoCan50_20/AmmoCan50_12/AmmoCan50_10/AmmoCan50_4/AmmoCan50_MIX/AmmoCan50_SHOT/AmmoCan50_HE/AmmoCan50_INC,
+	/*	556Belt=1,		*/
+		Result	:556MiniCan,
+		Category:Firearm,
+		Sound	:StormyM249ClipLoad,
+		Time	:80.0,
+		OnTest	:EmptyCan_Test,	
+	}
+
+	recipe Use AmmoCan as .308 Minigun Magazine
+	{
+		AmmoCan50_EMPTY/AmmoCan50_223/AmmoCan50_556/AmmoCan50_762x39/AmmoCan50_308/AmmoCan50_762x51/AmmoCan50_762x54r/AmmoCan50_3006/AmmoCan50_50/AmmoCan50_410/AmmoCan50_20/AmmoCan50_12/AmmoCan50_10/AmmoCan50_4/AmmoCan50_MIX/AmmoCan50_SHOT/AmmoCan50_HE/AmmoCan50_INC,
+	/*	556Belt=1,		*/
+		Result	:308MiniCan,
+		Category:Firearm,
+		Sound	:StormyM249ClipLoad,
+		Time	:80.0,
+		OnTest	:EmptyCan_Test,	
+	}
+
+	recipe Use AmmoCan as .50-BMG Minigun Magazine
+	{
+		AmmoCan50_EMPTY/AmmoCan50_223/AmmoCan50_556/AmmoCan50_762x39/AmmoCan50_308/AmmoCan50_762x51/AmmoCan50_762x54r/AmmoCan50_3006/AmmoCan50_50/AmmoCan50_410/AmmoCan50_20/AmmoCan50_12/AmmoCan50_10/AmmoCan50_4/AmmoCan50_MIX/AmmoCan50_SHOT/AmmoCan50_HE/AmmoCan50_INC,
+	/*	556Belt=1,		*/
+		Result	:50MiniCan,
+		Category:Firearm,
+		Sound	:StormyM249ClipLoad,
+		Time	:80.0,
+		OnTest	:EmptyCan_Test,	
+	}
+
+	recipe Use Minigun Magazine as AmmoCan
+	{
+		556MiniCan/308MiniCan/50MiniCan,
+	/*	556Belt=1,		*/
+		Result	:AmmoCan50_EMPTY,
+		Category:Firearm,
+		Sound	:StormyM249ClipLoad,
+		Time	:80.0,
+		OnTest	:EmptyMag_Test,
+	}
+
+
+/*************************/
+/**	DIY SUPPRESSOR	**/
+/*************************/
+	recipe Craft Pop Bottle Suppressor
+	{
+		PopBottleEmpty,
+		DuctTape=2,
+		Result:Suppressor_Bottle,
+		Category:Firearm,
+		Sound : PZ_DuctTape,
+		Time:100.0,
+	}
+
+
+/*************************/
+/**	CHOKE SET		**/
+/*************************/
+	recipe Combine Dbl-Barrel Choke Set
+	{
+		Choke_Full=2,
+		Result:Choke_Full_Dbl,
+		Category:Firearm,
+		Time:20.0,
+	}
+
+	recipe Separate Dbl-Barrel Choke Set
+	{
+		Choke_Full_Dbl,
+		Result:Choke_Full=2,
+		Category:Firearm,
+		Time:20.0,
+	}
+
+
+/*************************/
+/**	MAG EXTENSION	**/
+/*************************/
+	recipe Install CP33 (+17)Magbase
+	{			
+		CP33Clip,
+		CP33_17MagBase,
+		Result : CP33ExtClip,
+		Category:Firearm,
+		Sound : StormyM1ClipLoad,
+		Time : 50.0,
+		OnTest : MagBase_Test,
+	}
+
+
+/*************************/
+/**	TC BARRELS		**/
+/*************************/
+	recipe	Install 308 Barrel
+	{			
+		Thompson_Center_3006/Thompson_Center_4570,
+		Barrel_308,
+		Result : Thompson_Center_308,
+		Category:Firearm,
+		Sound : StormyM1ClipLoad,
+		Time : 200.0,
+		OnCreate : Swap_Barrel,
+	}
+	recipe	Install 3006 Barrel
+	{			
+		Thompson_Center_308/Thompson_Center_4570,
+		Barrel_3006,
+		Result : Thompson_Center_3006,
+		Category:Firearm,
+		Sound : StormyM1ClipLoad,
+		Time : 200.0,
+		OnCreate : Swap_Barrel,
+	}
+	recipe	Install 4570 Barrel
+	{			
+		Thompson_Center_3006/Thompson_Center_308,
+		Barrel_4570,
+		Result : Thompson_Center_4570,
+		Category:Firearm,
+		Sound : StormyM1ClipLoad,
+		Time : 200.0,
+		OnCreate : Swap_Barrel,
+	}
+
+
+/*************************/
+/**	NEF BARRELS		**/
+/*************************/
+	recipe	Install 45LC Barrel
+	{			
+		NEF_Handi_38/NEF_Handi_357/NEF_Handi_38_Sawed/NEF_Handi_357_Sawed,
+		Barrel_45LC,
+		Result : NEF_Handi_45LC,
+		Category:Firearm,
+		Sound : StormyM1ClipLoad,
+		Time : 200.0,
+		OnCreate : Swap_Barrel,
+	}
+	recipe	Install 357 Barrel
+	{			
+		NEF_Handi_45LC/NEF_Handi_410/NEF_Handi_45LC_Sawed/NEF_Handi_410_Sawed,
+		Barrel_357,
+		Result : NEF_Handi_357,
+		Category:Firearm,
+		Sound : StormyM1ClipLoad,
+		Time : 200.0,
+		OnCreate : Swap_Barrel,
+	}
+	recipe	Install 45LC Short Barrel
+	{			
+		NEF_Handi_38/NEF_Handi_357/NEF_Handi_38_Sawed/NEF_Handi_357_Sawed,
+		Barrel_45LC_Short,
+		Result : NEF_Handi_45LC_Sawed,
+		Category:Firearm,
+		Sound : StormyM1ClipLoad,
+		Time : 200.0,
+		OnCreate : Swap_Barrel,
+	}
+	recipe	Install 357 Short Barrel
+	{			
+		NEF_Handi_45LC/NEF_Handi_410/NEF_Handi_45LC_Sawed/NEF_Handi_410_Sawed,
+		Barrel_357_Short,
+		Result : NEF_Handi_357_Sawed,
+		Category:Firearm,
+		Sound : StormyM1ClipLoad,
+		Time : 200.0,
+		OnCreate : Swap_Barrel,
+	}
+
+/*******************************/
+/**	MANUFACTURE AMMO		**/
+/*******************************/
+	recipe Make 5.7x28mm Ammunition
+	{
+		Brass57		= 1,
+		GunPowder	= 2,
+		PrimerSM	= 1,
+		Lead57		= 1,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: Base.Bullets57,
+		Time			: 70.0,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Make 380-ACP Ammunition
+	{
+		Brass380	= 1,
+		GunPowder	= 2,
+		PrimerSM	= 1,
+		Lead9		= 1,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: Base.Bullets380,
+		Time			: 70.0,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Make 9mm Ammunition
+	{
+		Brass9		= 1,
+		GunPowder	= 3,
+		PrimerSM	= 1,
+		Lead9		= 1,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: Base.Bullets9mm,
+		Time			: 70.0,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Make 38-SPC Ammunition
+	{
+		Brass38		= 1,
+		GunPowder	= 4,
+		PrimerSM	= 1,
+		Lead38		= 1,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: Base.Bullets38,
+		Time			: 70.0,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Make 357-MAG Ammunition
+	{
+		Brass357	= 1,
+		GunPowder	= 5,
+		PrimerSM	= 1,
+		Lead38		= 1,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: Base.Bullets357,
+		Time			: 70.0,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Make 45-ACP Ammunition
+	{
+		Brass45		= 1,
+		GunPowder	= 4,
+		PrimerSM	= 1,
+		Lead45		= 1,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: Base.Bullets45,
+		Time			: 70.0,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Make 45-LC Ammunition
+	{
+		Brass45LC	= 1,
+		GunPowder	= 6,
+		PrimerSM	= 1,
+		Lead45		= 1,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: Base.Bullets45LC,
+		Time			: 70.0,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Make 44-MAG Ammunition
+	{
+		Brass44		= 1,
+		GunPowder	= 6,
+		PrimerSM	= 1,
+		Lead44		= 1,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: Base.Bullets44,
+		Time			: 70.0,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Make 50-MAG Ammunition
+	{
+		Brass50MAG	= 1,
+		GunPowder	= 7,
+		PrimerLG	= 1,
+		Lead50		= 1,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: Base.Bullets50MAG,
+		Time			: 70.0,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Make 45-70 GOV Ammunition
+	{
+		Brass4570	= 1,
+		GunPowder	= 7,
+		PrimerLG	= 1,
+		Lead45		= 1,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: Base.Bullets4570,
+		Time			: 70.0,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Make 223-REM Ammunition
+	{
+		Brass223	= 1,
+		GunPowder	= 8,
+		PrimerSM	= 1,
+		Lead556		= 1,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: Base.223Bullets,
+		Time			: 70.0,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Make 5.56x45mm Ammunition
+	{
+		Brass556	= 1,
+		GunPowder	= 8,
+		PrimerSM	= 1,
+		Lead556		= 1,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: Base.556Bullets,
+		Time			: 70.0,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Make 5.45x39mm Ammunition
+	{
+		Brass545x39	= 1,
+		GunPowder	= 9,
+		PrimerLG	= 1,
+		Lead545		= 1,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: Base.545x39Bullets,
+		Time			: 70.0,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Make 7.62x39mm Ammunition
+	{
+		Brass762x39	= 1,
+		GunPowder	= 9,
+		PrimerLG	= 1,
+		Lead30		= 1,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: Base.762x39Bullets,
+		Time			: 70.0,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Make 308-WIN Ammunition
+	{
+		Brass308	= 1,
+		GunPowder	= 10,
+		PrimerLG	= 1,
+		Lead30		= 1,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: Base.308Bullets,
+		Time			: 70.0,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Make 7.62x51mm Ammunition
+	{
+		Brass762x51	= 1,
+		GunPowder	= 10,
+		PrimerLG	= 1,
+		Lead30		= 1,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: Base.762x51Bullets,
+		Time			: 70.0,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Make 7.62x54mm-R Ammunition
+	{
+		Brass762x54r	= 1,
+		GunPowder	= 11,
+		PrimerLG	= 1,
+		Lead30		= 1,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: Base.762x54rBullets,
+		Time			: 70.0,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Make 30-06 SPG Ammunition
+	{
+		Brass3006	= 1,
+		GunPowder	= 11,
+		PrimerLG	= 1,
+		Lead30		= 1,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: Base.3006Bullets,
+		Time			: 70.0,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Make 50-BMG Ammunition
+	{
+		Brass50BMG	= 1,
+		GunPowder	= 20,
+		PrimerLG	= 1,
+		Lead50		= 1,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: Base.50BMGBullets,
+		Time			: 70.0,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Make 410g ShotShell
+	{
+		Hull410g	= 1,
+		GunPowder	= 12,
+		PrimerSG	= 1,
+		Lead00Buck	= 5,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: Base.410gShotgunShells,
+		Time			: 70.0,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Make 20g ShotShell
+	{
+		Hull20g		= 1,
+		GunPowder	= 14,
+		PrimerSG	= 1,
+		Lead00Buck	= 7,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: Base.20gShotgunShells,
+		Time			: 70.0,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Make 12g ShotShell
+	{
+		Hull12g		= 1,
+		GunPowder	= 16,
+		PrimerSG	= 1,
+		Lead00Buck	= 9,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: Base.ShotgunShells,
+		Time			: 70.0,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Make 10g ShotShell
+	{
+		Hull10g		= 1,
+		GunPowder	= 18,
+		PrimerSG	= 1,
+		Lead00Buck	= 12,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: Base.10gShotgunShells,
+		Time			: 70.0,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Make 4g ShotShell
+	{
+		Hull4g		= 1,
+		GunPowder	= 22,
+		PrimerSG	= 1,
+		Lead00Buck	= 15,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: Base.4gShotgunShells,
+		Time			: 70.0,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+
+/*******************************/
+/**	DISASSEMBLE AMMO		**/
+/*******************************/
+	recipe Scrap 5.7x28mm Ammunition
+	{
+		Base.Bullets57,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 70.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 380-ACP Ammunition
+	{
+		Base.Bullets380,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 70.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 9mm Ammunition
+	{
+		Base.Bullets9mm,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 70.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 38-SPC Ammunition
+	{
+		Base.Bullets38,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 70.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 357-MAG Ammunition
+	{
+		Base.Bullets357,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 70.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 45-ACP Ammunition
+	{
+		Base.Bullets45,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 70.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 45-LC Ammunition
+	{
+		Base.Bullets45LC,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 70.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 44-MAG Ammunition
+	{
+		Base.Bullets44,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 70.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 50-MAG Ammunition
+	{
+		Base.Bullets50MAG,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 70.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 45-70 GOV Ammunition
+	{
+		Base.Bullets4570,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 70.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 223-REM Ammunition
+	{
+		Base.223Bullets,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 70.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 5.56x45mm Ammunition
+	{
+		Base.556Bullets,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 70.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 5.45x39mm Ammunition
+	{
+		Base.545x39Bullets,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 70.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 7.62x39mm Ammunition
+	{
+		Base.762x39Bullets,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 70.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 308-WIN Ammunition
+	{
+		Base.308Bullets,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 70.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 7.62x51mm Ammunition
+	{
+		Base.762x51Bullets,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 70.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 7.62x54r Ammunition
+	{
+		Base.762x54rBullets,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 70.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 30-06 SPG Ammunition
+	{
+		Base.3006Bullets,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 70.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 50-BMG Ammunition
+	{
+		Base.50BMGBullets,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 70.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 410g Shotgun Shell
+	{
+		Base.410gShotgunShells,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 70.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 20g Shotgun Shell
+	{
+		Base.20gShotgunShells,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 70.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 12g Shotgun Shell
+	{
+		Base.ShotgunShells,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 70.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 10g Shotgun Shell
+	{
+		Base.10gShotgunShells,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 70.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Scrap 4g Shotgun Shell
+	{
+		Base.4gShotgunShells,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: GunPowder,
+		Time			: 70.0,
+		OnCreate		: Scrap_Ammo,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+}	

@@ -1,0 +1,57 @@
+module Base
+{
+    item Primer1
+    {
+        DisplayCategory = Junk,
+        Weight	=	0.01,
+        Type	=	Normal,
+        DisplayName	=	Primer1,
+        Icon	=	Primer1,
+        WorldStaticModel = W_Primer_Pack_1,
+    }
+    item Primer2
+    {
+        DisplayCategory = Junk,
+        Weight	=	0.01,
+        Type	=	Normal,
+        DisplayName	=	Primer2,
+        Icon	=	Primer1,
+        WorldStaticModel = W_Primer_Pack_2,
+    }
+    item Primer3
+    {
+        DisplayCategory = Junk,
+        Weight	=	0.01,
+        Type	=	Normal,
+        DisplayName	=	Primer3,
+        Icon	=	Primer1,
+        WorldStaticModel = W_Primer_Pack_3,
+    }
+    item Project
+    {
+        DisplayCategory = Junk,
+        Weight	=	0.01,
+        Type	=	Normal,
+        DisplayName	=	Project,
+        Icon	=	Primer1,
+        WorldStaticModel = W_Project_Pack,
+    }
+    item OnlyPrimer
+    {
+        DisplayCategory = Junk,
+        Weight	=	0.01,
+        Type	=	Normal,
+        DisplayName	=	OnlyPrimer,
+        Icon	=	Primer1,
+        WorldStaticModel = W_Primer,
+    }
+    item OnlyProject
+    {
+        DisplayCategory = Junk,
+        Weight	=	0.01,
+        Type	=	Normal,
+        DisplayName	=	OnlyProject,
+        Icon	=	Primer1,
+        WorldStaticModel = W_Project,
+    }
+}

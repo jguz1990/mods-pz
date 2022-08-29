@@ -1,0 +1,39 @@
+module Base
+{
+	model W_Projectiles_Pack
+	{
+		mesh = WorldItems/W_Project_Pack,
+		texture = WorldItems/W_Project_Pack,
+		scale = 0.01,
+	}
+	model W_Primer_Pack_1
+	{
+		mesh = WorldItems/W_Primer_Pack,
+		texture = WorldItems/W_Primer_Pack_1,
+		scale = 0.01,
+	}
+	model W_Primer_Pack_2
+	{
+		mesh = WorldItems/W_Primer_Pack,
+		texture = WorldItems/W_Primer_Pack_2,
+		scale = 0.01,
+	}
+	model W_Primer_Pack_3
+	{
+		mesh = WorldItems/W_Primer_Pack,
+		texture = WorldItems/W_Primer_Pack_3,
+		scale = 0.01,
+	}
+	model W_Projectiles
+	{
+		mesh = WorldItems/W_Project,
+		texture = WorldItems/W_Project,
+		scale = 0.01,
+	}
+	model W_Primer
+	{
+		mesh = WorldItems/W_Primer,
+		texture = WorldItems/W_Primer,
+		scale = 0.01,
+	}
+}

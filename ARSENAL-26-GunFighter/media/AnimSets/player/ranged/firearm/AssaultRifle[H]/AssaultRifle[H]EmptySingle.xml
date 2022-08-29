@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="AssaultRifle[H]Empty.xml">
+	<m_Name>AssaultRifle[H]EmptySingle</m_Name>
+	<m_Conditions />
+	<m_Conditions />
+	<m_Conditions />
+	<m_Conditions>
+		<m_StringValue>Single[H]</m_StringValue>
+	</m_Conditions>
+	<m_Conditions />
+</animNode>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="AssaultRifle[H]Default.xml">
+	<m_Name>AssaultRifle[H]Single</m_Name>
+<!--	<m_SpeedScale>singleShootSpeed</m_SpeedScale>	-->
+	<m_SpeedScale>1</m_SpeedScale>
+	<m_Scalar>recoilVarX</m_Scalar>
+	<m_Scalar2>recoilVarY</m_Scalar2>
+	<m_Conditions />
+	<m_Conditions />
+	<m_Conditions />
+	<m_Conditions>
+		<m_StringValue>Single[H]</m_StringValue>
+	</m_Conditions>
+	<m_2DBlends />
+	<m_2DBlends>
+		<m_XPos>-0.21</m_XPos>
+	</m_2DBlends>
+	<m_2DBlends>
+		<m_XPos>0.00</m_XPos>
+	</m_2DBlends>
+	<m_2DBlends>
+		<m_XPos>0.00</m_XPos>
+	</m_2DBlends>
+	<m_2DBlends>
+		<m_XPos>0.00</m_XPos>
+		<m_YPos>0.25</m_YPos>
+	</m_2DBlends>
+</animNode>
