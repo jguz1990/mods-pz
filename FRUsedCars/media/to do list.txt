@@ -1,0 +1,33 @@
+DONE Fix sound
+DONE Fix metal vehicle fixings
+DONE Change swat truck - needs mask for rearleftdoor and rearrightdoor
+DONE Make CRX two seater
+DONE Add rest of trailers
+DONE Offroad variants of 1971 C10
+DONE Fix the gas side on the 1971 c10
+DONE Change trailer spawns
+TEMPORARY FIX Fix RV windows
+DONE Add mechanics window to new cars
+
+Add offroad C10s to:
+	spawnlist - DONE
+	item distribution - DONE
+Add florist to:
+	spawnlist - DONE
+	distribution - DONE
+Add Monte Carlo to:
+	spwanlist - DONE
+	item distribution - DONE
+Add Offroad Cherokee to:
+	spawnlist - DONE
+	distribution - DONE
+	
+Adjust school bus spawn - DONE
+
+
+Add stuff to RV/camper
+Add custom spawns for some vehicles
+Fuck around with semi trucks and trailers again
+Add prison bus
+
+Hey whoever you are, sneaking through my files, taking a peep... You little rascal!

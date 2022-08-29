@@ -1,0 +1,626 @@
+module Tsarcraft
+{
+	imports
+	{
+		Base
+	}
+/********************Generated Music Carriers********************/
+
+	model VinylACDCHighwayToHell(1979)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/ACDCHighwayToHell(1979),
+		scale	=	0.0012,
+	}
+
+	item VinylACDCHighwayToHell(1979)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl AC DC - Highway To Hell (1979),
+		WorldStaticModel = Tsarcraft.VinylACDCHighwayToHell(1979)Model,
+	}
+
+	model VinylAirSupplyMakingLoveOutOfNothingAtAll(1983)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/AirSupplyMakingLoveOutOfNothingAtAll(1983),
+		scale	=	0.0012,
+	}
+
+	item VinylAirSupplyMakingLoveOutOfNothingAtAll(1983)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord11,
+		DisplayName		=	Vinyl Air Supply - Making Love Out Of Nothing At All (1983),
+		WorldStaticModel = Tsarcraft.VinylAirSupplyMakingLoveOutOfNothingAtAll(1983)Model,
+	}
+
+	model VinylAlabamaChristmasInDixie(1985)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/AlabamaChristmasInDixie(1985),
+		scale	=	0.0012,
+	}
+
+	item VinylAlabamaChristmasInDixie(1985)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord7,
+		DisplayName		=	Vinyl Alabama - Christmas In Dixie (1985),
+		WorldStaticModel = Tsarcraft.VinylAlabamaChristmasInDixie(1985)Model,
+	}
+
+	model VinylAliceCooperPoison(1989)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/AliceCooperPoison(1989),
+		scale	=	0.0012,
+	}
+
+	item VinylAliceCooperPoison(1989)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl Alice Cooper - Poison (1989),
+		WorldStaticModel = Tsarcraft.VinylAliceCooperPoison(1989)Model,
+	}
+
+	model VinylAndyWilliamsItsTheMostWonderfulTimeOfTheYear(1963)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/AndyWilliamsItsTheMostWonderfulTimeOfTheYear(1963),
+		scale	=	0.0012,
+	}
+
+	item VinylAndyWilliamsItsTheMostWonderfulTimeOfTheYear(1963)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord6,
+		DisplayName		=	Vinyl Andy Williams - Its The Most Wonderful Time Of The Year (1963),
+		WorldStaticModel = Tsarcraft.VinylAndyWilliamsItsTheMostWonderfulTimeOfTheYear(1963)Model,
+	}
+
+	model VinylBeeGeesStayinAlive(1977)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/BeeGeesStayinAlive(1977),
+		scale	=	0.0012,
+	}
+
+	item VinylBeeGeesStayinAlive(1977)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord7,
+		DisplayName		=	Vinyl Bee Gees - Stayin Alive (1977),
+		WorldStaticModel = Tsarcraft.VinylBeeGeesStayinAlive(1977)Model,
+	}
+
+	model VinylBennyGoodmanThatsAPlenty(1931)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/BennyGoodmanThatsAPlenty(1931),
+		scale	=	0.0012,
+	}
+
+	item VinylBennyGoodmanThatsAPlenty(1931)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord9,
+		DisplayName		=	Vinyl Benny Goodman - Thats A Plenty (1931),
+		WorldStaticModel = Tsarcraft.VinylBennyGoodmanThatsAPlenty(1931)Model,
+	}
+
+	model VinylBillHaleyRockAroundTheClock(1955)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/BillHaleyRockAroundTheClock(1955),
+		scale	=	0.0012,
+	}
+
+	item VinylBillHaleyRockAroundTheClock(1955)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl Bill Haley - Rock Around The Clock (1955),
+		WorldStaticModel = Tsarcraft.VinylBillHaleyRockAroundTheClock(1955)Model,
+	}
+
+	model VinylBingCrosbyIWillBeHomeForChristmas(1943)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/BingCrosbyIWillBeHomeForChristmas(1943),
+		scale	=	0.0012,
+	}
+
+	item VinylBingCrosbyIWillBeHomeForChristmas(1943)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord8,
+		DisplayName		=	Vinyl Bing Crosby - I Will Be Home For Christmas (1943),
+		WorldStaticModel = Tsarcraft.VinylBingCrosbyIWillBeHomeForChristmas(1943)Model,
+	}
+
+	model VinylBingCrosbyWhiteChristmas(1942)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/BingCrosbyWhiteChristmas(1942),
+		scale	=	0.0012,
+	}
+
+	item VinylBingCrosbyWhiteChristmas(1942)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord6,
+		DisplayName		=	Vinyl Bing Crosby - White Christmas (1942),
+		WorldStaticModel = Tsarcraft.VinylBingCrosbyWhiteChristmas(1942)Model,
+	}
+
+	model VinylBingCrosbyWinterWonderland(1945)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/BingCrosbyWinterWonderland(1945),
+		scale	=	0.0012,
+	}
+
+	item VinylBingCrosbyWinterWonderland(1945)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl Bing Crosby - Winter Wonderland (1945),
+		WorldStaticModel = Tsarcraft.VinylBingCrosbyWinterWonderland(1945)Model,
+	}
+
+	model VinylBlondieCallMe(1978)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/BlondieCallMe(1978),
+		scale	=	0.0012,
+	}
+
+	item VinylBlondieCallMe(1978)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord11,
+		DisplayName		=	Vinyl Blondie - Call Me (1978),
+		WorldStaticModel = Tsarcraft.VinylBlondieCallMe(1978)Model,
+	}
+
+	model VinylBlondieHeartOfGlass(1976)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/BlondieHeartOfGlass(1976),
+		scale	=	0.0012,
+	}
+
+	item VinylBlondieHeartOfGlass(1976)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl Blondie - Heart Of Glass (1976),
+		WorldStaticModel = Tsarcraft.VinylBlondieHeartOfGlass(1976)Model,
+	}
+
+	model VinylBobbyDarinBrandNewHouse(1958)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/BobbyDarinBrandNewHouse(1958),
+		scale	=	0.0012,
+	}
+
+	item VinylBobbyDarinBrandNewHouse(1958)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl Bobby Darin - Brand New House (1958),
+		WorldStaticModel = Tsarcraft.VinylBobbyDarinBrandNewHouse(1958)Model,
+	}
+
+	model VinylBobbyDarinDreamLover(1987)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/BobbyDarinDreamLover(1987),
+		scale	=	0.0012,
+	}
+
+	item VinylBobbyDarinDreamLover(1987)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl Bobby Darin - Dream Lover (1987),
+		WorldStaticModel = Tsarcraft.VinylBobbyDarinDreamLover(1987)Model,
+	}
+
+	model VinylBobbyDarinHallelujahILoveHerSo(1956)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/BobbyDarinHallelujahILoveHerSo(1956),
+		scale	=	0.0012,
+	}
+
+	item VinylBobbyDarinHallelujahILoveHerSo(1956)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord11,
+		DisplayName		=	Vinyl Bobby Darin - Hallelujah I Love Her So (1956),
+		WorldStaticModel = Tsarcraft.VinylBobbyDarinHallelujahILoveHerSo(1956)Model,
+	}
+
+	item VinylBobbyHelmsJingleBellRock(1957)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord11,
+		DisplayName		=	Vinyl Bobby Helms - Jingle Bell Rock (1957),
+		WorldStaticModel = Tsarcraft.TCVinylrecord11,
+	}
+
+	model VinylBoneyMRasputin(1978)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/BoneyMRasputin(1978),
+		scale	=	0.0012,
+	}
+
+	item VinylBoneyMRasputin(1978)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord11,
+		DisplayName		=	Vinyl Boney M - Rasputin (1978),
+		WorldStaticModel = Tsarcraft.VinylBoneyMRasputin(1978)Model,
+	}
+
+	model VinylBootsRandolphYaketySax(1963)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/BootsRandolphYaketySax(1963),
+		scale	=	0.0012,
+	}
+
+	item VinylBootsRandolphYaketySax(1963)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl Boots Randolph - Yakety Sax (1963),
+		WorldStaticModel = Tsarcraft.VinylBootsRandolphYaketySax(1963)Model,
+	}
+
+	model VinylBrendaLeeRockinAroundTheChristmasTree(1958)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/BrendaLeeRockinAroundTheChristmasTree(1958),
+		scale	=	0.0012,
+	}
+
+	item VinylBrendaLeeRockinAroundTheChristmasTree(1958)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl Brenda Lee - Rockin Around The Christmas Tree (1958),
+		WorldStaticModel = Tsarcraft.VinylBrendaLeeRockinAroundTheChristmasTree(1958)Model,
+	}
+
+	model VinylDeanMartinWalkingInAWinterWonderland(1959)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/DeanMartinWalkingInAWinterWonderland(1959),
+		scale	=	0.0012,
+	}
+
+	item VinylDeanMartinWalkingInAWinterWonderland(1959)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl Dean Martin - Walking In A Winter Wonderland (1959),
+		WorldStaticModel = Tsarcraft.VinylDeanMartinWalkingInAWinterWonderland(1959)Model,
+	}
+
+	model VinylEarthaKittSantaBaby(1953)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/EarthaKittSantaBaby(1953),
+		scale	=	0.0012,
+	}
+
+	item VinylEarthaKittSantaBaby(1953)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord9,
+		DisplayName		=	Vinyl Eartha Kitt - Santa Baby (1953),
+		WorldStaticModel = Tsarcraft.VinylEarthaKittSantaBaby(1953)Model,
+	}
+
+	model VinylElvisPresleyBlueChristmas(1957)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/ElvisPresleyBlueChristmas(1957),
+		scale	=	0.0012,
+	}
+
+	item VinylElvisPresleyBlueChristmas(1957)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord10,
+		DisplayName		=	Vinyl Elvis Presley - Blue Christmas (1957),
+		WorldStaticModel = Tsarcraft.VinylElvisPresleyBlueChristmas(1957)Model,
+	}
+
+	model VinylElvisPresleyJailhouseRock(1958)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/ElvisPresleyJailhouseRock(1958),
+		scale	=	0.0012,
+	}
+
+	item VinylElvisPresleyJailhouseRock(1958)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord10,
+		DisplayName		=	Vinyl Elvis Presley - Jailhouse Rock (1958),
+		WorldStaticModel = Tsarcraft.VinylElvisPresleyJailhouseRock(1958)Model,
+	}
+
+	model VinylEnricoCarusoUnaFurtivaLagrima(1904)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/EnricoCarusoUnaFurtivaLagrima(1904),
+		scale	=	0.0012,
+	}
+
+	item VinylEnricoCarusoUnaFurtivaLagrima(1904)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord11,
+		DisplayName		=	Vinyl Enrico Caruso - Una Furtiva Lagrima (1904),
+		WorldStaticModel = Tsarcraft.VinylEnricoCarusoUnaFurtivaLagrima(1904)Model,
+	}
+
+	model VinylGeneAutryFrostyTheSnowMan(1951)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/GeneAutryFrostyTheSnowMan(1951),
+		scale	=	0.0012,
+	}
+
+	item VinylGeneAutryFrostyTheSnowMan(1951)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl Gene Autry - Frosty The Snow Man (1951),
+		WorldStaticModel = Tsarcraft.VinylGeneAutryFrostyTheSnowMan(1951)Model,
+	}
+
+	model VinylGuyMitchellHeartacheByTheNumbers50s(1959)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/GuyMitchellHeartacheByTheNumbers50s(1959),
+		scale	=	0.0012,
+	}
+
+	item VinylGuyMitchellHeartacheByTheNumbers50s(1959)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord10,
+		DisplayName		=	Vinyl Guy Mitchell - Heartache By The Numbers 50s (1959),
+		WorldStaticModel = Tsarcraft.VinylGuyMitchellHeartacheByTheNumbers50s(1959)Model,
+	}
+
+	model VinylHankWilliamsLovesickBlues(1949)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/HankWilliamsLovesickBlues(1949),
+		scale	=	0.0012,
+	}
+
+	item VinylHankWilliamsLovesickBlues(1949)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord11,
+		DisplayName		=	Vinyl Hank Williams - Lovesick Blues (1949),
+		WorldStaticModel = Tsarcraft.VinylHankWilliamsLovesickBlues(1949)Model,
+	}
+
+	model VinylJohnFaheySteelGuitarRag(1965)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/JohnFaheySteelGuitarRag(1965),
+		scale	=	0.0012,
+	}
+
+	item VinylJohnFaheySteelGuitarRag(1965)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord6,
+		DisplayName		=	Vinyl John Fahey - Steel Guitar Rag (1965),
+		WorldStaticModel = Tsarcraft.VinylJohnFaheySteelGuitarRag(1965)Model,
+	}
+
+	model VinylJohnnyHortonNorthToAlaska(1965)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/JohnnyHortonNorthToAlaska(1965),
+		scale	=	0.0012,
+	}
+
+	item VinylJohnnyHortonNorthToAlaska(1965)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord6,
+		DisplayName		=	Vinyl Johnny Horton - North To Alaska (1965),
+		WorldStaticModel = Tsarcraft.VinylJohnnyHortonNorthToAlaska(1965)Model,
+	}
+
+	model VinylJudyGarlandHaveYourselfAMerryLittleChristmas(1944)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/JudyGarlandHaveYourselfAMerryLittleChristmas(1944),
+		scale	=	0.0012,
+	}
+
+	item VinylJudyGarlandHaveYourselfAMerryLittleChristmas(1944)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord11,
+		DisplayName		=	Vinyl Judy Garland - Have Yourself A Merry Little Christmas (1944),
+		WorldStaticModel = Tsarcraft.VinylJudyGarlandHaveYourselfAMerryLittleChristmas(1944)Model,
+	}
+
+	model VinylKirstenFlagstadDieWalkure(1938)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/KirstenFlagstadDieWalkure(1938),
+		scale	=	0.0012,
+	}
+
+	item VinylKirstenFlagstadDieWalkure(1938)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord7,
+		DisplayName		=	Vinyl Kirsten Flagstad - Die Walkure (1938),
+		WorldStaticModel = Tsarcraft.VinylKirstenFlagstadDieWalkure(1938)Model,
+	}
+
+	model VinylLightninHopkinsJackstropperBlues(1950)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/LightninHopkinsJackstropperBlues(1950),
+		scale	=	0.0012,
+	}
+
+	item VinylLightninHopkinsJackstropperBlues(1950)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord11,
+		DisplayName		=	Vinyl Lightnin Hopkins - Jackstropper Blues (1950),
+		WorldStaticModel = Tsarcraft.VinylLightninHopkinsJackstropperBlues(1950)Model,
+	}
+
+	model VinylMelCarterHoldMeThrillMeKissMe(1965)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/MelCarterHoldMeThrillMeKissMe(1965),
+		scale	=	0.0012,
+	}
+
+	item VinylMelCarterHoldMeThrillMeKissMe(1965)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord10,
+		DisplayName		=	Vinyl Mel Carter - Hold Me Thrill Me Kiss Me (1965),
+		WorldStaticModel = Tsarcraft.VinylMelCarterHoldMeThrillMeKissMe(1965)Model,
+	}
+
+	model VinylNatKingColeTheChristmasSong(1961)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/NatKingColeTheChristmasSong(1961),
+		scale	=	0.0012,
+	}
+
+	item VinylNatKingColeTheChristmasSong(1961)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord9,
+		DisplayName		=	Vinyl Nat King Cole - The Christmas Song (1961),
+		WorldStaticModel = Tsarcraft.VinylNatKingColeTheChristmasSong(1961)Model,
+	}
+
+	model VinylRickyNelsonTravellinMan(1961)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/RickyNelsonTravellinMan(1961),
+		scale	=	0.0012,
+	}
+
+	item VinylRickyNelsonTravellinMan(1961)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl Ricky Nelson - Travellin Man (1961),
+		WorldStaticModel = Tsarcraft.VinylRickyNelsonTravellinMan(1961)Model,
+	}
+
+	model VinylRighteousBrothersUnchainedMelody(1965)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/RighteousBrothersUnchainedMelody(1965),
+		scale	=	0.0012,
+	}
+
+	item VinylRighteousBrothersUnchainedMelody(1965)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord8,
+		DisplayName		=	Vinyl Righteous Brothers - Unchained Melody (1965),
+		WorldStaticModel = Tsarcraft.VinylRighteousBrothersUnchainedMelody(1965)Model,
+	}
+
+	model VinylRobertJohnsonWalkingBlues(1936)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/RobertJohnsonWalkingBlues(1936),
+		scale	=	0.0012,
+	}
+
+	item VinylRobertJohnsonWalkingBlues(1936)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl Robert Johnson - Walking Blues (1936),
+		WorldStaticModel = Tsarcraft.VinylRobertJohnsonWalkingBlues(1936)Model,
+	}
+
+	model VinylThurlRavenscroftYoureAMeanOneMrGrinch(1966)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/ThurlRavenscroftYoureAMeanOneMrGrinch(1966),
+		scale	=	0.0012,
+	}
+
+	item VinylThurlRavenscroftYoureAMeanOneMrGrinch(1966)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl Thurl Ravenscroft - Youre A Mean One Mr Grinch (1966),
+		WorldStaticModel = Tsarcraft.VinylThurlRavenscroftYoureAMeanOneMrGrinch(1966)Model,
+	}
+
+}

@@ -1,0 +1,513 @@
+module Tsarcraft
+{
+	imports
+	{
+		Base
+	}
+/********************Generated Music Carriers********************/
+
+	item CassetteACDCHighwayToHell(1979)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette AC DC - Highway To Hell (1979),
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item CassetteAirSupplyMakingLoveOutOfNothingAtAll(1983)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette Air Supply - Making Love Out Of Nothing At All (1983),
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteAlabamaChristmasInDixie(1985)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette Alabama - Christmas In Dixie (1985),
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteAliceCooperPoison(1989)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette Alice Cooper - Poison (1989),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteBeeGeesStayinAlive(1977)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette Bee Gees - Stayin Alive (1977),
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteBlondieCallMe(1978)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette Blondie - Call Me (1978),
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteBlondieHeartOfGlass(1976)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette Blondie - Heart Of Glass (1976),
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteBobbyDarinDreamLover(1987)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette Bobby Darin - Dream Lover (1987),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteBonJoviLivinOnAPrayer(1986)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette Bon Jovi - Livin On A Prayer (1986),
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item CassetteBonJoviYouGiveLoveABadName(1986)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette Bon Jovi - You Give Love A Bad Name (1986),
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item CassetteBoneyMRasputin(1978)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette Boney M - Rasputin (1978),
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item CassetteBonnieTylerHoldingOutForAHero(1984)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette Bonnie Tyler - Holding Out For A Hero (1984),
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item CassetteBonnieTylerTotalEclipseOfTheHeart(1983)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette Bonnie Tyler - Total Eclipse Of The Heart (1983),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteBryanAdamsIDoItForYou(1991)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Bryan Adams - I Do It For You (1991),
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteCharleyPrideKissAnAngelGoodMorning(1971)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette Charley Pride - Kiss An Angel Good Morning (1971),
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item CassetteCyndiLauperTimeAfterTime(1983)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette Cyndi Lauper - Time After Time (1983),
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteDeadOrAliveYouSpinMeRound(1984)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette Dead Or Alive - You Spin Me Round (1984),
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteDepecheModePersonalJesus(1989)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette Depeche Mode - Personal Jesus (1989),
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item CassetteDollyPartonHardCandyChristmas(1982)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette Dolly Parton - Hard Candy Christmas (1982),
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteFlattAndScruggsFoggyMountainBreakdown(1968)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette Flatt And Scruggs - Foggy Mountain Breakdown (1968),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteForeignerIWantToKnowWhatLoveIs(1984)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette Foreigner - I Want To Know What Love Is (1984),
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteGeorgeBensonNothingsGonnaChange(1985)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette George Benson - Nothings Gonna Change (1985),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteIsraelKamakawiwooleOverTheRainbow(1990)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Israel Kamakawiwoole - Over The Rainbow (1990),
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteJohnDenverTakeMeHomeCountryRoads(1971)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette John Denver - Take Me Home Country Roads (1971),
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item CassetteJonaLewieStopTheCavalry(1978)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette Jona Lewie - Stop The Cavalry (1978),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteJoseFelicianoFelizNavidad(1970)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette Jose Feliciano - Feliz Navidad (1970),
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item CassetteJourneyDontStopBelievin(1981)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette Journey - Dont Stop Believin (1981),
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item CassetteKennyLogginsDangerZone(1986)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Kenny Loggins - Danger Zone (1986),
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteKissIWasMadeForLovinYou(1979)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette Kiss - I Was Made For Lovin You (1979),
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item CassetteLindaRonstadtAndAaronNevilleDontKnowMuch(1989)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette Linda Ronstadt And Aaron Neville - Dont Know Much (1989),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteMetallicaNothingElseMatters(1991)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette Metallica - Nothing Else Matters (1991),
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item CassetteMetallicaTheUnforgiven(1991)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Metallica - The Unforgiven (1991),
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteMichaelJacksonBillieJean(1982)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette Michael Jackson - Billie Jean (1982),
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item CassetteNirvanaSmellsLikeTeenSpirit(1991)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette Nirvana - Smells Like Teen Spirit (1991),
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item CassettePaulEngemannPushItToTheLimit(1983)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette Paul Engemann - Push It To The Limit (1983),
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item CassettePaulaAbdulStraightUp(1988)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette Paula Abdul - Straight Up (1988),
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item CassettePepeShadilay(1986)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette Pepe - Shadilay (1986),
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteQueen39(1975)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette Queen - 39 (1975),
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item CassetteQueenWeAreTheChampions(1977)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette Queen - We Are The Champions (1977),
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item CassetteQueenWeWillRockYou(1977)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Queen - We Will Rock You (1977),
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteREMLosingMyReligion(1991)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette R E M - Losing My Religion (1991),
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item CassetteRandyTravisDeeperThanTheHoller(1988)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette Randy Travis - Deeper Than The Holler (1988),
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item CassetteRandyTravisOldTimeChristmas(1989)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette Randy Travis - Old Time Christmas (1989),
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item CassetteScottMcKenzieSanFrancisco(1967)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette Scott McKenzie - San Francisco (1967),
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteSnapRhythmIsADancer(1992)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Snap - Rhythm Is A Dancer (1992),
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteSurvivorEyeOfTheTiger(1982)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette Survivor - Eye Of The Tiger (1982),
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteTheB52sLoveShack(1989)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette The B-52s - Love Shack (1989),
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteTheBeatlesComeTogether(1969)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette The Beatles - Come Together (1969),
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteTheBeatlesEleanorRigby(1966)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette The Beatles - Eleanor Rigby (1966),
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteThePoguesFairytaleOfNewYork(1987)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette The Pogues - Fairytale Of New York (1987),
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteTheTemptationsPapaWasARollingStone(1972)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette The Temptations - Papa Was A Rolling Stone (1972),
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item CassetteTheWeatherGirlsItsRainingMen(1983)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette The Weather Girls - Its Raining Men (1983),
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item CassetteTotoAfrica(1982)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette Toto - Africa (1982),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteTotoHoldTheLine(1978)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette Toto - Hold The Line (1978),
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteWhamLastChristmas(1984)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette Wham - Last Christmas (1984),
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item CassetteWhitneyHoustonIWillAlwaysLoveYou(1992)
+	{
+		Type			=	Normal,
+		Weight			=	0,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Whitney Houston - I Will Always Love You (1992),
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+}

@@ -1,0 +1,5 @@
+IGUI_EN = {
+
+   IGUI_VehiclePartFR_VehicleArmory = "Armory",
+   IGUI_VehiclePartFR_VehicleArmory2 = "Armory",
+}

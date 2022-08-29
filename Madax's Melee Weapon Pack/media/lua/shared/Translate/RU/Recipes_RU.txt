@@ -1,0 +1,7 @@
+Recipes_RU = {
+	
+	Recipe_Make_Korek_Machete = "Сделать Мачете Korek"
+	Recipe_Make_Reaver_Cleaver = "Сделать Секач The Reaver"
+	Recipe_Make_Improvised_Cold_Steel_Spear = "Сделать Копье из холодной стали"
+
+}

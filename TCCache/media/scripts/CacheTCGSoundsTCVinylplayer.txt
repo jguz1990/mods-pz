@@ -1,0 +1,393 @@
+module Tsarcraft
+{
+	sound VinylACDCHighwayToHell(1979)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/AC DC - Highway To Hell (1979).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylAirSupplyMakingLoveOutOfNothingAtAll(1983)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Air Supply - Making Love Out Of Nothing At All (1983).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylAlabamaChristmasInDixie(1985)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Alabama - Christmas In Dixie (1985).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylAliceCooperPoison(1989)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Alice Cooper - Poison (1989).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylAndyWilliamsItsTheMostWonderfulTimeOfTheYear(1963)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Andy Williams - Its The Most Wonderful Time Of The Year (1963).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylBeeGeesStayinAlive(1977)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Bee Gees - Stayin Alive (1977).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylBennyGoodmanThatsAPlenty(1931)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Benny Goodman - Thats A Plenty (1931).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylBillHaleyRockAroundTheClock(1955)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Bill Haley - Rock Around The Clock (1955).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylBingCrosbyIWillBeHomeForChristmas(1943)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Bing Crosby - I Will Be Home For Christmas (1943).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylBingCrosbyWhiteChristmas(1942)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Bing Crosby - White Christmas (1942).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylBingCrosbyWinterWonderland(1945)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Bing Crosby - Winter Wonderland (1945).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylBlondieCallMe(1978)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Blondie - Call Me (1978).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylBlondieHeartOfGlass(1976)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Blondie - Heart Of Glass (1976).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylBobbyDarinBrandNewHouse(1958)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Bobby Darin - Brand New House (1958).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylBobbyDarinDreamLover(1987)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Bobby Darin - Dream Lover (1987).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylBobbyDarinHallelujahILoveHerSo(1956)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Bobby Darin - Hallelujah I Love Her So (1956).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylBobbyHelmsJingleBellRock(1957)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Bobby Helms - Jingle Bell Rock (1957).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylBoneyMRasputin(1978)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Boney M - Rasputin (1978).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylBootsRandolphYaketySax(1963)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Boots Randolph - Yakety Sax (1963).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylBrendaLeeRockinAroundTheChristmasTree(1958)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Brenda Lee - Rockin Around The Christmas Tree (1958).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylDeanMartinWalkingInAWinterWonderland(1959)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Dean Martin - Walking In A Winter Wonderland (1959).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylEarthaKittSantaBaby(1953)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Eartha Kitt - Santa Baby (1953).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylElvisPresleyBlueChristmas(1957)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Elvis Presley - Blue Christmas (1957).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylElvisPresleyJailhouseRock(1958)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Elvis Presley - Jailhouse Rock (1958).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylEnricoCarusoUnaFurtivaLagrima(1904)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Enrico Caruso - Una Furtiva Lagrima (1904).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylGeneAutryFrostyTheSnowMan(1951)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Gene Autry - Frosty The Snow Man (1951).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylGuyMitchellHeartacheByTheNumbers50s(1959)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Guy Mitchell - Heartache By The Numbers 50s (1959).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylHankWilliamsLovesickBlues(1949)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Hank Williams - Lovesick Blues (1949).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylJohnFaheySteelGuitarRag(1965)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/John Fahey - Steel Guitar Rag (1965).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylJohnnyHortonNorthToAlaska(1965)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Johnny Horton - North To Alaska (1965).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylJudyGarlandHaveYourselfAMerryLittleChristmas(1944)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Judy Garland - Have Yourself A Merry Little Christmas (1944).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylKirstenFlagstadDieWalkure(1938)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Kirsten Flagstad - Die Walkure (1938).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylLightninHopkinsJackstropperBlues(1950)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Lightnin Hopkins - Jackstropper Blues (1950).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylMelCarterHoldMeThrillMeKissMe(1965)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Mel Carter - Hold Me Thrill Me Kiss Me (1965).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylNatKingColeTheChristmasSong(1961)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Nat King Cole - The Christmas Song (1961).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylRickyNelsonTravellinMan(1961)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Ricky Nelson - Travellin Man (1961).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylRighteousBrothersUnchainedMelody(1965)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Righteous Brothers - Unchained Melody (1965).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylRobertJohnsonWalkingBlues(1936)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Robert Johnson - Walking Blues (1936).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylThurlRavenscroftYoureAMeanOneMrGrinch(1966)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Thurl Ravenscroft - Youre A Mean One Mr Grinch (1966).ogg,
+			distanceMax = 75,
+		}
+	}
+}
