@@ -1,0 +1,12 @@
+Moodles_ES = {
+
+	Moodles_DTOverdose2_lvl2 = "Sobredosis",
+	Moodles_Desc_DTOverdose2_lvl2 = "Agitación ligera y leve sudoración.",
+	
+	Moodles_DTOverdose3_lvl3 = "Sobredosis",
+	Moodles_Desc_DTOverdose3_lvl3 = "Sientes un poco de somnoliencia.",
+	
+	Moodles_DTOverdose4_lvl4 = "Sobredosis",
+	Moodles_Desc_DTOverdose4_lvl4 = "Intoxicación elevada, peligro de muerte.",
+
+}

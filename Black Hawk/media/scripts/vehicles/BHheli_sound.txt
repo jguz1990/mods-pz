@@ -1,0 +1,25 @@
+module Base
+{
+	sound HeliSound
+	{
+		category = Heli,
+		loop = true,
+		master = Ambient,
+		clip
+		{
+			file = media/sound/heli_sound.ogg,
+			volume = 1,
+		}
+	}
+	sound thetigerfire
+	{
+		category = tank,
+		master = Ambient,
+        loop = false,
+		clip
+		{
+			file = media/sound/thetigerfire.wav,
+			volume = 0.8,
+		}
+	}
+}

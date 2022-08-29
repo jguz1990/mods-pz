@@ -1,0 +1,7 @@
+ItemName_ES = {
+	ItemName_DrivingSkill.DrivingSkill_BookDriving1 = "Conducción para Principiantes",
+	ItemName_DrivingSkill.DrivingSkill_BookDriving2 = "Conducción Intermedia",
+	ItemName_DrivingSkill.DrivingSkill_BookDriving3 = "Conducción Avanzada",
+	ItemName_DrivingSkill.DrivingSkill_BookDriving4 = "Conducción para Expertos",
+	ItemName_DrivingSkill.DrivingSkill_BookDriving5 = "Conducción para Maestros",
+}

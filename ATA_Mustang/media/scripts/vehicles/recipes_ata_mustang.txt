@@ -1,0 +1,21 @@
+module Autotsar
+{
+	imports
+	{
+		Base
+	}
+	
+	recipe Cut ATAMustangHoodItem
+    {
+       ATAMustangHood2Item3/ATAMustangHood3Item3/ATAMustangHood4Item3,
+       BlowTorch=14,
+       keep WeldingMask,
+       Result:SheetMetal=6,
+       Time:350.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=2,
+	   OnCreate:Recipe.OnCreate.CutATAUnusableMetal,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+       NeedToBeLearn:false,
+    }
+}

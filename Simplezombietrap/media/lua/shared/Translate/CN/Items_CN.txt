@@ -1,0 +1,10 @@
+﻿Items_CN = {
+    DisplayName_Zombie_trap1 = "尖刺",
+    DisplayName_Zombie_trap2 = "夹子",
+    DisplayName_Zombie_trap3 = "拒马",
+
+    DisplayName_Zombie_trap4 = "钢刺",
+    DisplayName_Zombie_trap5 = "地雷",
+    DisplayName_Zombie_trap6 = "围栏",
+    DisplayName_Zombie_trap7 = "障碍",
+}

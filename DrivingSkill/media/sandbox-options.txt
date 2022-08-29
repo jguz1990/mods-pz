@@ -1,0 +1,402 @@
+VERSION = 1,
+
+option DrivingSkill.Level0brakeForceMult
+{
+	type = integer, min = 0, max = 200, default = 100,
+	page = DrivingSkill, translation = DrivingSkill_Level0brakeForceMult,
+}
+option DrivingSkill.Level1brakeForceMult
+{
+	type = integer, min = 0, max = 200, default = 105,
+	page = DrivingSkill, translation = DrivingSkill_Level1brakeForceMult,
+}
+option DrivingSkill.Level2brakeForceMult
+{
+	type = integer, min = 0, max = 200, default = 110,
+	page = DrivingSkill, translation = DrivingSkill_Level2brakeForceMult,
+}
+option DrivingSkill.Level3brakeForceMult
+{
+	type = integer, min = 0, max = 200, default = 115,
+	page = DrivingSkill, translation = DrivingSkill_Level3brakeForceMult,
+}
+option DrivingSkill.Level4brakeForceMult
+{
+	type = integer, min = 0, max = 200, default = 120,
+	page = DrivingSkill, translation = DrivingSkill_Level4brakeForceMult,
+}
+option DrivingSkill.Level5brakeForceMult
+{
+	type = integer, min = 0, max = 200, default = 125,
+	page = DrivingSkill, translation = DrivingSkill_Level5brakeForceMult,
+}
+option DrivingSkill.Level6brakeForceMult
+{
+	type = integer, min = 0, max = 200, default = 130,
+	page = DrivingSkill, translation = DrivingSkill_Level6brakeForceMult,
+}
+option DrivingSkill.Level7brakeForceMult
+{
+	type = integer, min = 0, max = 200, default = 135,
+	page = DrivingSkill, translation = DrivingSkill_Level7brakeForceMult,
+}
+option DrivingSkill.Level8brakeForceMult
+{
+	type = integer, min = 0, max = 200, default = 140,
+	page = DrivingSkill, translation = DrivingSkill_Level8brakeForceMult,
+}
+option DrivingSkill.Level9brakeForceMult
+{
+	type = integer, min = 0, max = 200, default = 145,
+	page = DrivingSkill, translation = DrivingSkill_Level9brakeForceMult,
+}
+option DrivingSkill.Level10brakeForceMult
+{
+	type = integer, min = 0, max = 200, default = 150,
+	page = DrivingSkill, translation = DrivingSkill_Level10brakeForceMult,
+}
+option DrivingSkill.Level0engineQualityMult
+{
+	type = integer, min = 0, max = 200, default = 100,
+	page = DrivingSkill, translation = DrivingSkill_Level0engineQualityMult,
+}
+option DrivingSkill.Level1engineQualityMult
+{
+	type = integer, min = 0, max = 200, default = 110,
+	page = DrivingSkill, translation = DrivingSkill_Level1engineQualityMult,
+}
+option DrivingSkill.Level2engineQualityMult
+{
+	type = integer, min = 0, max = 200, default = 120,
+	page = DrivingSkill, translation = DrivingSkill_Level2engineQualityMult,
+}
+option DrivingSkill.Level3engineQualityMult
+{
+	type = integer, min = 0, max = 200, default = 130,
+	page = DrivingSkill, translation = DrivingSkill_Level3engineQualityMult,
+}
+option DrivingSkill.Level4engineQualityMult
+{
+	type = integer, min = 0, max = 200, default = 140,
+	page = DrivingSkill, translation = DrivingSkill_Level4engineQualityMult,
+}
+option DrivingSkill.Level5engineQualityMult
+{
+	type = integer, min = 0, max = 200, default = 150,
+	page = DrivingSkill, translation = DrivingSkill_Level5engineQualityMult,
+}
+option DrivingSkill.Level6engineQualityMult
+{
+	type = integer, min = 0, max = 200, default = 160,
+	page = DrivingSkill, translation = DrivingSkill_Level6engineQualityMult,
+}
+option DrivingSkill.Level7engineQualityMult
+{
+	type = integer, min = 0, max = 200, default = 170,
+	page = DrivingSkill, translation = DrivingSkill_Level7engineQualityMult,
+}
+option DrivingSkill.Level8engineQualityMult
+{
+	type = integer, min = 0, max = 200, default = 180,
+	page = DrivingSkill, translation = DrivingSkill_Level8engineQualityMult,
+}
+option DrivingSkill.Level9engineQualityMult
+{
+	type = integer, min = 0, max = 200, default = 190,
+	page = DrivingSkill, translation = DrivingSkill_Level9engineQualityMult,
+}
+option DrivingSkill.Level10engineQualityMult
+{
+	type = integer, min = 0, max = 200, default = 200,
+	page = DrivingSkill, translation = DrivingSkill_Level10engineQualityMult,
+}
+option DrivingSkill.Level0engineLoudnessMult
+{
+	type = integer, min = 0, max = 200, default = 100,
+	page = DrivingSkill, translation = DrivingSkill_Level0engineLoudnessMult,
+}
+option DrivingSkill.Level1engineLoudnessMult
+{
+	type = integer, min = 0, max = 200, default = 95,
+	page = DrivingSkill, translation = DrivingSkill_Level1engineLoudnessMult,
+}
+option DrivingSkill.Level2engineLoudnessMult
+{
+	type = integer, min = 0, max = 200, default = 90,
+	page = DrivingSkill, translation = DrivingSkill_Level2engineLoudnessMult,
+}
+option DrivingSkill.Level3engineLoudnessMult
+{
+	type = integer, min = 0, max = 200, default = 85,
+	page = DrivingSkill, translation = DrivingSkill_Level3engineLoudnessMult,
+}
+option DrivingSkill.Level4engineLoudnessMult
+{
+	type = integer, min = 0, max = 200, default = 80,
+	page = DrivingSkill, translation = DrivingSkill_Level4engineLoudnessMult,
+}
+option DrivingSkill.Level5engineLoudnessMult
+{
+	type = integer, min = 0, max = 200, default = 75,
+	page = DrivingSkill, translation = DrivingSkill_Level5engineLoudnessMult,
+}
+option DrivingSkill.Level6engineLoudnessMult
+{
+	type = integer, min = 0, max = 200, default = 70,
+	page = DrivingSkill, translation = DrivingSkill_Level6engineLoudnessMult,
+}
+option DrivingSkill.Level7engineLoudnessMult
+{
+	type = integer, min = 0, max = 200, default = 65,
+	page = DrivingSkill, translation = DrivingSkill_Level7engineLoudnessMult,
+}
+option DrivingSkill.Level8engineLoudnessMult
+{
+	type = integer, min = 0, max = 200, default = 60,
+	page = DrivingSkill, translation = DrivingSkill_Level8engineLoudnessMult,
+}
+option DrivingSkill.Level9engineLoudnessMult
+{
+	type = integer, min = 0, max = 200, default = 55,
+	page = DrivingSkill, translation = DrivingSkill_Level9engineLoudnessMult,
+}
+option DrivingSkill.Level10engineLoudnessMult
+{
+	type = integer, min = 0, max = 200, default = 50,
+	page = DrivingSkill, translation = DrivingSkill_Level10engineLoudnessMult,
+}
+option DrivingSkill.Level0enginePowerMult
+{
+	type = integer, min = 0, max = 200, default = 100,
+	page = DrivingSkill, translation = DrivingSkill_Level0enginePowerMult,
+}
+option DrivingSkill.Level1enginePowerMult
+{
+	type = integer, min = 0, max = 200, default = 105,
+	page = DrivingSkill, translation = DrivingSkill_Level1enginePowerMult,
+}
+option DrivingSkill.Level2enginePowerMult
+{
+	type = integer, min = 0, max = 200, default = 110,
+	page = DrivingSkill, translation = DrivingSkill_Level2enginePowerMult,
+}
+option DrivingSkill.Level3enginePowerMult
+{
+	type = integer, min = 0, max = 200, default = 115,
+	page = DrivingSkill, translation = DrivingSkill_Level3enginePowerMult,
+}
+option DrivingSkill.Level4enginePowerMult
+{
+	type = integer, min = 0, max = 200, default = 120,
+	page = DrivingSkill, translation = DrivingSkill_Level4enginePowerMult,
+}
+option DrivingSkill.Level5enginePowerMult
+{
+	type = integer, min = 0, max = 200, default = 125,
+	page = DrivingSkill, translation = DrivingSkill_Level5enginePowerMult,
+}
+option DrivingSkill.Level6enginePowerMult
+{
+	type = integer, min = 0, max = 200, default = 130,
+	page = DrivingSkill, translation = DrivingSkill_Level6enginePowerMult,
+}
+option DrivingSkill.Level7enginePowerMult
+{
+	type = integer, min = 0, max = 200, default = 135,
+	page = DrivingSkill, translation = DrivingSkill_Level7enginePowerMult,
+}
+option DrivingSkill.Level8enginePowerMult
+{
+	type = integer, min = 0, max = 200, default = 140,
+	page = DrivingSkill, translation = DrivingSkill_Level8enginePowerMult,
+}
+option DrivingSkill.Level9enginePowerMult
+{
+	type = integer, min = 0, max = 200, default = 145,
+	page = DrivingSkill, translation = DrivingSkill_Level9enginePowerMult,
+}
+option DrivingSkill.Level10enginePowerMult
+{
+	type = integer, min = 0, max = 200, default = 150,
+	page = DrivingSkill, translation = DrivingSkill_Level10enginePowerMult,
+}
+option DrivingSkill.Level0maxSpeedMult
+{
+	type = integer, min = 0, max = 200, default = 100,
+	page = DrivingSkill, translation = DrivingSkill_Level0maxSpeedMult,
+}
+option DrivingSkill.Level1maxSpeedMult
+{
+	type = integer, min = 0, max = 200, default = 103,
+	page = DrivingSkill, translation = DrivingSkill_Level1maxSpeedMult,
+}
+option DrivingSkill.Level2maxSpeedMult
+{
+	type = integer, min = 0, max = 200, default = 106,
+	page = DrivingSkill, translation = DrivingSkill_Level2maxSpeedMult,
+}
+option DrivingSkill.Level3maxSpeedMult
+{
+	type = integer, min = 0, max = 200, default = 109,
+	page = DrivingSkill, translation = DrivingSkill_Level3maxSpeedMult,
+}
+option DrivingSkill.Level4maxSpeedMult
+{
+	type = integer, min = 0, max = 200, default = 112,
+	page = DrivingSkill, translation = DrivingSkill_Level4maxSpeedMult,
+}
+option DrivingSkill.Level5maxSpeedMult
+{
+	type = integer, min = 0, max = 200, default = 115,
+	page = DrivingSkill, translation = DrivingSkill_Level5maxSpeedMult,
+}
+option DrivingSkill.Level6maxSpeedMult
+{
+	type = integer, min = 0, max = 200, default = 118,
+	page = DrivingSkill, translation = DrivingSkill_Level6maxSpeedMult,
+}
+option DrivingSkill.Level7maxSpeedMult
+{
+	type = integer, min = 0, max = 200, default = 121,
+	page = DrivingSkill, translation = DrivingSkill_Level7maxSpeedMult,
+}
+option DrivingSkill.Level8maxSpeedMult
+{
+	type = integer, min = 0, max = 200, default = 124,
+	page = DrivingSkill, translation = DrivingSkill_Level8maxSpeedMult,
+}
+option DrivingSkill.Level9maxSpeedMult
+{
+	type = integer, min = 0, max = 200, default = 127,
+	page = DrivingSkill, translation = DrivingSkill_Level9maxSpeedMult,
+}
+option DrivingSkill.Level10maxSpeedMult
+{
+	type = integer, min = 0, max = 200, default = 130,
+	page = DrivingSkill, translation = DrivingSkill_Level10maxSpeedMult,
+}
+option DrivingSkill.Level0damageMitigate
+{
+	type = integer, min = 0, max = 100, default = 0,
+	page = DrivingSkill, translation = DrivingSkill_Level0damageMitigate,
+}
+option DrivingSkill.Level1damageMitigate
+{
+	type = integer, min = 0, max = 100, default = 5,
+	page = DrivingSkill, translation = DrivingSkill_Level1damageMitigate,
+}
+option DrivingSkill.Level2damageMitigate
+{
+	type = integer, min = 0, max = 100, default = 10,
+	page = DrivingSkill, translation = DrivingSkill_Level2damageMitigate,
+}
+option DrivingSkill.Level3damageMitigate
+{
+	type = integer, min = 0, max = 100, default = 15,
+	page = DrivingSkill, translation = DrivingSkill_Level3damageMitigate,
+}
+option DrivingSkill.Level4damageMitigate
+{
+	type = integer, min = 0, max = 100, default = 20,
+	page = DrivingSkill, translation = DrivingSkill_Level4damageMitigate,
+}
+option DrivingSkill.Level5damageMitigate
+{
+	type = integer, min = 0, max = 100, default = 25,
+	page = DrivingSkill, translation = DrivingSkill_Level5damageMitigate,
+}
+option DrivingSkill.Level6damageMitigate
+{
+	type = integer, min = 0, max = 100, default = 30,
+	page = DrivingSkill, translation = DrivingSkill_Level6damageMitigate,
+}
+option DrivingSkill.Level7damageMitigate
+{
+	type = integer, min = 0, max = 100, default = 35,
+	page = DrivingSkill, translation = DrivingSkill_Level7damageMitigate,
+}
+option DrivingSkill.Level8damageMitigate
+{
+	type = integer, min = 0, max = 100, default = 40,
+	page = DrivingSkill, translation = DrivingSkill_Level8damageMitigate,
+}
+option DrivingSkill.Level9damageMitigate
+{
+	type = integer, min = 0, max = 100, default = 45,
+	page = DrivingSkill, translation = DrivingSkill_Level9damageMitigate,
+}
+option DrivingSkill.Level10damageMitigate
+{
+	type = integer, min = 0, max = 100, default = 50,
+	page = DrivingSkill, translation = DrivingSkill_Level10damageMitigate,
+}
+option DrivingSkill.Level0avoidDamage
+{
+	type = integer, min = 0, max = 100, default = 0,
+	page = DrivingSkill, translation = DrivingSkill_Level0avoidDamage,
+}
+option DrivingSkill.Level1avoidDamage
+{
+	type = integer, min = 0, max = 100, default = 10,
+	page = DrivingSkill, translation = DrivingSkill_Level1avoidDamage,
+}
+option DrivingSkill.Level2avoidDamage
+{
+	type = integer, min = 0, max = 100, default = 20,
+	page = DrivingSkill, translation = DrivingSkill_Level2avoidDamage,
+}
+option DrivingSkill.Level3avoidDamage
+{
+	type = integer, min = 0, max = 100, default = 30,
+	page = DrivingSkill, translation = DrivingSkill_Level3avoidDamage,
+}
+option DrivingSkill.Level4avoidDamage
+{
+	type = integer, min = 0, max = 100, default = 40,
+	page = DrivingSkill, translation = DrivingSkill_Level4avoidDamage,
+}
+option DrivingSkill.Level5avoidDamage
+{
+	type = integer, min = 0, max = 100, default = 50,
+	page = DrivingSkill, translation = DrivingSkill_Level5avoidDamage,
+}
+option DrivingSkill.Level6avoidDamage
+{
+	type = integer, min = 0, max = 100, default = 60,
+	page = DrivingSkill, translation = DrivingSkill_Level6avoidDamage,
+}
+option DrivingSkill.Level7avoidDamage
+{
+	type = integer, min = 0, max = 100, default = 70,
+	page = DrivingSkill, translation = DrivingSkill_Level7avoidDamage,
+}
+option DrivingSkill.Level8avoidDamage
+{
+	type = integer, min = 0, max = 100, default = 80,
+	page = DrivingSkill, translation = DrivingSkill_Level8avoidDamage,
+}
+option DrivingSkill.Level9avoidDamage
+{
+	type = integer, min = 0, max = 100, default = 90,
+	page = DrivingSkill, translation = DrivingSkill_Level9avoidDamage,
+}
+option DrivingSkill.Level10avoidDamage
+{
+	type = integer, min = 0, max = 100, default = 100,
+	page = DrivingSkill, translation = DrivingSkill_Level10avoidDamage,
+}
+option DrivingSkill.XPgainChance
+{
+	type = integer, min = 0, max = 10000, default = 700,
+	page = DrivingSkill, translation = DrivingSkill_XPgainChance,
+}
+option DrivingSkill.XPindicator
+{
+	type = boolean, default = false,
+	page = DrivingSkill, translation = DrivingSkill_XPindicator,
+}
+
+
+
+
+

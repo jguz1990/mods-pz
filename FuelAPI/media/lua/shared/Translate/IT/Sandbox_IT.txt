@@ -1,0 +1,12 @@
+Sandbox_IT = {
+    Sandbox_FuelAPI = "Fuel API",
+
+    Sandbox_FuelAPI_BarrelMaxCapacity = "Capacità massima di carburante del barilotto",
+    Sandbox_FuelAPI_BarrelMaxCapacity_tooltip = "La quantità massima di carburante che può contenere un barile.",
+
+    Sandbox_FuelAPI_BarrelCanPickupFull = "Può raccogliere la canna piena",
+    Sandbox_FuelAPI_BarrelCanPickupFull_tooltip = "Consentire di raccogliere barili che contengono carburante.",
+
+    Sandbox_FuelAPI_BarrelRandomQuantityPercent = "Barile di carburante iniziale casuale (%)",
+    Sandbox_FuelAPI_BarrelRandomQuantityPercent_tooltip = "La percentuale di carburante casuale iniziale trovato nei barili.",
+}

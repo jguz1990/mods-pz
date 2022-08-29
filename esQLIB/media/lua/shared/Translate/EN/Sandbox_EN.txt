@@ -1,0 +1,10 @@
+Sandbox_EN = {
+    Sandbox_esQLIB_OnOff_option1 = "Off",
+    Sandbox_esQLIB_OnOff_option2 = "On",
+
+    Sandbox_esQLIB_OnOffCardinal_option1 = "Off",
+    Sandbox_esQLIB_OnOffCardinal_option2 = "On Info East",
+    Sandbox_esQLIB_OnOffCardinal_option3 = "On Info South",
+    Sandbox_esQLIB_OnOffCardinal_option4 = "On Info Replaces",
+}
+

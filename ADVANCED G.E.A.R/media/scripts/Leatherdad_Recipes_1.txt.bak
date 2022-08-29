@@ -1,0 +1,410 @@
+/*module Base
+{
+
+
+    recipe Make Stake
+    {
+	Override:true,
+        TreeBranch,
+        keep KitchenKnife/HuntingKnife/MeatCleaver/FlintKnife/Machete/Multitool/SAK,
+
+        Result:Stake,
+        Time:80.0,
+        Category:Survivalist,
+        OnGiveXP:Give5WoodworkXP,
+    }
+
+
+    recipe Make Pot of Soup
+    {
+       CannedMushroomSoup,
+       keep TinOpener/Multitool/P38/P38DT/SAK,
+       Pot,
+
+       Result:PotOfSoup,
+       Time:130.0,
+       Category:Cooking,
+       OnGiveXP:Give3CookingXP,
+    }
+
+
+	recipe Make Pot of Soup
+	{
+	   TinnedSoup,
+	   keep TinOpener/Multitool/P38/P38DT/SAK,
+	   Pot,
+
+	   Result:PotOfSoup,
+	   Time:130.0,
+	   Category:Cooking,
+	   OnGiveXP:Give3CookingXP,
+	}
+
+	recipe Open Canned Soup
+    {
+	Override:true,
+       TinnedSoup,
+       keep TinOpener/Multitool/P38/P38DT/SAK,
+
+       Result:TinnedSoupOpen,
+       Time:80.0,
+       Category:Cooking,
+       OnGiveXP:NoXP_OnGiveXP,
+    }
+
+	recipe Slice Watermelon
+	{
+	   Watermelon,
+	   keep HuntingKnife/KitchenKnife/Saw/Axe/HandAxe/AxeStone/WoodAxe/MeatCleaver/FlintKnife/Machete/Multitool/SAK,
+
+	   Result:WatermelonSliced=10,
+	   OnCreate:SliceWatermelon_OnCreate,
+	   Time:70.0,
+	   Category:Cooking,
+	   OnGiveXP:Give3CookingXP,
+	Override:true,
+	}
+
+
+	recipe Open Canned Beans
+	{
+	   TinnedBeans,
+	   keep TinOpener/Multitool/P38/P38DT/SAK,
+
+	   Result:OpenBeans,
+	   Time:80.0,
+	   Category:Cooking,
+	   OnGiveXP:NoXP_OnGiveXP,
+	Override:true,
+	}
+
+	recipe Open Dog Food
+	{
+	   Dogfood,
+	   keep TinOpener/Multitool/P38/P38DT/SAK,
+
+	   Result:DogfoodOpen,
+	   Time:80.0,
+	   Category:Cooking,
+	   OnGiveXP:NoXP_OnGiveXP,
+	Override:true,
+	}
+
+
+	recipe Make Bowl of Beans
+	{
+	   TinnedBeans,
+	   keep TinOpener/Multitool/P38/P38DT/SAK,
+	   Bowl,
+
+	   Result:BeanBowl,
+	   Time:130.0,
+	   Category:Cooking,
+	   OnGiveXP:Give3CookingXP,
+	Override:true,
+	}
+
+
+	recipe Open Canned Tuna
+	{
+	  TunaTin,
+	  keep TinOpener/Multitool/P38/P38DT/SAK,
+
+	  Result:TunaTinOpen,
+	  Time:80.0,
+	  Category:Cooking,
+	  OnGiveXP:NoXP_OnGiveXP,
+	Override:true,
+	}
+
+
+   recipe Dismantle Flashlight
+   {
+      destroy Torch/HandTorch,
+      keep Screwdriver/Multitool/SAK,
+
+      Result:ElectronicsScrap,
+      Time:30.0,
+      OnTest:TorchBatteryInsert_TestIsValid,
+      OnGiveXP:DismantleElectronics_OnGiveXP,
+      OnCreate:TorchDismantle_OnCreate,
+      Category:Electrical,
+      AnimNode:Disassemble,
+      Prop1:Screwdriver,
+      Prop2:HandTorch,
+	Override:true,
+   }
+
+    recipe Slice Bread
+    {
+        keep KitchenKnife/ButterKnife/BreadKnife/HuntingKnife/MeatCleaver/FlintKnife/Machete/Multitool,
+        Bread,
+
+        Result:BreadSlices=3,
+        OnCreate:SliceBread_OnCreate,
+        Sound:SliceBread,
+        Time:40.0,
+        Category:Cooking,
+        OnGiveXP:Give3CookingXP,
+    }
+
+    recipe Slice Bread
+    {
+        keep KitchenKnife/ButterKnife/BreadKnife/HuntingKnife/MeatCleaver/FlintKnife/Machete/Multitool,
+        BreadDough,
+
+        Result:BreadSlices=3,
+        Sound:SliceBread,
+        Time:40.0,
+        Category:Cooking,
+        OnTest:SliceBreadDough_TestIsValid,
+        OnGiveXP:Give3CookingXP,
+    }
+
+    recipe Slice Pie
+    {
+        keep KitchenKnife/HuntingKnife/ButterKnife/MeatCleaver/FlintKnife/Machete/Multitool/SAK,
+        PieWholeRaw,
+
+        Result:Pie=5,
+        Time:20.0,
+        OnCreate:SlicePie_OnCreate,
+        Category:Cooking,
+        OnGiveXP:Give3CookingXP,
+	Override:true,
+    }
+
+    recipe Slice Cake
+    {
+        keep KitchenKnife/HuntingKnife/ButterKnife/MeatCleaver/FlintKnife/Machete/Multitool/SAK,
+        CakeRaw,
+
+        Result:CakeSlice=5,
+        Time:20.0,
+        OnCreate:SlicePie_OnCreate,
+        Category:Cooking,
+        OnGiveXP:Give3CookingXP,
+	Override:true,
+    }
+
+    recipe Slice Fillet
+    {
+        keep KitchenKnife/HuntingKnife/MeatCleaver/FlintKnife/Machete/Multitool/SAK,
+        Bass/Catfish/Perch/Crappie/Panfish/Pike/Trout,
+
+        Result:FishFillet=2,
+        Sound:SliceMeat,
+        Time:50.0,
+        OnTest:CutFish_TestIsValid,
+        OnCreate:CutFish_OnCreate,
+        Category:Cooking,
+        OnGiveXP:Give10CookingXP,
+	Override:true,
+    }
+
+    recipe Slice Ham
+    {
+        keep KitchenKnife/HuntingKnife/MeatCleaver/FlintKnife/Machete/Multitool/SAK,
+        Ham,
+
+        Result:HamSlice=6,
+        OnCreate:SliceHam_OnCreate,
+        Sound:SliceMeat,
+        Time:50.0,
+        Category:Cooking,
+        OnGiveXP:Give3CookingXP,
+	Override:true,
+    }
+
+    recipe Slice Frog
+    {
+        keep KitchenKnife/HuntingKnife/MeatCleaver/FlintKnife/Machete/Multitool/SAK,
+        Frog,
+
+        Result:FrogMeat,
+        Sound:SliceMeat,
+        Time:50.0,
+        Category:Cooking,
+        OnGiveXP:Give10CookingXP,
+	Override:true,
+    }
+
+    recipe Make Fishing Rod
+    {
+        keep KitchenKnife/HuntingKnife/MeatCleaver/FlintKnife/Machete/Multitool/SAK,
+        WoodenStick,
+        Twine=2,
+        Paperclip/Nails,
+
+        Result:CraftedFishingRodTwineLine,
+        Time:80.0,
+        Category:Fishing,
+        NeedToBeLearn:true,
+    }
+
+    recipe Make Fishing Rod
+    {
+        keep KitchenKnife/HuntingKnife/MeatCleaver/FlintKnife/Machete/Multitool/SAK,
+        WoodenStick,
+        FishingLine=2,
+        Paperclip/Nails,
+
+        Result:CraftedFishingRod,
+        Time:80.0,
+        Category:Fishing,
+        NeedToBeLearn:true,
+    }
+
+ /*
+*/
+    recipe Drill Plank
+    {
+	Override:true,
+        Plank/Log,
+        keep Screwdriver/KitchenKnife/ButterKnife/BreadKnife/HuntingKnife/SharpedStone/FlintKnife/Multitool/SAK,
+
+        Result:PercedWood,
+        Time:40.0,
+    }
+ 
+    recipe Butcher Small Animal
+    {
+        keep KitchenKnife/HuntingKnife/MeatCleaver/FlintKnife/Machete/Multitool/SAK,
+        DeadMouse/DeadSquirrel/DeadRat,
+
+        Result:Smallanimalmeat,
+        Sound:PZ_FoodSwoosh,
+        Time:50.0,
+        OnCreate:CutAnimal_OnCreate,
+        Category:Cooking,
+        OnGiveXP:Give10CookingXP,
+	Override:true,
+    }
+
+    recipe Butcher Rabbit
+    {
+        keep KitchenKnife/HuntingKnife/MeatCleaver/FlintKnife/Machete/Multitool/SAK,
+        DeadRabbit,
+
+        Result:Rabbitmeat,
+        Sound:PZ_FoodSwoosh,
+        Time:50.0,
+        OnCreate:CutAnimal_OnCreate,
+        Category:Cooking,
+        OnGiveXP:Give10CookingXP,
+	Override:true,
+    }
+
+    recipe Butcher Bird
+    {
+        keep KitchenKnife/HuntingKnife/MeatCleaver/FlintKnife/Machete/Multitool/SAK,
+        DeadBird,
+
+        Result:Smallbirdmeat,
+        Sound:PZ_FoodSwoosh,
+        Time:50.0,
+        OnCreate:CutAnimal_OnCreate,
+        Category:Cooking,
+        OnGiveXP:Give10CookingXP,
+	Override:true,
+    }
+/*
+*/
+    recipe Open Canned Corn
+    {
+       CannedCorn,
+       keep TinOpener/Multitool/P38/P38DT/SAK,
+
+       Result:CannedCornOpen,
+       Time:80.0,
+       Category:Cooking,
+       OnGiveXP:NoXP_OnGiveXP,
+	Override:true,
+    }
+
+    recipe Open Canned Bolognese
+    {
+       CannedBolognese,
+       keep TinOpener/Multitool/P38/P38DT/SAK,
+
+       Result:CannedBologneseOpen,
+       Time:80.0,
+       Category:Cooking,
+       OnGiveXP:NoXP_OnGiveXP,
+	Override:true,
+    }
+
+    recipe Open Canned Chili
+    {
+       CannedChili,
+       keep TinOpener/Multitool/P38/P38DT/SAK,
+
+       Result:CannedChiliOpen,
+       Time:80.0,
+       Category:Cooking,
+       OnGiveXP:NoXP_OnGiveXP,
+	Override:true,
+    }
+
+    recipe Open Canned Mushroom Soup
+    {
+       CannedMushroomSoup,
+       keep TinOpener/Multitool/P38/P38DT/SAK,
+
+       Result:CannedMushroomSoupOpen,
+       Time:80.0,
+       Category:Cooking,
+       OnGiveXP:NoXP_OnGiveXP,
+	Override:true,
+    }
+
+    recipe Open Canned Peas
+    {
+       CannedPeas,
+       keep TinOpener/Multitool/P38/P38DT/SAK,
+
+       Result:CannedPeasOpen,
+       Time:80.0,
+       Category:Cooking,
+       OnGiveXP:NoXP_OnGiveXP,
+	Override:true,
+    }
+
+    recipe Open Canned Potato
+    {
+       CannedPotato2,
+       keep TinOpener/Multitool/P38/P38DT/SAK,
+
+       Result:CannedPotatoOpen,
+       Time:80.0,
+       Category:Cooking,
+       OnGiveXP:NoXP_OnGiveXP,
+	Override:true,
+    }
+    recipe Open Canned Tomato
+    {
+       CannedTomato2,
+       keep TinOpener/Multitool/P38/P38DT/SAK,
+
+       Result:CannedTomatoOpen,
+       Time:80.0,
+       Category:Cooking,
+       OnGiveXP:NoXP_OnGiveXP,
+	Override:true,
+    }
+
+    recipe Open Canned Carrots
+    {
+       CannedCarrots2,
+       keep TinOpener/Multitool/P38/P38DT/SAK,
+
+       Result:CannedCarrotsOpen,
+       Time:80.0,
+       Category:Cooking,
+       OnGiveXP:NoXP_OnGiveXP,
+	Override:true,
+    }
+
+
+}
+*/

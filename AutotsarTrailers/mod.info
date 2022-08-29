@@ -1,0 +1,6 @@
+name=Autotsar Trailers v.1.39
+poster=poster.png
+id=autotsartrailers
+require=tsarslib
+versionMin=41.55
+description=Trailers of your dreams

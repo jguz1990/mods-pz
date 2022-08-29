@@ -1,0 +1,4 @@
+name=Driving Skill
+poster=poster.png
+id=DrivingSkill
+description=Adds a new Passive Skill called Driving. The more you drive, the better you get at driving.

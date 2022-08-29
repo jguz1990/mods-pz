@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+	<files>
+		<path>media/clothing/clothingItems/TC_Boombox_LHand.xml</path>
+		<guid>realmusictc-boombox-000-000000000001</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/TC_Boombox_RHand.xml</path>
+		<guid>realmusictc-boombox-000-000000000002</guid>
+	</files>
+</fileGuidTable>

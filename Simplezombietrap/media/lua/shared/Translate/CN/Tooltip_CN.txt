@@ -1,0 +1,11 @@
+Tooltip_CN= {
+    Tooltip_simpletraps1 = "对上面的僵尸持续造成伤害。有几率损坏。",
+    Tooltip_simpletraps2 = "一次性。秒杀上面的僵尸。",
+    Tooltip_simpletraps3 = "阻挡僵尸前进。有几率损坏。",
+
+    Tooltip_simpletraps4 = "加强版尖刺。",
+    Tooltip_simpletraps5 = "小心 Boom！",
+    Tooltip_simpletraps6 = "捕捉僵尸",
+    Tooltip_simpletraps7 = "阻挡僵尸前进。",
+}
+

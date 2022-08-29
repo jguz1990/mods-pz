@@ -1,0 +1,365 @@
+module Base
+{
+	model fhqBroncoHalfCab
+	{
+		mesh = vehicles/vehicles_fhqBroncoHalfCab,
+		shader = vehicle_multiuv,
+		invertX = FALSE,
+		scale = 1,
+	}
+	vehicle fhqBroncoHalfCab
+	{
+		mechanicType = 1,
+		offRoadEfficiency = 1.0,
+		engineRepairLevel = 4,
+		playerDamageProtection = 0.8,
+
+		model
+		{
+			file = fhqBroncoHalfCab,
+			scale = 0.6900,
+			offset = 0.0000 0.6479 0.0000,
+		}
+
+		spawnOffsetY = 0.12999995,
+
+		skin
+		{
+			texture = Vehicles/vehicle_fhqBroncoHalfCab_shell,
+		}
+
+		textureMask = Vehicles/vehicle_fhqBroncoHalfCab_Mask,
+		textureLights = Vehicles/vehicle_fhqBronco_Lights,
+		textureDamage1Overlay = Vehicles/Veh_Blood_Mask,
+		textureDamage2Overlay = Vehicles/Veh_Blood_Hvy,
+		textureDamage1Shell = Vehicles/Veh_Damage1,
+		textureDamage2Shell = Vehicles/Veh_Damage2,
+		textureRust = Vehicles/Veh_Rust,
+
+		sound
+		{
+			engine = VehicleEngineOffRoad,
+			engineStart = VehicleEngineOffRoad,
+			engineTurnOff = VehicleEngineOffRoad,
+			horn = VehicleHornJeep,
+			ignitionFail = VehicleIgnitionFailOffRoad,
+		}
+
+		extents = 2.2535 1.8310 5.0423,
+		mass = 920,
+		physicsChassisShape = 2.2254 1.8310 5.0423,
+		centerOfMassOffset = 0.0000 0.8451 0.0000,
+		shadowExtents = 2.2887 5.3713,
+		shadowOffset = 0.0000 0.0000,
+		engineForce = 4000,
+		engineLoudness = 80,
+		engineQuality = 60,
+		maxSpeed = 105f,
+		gearRatioCount = 4,
+		stoppingMovementForce = 1.9f,
+		rollInfluence = 0.7f,
+		steeringIncrement = 0.04,
+		steeringClamp = 0.3,
+		suspensionStiffness = 30,
+		suspensionCompression = 2.81,
+		suspensionDamping = 2.82,
+		maxSuspensionTravelCm = 20,
+		suspensionRestLength = 0.2f,
+		wheelFriction = 1.6f,
+		frontEndHealth = 150,
+		rearEndHealth = 150,
+		seats = 2,
+
+		wheel FrontLeft
+		{
+			front = true,
+			offset = 0.9014 -0.9296 1.5775,
+			radius = 0.35f,
+			width = 0.25f,
+		}
+
+		wheel FrontRight
+		{
+			front = true,
+			offset = -0.9014 -0.9296 1.5775,
+			radius = 0.35f,
+			width = 0.25f,
+		}
+
+		wheel RearLeft
+		{
+			front = false,
+			offset = 0.9014 -0.9296 -1.4085,
+			radius = 0.35f,
+			width = 0.25f,
+		}
+
+		wheel RearRight
+		{
+			front = false,
+			offset = -0.9014 -0.9296 -1.4085,
+			radius = 0.35f,
+			width = 0.25f,
+		}
+
+		template = PassengerSeat2,
+
+		passenger FrontLeft
+		{
+			position inside
+			{
+				offset = 0.5070 -0.3099 -0.1690,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = 1.5211 -0.9437 0.2958,
+				rotate = 0.0000 0.0000 0.0000,
+				area = SeatFrontLeft,
+			}
+		}
+
+		passenger FrontRight
+		{
+			position inside
+			{
+				offset = -0.5070 -0.3099 -0.1690,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = -1.5211 -0.9437 0.2958,
+				rotate = 0.0000 0.0000 0.0000,
+				area = SeatFrontRight,
+			}
+		}
+
+		area Engine
+		{
+			xywh = 0.0000 3.1127 2.0000 1.1831,
+		}
+
+		area TruckBed
+		{
+			xywh = 0.0000 -2.0986 3.6620 2.8169,
+		}
+
+		area SeatFrontLeft
+		{
+			xywh = 1.6479 -0.0423 1.0423 1.1831,
+		}
+
+		area SeatFrontRight
+		{
+			xywh = -1.6479 -0.0986 1.0423 1.1831,
+		}
+
+		area GasTank
+		{
+			xywh = 1.4366 -1.8028 0.6197 0.6197,
+		}
+
+		area TireFrontLeft
+		{
+			xywh = 1.5070 1.5070 0.7606 0.7606,
+		}
+
+		area TireFrontRight
+		{
+			xywh = -1.5070 1.5070 0.7606 0.7606,
+		}
+
+		area TireRearLeft
+		{
+			xywh = 1.5070 -1.5070 0.7606 0.7606,
+		}
+
+		area TireRearRight
+		{
+			xywh = -1.5070 -1.4366 0.7606 0.7606,
+		}
+
+		template = Trunk/part/TruckBedOpen,
+
+		part TruckBedOpen
+		{
+			itemType = Base.BigTrunk,
+
+			container
+			{
+				capacity = 85,
+			}
+		}
+
+		template = Seat/part/SeatFrontLeft,
+		template = Seat/part/SeatFrontRight,
+
+		part Seat*
+		{
+			table install
+			{
+				skills = Mechanics:2,
+			}
+
+			table uninstall
+			{
+				skills = Mechanics:2,
+			}
+		}
+
+		template = GloveBox,
+		template = GasTank,
+		template = Battery,
+		template = Engine,
+		template = Muffler,
+		template = EngineDoor,
+
+		part EngineDoor
+		{
+			anim Open
+			{
+				sound = VehicleHoodOpenJeep,
+			}
+
+			anim Close
+			{
+				sound = VehicleHoodCloseJeep,
+			}
+		}
+
+		part Heater
+		{
+			category = engine,
+
+			lua
+			{
+				update = Vehicles.Update.Heater,
+			}
+		}
+
+		part PassengerCompartment
+		{
+			category = nodisplay,
+
+			lua
+			{
+				update = Vehicles.Update.PassengerCompartment,
+			}
+		}
+
+		template = Windshield/part/Windshield,
+		template = Windshield/part/WindshieldRear,
+		template = Window/part/WindowFrontLeft,
+		template = Window/part/WindowFrontRight,
+		template = Window/part/WindowRearLeft,
+		template = Window/part/WindowRearRight,
+
+		part WindowRearLeft
+		{
+			area = TireRearLeft,
+			parent =,
+
+			table install
+			{
+				requireInstalled =,
+			}
+		}
+
+		part WindowRearRight
+		{
+			area = TireRearRight,
+			parent =,
+
+			table install
+			{
+				requireInstalled =,
+			}
+		}
+
+		template = Door/part/DoorFrontLeft,
+		template = Door/part/DoorFrontRight,
+
+		part Door*
+		{
+			anim Open
+			{
+				sound = VehicleDoorOpenJeep,
+			}
+
+			anim Close
+			{
+				sound = VehicleDoorCloseJeep,
+			}
+
+			anim Lock
+			{
+				sound = LockVehicleDoorJeep,
+			}
+
+			anim Unlock
+			{
+				sound = UnlockVehicleDoorJeep,
+			}
+
+			anim IsLocked
+			{
+				sound = VehicleDoorIsLockedJeep,
+			}
+		}
+
+		template = Tire,
+
+		part TireFrontLeft
+		{
+			model InflatedTirePlusWheel
+			{
+				file = fhqBroncoWheelLeft,
+			}
+		}
+
+		part TireFrontRight
+		{
+			model InflatedTirePlusWheel
+			{
+				file = fhqBroncoWheelRight,
+			}
+		}
+
+		part TireRearLeft
+		{
+			model InflatedTirePlusWheel
+			{
+				file = fhqBroncoWheelLeft,
+			}
+		}
+
+		part TireRearRight
+		{
+			model InflatedTirePlusWheel
+			{
+				file = fhqBroncoWheelRight,
+			}
+		}
+
+		template = Brake,
+		template = Suspension,
+		template = Radio,
+		template = Headlight,
+
+		attachment trailer
+		{
+			offset = 0.0000 -0.6056 -2.4789,
+			rotate = 0.0000 0.0000 0.0000,
+			zoffset = -1.0000,
+		}
+
+		attachment trailerfront
+		{
+			offset = 0.0000 -0.5352 2.4366,
+			rotate = 0.0000 0.0000 0.0000,
+			zoffset = 1.0000,
+		}
+	}
+}

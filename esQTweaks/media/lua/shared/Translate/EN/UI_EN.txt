@@ -1,0 +1,89 @@
+UI_EN = {
+    UI_esqtw_tweaks = "ExtraSauce Features",
+    UI_esqtw_forceEquip = "Force Equip",
+
+    UI_esqtw_fastTravel = "Fast Travel",
+    UI_esqtw_fastTravel_tt = "Fast travel back to camp.",
+    UI_esqtw_fastTravel_makeStone = "Make CampfireStone (- %1 hours)",
+    UI_esqtw_fastTravel_useStone = "Fast Travel consumes %1/%2 hours.",
+    UI_esqtw_fastTravel_infoDistance = "Distance to Campfire",
+    UI_esqtw_fastTravel_infoFuel = "Fast Travel Fuel",
+    UI_esqtw_fastTravel_errDistance = "The distance is too far for this stone.",
+    UI_esqtw_fastTravel_errCar = "Cannot travel while in vehicle.",
+    UI_esqtw_fastTravel_errRunning = "Cannot travel while running.",
+    UI_esqtw_fastTravel_errZombies = "%1 Zombies; is coming for you.",
+    UI_esqtw_fastTravel_errCampFire = "That campfire was destroyed.",
+
+    UI_esqtw_sorter = "Sorter",
+    UI_esqtw_sorter_tt = "Tag and Sort items quickly; Auto sorts inventory.",
+    UI_esqtw_sorter_auto = "Auto Sorting",
+    UI_esqtw_sorter_manual = "Manual Sorting",
+    UI_esqtw_sorter_sort_here = "Sort here",
+    UI_esqtw_sorter_sort_loot = "Sort all loot",
+    UI_esqtw_sorter_tag_tags = "Show Tags",
+
+    UI_esqtw_sorter_item = "Items",
+    UI_esqtw_sorter_any = "Any",
+    UI_esqtw_sorter_cat = "Categories",
+    UI_esqtw_sorter_add = "Add",
+    UI_esqtw_sorter_remove = "Remove",
+    UI_esqtw_sorter_clear = "Clear",
+    UI_esqtw_sorter_action = "%1: %2",
+    UI_esqtw_sorter_item_label = "items",
+    UI_esqtw_sorter_any_label = "any",
+    UI_esqtw_sorter_cat_label = "categories",
+    UI_optionscreen_binding_esqtwSorter = "ExtraSauce Sorter",
+    UI_optionscreen_binding_esqtwSortAllLootRS = "Sort Containers: SHIFT +",
+    UI_optionscreen_binding_esqtwSortAllLootNS = "Sort Inventory:",
+
+    UI_esqtw_sac = "Sac",
+    UI_esqtw_sac_tt = "Allow easy access to bags.",
+    UI_esqtw_sac_toggle = "Toggle shortcut for",
+    UI_esqtw_sac_respect = "Ignore parent capacity",
+
+    UI_esqtw_ic = "Instant Consolidation",
+    UI_esqtw_ic_tt = "Merge stacks of drainables, or all drainables. Keep empty option for mod compatibility.",
+    UI_esqtw_ic_keep = "Keep empty item",
+    UI_esqtw_ic_fill = "Fill this",
+    UI_esqtw_ic_merge = "Merge this stack of",
+    UI_esqtw_ic_merge_all = "Merge",
+
+    UI_esqtw_vitamax = "VitaMax",
+    UI_esqtw_vitamax_tt = "Eats a stack of vitamin bottles.",
+    UI_esqtw_vitamax_bottle = "Bottle",
+
+    UI_esqtw_carcare = "Car Care",
+    UI_esqtw_carcare_tt = "Opens hood anywhere near car, and faster; Repairs parts without uninstalling; Repair heater and light bars; Replace Parts option.",
+
+    UI_esqtw_fixer = "Weapons Fixer",
+    UI_esqtw_fixer_tt = "Fixes weapons and ammos.",
+
+    UI_esqtw_metals = "Scrap Metals",
+    UI_esqtw_metals_tt = "Attempt to get metal scraps, from certain items.",
+
+    UI_esqtw_powder = "Scrap Ammo",
+    UI_esqtw_powder_tt = "Make gunpowder from stacks of bullets, instead of all.",
+
+    UI_esqtw_corpse = "Corpse Move",
+    UI_esqtw_corpse_tt = "Pile dead corpses."
+
+    UI_esqtw_corpseleg = "Corpse Merge (Legacy)",
+    UI_esqtw_corpseleg_tt = "Move loot from nearby corpse into one corpse",
+    UI_esqtw_corpselegA1 = "with arrows, 10 tiles",
+    UI_esqtw_corpselegA2 = "with arrows, 20 tiles",
+    UI_esqtw_corpselegA3 = "with arrows, 30 tiles",
+
+    UI_esqtw_wrecks = "Scrap Cars",
+    UI_esqtw_wrecks_tt = "Dismantle cars with engine condition less than 11.",
+    UI_esqtw_wrecks_strip = " & Strip Parts",
+
+    UI_esqtw_drier = "Drier",
+    UI_esqtw_drier_tt = "Use a stack of towels.",
+
+    UI_esqtw_dieter = "Dieter",
+    UI_esqtw_dieter_tt = "Eats just the right portion of food.",
+
+    UI_esqtw_autoequip = "AutoEquip",
+    UI_esqtw_autoequip_tt = "Auto Equip the next worst weapon.",
+    UI_esqtw_autoequip_drop = "& Drop Broken Weapons",
+}

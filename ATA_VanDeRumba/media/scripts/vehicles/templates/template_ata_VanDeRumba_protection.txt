@@ -1,0 +1,190 @@
+module Base
+{
+        
+    model ATA_VanDeRumba_armor_engine
+    {
+        mesh = vehicles/ATA_VanDeRumba_body|armor_hood,
+        texture = Vehicles/ATA_VanDeRumba_items,
+        shader = vehiclewheel,
+        scale = 0.004,
+    }
+    model ATA_VanDeRumba_armor_frontwindow
+    {
+        mesh = vehicles/ATA_VanDeRumba_body|armor_window_front,
+        texture = Vehicles/ATA_VanDeRumba_items,
+        shader = vehiclewheel,
+        scale = 0.004,
+    }
+    model ATA_VanDeRumba_armor_rearwindow
+    {
+        mesh = vehicles/ATA_VanDeRumba_body|armor_window_rear,
+        texture = Vehicles/ATA_VanDeRumba_items,
+        shader = vehiclewheel,
+        scale = 0.004,
+    }
+    model ATA_VanDeRumba_armor_leftwindow
+    {
+        mesh = vehicles/ATA_VanDeRumba_body|armor_window_left,
+        texture = Vehicles/ATA_VanDeRumba_items,
+        shader = vehiclewheel,
+        scale = 0.004,
+    }
+    model ATA_VanDeRumba_armor_rightwindow
+    {
+        mesh = vehicles/ATA_VanDeRumba_body|armor_window_right,
+        texture = Vehicles/ATA_VanDeRumba_items,
+        shader = vehiclewheel,
+        scale = 0.004,
+    }
+    
+    template vehicle ATA_VanDeRumba_Template_Protection
+    {
+        template = ATAProtection/part/ATAProtectionHood,
+        part ATAProtectionHood
+        {
+            itemType = Autotsar.ATAVanDeRumbaProtectionHoodItem,
+            table install
+            {
+                requireInstalled = EngineDoor,
+            }
+            model Default
+            {
+                file = ATA_VanDeRumba_armor_engine,
+            }
+        }
+        template = EngineDoor,
+		part EngineDoor
+		{
+			anim Open
+			{
+				sound = VehicleHoodOpenVan,
+			}
+
+			anim Close
+			{
+				sound = VehicleHoodCloseVan,
+			}
+
+			table install
+			{
+				recipes = Intermediate Mechanics,
+                requireUninstalled = ATAProtectionHood,
+			}
+
+			table uninstall
+			{
+				recipes = Intermediate Mechanics,
+                requireUninstalled = ATAProtectionHood,
+			}
+		}
+        
+        template = ATAProtection/part/ATAProtectionWindowFront,
+        part ATAProtectionWindowFront
+        {
+            itemType = Autotsar.ATAVanDeRumbaProtectionWindowFrontItem,
+            table install
+            {
+                requireInstalled = Windshield,
+            }
+            model Default
+            {
+                file = ATA_VanDeRumba_armor_frontwindow,
+            }
+        }
+        template = Windshield/part/Windshield,
+        part Windshield
+        {
+            table install
+            {
+                recipes = Intermediate Mechanics,
+                requireUninstalled = ATAProtectionWindowFront,
+            }
+            table uninstall
+            {
+                recipes = Intermediate Mechanics,
+                requireUninstalled = ATAProtectionWindowFront,
+            }
+        }
+        template = ATAProtection/part/ATAProtectionWindowFrontLeft,
+        part ATAProtectionWindowFrontLeft
+        {
+            itemType = Autotsar.ATAVanDeRumbaProtectionWindowFrontSideItem,
+            model Default
+            {
+                file = ATA_VanDeRumba_armor_leftwindow,
+            }
+        }
+        template = Window/part/WindowFrontLeft,
+        part WindowFrontLeft
+        {
+            table install
+            {
+                requireUninstalled = ATAProtectionWindowFrontLeft,
+            }
+            table uninstall
+            {
+                requireUninstalled = ATAProtectionWindowFrontLeft,
+            }
+        }
+        template = ATAProtection/part/ATAProtectionWindowFrontRight,
+        part ATAProtectionWindowFrontRight
+        {
+            itemType = Autotsar.ATAVanDeRumbaProtectionWindowFrontSideItem,
+            model Default
+            {
+                file = ATA_VanDeRumba_armor_rightwindow,
+            }
+        }
+        template = Window/part/WindowFrontRight,
+        part WindowFrontRight
+        {
+            table install
+            {
+                requireUninstalled = ATAProtectionWindowFrontRight,
+            }
+            table uninstall
+            {
+                requireUninstalled = ATAProtectionWindowFrontRight,
+            }
+        }
+        part Window*
+        {
+            table uninstall
+            {
+                recipes = Intermediate Mechanics,
+                complete = ATATuning.UninstallComplete.Window,
+            }
+            table install
+            {
+                recipes = Intermediate Mechanics,
+            }
+        }
+        
+        
+        template = ATAProtection/part/ATAProtectionWindowRear,
+        part ATAProtectionWindowRear
+        {
+            itemType = Autotsar.ATAVanDeRumbaProtectionWindowRearItem,
+            model Default
+            {
+                file = ATA_VanDeRumba_armor_rearwindow,
+            }
+        }
+        
+        template = Windshield/part/WindshieldRear,
+		part WindshieldRear
+		{
+			table install
+			{
+				requireInstalled = DoorRear,
+                requireUninstalled = ATAProtectionWindowRear,
+			}
+            table uninstall
+            {
+                recipes = Intermediate Mechanics,
+                requireUninstalled = ATAProtectionWindowRear,
+                complete = ATATuning.UninstallComplete.Window,
+            }
+		}
+    }
+}

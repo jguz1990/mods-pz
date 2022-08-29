@@ -1,0 +1,4 @@
+Tooltip_EN= {
+    Tooltip_Craft_Clothbelt = "The higher the tailor level is, the better the items are made.",
+}
+

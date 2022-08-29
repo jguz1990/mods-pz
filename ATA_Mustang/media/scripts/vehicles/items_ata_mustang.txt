@@ -1,0 +1,73 @@
+module Autotsar
+{
+	imports
+	{
+		Base
+	}
+	
+/* Hoods
+█──█─████─████─████──███
+█──█─█──█─█──█─█──██─█──
+████─█──█─█──█─█──██─███
+█──█─█──█─█──█─█──██───█
+█──█─████─████─████──███
+*/
+	model ATAMustangHood2World
+	{
+		mesh = WorldItems/ATA_Mustang_items|ATAMustangHood2World,
+		texture = Vehicles/ATA_Mustang_base0,
+		scale = 0.014,
+	}
+	model ATAMustangHood3World
+	{
+		mesh = WorldItems/ATA_Mustang_items|ATAMustangHood3World,
+		texture = Vehicles/ATA_Mustang_base0,
+		scale = 0.014,
+	}
+	model ATAMustangHood4World
+	{
+		mesh = WorldItems/ATA_Mustang_items|ATAMustangHood4World,
+		texture = Vehicles/ATA_Mustang_base0,
+		scale = 0.014,
+	}
+	item ATAMustangHood2Item3 /* Vehicle */
+    {
+        DisplayCategory = Tuning,
+		Weight	=	15.0,
+        Type	=	Normal,
+        DisplayName	=	ATAMustangHood2Item,
+        Icon	=	EngineDoor,
+        VehicleType =   3,
+        ChanceToSpawnDamaged = 25,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = Autotsar.ATAMustangHood2World,
+    }
+
+	item ATAMustangHood3Item3 /* Vehicle */
+    {
+        DisplayCategory = Tuning,
+		Weight	=	15.0,
+        Type	=	Normal,
+        DisplayName	=	ATAMustangHood3Item,
+        Icon	=	EngineDoor,
+        VehicleType =   3,
+        ChanceToSpawnDamaged = 25,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = Autotsar.ATAMustangHood3World,
+    }
+	item ATAMustangHood4Item3 /* Vehicle */
+    {
+        DisplayCategory = Tuning,
+		Weight	=	15.0,
+        Type	=	Normal,
+        DisplayName	=	ATAMustangHood4Item,
+        Icon	=	EngineDoor,
+        VehicleType =   3,
+        ChanceToSpawnDamaged = 25,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = Autotsar.ATAMustangHood4World,
+    }
+}

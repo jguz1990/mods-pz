@@ -1,0 +1,16 @@
+module Base
+{
+	template vehicle SidePanel
+	{
+		part SidePanel
+		{
+			category = bodywork,
+			area = Engine,
+			lua
+			{
+				create = Vehicles.Create.Default,
+			}
+		}
+	}
+}
+

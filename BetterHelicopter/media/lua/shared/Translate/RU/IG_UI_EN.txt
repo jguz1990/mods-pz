@@ -1,0 +1,6 @@
+Tooltip_RU = {
+	IGUI_VehicleNameBHelicopter = "UH-1 Iroquois 'Huey'",
+    IGUI_VehiclePartCatblade = "Лопасти",
+    IGUI_VehiclePartheliblade = "Основные лопасти",
+    IGUI_VehicleParthelibladeSmall = "Поворотные лопасти",
+}

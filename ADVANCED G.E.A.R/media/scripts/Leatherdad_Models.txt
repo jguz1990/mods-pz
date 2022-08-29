@@ -1,0 +1,50 @@
+module Base
+{
+
+    model PA_P38
+    {
+        mesh = WorldItems/Necklace_Dogtags_Ground,
+        texture = PA_P38,
+        scale = 0.4,
+    }
+
+model PA_multitoolclosed_old	
+    {
+        mesh = multitoolclosed,
+        texture = PA_multitool,
+    }
+
+model PA_multitoolclosed	
+    {
+        mesh = PA_multitoolclosed,
+        texture = PA_multitool,
+		scale = 0.01,
+    }
+model PA_multitoolclosed_ground	
+    {
+        mesh = PA_multitoolclosed,
+        texture = PA_multitool,
+		scale = 0.01,
+    }
+
+	
+model PA_multitoolpliers
+    {
+        mesh = multitoolpliers,
+        texture = PA_multitool,
+    }
+
+
+model swissarmyknife
+    {
+        mesh = PA_swissarmyknife,
+        texture = PA_swissarmyknife,
+    }
+model PA_swissarmyknife
+    {
+        mesh = PA_swissarmyknife,
+        texture = PA_swissarmyknife,
+    }
+
+
+}

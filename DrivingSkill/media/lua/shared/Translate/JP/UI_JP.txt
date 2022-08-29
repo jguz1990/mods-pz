@@ -1,0 +1,6 @@
+UI_JP = {
+    UI_prof_cabdriver = "タクシードライバー",
+    UI_prof_cabdriverdesc = "あなたは車を運転する仕事に多くの時間を費やしました。<br>+2 運転技術<br>+2 車両整備",
+    UI_trait_driver = "ドライバー",
+    UI_trait_driverdesc = "快適な運転ができる。<br>+1 運転技術",
+}

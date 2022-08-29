@@ -1,0 +1,4 @@
+name=Map Symbol Size Slider
+poster=map_symbol_slider_poster.png
+id=MapSymbolSizeSlider
+descripiton=Adds Symbol Size slider to map symbols menu

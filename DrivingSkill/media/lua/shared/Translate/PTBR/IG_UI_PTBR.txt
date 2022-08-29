@@ -1,0 +1,4 @@
+IGUI_PTBR = {
+	IGUI_perks_Driving = "Dirigir",
+	IGUI_perks_Miscellaneous = "Miscelânea"
+}

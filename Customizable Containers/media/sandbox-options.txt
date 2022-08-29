@@ -1,0 +1,264 @@
+VERSION = 1,
+
+option CustomizableBackpacks.WeightReduction
+{
+	type = enum,
+	numValues = 13,
+	default = 3,
+	
+	page = CustomizableBackpacks,
+	translation = CustomizableBackpacks_WeightReduction,
+	valueTranslation = CustomizableBackpacks_WeightReduction,
+}
+
+option CustomizableBags.WeightReduction
+{
+	type = enum,
+	numValues = 13,
+	default = 3,
+	
+	page = CustomizableBackpacks,
+	translation = CustomizableBags_WeightReduction,
+	valueTranslation = CustomizableBags_WeightReduction,
+}
+
+option CustomizableChestRigs.WeightReduction
+{
+	type = enum,
+	numValues = 13,
+	default = 3,
+	
+	page = CustomizableBackpacks,
+	translation = CustomizableChestRigs_WeightReduction,
+	valueTranslation = CustomizableChestRigs_WeightReduction,
+}
+
+option CustomizableFannyPacks.WeightReduction
+{
+	type = enum,
+	numValues = 13,
+	default = 3,
+	
+	page = CustomizableBackpacks,
+	translation = CustomizableFannyPacks_WeightReduction,
+	valueTranslation = CustomizableFannyPacks_WeightReduction,
+}
+
+option CustomizableContainers.WeightReduction
+{
+	type = enum,
+	numValues = 13,
+	default = 3,
+	
+	page = CustomizableBackpacks,
+	translation = CustomizableContainers_WeightReduction,
+	valueTranslation = CustomizableContainers_WeightReduction,
+}
+
+option CustomizableBackpacks.Capacity
+{
+	type = enum,
+	numValues = 18,
+	default = 3,
+	
+	page = CustomizableBackpacks,
+	translation = CustomizableBackpacks_Capacity,
+	valueTranslation = CustomizableBackpacks_Capacity,
+}
+
+option CustomizableBags.Capacity
+{
+	type = enum,
+	numValues = 18,
+	default = 3,
+	
+	page = CustomizableBackpacks,
+	translation = CustomizableBags_Capacity,
+	valueTranslation = CustomizableBags_Capacity,
+}
+
+option CustomizableChestRigs.Capacity
+{
+	type = enum,
+	numValues = 18,
+	default = 3,
+	
+	page = CustomizableBackpacks,
+	translation = CustomizableChestRigs_Capacity,
+	valueTranslation = CustomizableChestRigs_Capacity,
+}
+
+option CustomizableFannyPacks.Capacity
+{
+	type = enum,
+	numValues = 18,
+	default = 3,
+	
+	page = CustomizableBackpacks,
+	translation = CustomizableFannyPacks_Capacity,
+	valueTranslation = CustomizableFannyPacks_Capacity,
+}
+
+option CustomizableContainers.Capacity
+{
+	type = enum,
+	numValues = 18,
+	default = 3,
+	
+	page = CustomizableBackpacks,
+	translation = CustomizableContainers_Capacity,
+	valueTranslation = CustomizableContainers_Capacity,
+}
+
+option CustomizableBackpacks.Weight
+{
+	type = enum,
+	numValues = 5,
+	default = 1,
+	
+	page = CustomizableBackpacks,
+	translation = CustomizableBackpacks_Weight,
+	valueTranslation = CustomizableBackpacks_Weight,
+}
+
+option CustomizableBags.Weight
+{
+	type = enum,
+	numValues = 5,
+	default = 1,
+	
+	page = CustomizableBackpacks,
+	translation = CustomizableBags_Weight,
+	valueTranslation = CustomizableBags_Weight,
+}
+
+option CustomizableChestRigs.Weight
+{
+	type = enum,
+	numValues = 5,
+	default = 1,
+	
+	page = CustomizableBackpacks,
+	translation = CustomizableChestRigs_Weight,
+	valueTranslation = CustomizableChestRigs_Weight,
+}
+
+option CustomizableFannyPacks.Weight
+{
+	type = enum,
+	numValues = 5,
+	default = 1,
+	
+	page = CustomizableBackpacks,
+	translation = CustomizableFannyPacks_Weight,
+	valueTranslation = CustomizableFannyPacks_Weight,
+}
+
+option CustomizableContainers.Weight
+{
+	type = enum,
+	numValues = 5,
+	default = 1,
+	
+	page = CustomizableBackpacks,
+	translation = CustomizableContainers_Weight,
+	valueTranslation = CustomizableContainers_Weight,
+}
+
+option CustomizableVehicles.Capacity
+{
+	type = enum,
+	numValues = 5,
+	default = 1,
+	
+	page = CustomizableBackpacks,
+	translation = CustomizableVehicles_Capacity,
+	valueTranslation = CustomizableVehicles_Capacity,
+}
+	
+option CustomizableVehicles.Weight
+{
+	type = enum,
+	numValues = 5,
+	default = 1,
+	
+	page = CustomizableBackpacks,
+	translation = CustomizableVehicles_Weight,
+	valueTranslation = CustomizableVehicles_Weight,
+}
+
+option CustomizableRecipes.CContainers
+{
+	type = enum,
+	numValues = 9,
+	default = 2,
+	
+	page = CustomizableBackpacks,
+	translation = CustomizableRecipes_CContainers,
+	valueTranslation = CustomizableRecipes_CContainers,
+}
+
+option CustomizableClothing.SatchelWearable
+{
+	type = enum,
+	numValues = 3,
+	default = 2,
+
+	page = CustomizableBackpacks,
+	translation = CustomizableClothing_SatchelWearable,
+        valueTranslation = CustomizableClothing_SatchelWearable,
+}
+
+option CustomizableBackpacks.RemoveRunSpeedModifier
+{
+	type = boolean,
+	default = false,
+
+	page = CustomizableBackpacks,
+	translation = CustomizableBackpacks_RemoveRunSpeedModifier,
+}
+
+option CustomizableExercise.Exercise
+{
+	type = boolean,
+	default = false,
+
+	page = CustomizableBackpacks,
+	translation = CustomizableExercise,
+}
+
+option CustomizableRecipes.Recipes
+{
+	type = boolean,
+	default = false,
+
+	page = CustomizableBackpacks,
+	translation = CustomizableRecipes,
+}
+
+option CustomizableClothing.Durability
+{
+	type = boolean,
+	default = false,
+
+	page = CustomizableBackpacks,
+	translation = CustomizableClothing_Durability,
+}
+
+option CustomizableClothing.Degradation
+{
+	type = boolean,
+	default = false,
+
+	page = CustomizableBackpacks,
+	translation = CustomizableClothing_Degradation,
+}
+
+option CustomizablePickUp.Limit
+{
+	type = boolean,
+	default = false,
+
+	page = CustomizableBackpacks,
+	translation = CustomizablePickUp_Limit,
+}

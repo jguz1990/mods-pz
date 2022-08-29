@@ -1,0 +1,5 @@
+name=Dynamic Traits - More Traits also Dynamic! (THIS IS NOT REQUIRED FOR THE MAIN MOD)
+poster=poster.png
+id=DynamicMoreTraits
+description=You will be able to gain or lose the traits from the More Traits mod during the game.
+require=ToadTraits,DynamicTraits

@@ -1,0 +1,8 @@
+UI_EN = {
+    UI_esQLIB_brackets = "(%1)",
+    UI_esQLIB_make = "Make",
+    UI_esQLIB_from = "From",
+    UI_esQLIB_use = "Use",
+    UI_esQLIB_selected = "Selected",
+    UI_esQLIB_critical = "Critical Chance",
+}

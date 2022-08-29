@@ -1,0 +1,4 @@
+Tooltip_CN = {
+	Tooltip_item_HeliMag = "尽情起飞吧！", 
+	Tooltip_I_dont_know = "我不知道怎么操作直升机",
+}

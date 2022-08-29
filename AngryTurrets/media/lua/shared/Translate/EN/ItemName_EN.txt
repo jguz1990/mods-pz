@@ -1,0 +1,6 @@
+ItemName_EN = {
+    ItemName_Base.ATPistolTurret = "Angry Pistol Turret",
+    ItemName_Base.ATShotgunTurret = "Angry Shotgun Turret",
+    ItemName_Base.ATSniperTurret = "Angry Sniper Turret",
+    ItemName_Base.ATAngryMagazine = "Angry Turrets for dummies",
+}

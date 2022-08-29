@@ -1,0 +1,54 @@
+UI_EN = {
+    UI_esqmi_more_info = "ExtraSauce More Info",
+
+    UI_esqmi_weapons_info = "Weapons Info",
+    UI_esqmi_weapons_info_tt = "Info for melee, ranged.",
+    UI_esqmi_weapons_parts = "Weapons Parts Info",
+    UI_esqmi_weapons_parts_tt = "Guns' attachments (Weapons parts) info.",
+    UI_esqmi_one_hand = "One Hand",
+    UI_esqmi_both_hands = "Both Hands",
+    UI_esqmi_Durability = "Durability",
+    UI_esqmi_SwingTime = "AttackSpeed",
+    UI_esqmi_MinRange = "MinRange",
+    UI_esqmi_MaxRange = "MaxRange",
+    UI_esqmi_Accuracy = "Accuracy",
+    UI_esqmi_AimingSpeed = "AimingSpeed",
+    UI_esqmi_Sound = "Sound",
+    UI_esqmi_Recoil = "Recoil",
+    UI_esqmi_ReloadSpeed = "ReloadTime",
+
+    UI_esqmi_clothing_info = "Clothing Info",
+    UI_esqmi_clothing_info_tt = "Info for clothing.",
+
+    UI_esqmi_drain_info = "Drainable uses",
+    UI_esqmi_drain_info_tt = "Shows uses left for drainable items.",
+
+    UI_esqmi_car_info = "Cardash Info",
+    UI_esqmi_car_info_tt = "Shows more info on the dashboard.",
+    UI_esqmi_car_maxspeed = "Max Speed",
+    UI_esqmi_car_towing = "Towing",
+    UI_esqmi_car_offroad = "OffRoad",
+
+    UI_esqmi_foods_info = "Foods Info",
+    UI_esqmi_foods_info_tt = "Shows more info about foods.",
+
+    UI_esqmi_books_info = "Books Info",
+    UI_esqmi_books_info_tt = "Shows more info for books, vhs, cds.",
+
+    UI_esqmi_health_info = "Health Info",
+    UI_esqmi_health_info_tt = "Displays the injury under a bandage.",
+
+    UI_esqmi_ammo_info = "Ammo Info",
+    UI_esqmi_ammo_info_tt = "Simple ammo HUD.",
+    UI_esqmi_ammo_F2 = "[<GunAmmo>]",
+    UI_esqmi_ammo_F3 = "[<GunAmmo>] @<BagAmmo>",
+    UI_esqmi_ammo_F4 = "<GunName> [<GunAmmo>]",
+    UI_esqmi_ammo_F5 = "<GunName> [<GunAmmo>] @<BagAmmo>",
+    UI_esqmi_ammo_F6 = "<GunName> [<GunAmmo>] #[<MagAmmo>]",
+    UI_esqmi_ammo_F7 = "<GunName> [<GunAmmo>] #[<MagAmmo>] @<BagAmmo>",
+
+    UI_esqmi_infobar = "Info Bars",
+    UI_esqmi_infobar_tt = "Shows floating info bars.",
+    UI_esqmi_infobar_rain = "rain",
+    UI_esqmi_infobar_snow = "snow",
+}

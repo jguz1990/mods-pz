@@ -1,0 +1,592 @@
+- All remaining vanilla recipes added.
+- Outdoorsman trait by being outside, depending on rain, snow, wind, fog and thunderstorm.
+- Cats Eyes trait by being awake in the night.
+- Increased the kills for the traits by kills.
+- Rework of the All Thumbs/Dextrous and Organized/Disorganized traits.
+
+
+23/06/2021 to 19/07/2021
+- Outdoorsman and Cats Eyes counter increased to make them harder to be obtained. Also Cats Eyes can now be lost.
+- Added compatibility with Superb/Subpar Survivors and current saves.
+- The traits by Perk Levels were changed from == to >= to make it compatible with current savegames.
+- Insomniac is now obtained at 0.45 or more of Hunger instead of 0.60 or more.
+- Need More Sleep is now obtained at 50 or more of Boredom instead of 75 or more.
+- Removing smoker removes the stressFromCigarettes and set it to 0 but set the common stress to 0.95.
+- New trait - Bloodlust. The stress, unhappyness and boredom increase as the time passes(similar to Smoker, since the last zombie killed there's a period of about 10 hours before the moods start to increase). Killing zombies reduce the three of them.
+- Flimsy and Frail reworked, now works with specific values: -2 and -5 instead of percentage.
+- Rework of the traits gained by kills so depending on the starting traits the amount of kills will be different.
+- Fixed a bug that removed Dextrous and Organized when selected in the character creation.
+- Fast Reader and Slow reader are no longer obtainable/removable by perk Level. A rework for those traits will be included in the future.
+- Very Underweight and Athletic are no longer excluyent as it is now included in the vanilla update 41.51.
+- Dextrous/All Thumbs and Organized/Disorganized traits system was rollbacked to the previous system that increased the counter when the animation was on going as it was more "Fair" (the counter no longer decreases now).
+- New Trait - Amateur Electrician - Simply act as Herborist but with Generators recipe.
+- New Traits - Pluviophile/Pluviophobia - The unhappyness and stress increases/decreases by being in the rain.
+- Fixed a bug for Outdoorsman Trait that was not calculating correctly.
+- The Hungry level was included as an extra condition to obtain "Need Less Sleep".
+
+11/08/2021 to 14/08/2021
+- Outdoorsman trait threshold increased from 150000 to 200000
+- Increased the rate the values for All Thumbs/Dextrous and Disorganized/Organized 
+
+26/08/2021 to 16/09/2021
+- Removed "Bloodlust" Trait from being obtained by kills, it now can only be obtained if picked in the Character creation.
+- Bloodlust threshold to start affecting increased from 7000 to 9000.
+- Bloodlust and Pluviophile traits now also reduce the "Stress by cigarettes".
+- Cats Eyes and Outdoorsman traits can no longer be lost. 
+- Outdoorsman trait threshold increased from 200000 to 300000 and it now only increases if outside during rain, thunderstorm, wind, fog or snow.
+- The next traits can now be obtained (They won't have any affect like: XP Bonuses, an extra level, etc) as they do when picked during the character creation BUT the new forage system uses them to get positive bonuses: Cook, Hunter, Hiker, Former Scout, Gardener.
+- Added a Halo Note when a Trait is added/removed. If the text is green something good happened, if the text is red something bad happened.
+- The increasing rate for All Thumbs/Dextrous was increased from 0.05/0.07/0.09 to 0.06/0.08/0.1
+- The increasing rate for Organized/Disorganized was increased from 0.05/0.07/0.09 to 0.07/0.09/0.2
+- Fixed a small error in the increasing rate for Cats Eyes. It should be easier to obtain now.
+- Flimsy and Frail were reworked (again) due to a bug. Now both traits affects in the Strength stat reducing it. Flimsy by one and Frail by two. The Strength is recovered once the weight is recovered.
+- Thick Skinned and Thin Skinned are now part of the weight system and can be obtained/removed based on your weight condition. As a consequence both traits were removed from the character creation.
+
+24/09/2021 to 30/9/2021
+- Bloodlust and Smoker traits reworked to work with different Events using EveryHours and OnZombieDead
+- New Trait: Alcoholic. It can be lost or gained during the gameplay. After 48 hours without drinking the effects will start. Stress, Sadness, Headaches, Fatigue and Poison can affect your character.
+- Axeman is now obtained at Lv7 of Axes instead of Lv4
+
+17/10/2021 to 27/10/2021
+- Code refactor in general to make the code more organized. 
+- Alcoholic Poison is now affected by Weak Stomach/Iron Gut and Prone To Illness/Resilient. Negative traits makes the poison stronger and positive traits makes the poison weaker.
+On the other side Lucky and Unlucky will also affect how fast/slow the trait is obtained/removed by having chances of extra increasing/decreasing the progress.
+- Smoker progress of removing it is now affect by Lucky and Unlucky, having chances of increasing/decreasing progress.
+- New Trait: Sportman. Strength and Fitness are leveled up faster. 
+- New Trait: Anorexy. Fatigue and Endurance is slowly reduced. When eating, sadness, stress and poison are increased. If 65Kg or more while having the trait, unhapyness and stress increases.
+- Being Overloaded have a very low chance of generate a fracture in legs / arms / groin or lower torso. This chance is increased if the player is Overloaded while being Flimsy, Frail, Anorexy or a combination.
+
+11/11/2021 to 12/11/2021 
+- Major code refactor in the files of the mod to reuse code, make it simpler and optimize it.
+
+15/11/2021 TO 15/11/2021
+- Fixed lua errors for NPC Mod when an NPC spawn.
+
+15/11/2021 to 19/11/2021
+- "Sportman" renamed to "Prodigy".
+- New trait: "Active". Spending energy makes you happier.
+- New trait: "Sedentary". Doing exercise will give you boredom. Also wasting energy will give you pain.
+Both Active and Sedentary traits are Dynamic which means that you can go from Sedentary to nothing to Active and viceversa.
+- Vanilla trait cost rebalanced. 
+- Professions rebalanced.
+
+20/11/2021 to 26/11/2021
+- Former Scout now gives +1 Trapping instead of First Aid (Obtainable at Lv2 Foraging and Lv2 Trapping)
+- Hiker now gives +2 Foraging instead of +1 (Obtainable at Lv4 Foraging and Lv2 Trapping)
+- Being unarmed now also gives little Strength and Fitness XP if "Prodigy" trait is set.
+- Kills system totally reworked, it now works based on RNG, which means that there are going to be players that removes/obtain traits sooner that others.
+
+On Steam, Update 8 Dec 2021:
+A) Anorexy trait:
+   1) Removed the Poison given by being in Hunger Lv1 or Hunger Lv0 (no Hunger).
+   2) Reduced the chances and amount of poison genered by the Food Eaten moodlets:
+      - Food Eaten Lv1: Chance increased from 5 to 8 / Random poison reduced from 25 to to 10
+      - Food Eaten Lv2: Chance increased from 4 to 7 / Random poison reduced from 30 to to 15
+      - Food Eaten Lv3: Chance increased from 3 to 6 / Random poison reduced from 35 to to 20
+      - Food Eaten Lv4: Chance increased from 2 to 5 / Random poison reduced from 25 to to 25
+   3) As the poison was reduced, the Fatigue and Endurance loss from the trait was a little bit increase.
+B) Prodigy trait:
+   1) Buffed a little bit the Strength and Fitness obtained from Fighting and Chopping Trees
+C) Brave trait:
+   1) The trait cannot be obtained while Agoraphobic or Claustrophobic are present
+D) Agoraphobic/Claustrophobic traits:
+   1) If one of the trait is present, after killing a zombie a roll of 15 happens, if the roll is 0, then the internal value that handles when those traits can be removed, increases.
+E) Doing exercise may now help to remove faster the Smoker, Alcoholic and Anorexic traits if present.
+F) The Rain Traits (Pluviophile and Pluviophobia) are now affected by the intensity of the rain. The effects will be stronger or weaker based on this.
+
+On Steam, Update 10 Dec 2021:
+Researching the Lua error that happened in the MP I found another "Issue" (actually, not an issue but the code was not clean so I refactored it a little bit) with a function and changed the code of it (it works exactly the same).
+Testing the changes this time I didn't faced the lua error in MP so it was probably a mod incompatibility and not something Dynamic Traits itself made.
+
+On Steam, Update 11 Dec 2021:
+Changed the event OnWeaponSwing to OnWeaponSwingHitPoint to solved the multiplayer lua error that was occuring, hope it fixes it forever.
+
+On Steam, Update 17 Dec 2021: 
+Fixed the issue where the Professions where not having the changes applied after a player dies and tries to create a new character in the same world.
+
+On Steam, Update 21 Dec 2021:
+A) Carpenter Profession:
+   - Now has "Handy" trait as a Free trait.
+   - The Profession Cost changed from +4 to 0.
+B) DTMain function now calls the existingGamesInitializations function. (Code refactor only)
+C) The Base range for Kill traits was decreased to the values it was initially. 
+   - Base range number if started with Cowardly:
+      - Cowardly: Changed from 3000 to 2000
+      - Hemophobic: changed from 4000 to 3000
+      - Brave: changed from 5000 to 4000
+      - Desensitized changed from 7000 to 6000
+   - Base range number if started with Brave:
+      - Brave: changed from 4000 to 3000
+   - Base range number if started without traits:
+      - Hemophobic: changed from 3000 to 2000
+      - Brave: changed from 4000 to 3000
+      - Desensitized: changed from 6000 to 5000
+D) Electrician Profession:
+   - The Profession Cost changed from -6 to 0.
+   - The Profession starts with "Amateur Electrician" (it already did because of the Electronic levels but now the trait is not pickable, just to ensure no one waste points on that.)
+E) Physically Active and Sedentary now require more time to be obtained/removed.
+
+On Steam, Update 23 Dec 2021:
+A) Prodigy trait:
+   - Cost reduced from 8 to 6.
+B) New Trait: Nightmares. When sleeping there are possibilities of waking up with Extreme Panic, Stress and Wetness. The only way to remove it is by obtaining Desensitized. Not available for MP.
+
+On Steam, Update 31 Dec 2021:
+A) Fixed a minimum bug in the Alcoholic trait, a + was changed to -. Thanks Sauce for letting me know.
+
+On Steam, Update 08 Jan 2022:
+A) Hard of Hearing and Keen Hearing Traits: Files affected, DTMainCreationMethods.lua, DTByPerkLevel.lua.
+   - Each level of the next Perks will increase an internal counter by 1: Sneak, Lightfoot, Nimble, Aiming, Axe, Blunt, SmallBlunt, LongBlade, SmallBlade, Spear, PlantScavenging (which means a total of 110 points).
+   - Reach the counter to 30 to remove Hard Of Hearing, reach the counter to 50 to obtain Keen Hearing.
+B) Slow Learner and Fast Learner Traits: Files affected, DTMainCreationMethods.lua, DTByPerkLevel.lua.
+   - Each level of the next Perks will increase an internal counter by 1: Woodwork, Cooking, Farming, Doctor, Electricity, MetalWelding, Mechanics, Tailoring, Fishing, Trapping, PlantScavenging (which means a total of 110 points).
+   - Reach the counter to 30 to remove Slow Learner, reach the counter to 50 to obtain Fast Learner.
+C) Hard refactor in some part of the code (not changing functionality): Files affected, DTMainCreationMethods.lua, DTByOtherConditions.lua, DTinitializations.lua (deleted).
+D) Burglar Profession: File affected: DTMainCreationMethods.lua
+   - Cost changed from 8 to 10 (mostly because everyone uses it on MP).
+E) Translations: 
+   - French translation updated. Thanks Xiivait.
+   - Russian translation added. Thanks Archi9.
+F) Rain Traits and Outdoorsman Traits: Files affected, DTMainCreationMethods.lua, DTByOtherConditions.lua
+   - Pluviophobia and Outdoorsman are now mutually excluyent.
+   - To obtain the Traits now the player has to be Outside AND not in a vehicle.
+   - Having the Traits: Outdoorsman, Hiker and/or Former Scout, the Rain Traits are removed/obtained faster.
+   - Having the Traits: Pluviophile, Hiker and/or Former Scout, the Outdoorsman Trait is obtained faster.
+G) Claustrophobic and Agoraphobic Traits: DTByOtherConditions.lua, DTByKills.lua
+   - Buffed the possibilities and the amount the value increases after killing a zombie.
+   - Buffed the possibilities to increase the value by being Lucky (It was nerfed if you're unlucky!!)
+   - Buffed the rate in which the counter increases passively 
+
+On Steam, Update 09 Jan 2022:
+A) Fixed a lua error that happened once when loading the game for the first time. Moved some code lines from the bottom to the top. Files affected, DTByPerkLevel.lua
+
+On Steam, Update 11 Jan 2022:
+A) Fisherman profession: Files affected, DTMainCreationMethods.lua
+   - Cost changed from 4 to 6
+B) Mechanic profession: Files affected, DTMainCreationMethods.lua
+   - Cost changed from 0 to -6
+   - Added free trait: Burglar
+C) Engineer profession: Files affected, DTMainCreationMethods.lua
+   - Cost changed from -4 to -6
+   - Added 1 Lvl to MetalWelding
+D) Electrician profession: Files affected, DTMainCreationMethods.lua
+   - Electronic level changed from 3 to 4
+E) Metalworker profession: Files affected, DTMainCreationMethods.lua
+   - Cost changed from 0 to -2
+F) Farmer profession: Files affected, DTMainCreationMethods.lua
+   - Farming level changed from 3 to 4
+
+On Steam, Update 17 Jan 2022:
+A) Physically Active trait: Files affected, DTstaticTraits.lua
+   - Fixed a bug with the unhappyness decreased by doing excercise that was not correct.
+
+On Steam, Update 06 Feb 2022:
+A) Added Chinese Translation.
+B) Added XP Multiplier to Strength and Fitness based on exercise regularity. Files affected: DTGeneralTweaks.lua
+   - If an exercise has the Regularity maxed and XP multiplier will be grant. That multiplier will be lost if the regularity is decreased.
+
+On Steam, Update 25 Feb 2022:
+A) New file: DTnewMechanics.lua
+   - The Fractures and XP Multipliers based on exercises regularity mechanics were moved to this file.
+B) DTGeneralTweaks.lua renamed to DTexpandedActionsEffects.lua
+   - Prodigy, Physically Active and Sedentary effects moved to this file.
+C) Nightmares trait: Files affected DTByMood.lua, DTByBodyConditions.lua, DTstaticTraits.lua, DTMainCreationMethods.lua
+   - The trait is no longer pickable at the character creation.
+   - The trait is now dynamic based on the Stress. If the Stress moodlet is at Lv3 or 4 the trait is given (Unless the player is Desensitized) otherwise it is removed.
+D) Nerf to different traits: File affected DTByOtherConditions.lua
+   - The threshold to remove the Smoker trait was increased from 720 to 1080.
+   - The threshold to remove the Alcoholic trait was increased from 504 to 720.
+E) Changes to the XP multipliers, File affected DTByPerkLevel.lua
+   - All the traits that added a XP Multiplier when obtained were changed to add a XP Boost (same as when you pick the Trait from the Character Creation Screen). The new boost is added to current boost if exist (up to a maximum of 125%). The given boost is always 75% (may change in the future if new traits are added or other things changes).
+   - The traits that were obtained but didn't add any multiplier now also add XP Boost.
+   - Jogger trait: applied XP boost to Sprinting.
+   - Gymnast trait: applied XP boost to Lightfoot and Nimble.
+   - Former Scout trait: applied XP boost to Foraging and Trapping.
+   - Hiker trait: applied XP boost to Foraging and Trapping.
+   - Hunter trait: applied XP boost to Trapping, Sneak, Aiming, SmallBlade.
+   - Handy trait: applied XP boost to Carpentry and Maintenance.
+   - Cook trait: applied XP boost to Cooking.
+   - Gardener trait: applied XP boost to Farming.
+F) Changes to the required levels to obtain Traits, Files affected DTByPerkLevel.lua
+   - Hunter trait: It now requires Lv5 or more for Trapping, Sneak, Aiming, SmallBlade.
+   - Former Scout trait: It now requires Lv4 or more in Foraging and Lv2 or more in Trapping.
+   - Hiker trait: It now requires Lv7 or more in Foraging and Lv3 or more in Trapping.
+G) New Traits obtained by perk level, Files affected DTByPerkLevel.lua
+   - First Aid trait: obtained at Lv5 of First Aid. Grant an XP boost.
+   - Fishing trait: obtained at Lv6 of Fishing. Grant an XP boost.
+   - Tailor trait: obtained at Lv7 of Tailoring. Grant an XP boost.
+   - Mechanics trait: obtained at Lv7 of Mechanics. Grant an XP boost.
+H) Cook Trait, File affected DTMainCreationMethods.lua
+   - Cost changed from 4 to 3.
+I) Pluviophile and Pluviophobia traits, New file: DTForageDef.lua
+   - Both traits were added to the Buff/Debuff table for the Foraging skill.
+   - Pluviophile grant 0.5 vision bonus, 10% weather effect and better chances to find: MedicinalPlants, Berries, Mushrooms, WildPlants
+   - Pluviophobia grant -0.5 vision bonus and worse chances to find: MedicinalPlants, Berries, Mushrooms, WildPlants
+J) Snake's Alices Backpack & Ammo Maker fix, File affected: DTMainCreationMethods.lua
+   - Added a check in the file to see if the mods are enabled, if they are then this mod calls the DoTraits function from the other mods.
+K) Outdoorsman trait: Files affected DTMainCreationMethods.lua, DTByOtherConditions.lua
+   - The threshold to obtain the Outdoorsman trait was increased from 300000 to 600000.
+   - The internal value DTOutdoorsCounter will be initialized different based on the character profession. Park Ranger initialize at 200000, Farmer and Fisherman initialize at 100000, Lumberjack initialize at 50000, all the other professions initialize at 0. If the trait is picked the initialization is directly at 600000.
+   - Rain and Snow is now divided into 10 intensities. Based on the intensity the DTOutdoorsCounter increases from 0.01 to 0.1
+   - If the player has the trait Pluviophile and is outside while raining, the DTOutdoorsCounter increases from 0.01 to 0.1 based on the intensity.
+   - If the player has the trait Hiker and is outside while snowing, the DTOutdoorsCounter increases from 0.01 to 0.1 based on the intensity.
+   - If the player has the trait Hiker and is outside while windy, the DTOutdoorsCounter increases from 0.01 to 0.05 based on the intensity (5 intensities as always).
+   - The DTOutdoorsCounter is increased while being outside if the player has one of the next professions Park Ranger: 0.03; Farmer or Fisherman: 0.02; Lumberjack: 0.01.
+L) Conspicuous & Inconspicuous traits, Files affected: DTByPerkLevel.lua, DTByBodyConditions.lua
+   - The traits are no longer given/removed based on the weight condition.
+   - Obese & Conspicuous are no longer Mutually Exclusive.
+   - Conspicuous is now removed at Lv5 instead of Lv3 of Sneak.
+   - Inconspicuous is now obtained at Lv8 instead of Lv5 of Sneak.
+M) Clumsy & Graceful traits, Files affected: DTByPerkLevel.lua, DTByBodyConditions.lua
+   - The traits are no longer given/removed based on the weight condition.
+   - Obese & Clumsy are no longer Mutually Exclusive.
+   - Clumsy is now removed at Lv5 instead of Lv3 of Lightfoot.
+   - Graceful is now obtained at Lv8 instead of Lv5 of Lightfoot.
+N) Asthmatic trait, File affected: DTByBodyConditions.lua
+   - Is no longer obtainable by being Overweigth (it is still obtained by being Obese).
+O) All Thumbs/Dextrous traits: File affected: DTByOtherConditions, DTMainCreationMethods.lua
+   - The initializations values and the threshold to obtain/remove the traits changed.
+   - If All Thumbs is picked the initialization for DTatdTraits is: -125000 if the profession is Nurse or Doctor, -150000 if the profession is Burglar, -175000 if the profession is Electrician or Engineer, -200000 if any other profession.
+   - If Dextrous is picked the initialization for DTatdTraits is: 200000.
+   - If no trait is picked the initialization for DTatdTraits is: 75000 if the profession is Nurse or Doctor, 50000 if the profession is Burglar, 35000 if the profession is Electrician or Engineer, 0 if any other profession.
+   - All Thumbs is now removed by reaching DTatdTraits to 0. Dextrous is now obtained by reaching DTatdTraits to 200000.
+   - DTatdTraits increases different based on the current weight and profession.
+      + No weight problems:
+         * If the profession is Nurse or Doctor: 0.5 per tick.
+         * If the profession is Burglar: 0.4 per tick.
+         * If the profession is Electrician or Engineer: 0.3 per tick.
+         * If any other profession: 0.2 per tick.
+      + Being Underweight or Overweight:
+         * If the profession is Nurse or Doctor: 0.3 per tick.
+         * If the profession is Burglar: 0.2 per tick.
+         * If the profession is Electrician or Engineer: 0.1 per tick.
+         * If any other profession: 0.09 per tick.
+      + Being Very Underweight or Obese:
+         * If the profession is Nurse or Doctor: 0.1 per tick.
+         * If the profession is Burglar: 0.09 per tick.
+         * If the profession is Electrician or Engineer: 0.08 per tick.
+         * If any other profession: 0.07 per tick.
+P) Disorganized/Organized traits: File affected: DTByOtherConditions, DTMainCreationMethods.lua
+   - The initializations values and the threshold to obtain/remove the traits changed.
+   - If Disorganized is picked the initialization for DTdoTraits is: -200000 if the profession is Nurse or Doctor, -250000 if the profession is Carpenter, Chef, Electrician, Engineer, Metalworker or Mechanics, -300000 if any other profession.
+   - If Organized is picked the initialization for DTdoTraits is: 300000.
+   - If no trait is picked the initialization for DTdoTraits is: 100000 if the profession is Nurse or Doctor, 50000 if the profession is Carpenter, Chef, Electrician, Engineer, Metalworker or Mechanics, 0 if any other profession.
+   - Disorganized is now removed by reaching DTdoTraits to 0. Organized is now obtained by reaching DTdoTraits to 300000.
+   - DTdoTraits increases different based on the current weight and profession.
+      + No weight problems:
+         * If the profession is Nurse or Doctor: 0.5 per tick.
+         * If the profession is Carpenter, Chef, Electrician, Engineer, Metalworker or Mechanics: 0.4 per tick.
+         * If any other profession: 0.3 per tick.
+      + Being Underweight or Overweight:
+         * If the profession is Nurse or Doctor: 0.3 per tick.
+         * If the profession is Carpenter, Chef, Electrician, Engineer, Metalworker or Mechanics: 0.2 per tick.
+         * If any other profession: 0.1 per tick.
+      + Being Very Underweight or Obese:
+         * If the profession is Nurse or Doctor: 0.1 per tick.
+         * If the profession is Carpenter, Chef, Electrician, Engineer, Metalworker or Mechanics: 0.09 per tick.
+         * If any other profession: 0.08 per tick.
+Q) Cats Eyes trait: File affected: DTByOtherConditions, DTMainCreationMethods.lua
+   - The threshold to obtain the Cats Eyes trait was increased from 120000 to 300000.
+   - The internal value DTCatsEyesCounter will be initialized different based on the character profession. 100000 If the profession is Security Guard, 75000 if the profession is Burglar, 50000 if the profession is Fire Officer or Police Officer. If the trait is picked the initialization is directly at 300000.
+   - DTCatsEyesCounter increases different based on the profession, hour and being inside or outside.
+      + Being outside at 22, 23, 04 or 05:
+         * If the profession is Security Guard: 0.3 per tick.
+         * If the profession is Burglar: 0.2 per tick.
+         * If the profession is Fire Officer or Police Officer: 0.1 per tick.
+         * If any other profession: 0.09 per tick.
+      + Being inside at 22, 23, 04 or 05:
+         * If the profession is Security Guard: 0.1 per tick.
+         * If the profession is Burglar: 0.09 per tick.
+         * If the profession is Fire Officer or Police Officer: 0.08 per tick.
+         * If any other profession: 0.07 per tick.
+      + Being outside at 00, 01, 02 or 03:
+         * If the profession is Security Guard: 0.7 per tick.
+         * If the profession is Burglar: 0.6 per tick.
+         * If the profession is Fire Officer or Police Officer: 0.5 per tick.
+         * If any other profession: 0.4 per tick.
+      + Being inside at 00, 01, 02 or 03:
+         * If the profession is Security Guard: 0.5 per tick.
+         * If the profession is Burglar: 0.4 per tick.
+         * If the profession is Fire Officer or Police Officer: 0.3 per tick.
+         * If any other profession: 0.2 per tick.
+R) Gymnast trait: File affected DTByPerkLevel.lua
+	- The trait is now obtained at Lv4 of Nimble and Lv7 of Lightfoot instead of Lv4 of Nimble and Lv6 of Lightfoot.
+
+On Steam, Update 16 March 2022:
+A) New file: DTMainFile.lua
+   - All Events were moved to this file to centralize. 
+B) New file: DTexpandedMoodleEffects.lua
+   - Added own code to generate Colds to the player when exposed to Wetness. (The first level of wetness doesn't trigger the cold but increases an internal value that in case of going to the second level, will affect the chances).
+   - Having a Cold now also has chances of generating: Headaches, Fatigue, Poison (be careful or you will end up with Fever).
+   - Being Stressed or Panicked increases the body wetness. The more Stressed or Panicked the more the Wetness increases.
+   - Infected wounds will generate poison (The Sick Moodle) that will be affected by: Prone To Illness / Resilient and Thin Skinned / Thick Skinned.
+   - If the player has Injuries, the Stress will increased (the more injuries, the more it will increase).
+C) Thick Skinned trait: File affected DTByBodyConditions.lua
+   - The code that checks if the player has Lv7 or more of Strength and based on that gives/removes the trait was also added to the Overweight and Obese section (Could be considered as a bug fixed).
+D) Doing excercise increases the body wetness each loop (You better have your towels ready). File affected: DTexpandedActionsEffects.lua
+E) PTBR translate added.
+F) First version of the compatibility mod between More Traits and Dynamic Trait released. Please provide feedback about it as I said, this is the first version.
+G) Traits by Kills. File affected: DTByKills.lua
+   - Increased the required survived time to do the roll from 15 days to 30 days.
+   - Base range for the roll increased in 1000 (for all Traits).
+
+On Steam, Update March 22 2022:
+A) Added DTincreaseItemWetness function for EME Sub mod. File affected: DTmodifiers.lua, DTMainFile.lua
+B) Pluviophile & Pluviphobia traits. Files affected: DTByOtherConditions.lua, DTMainCreationMethods.lua
+   - The function now runs based on EveryOneMinute event instead of OnPlayerUpdate event.
+   - The initialization changed to: -40000 if Pluviophobia is choosed, 0 if no trait is choosed, 40000 if Pluviophile is choosed.
+   - Pluviophobia is now removed by reaching 0 in DTRainTraits counter. Pluviophile is now obtained by reaching 40000 in DTRainTraits counter.
+   - Changed from 5 rain intensities to 10 (same as Outdoorsman function).
+   - The value of DTRainTraits increases by 1 at the weaker rain intensity and by 2.8 at the stronger rain intensity.
+   - Having Outdoorsman/Former Scout and/or Hiker increases DTRainTraits by 3 extra each.
+   - Wearing a Poncho divides the negative/positive effects by 2.
+   - Wearing an Umbrella divides the negative/positive effects by 3.
+   - Wearing both at the same time completely cancels the effects. (DTRainTraits increases even here, but without effects).
+
+On Steam, Update April 29 2022:
+A) Pluviophile trait no longer affect StressFromCigarettes (it fixes the stress peak when Smoker is present). File affected: DTByOtherConditions.lua
+B) Pluviophile and Pluviophobia traits now detect all Ponchos (even if they are from mods) to reduce the effects. File affected: DTByOtherConditions.lua
+C) Trait icons: 
+   - Bloodlust and Prodigy icons were changed (Thanks Hea for the new icons).
+   - Physically Active and Sedentary icons were recolored.
+   - Flimsy and Frail icons were recolored.
+
+On Steam, Update May 02 2022:
+A) Code refactor and clean up for some functions (for optimization purposes only). Files affected: DTMainFile.lua, DTByOtherConditions.lua, DTByKills.lua, DTstaticTraits.lua, DTnewMechanics.lua, DTByMood.lua
+B) traitsByMovingObjects function is now called in the EveryOneMinute (for optimization purposes only, more will be moved). File affected: DTMainFile.lua, DTByOtherConditions.lua
+C) StressFromCigarettes will be set to 0 in the Pluviophile function. This fixes the stress peak generated by the addition of StressFromCigarettes to Stress. File affected DTByOtherConditions.lua
+
+On Steam, Update May 14 2022:
+A) Added loggers across the entire mod (monitoring the mod behaviour). The logs can be seen in the console.log. The functions that still runs based on OnPlayerUpdate event won't have logs yet.
+   - Track if the functions are being properly executed (For example, if Anorexy is present, there are logs for the Anorexy functions).
+   - Track of the ModData values changes (For example, if Smoker is present and the player doesn't smoke, that the ModData increases as expected).
+B) Added a check for More Simple Traits. If detected active, then the DoTrait function from that mod will be called to avoid possible bugs with the Mutually Exclusives traits.
+C) New Traits: Nervous Wreck and Melancholic. Files affected: DTByOtherConditions, DTMainCreationMethods, DTmodifiers.lua, DTMainFile.lua
+   - Both are Dynamic Traits BUT will only affect who choosed them at the start (if you didn't pick them in the character creation then you won't ever have to deal with them).
+   - Nervous Wreck can be treated with Betablockers, Melancholic can be treated with Antidepressants (one per day is enough to keep them always removed).
+   - DTPillsBeta(Nervous Wreck) and DTPillsAntiDep(Melancholic) are the internal values for the traits. While the value is under or equals to 24 the traits are not present. Above 24 the traits are added. (It increases one per hour and decreases in 24 each time a pill is taken).
+   - Having the traits will increase in 30% all the Stress and Unhappyness gains from others traits. Example: the Unhappyness and Stress generated by Alcoholic will be 30% higher if the traits are present.
+   - Passively if the traits are present, each hour the unhappyness and stress will increase.
+   - If no pills are taken the value will keep increasing up to 240 (10 days) so to remove the traits, 10 pills would be required.
+D) Taken too many pills will generate overdose, which will generate poison. Files affected: DTMainFile.lua, DTByOtherConditions.lua
+   - Each taken pill increases in 8 DTPillsOverdose. DTPillsOverdose will decrease in 1 each hour.
+   - Every ten minutes the value of DTPillsOverdose is checked. If greater than 24, will generate poison in a chance of 1 in 7. The poison will be a random number generated between 0 and the current value of DTPillsOverdose. The traits that affect the poison in other traits affect here too.
+E) Due to the Pills overdose, the fatigue reduction by taking vitamins was increased from 2 to 7 (to make them worth it).
+
+On Steam, Update May 17 2022:
+A) PIlls overdose threshold increased from 3 pills to 5 pills per day to be safe.
+
+On Steam, Update May 27 2022:
+A) Traits by body conditions, traits by moods and traits by recipes functions were moved from OnPlayerUpdate to EveryOneMinte (optimization purposes). Files affected: DTMainFile.lua
+B) Fixed a bug that generated duplicated traits when More Simple Traits was also enabled. File affected: DTMainCreationMethods.lua
+C) Agoraphobic and Claustrophobic traits: Files affected: DTMainFile.lua, DTByOtherConditions.lua
+   - Function now runs based on EveryOneMinute instead of OnPlayerUpdate.
+   - The value increases passively in 1 when being inside/outside (based on the trait).
+   - The chances of increasing/decreasing the internal value based on having Lucky or Unlucky was changed from 1/50 to 1/15. 
+   - The threshold to remove the trait was chaged from 500000 to 175000. 
+D) Cats Eyes trait: Files affected: DTMainFile.lua, DTByOtherConditions.lua, DTMainCreationMethods.lua
+   - Function now runs based on EveryOneMinute instead of OnPlayerUpdate.
+   - Threshold to obtain the trait was changed from 300000 to 150000.
+   - The initialization for the different professions changed to match the new values. Security guard 75000, Burglar 50000 and Fire officer or Police officer 25000.
+   - The increase of the value based on the profession and hour was also adapted to the new values.
+E) Outdoorsman trait: Files affected: DTMainFile.lua, DTByOtherConditions.lua
+   - Function now runs based on EveryOneMinute instead of OnPlayerUpdate.
+   - The increase of the value was adapted to match the new behaviour.
+   - Threshold to obtain the trait was changed from 600000 to 500000.
+F) Added description for EN, ES and RU for Nervous Wreck and Melancholic traits.
+G) Smoker trait: Files affected: DTMain.lua, DTByOtherConditions.lua
+   - Added chances to have a cough when recently smoked or when endurance is below 50%. It will play cough animation and emit a sound that can be heard by zombies.
+H) Lv3 or more of Stress or Unhappyness will now give Hearty Appitite. Files affected: DTByMood.lua, DTByBodyConditions.lua
+   - Will be removed once mood improves except if Overweigth or Obese are present. 
+   - Light eater won't be given when Lv6 or more of Strength and Fitness if Stress or Unhappyness are at Lv3 or more.
+I) Anorexic trait: File affected: DTByOtherConditions.lua
+   - Minor change in how the DTthresholdToObtainLoseAnorexy is increased based on the Stress and Unhappyness Moodle.
+   - Decreased the range of Lucky/Unlucky to affect DTthresholdToObtainLoseAnorexy. From 25 to 10.
+J) Added Vomit animation when a success poison is triggered (by Alcoholic, Anorexic, Pills overdose, etc). File affected: DTmodifiers.lua
+
+On Steam, Update Jun 06 2022:
+A) Added a compatibility check for More Simple Traits to fix a bug when both mods are together. File affected: DTexpandedActionsEffects.lua
+B) Commented all the Loggers as now the entire refactor was done.
+C) Overdose: Files affected: DTnewMechanics.lua, DTMainCreationMethods.lua, DTParams.lua, DTMainFile.lua, DTRecipeCode.lua
+   - The pills overdose was converted into overdose that will include pills and alcohol (if Snake's modpack is present, energy drinks will also be part of the overdose).
+   - Taking a pill will increase the value of overdose by 8. Taking an alcoholic drink will increase the value of overdose by 15. Energy drinks will increase overdose by 20. Maximum energy drink will increase overdose by 40, tragos will increase overdose by 8. (Alcoholic drinks from Snake's modpack also included in the overdose).
+   - Having Iron Gut the margin for Overdose is 65, having Weak Stomach the margin for Overdose is 35, otherwise the margin is 50.
+   - The overdose value decreases in 2 every hour.
+D) Bloodlust trait: Files affected: DTstaticTraits.lua, DTMainCreationMethods.lua, DTMainFile.lua, DTByKills.lua
+   - Added 15 new "Emotional Intelligence" books that can be obtained looting. 5 Books related to stress, 5 to unhappyness and 5 to boredom.
+   - The bloodlust trait will now check if all the books are read. If all of them are read then the negative effects will start after 72 hours instead of 24 hours.
+   - Bloodlust is now an obtainable trait after Desensitized is obtained with a base value of 12000.
+
+On Steam, Update Jun 14 2022:
+A) Strong and Athletic now cost 12. Fit and Stout now cost 7. File affected: DTMainCreationMethods.lua
+B) Decreased the wetness generated every loop while doing excercise from 3 to 1. File affected: DTexpandedActionsEffects.lua
+C) Alcoholic trait: File affected: DTByOtherConditions.lua, DTmodifiers.lua
+   - Doubled the stress generated by the trait every hour but now it will increase based on a roll of 1/3 (So the stress won't necessariliy increase every hour).
+   - Doubled the unhappyness generated by the trait every hour but now it will increase based on a roll of 1/3 (So the stress won't necessariliy increase every hour).
+D) Alcoholic / Smoker and Anorexic trait: File affected: DTexpandedActionsEffects.lua
+   - Decreased the range for the roll that increases the threshold to remove the traits while doing excercise from 25 to 15.
+
+On Steam, Update 26 Jun 2022:
+A) The Expanded Moodle Effect submod was integrated into the main mod again. All this time was enough to balance everything. It makes no sense to keep this as a submod that only generates extra effort for me.
+B) Alcoholic trait: File affected DTByOtherConditions.lua
+   - The roll to increase Unhappyness increase from a chance of 1/3 to a chance of 1/5. (Less frequent).
+C) DTincreaseWetness function now receives a new parameter: chance; that will be used across the mod. File affected DTmodifiers.lua, DTByMood.lua, DTexpandedActionsEffects.lua
+D) Anorexy trait: File affected: DTByOtherConditions.lua
+   - The Stress that passively increases every hour when more than 65KG now increases in a chance of 1/3 instead of always.
+   - The Unhappyness that passively increases every hour when more than 65KG now increases in a chance of 1/5 instead of always.
+   - The Fatigue and Endurance that passively decreases every hour now decreases it in a chance of 1/3 instead of always and the value changed from 0.07 to 0.10 (Less frequent but higher effect).
+E) The Stress, Unhappyness and Boredom books now affect in the amount those moods increase by the traits. File affected: DTmodifiers.lua
+   - Having the complete set read (Stress, Unhappyness or Boredom) will reduce 30% the rate of increase for that mood (only the things affected by this mod, for example, the stress by being Smoker is not affected, it will increase in the same rate).
+F) The Wetness by Panic and Stress now is based on a chance. File affected: DTexpandedMoodleEffects.lua
+    - The Wetness increased by Panic is now increased in a chance of 1/3.
+    - The Wetness was increased as: 9 to 12 in panic Lv1, 11 to 14 in panic Lv2, 13 to 16 in panic Lv3, 15 to 18 in panic Lv4.
+    - The Wetness increased by Stress is now increased in a chance of 1/3.
+    - The Wetness was increas as: 4 to 7 in Stress Lv1, 6 to 9 in Stress Lv2, 8 to 11 in Stress Lv3, 10 to 13 in Stress Lv4.
+
+On Steam, Update 12 Jul 2022:
+A) The Wetness generated by being stressed doesn't increase while the player is sleeping. File affected: DTexpandedMoodleEffects.lua
+B) Fixed a bug in Nightmares traits that was missing a parameter in a function call. File affected: DTByMood.lua
+
+On Steam, Update 27 Jul 2022:
+A) Integrated the +1 to perk traits from More Simple Traits into DT (MST still has the DT Module that adds all the other traits) All credits for this traits goes to Hea. File affected: DTMainCreationMethods.lua, DTByPerkLevel.lua, DTForageDef.lua
+   - Added: Sneaky, Lightfooted, Nimble, Forager, Trapper, Electrical-technician, Auto Mechanic, Carpenter, Metalwelder, Durability, Piercer, Crusher, Cutter, Lancer, Swordsman, Shooter.
+   - Sneaky obtained at Lv6 of Sneak.
+   - Lightfooted obtained at Lv6 of Lightfoot.
+   - Nimble obtained at Lv5 of Nimble.
+   - Forager obtained at Lv6 of Foraging.
+   - Trapper obtained at Lv4 of Trapping.
+   - Electrical-technician obtained at Lv5 of Electricity.
+   - Auto Mechanic obtained at Lv5 of Mechanics.
+   - Carpenter obtained at Lv5 of Carpentry.
+   - Metalwelder obtained at Lv5 of MetalWelding.
+   - Durability obtained at Lv6 of Maintenance.
+   - Piercer obtained at Lv4 of Smallblade.
+   - Crusher obtained at Lv4 of Shortblunt.
+   - Cutter obtained at Lv5 of Axe.
+   - Lancer obtained at Lv6 of Spear.
+   - Swordsman obtained at Lv5 of Longblade.
+   - Shooter obtained at Lv6 of Aiming and Lv4 of Reloading.
+   - Same as in More Simple Traits the same traits were added to the Foraging bonuses.
+B) Brawler trait: File affected: DTByPerkLevel.lua 
+   - The trait is now obtained at Lv6 or more of Axe and Long Blunt Lv7 or more. 
+C) First Aid trait: File affected: DTByPerkLevel.lua
+   - The trait is now obtainable at Lv3 or more of First Aid.
+D) Tailor trait: File affected: DTByPerkLevel.lua
+   - The trait is now obtainable at Lv6 or more of Tailoring.
+E) Angler trait: File affected: DTByPerkLevel.lua
+   - The trait is now obtainable at Lv5 or more of Fishing.
+
+On Steam, Update 27 Jul 2022:
+A) Minor improvement: added a check to not trigger the code for fractures if being inside a Vehicle. File affected: DTexpandedMoodleEffects.lua
+
+On Steam, Update 12 Aug 2022:
+A) Professions rework: File affected: DTMainCreationMethods.lua
+   - Fire officer: cost changed to -9
+   - Police officer: cost changed to -6 / Added "Nightowl" as free trait.
+   - Park ranger: cost changed to -7 (or -9 if Le Gourmet is enabled) / Added "Herbalist" as free trait. / Added +1 to Long Blade.
+   - Construction worker: +1 to Carpentry increased to +3.
+   - Security guard: +1 to Lightfoot changed to +1 to Aiming / Added +1 to SmallBlunt.
+   - Carpenter: cost changed -2 if Table Saw is enabled.
+   - Burglar: cost changed to -9 (or -11 if WPA is enabled).
+   - Chef: cost changed to -3 (or -7 if Le Gourmet is enabled). / Added "Dextrous" as Free trait. / +3 to Cooking increased to +4 to Cooking.
+   - Repairman: cost changed to -3 (or -5 if AmmoMaker is enabled) / +2 to Maintenance increased to +3.
+   - Farmer: cost changed to 5 (or 1 if Le Gourmet is enabled) / +3 to Farming increased to +4.
+   - Fisherman: cost changed to 3 (or 1 if Le Gourmet is enabled).
+   - Doctor: remains as it was in the previous update.
+   - Veteran: cost changed to -8 (or -10 if AliceBPack or AmmoMaker is enabled or -12 if both) / +2 to Aiming increased to +3.
+   - Nurse: cost changed to 0 / +2 to FirstAid increased to +3 / Added +1 to Sneak.
+   - Lumberjack: cost changed to -6 (or -8 if AliceBPack is enabled).
+   - Fitness instructor: cost changed to -10 (or -12 if AliceBPack is enabled) / Added "Physically Active" as Free trait.
+   - Burger flipper: cost changed to 0 (or -2 if Le Gourmet is enabled) / Added "Dextrous" as Free trait.
+   - Electrician: cost changed to 2 / Increased +3 to Electronics to +4 / Amateur Electrician trait added as Free Trait just to avoid people picking it (as the profession already knows the recipe).
+   - Engineer: cost changed to -4 (or -6 if AmmoMaker or AliceBPack is enabled or -8 if both are enabled).
+   - Metalworker: cost changed to 2 (or 0 if AmmoMaker is enabled).
+   - Mechanics: cost changed to -4.
+B) Traits rework: File affected: DTMainCreationMethods.lua
+   - Cook2 removed.
+   - Cook: added all the new cooking recipes missing.
+   - Mechanics2 removed.
+   - Mechanics: cost changed to 4 / Added "Advanced Mechanics" recipe / +1 to Mechanics increased to +2.
+   - Strong & Athletic: cost changed to 16 (I'm counting Each Str & Fit LvL as Cost 4 also applies to Professions).
+   - Stout & Fit: cost changed to 8.
+   - Unfit & Weak: cost changed to -12.
+   - Out of shape & Feeble: cost changed to -8.
+   - Underweight & Overweight: cost changed to -8.
+   - Handy: cost changed to 5.
+   - First Aid: +1 to FirstAid increased to +2.
+   - Brawler: cost changed to 7.
+   - Former Scout: cost changed to 2.
+   - Baseball Player: cost changed to 3.
+   - Hiker: cost changed to 4.
+   - Hunter: cost changed to 8.
+   - Gymnast: cost changed to 5.
+   - Cowardly: cost changed to -4 (due to EME effects).
+   - Adrenaline Junkie: cost changed to 3 (it will work only in Early to mid games, no sense to have it cost much).
+   - Lucky & Unlucky: cost changed to 3 and -3.
+   - Outdoorsman: cost changed to 6.
+   - All Thumbs: cost changed to -8.
+   - Illiterate: cost changed to -12.
+   - Nightvision: cost changed to 4.
+   - Weak Stomach & Iron Gust: cost changed to 3 and -3.
+   - Amateur Electrician: cost changed to 1.
+   - Physically Active: cost changed to 5.
+   - Sedentary: cost changed to -7.
+C) Added vanilla exclusions from 41.73. File affected DTMainCreationMethods.lua
+D) Weight system: File affected: DTByBodyConditions.lua
+   - Almost the entire system was reworked in terms of code and slighly change how it works.
+   - Instead of looking for specific Strength and Fitness Levels it will check for the Strength and Fitness Traits to add/remove traits.
+   - "ThickSkinned" is obtained if "Strong" is present. Is removed when "Underweight". "ThinSkinned" is obtained if "Very Underweight".
+   - "Resilient" is obtained if "Athletic" is present. Is removed when "Underweight". If "Athletic" is present "ProneToIllness" won't be added. "ProneToIllness" is added when "Very Underweight".
+   - "FastHealer" is obtained if "Fit" or "Athletic" is present. Is removed when "Underweight". If "Athletic" or "Fit" are present "SlowHealer" won't be added. "SlowHealer" is added when "Very Underweight".
+   - "NeedLessSleep" is obtained if "Fit" or "Athletic" is present and no mood and hungry problems. Is removed when Stress, Unhappyness, Boredom or Hungry > 1. Is removed when "Underweight" or "Overweight".
+   - "LightEater" and "LowThirst" are obtained if "Fit"/"Athletic" and "Stout"/"Strong" are present. "LightEater" is removed if Hungry Lv3 or more. "LightEater" and "LowThirst" are removed if "Underweight" or "Overweight".
+   - "Flimsy" is obtained when "Underweight". Is removed when back to normal weight (The Strength point reduced won't be recovered).
+   - "Frail" is obtained when "Very Underweight". Is removed when back to  Underweight (The Strength point reduced won't be recovered).
+   - "Asthmatic" is obtained if "Very Underweight" or "Obese". If "Athletic" is present "Asthmatic" is removed.
+E) Herbalist trait: File affected: DTByPerkLevel.lua, new files: DTStudyPlantsDefs.lua, DTStudyPlantAction.lua, DTStudyPlants.lua
+   - Herbalist won't be obtained at Lv4 of Foraging anymore.
+   - Herbalist is still obtained by reading the Magazine.
+   - Herbalist will now be obtained by studying berries and mushrooms (there will be a ContextMenu option in the berries and mushrooms). Each one studied will increase the "Plants Knowledge" AKA: DTPlantsKnowledge.
+   - DTPlantsKnowledge will increase between 0 and 5 per each plant studied.
+   - Reach to a value greater than 100 in DTPlantsKnowledge and Herbalist will be given.
+   - Each berry or mushroom can be studied only once. Even if you study it again and again the value won't increase. A message will be displayed to let you know.
+F) Traits by moving objects: File affected: DTByOtherConditions.lua, new file: DTByMovingObjects.lua
+   - Slighly changed how it works. Instead of the code being executed in the update function(that runs per tick) it will now be executed in the perform function(that runs once the item is moved). This will allow two things: the first one is that everyone will increase the same amount when moving objects (as the update runs every tick and the tick is attached to FPS, higher FPS meant getting the trait faster), the second one is that as now the code will be executed when the item is fully moved, it won't care the game speed, it will always increase in the same amount.
+   - The amount will now increased based on a base value that will be multiplied by the item weight, so heavier objects will increase more.
+   - Everything else works as always.
+G) Code improvements for Pills related traits (doesn't change how it works). File affected: DTByOtherConditions.lua, new file: DTPillsTraits.lua
+H) Code improvements for Fitness related traits (doesn't change how it works). File affected: DTexpandedActionsEffects.lua
+
+Not on steam yet:
+A) Overdose Moodle: File affected: DTnewMechanics.lua, DTPillsTrait.lua, DTRecipeCode.lua, DTMainFile.lua. Moodle API files also added to the project. Thanks to everyone who did that API and Konijima for explaining it to me.
+   - New Moodle for the Overdose that has three levels. Lv2: > 50 and <= 70; Lv3: > 70 and <= 85; Lv4: > 85 and <= 100.
+   - The poison from overdose is now given at Lv4 of the Moodle.
+   - Moodle Lv2: increases stress in a chance of 1/7 and wetness in a chance of 1/7 every ten minutes.
+   - Moodle Lv3: increases the fatigue in a chance of 1/5.
+   - Pills overdose increase from 8 to 12.
+   - Alcohol overdose increased from 15 to 25.
+   - Energy drinks overdose increased from 20 to 35.
+   - Maximum energy drinks overdose increased from 40 to 70.
+   - Tragos overdose increased from 8 to 12.
+   - The overdose decreases in 4 every hour.
+   - All this values from above are increased/decreased in 30% if Weak Stomach or Iron Gut are present.
+B) Bloodlust trait: File affected: DTstaticTraits.lua, DTmodifiers.lua, DTMainFile.lua, DTMainCreationMethods.lua
+   - Random sounds (mostly zombie noises, steps etc) will play if the player haven't killed zombies.
+   - Bloodlust trait is no longer pickable, it will only be obtained after Desensitized is obtained.
+   - The effects will now trigger EveryTenMinutes instead of EveryHour but will be lower and based on rolls.
+C) Increasing/decreasing stats functions: file affected: DTmodifiers.lua
+   - Added a check to the increase stress, unhappyness, boredom, anger, fatigue and endurance to not do it while the player is sleeping. This will affect across the entire mod.
+   - Added the DTincreaseAnger and DTdecreaseAnger functions.
+D) Anger moodle: File affected: DTexpandedActionsEffects.lua, DTstaticTraits.lua, DTByOtherConditions.lua, DTMain.lua
+   - Alcoholic will now also increase anger.
+   - Bloodlust will now also increase anger.
+   - Physically Active will now decrease Anger when doing excercise, chopping trees and fighting.
+   - Hitting zombies while being Angry will deal extra damage to the zombie based on the angryness.
+   - Hitting zombies while being Angry can reduce the weapon condition. If the condition is reduced because of this, then the angriness increases, if the weapon brokes while being angry the angriness increases even more.
+   - Pluviophile and Pluviophobia will now increase/decrease the Anger.
+   - Being angry will now increase the stress and unhappyness.
+   - Being drunk will also increas anger.
+E) Physically active trait: file affected: DTexpandedActionsEffects.lua
+   - Slighly reduced the decrease to Unhappyness, Stress, Boredom and Angry by swinging the weapon.
+F) Slighly change in the code for the Wetness by being Stress and Panicked. File affected: DTexpandedMoodleEffects.lua
+G) Fixed lua error when grabbing object. File affected: DTByMovingObjects.lua

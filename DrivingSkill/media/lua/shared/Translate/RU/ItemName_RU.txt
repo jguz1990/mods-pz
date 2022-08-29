@@ -1,0 +1,10 @@
+ItemName_RU = {
+
+	-- DrivingSkills
+
+	ItemName_DrivingSkill.DrivingSkill_BookDriving1 = "Курсы вождения. Том 1",
+	ItemName_DrivingSkill.DrivingSkill_BookDriving2 = "Курсы вождения. Том 2",
+	ItemName_DrivingSkill.DrivingSkill_BookDriving3 = "Курсы вождения. Том 3",
+	ItemName_DrivingSkill.DrivingSkill_BookDriving4 = "Курсы вождения. Том 4",
+	ItemName_DrivingSkill.DrivingSkill_BookDriving5 = "Курсы вождения. Том 5",
+}

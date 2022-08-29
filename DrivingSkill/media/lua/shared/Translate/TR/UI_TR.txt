@@ -1,0 +1,7 @@
+UI_TR = {
+	UI_trait_driver = "Sürücü",
+UI_trait_driverdesc = "Direksiyon basinda rahat hisseder.<br>+1 Sürücülük",
+UI_prof_cabdriver = "Taksi Söförü",
+UI_prof_cabdriverdesc = "Araçlara çok fazla zaman harcamis. <br>+2 Sürücülük<br>+2 Tamircilik",
+	UI_DrivingGainSkill = "Driving Skill",
+}

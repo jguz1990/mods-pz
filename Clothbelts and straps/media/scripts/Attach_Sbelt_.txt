@@ -1,0 +1,139 @@
+module Base
+{
+	model FemaleBody
+	{
+		mesh = Skinned/FemaleBody,
+
+		attachment S_Belta
+		{
+			offset = 0.0570 0.0870 -0.0220,
+			rotate = 144.0000 3.0000 109.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment S_Beltb
+		{
+			offset = 0.0740 -0.0880 -0.0110,
+			rotate = 150.0000 14.0000 80.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment S_Beltc
+		{
+			offset = -0.0160 -0.1040 0.1630,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment S_Beltd
+		{
+			offset = 0.0570 0.0870 -0.0220,
+			rotate = 144.0000 3.0000 109.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment S_Belte
+		{
+			offset = 0.0740 -0.0880 -0.0110,
+			rotate = 150.0000 14.0000 80.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment S_Beltf
+		{
+			offset = -0.0160 -0.1040 0.1630,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+		
+		attachment S_Beltg
+		{
+			offset = 0.0570 0.0870 -0.0220,
+			rotate = 144.0000 3.0000 109.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment S_Belth
+		{
+			offset = 0.0740 -0.0880 -0.0110,
+			rotate = 150.0000 14.0000 80.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment S_Belti
+		{
+			offset = -0.0160 -0.1040 0.1630,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+	}
+
+	model MaleBody
+	{
+		mesh = Skinned/MaleBody,
+
+		attachment S_Belta
+		{
+			offset = -0.1630 0.1090 -0.0340,
+			rotate = 31.0000 -23.0000 -78.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment S_Beltb
+		{
+			offset = 0.0830 -0.1010 -0.0050,
+			rotate = 179.0000 2.0000 91.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment S_Beltc
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment S_Beltd
+		{
+			offset = 0.0860 0.0950 -0.0050,
+			rotate = 179.0000 2.0000 91.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment S_Belte
+		{
+			offset = 0.0830 -0.1010 -0.0050,
+			rotate = 179.0000 2.0000 91.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment S_Beltf
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+		
+		attachment S_Beltg
+		{
+			offset = -0.1630 0.1090 -0.0340,
+			rotate = 31.0000 -23.0000 -78.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment S_Belth
+		{
+			offset = 0.0830 -0.1010 -0.0050,
+			rotate = 179.0000 2.0000 91.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment S_Belti
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+	}
+}

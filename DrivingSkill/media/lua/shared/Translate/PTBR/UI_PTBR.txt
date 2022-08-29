@@ -1,0 +1,6 @@
+UI_PTBR = {
+	UI_trait_driver = "Motorista",
+	UI_trait_driverdesc = "Confortável sobre rodas.<br>+1 Direção",
+	UI_prof_cabdriver = "Taxista",
+	UI_prof_cabdriverdesc = "Você passou muito tempo trabalhando em um carro. <br>+2 Direção<br>+2 Mecânica",
+}

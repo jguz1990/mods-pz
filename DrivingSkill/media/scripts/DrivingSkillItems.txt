@@ -1,0 +1,80 @@
+module DrivingSkill
+{
+	imports
+	{
+		Base
+	}
+
+/************************Literature************************/
+
+    item DrivingSkill_BookDriving1
+    {
+        DisplayCategory = SkillBook,
+        NumberOfPages	=	220,
+        Weight	=	0.8,
+        Type	=	Literature,
+        DisplayName	=	DrivingSkill_BookDriving1,
+        Icon	=	DrivingBook,
+        SkillTrained = Driving,
+        LvlSkillTrained = 1,
+        NumLevelsTrained = 2,
+        StaticModel = Book,
+        WorldStaticModel = BookYellowBrown_Ground,
+    }
+	item DrivingSkill_BookDriving2
+    {
+        DisplayCategory = SkillBook,
+        NumberOfPages	=	260,
+        Weight	=	0.8,
+        Type	=	Literature,
+        DisplayName	=	DrivingSkill_BookDriving2,
+        Icon	=	DrivingBook,
+        SkillTrained = Driving,
+        LvlSkillTrained = 3,
+        NumLevelsTrained = 2,
+        StaticModel = Book,
+        WorldStaticModel = BookYellowBrown_Ground,
+    }
+	item DrivingSkill_BookDriving3
+    {
+        DisplayCategory = SkillBook,
+        NumberOfPages	=	300,
+        Weight	=	0.8,
+        Type	=	Literature,
+        DisplayName	=	DrivingSkill_BookDriving3,
+        Icon	=	DrivingBook,
+        SkillTrained = Driving,
+        LvlSkillTrained = 5,
+        NumLevelsTrained = 2,
+        StaticModel = Book,
+        WorldStaticModel = BookYellowBrown_Ground,
+    }
+	item DrivingSkill_BookDriving4
+    {
+        DisplayCategory = SkillBook,
+        NumberOfPages	=	340,
+        Weight	=	0.8,
+        Type	=	Literature,
+        DisplayName	=	DrivingSkill_BookDriving4,
+        Icon	=	DrivingBook,
+        SkillTrained = Driving,
+        LvlSkillTrained = 7,
+        NumLevelsTrained = 2,
+        StaticModel = Book,
+        WorldStaticModel = BookYellowBrown_Ground,
+    }
+	item DrivingSkill_BookDriving5
+    {
+        DisplayCategory = SkillBook,
+        NumberOfPages	=	380,
+        Weight	=	0.8,
+        Type	=	Literature,
+        DisplayName	=	DrivingSkill_BookDriving5,
+        Icon	=	DrivingBook,
+        SkillTrained = Driving,
+        LvlSkillTrained = 9,
+        NumLevelsTrained = 2,
+        StaticModel = Book,
+        WorldStaticModel = BookYellowBrown_Ground,
+    }
+}

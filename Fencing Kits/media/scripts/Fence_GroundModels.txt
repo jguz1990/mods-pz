@@ -1,0 +1,17 @@
+module Base
+{
+	model FenceKit
+    {
+        mesh = WorldItems/FenceKit,
+        texture = world/FenceKit,
+		scale = 0.14,
+	} 
+
+	model FenceRoll
+    {
+        mesh = WorldItems/FenceRoll,
+        texture = world/FenceRoll,
+		scale = 0.14,
+	} 
+	
+}	

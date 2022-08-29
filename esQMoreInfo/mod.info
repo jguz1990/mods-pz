@@ -1,0 +1,5 @@
+name=ExtraSauce MoreInfo
+id=esQMI
+require=esQLib
+poster=modThumb.png
+description=Contains UI mods

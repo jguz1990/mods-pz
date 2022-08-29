@@ -1,0 +1,48 @@
+module Base
+{
+	
+	model FlareGun
+	{
+		mesh = FlareGun,
+		/*mesh = Weapons/Firearm/Handgun,*/
+		texture = FlareGun,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1150 -0.0250,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+	}
+	
+	
+	model PA_FlareGun
+	{
+		mesh = PA_FlareGun,
+		/*mesh = Weapons/Firearm/Handgun,*/
+		texture = PA_FlareGun,
+		scale = 0.000625,
+		attachment muzzle
+		{
+			offset = 0.0000 0.1150 -0.0250,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+	
+	}
+		
+		
+	model PA_Flare
+	{
+		mesh = WorldItems/ShotGunShells,
+		texture = WorldItems/ShotGunShells,
+		scale = 0.4,
+	}
+	
+	
+	model PA_FlareBox
+	{
+		mesh = WorldItems/BoxOfShotGunShells,
+		texture = WorldItems/BoxOfShotGunShells,
+		scale = 0.4,
+	}
+}
+/*"Flare gun" (https://skfb.ly/onRY8) by long_toi is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).*/

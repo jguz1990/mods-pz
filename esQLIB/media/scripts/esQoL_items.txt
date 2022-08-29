@@ -1,0 +1,35 @@
+module esQoL
+{
+    imports { Base }
+
+    item campfireStone
+    {
+        DisplayCategory = Material,
+        Type = Normal,
+        DisplayName = CampfireStone,
+        Icon = TZ_Flint,
+        Weight = 0.1,
+        WorldStaticModel = Flint_Ground,
+    }
+    item emptyBundle
+    {
+        DisplayCategory = Material,
+        DisplayName=Bundling Cord,
+
+        Weight=0.1,
+        Type=Drainable,
+        UseDelta = 0.001,
+        ScaleWorldIcon = 0.33,
+        Icon=moneyBagD,
+    }
+   item bundledItems
+    {
+        DisplayCategory = Material,
+        DisplayName=Bundled Items,
+
+        Weight=0.1,
+        Type=Normal,
+        ScaleWorldIcon = 0.33,
+        Icon=moneyBagC,
+    }
+}

@@ -1,0 +1,32 @@
+v.1.02
+2022-03-21
+
+Улучшено поведение полностью загруженного прицепа. 
+
+Improved behavior of a fully loaded trailer.
+
+-------------------
+
+v.1.01
+2022-03-21
+
+Добавлен спавн журналов.
+Грузовикам добавлена точка для крепления обычных прицепов.
+Исправлена физика грузовика с удлинённой рамой.
+Добавлена текстура с маской для прицепа.
+Исправлены переводы.
+
+Added magazine spawns.
+Added point for trucks to attach normal trailers.
+Fixed physics of truck with extended frame.
+Added a texture with a mask for the trailer.
+Fixed translations.
+
+-------------------
+
+v.1.0
+2022-03-21
+
+Релиз
+
+Release

@@ -1,0 +1,7 @@
+name=Angry Turrets
+poster=angry_turrets_logo.png
+icon=icon.png
+id=AngryTurrets777
+description=Brings 3 Angry Turrets into this dark place
+pack=angryturrets_pack
+tiledef=angryturretstiledef 777

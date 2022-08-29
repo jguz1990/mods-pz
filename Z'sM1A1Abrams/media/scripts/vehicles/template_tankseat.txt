@@ -1,0 +1,92 @@
+module Base
+{
+	template vehicle TankSeat
+	{
+		part SeatTankDriver
+		{
+			area = SeatTankDriver,
+			container
+			{
+				seat = TankDriver,
+			}
+		}
+
+		part SeatGunner
+		{
+			area = SeatGunner,
+			container
+			{
+				seat = Gunner,
+			}
+		}
+
+		part SeatCommander
+		{
+			area = SeatCommander,
+			container
+			{
+				seat = Commander,
+			}
+		}
+
+		part SeatLoader
+		{
+			area = SeatLoader,
+			container
+			{
+				seat = Loader,
+			}
+		}
+
+		part Seat*
+		{
+			category = seat,
+			itemType = Base.NormalCarSeat,
+			mechanicRequireKey = true,
+			container
+			{
+				test = Vehicles.ContainerAccess.Seat,
+			}
+			table install
+			{
+				items
+				{
+					1
+					{
+						type = Base.Screwdriver,
+						count = 1,
+						keep = true,
+						equip = primary,
+					}
+				}
+				time = 300,
+				skills = Mechanics:1,
+				recipes = Basic Mechanics,
+				test = Vehicles.InstallTest.Default,
+			}
+			table uninstall
+			{
+				items
+				{
+					1
+					{
+						type = Base.Screwdriver,
+						count = 1,
+						keep = true,
+						equip = primary,
+					}
+				}
+				time = 300,
+				skills = Mechanics:1,
+				recipes = Basic Mechanics,
+				test = Vehicles.UninstallTest.Default,
+				requireEmpty = true,
+			}
+			lua
+			{
+				create = Vehicles.Create.Default,
+			}
+		}
+	}
+}
+

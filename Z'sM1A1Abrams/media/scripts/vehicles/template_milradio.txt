@@ -1,0 +1,52 @@
+module Base
+{
+    template vehicle MilRadio
+    {
+		part MilRadio
+		{
+		    area = Engine,
+		    itemType = Radio.HamRadio2,
+			mechanicRequireKey = true,
+		    table install
+            {
+                items
+                {
+                    1
+                    {
+                        type = Base.Screwdriver,
+                        count = 1,
+                        keep = true,
+						equip = primary,
+                    }
+                }
+                time = 100,
+                professions = ,
+                skills = ,
+                traits = ,
+                recipes = ,
+                test = Vehicles.InstallTest.Default,
+            }
+            table uninstall
+            {
+                items
+                {
+                    1
+                    {
+                        type = Base.Screwdriver,
+                        count = 1,
+                        keep = true,
+						equip = primary,
+                    }
+                }
+                time = 100,
+                test = Vehicles.UninstallTest.Default,
+            }
+			lua
+			{
+				create = Vehicles.Create.Radio,
+				update = Vehicles.Update.Radio,
+			}
+		}
+	}
+}
+

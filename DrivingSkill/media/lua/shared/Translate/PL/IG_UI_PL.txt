@@ -1,0 +1,4 @@
+IGUI_PL = {
+	IGUI_perks_Driving = "Jazda Pojazdami",
+	IGUI_perks_Miscellaneous = "Inne"
+}

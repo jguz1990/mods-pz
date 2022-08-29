@@ -1,0 +1,3 @@
+ContextMenu_ES = {
+    ContextMenu_Get_Zombie_Blood = "Cubrirse con sangre del cadáver"
+}

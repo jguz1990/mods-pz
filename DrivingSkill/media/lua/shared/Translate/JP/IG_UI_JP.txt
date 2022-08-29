@@ -1,0 +1,4 @@
+IG_UI_JP = {
+    IGUI_perks_Driving = "運転技術",
+    IGUI_perks_Miscellaneous = "その他",
+}

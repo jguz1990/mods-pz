@@ -1,0 +1,12 @@
+## [v1.1.0] - 2022-01-22
+### Added
+- Mod load order.
+
+### Changed
+- Right panel displays mod names and their IDs below instead of mod IDs only.
+
+### Fixed
+- Fixed some bugs.
+
+## [v1.0.0] - 2022-01-19
+Initial release.

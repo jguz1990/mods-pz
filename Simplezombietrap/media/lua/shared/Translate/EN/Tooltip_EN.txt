@@ -1,0 +1,6 @@
+Tooltip_EN= {
+    Tooltip_simpletraps1 = "Causes continuous damage to the zombies above. There is a chance of being destroyed.",
+    Tooltip_simpletraps2 = "One time. Kill the zombies on it.",
+    Tooltip_simpletraps3 = "Stop zombies from moving forward. There is a chance of being destroyed.",
+}
+

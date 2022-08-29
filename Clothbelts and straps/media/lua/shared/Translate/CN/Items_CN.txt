@@ -1,0 +1,14 @@
+﻿Items_CN = {
+    DisplayName_Clothbelt_Class_A = "布条腰带（劣质）",
+    DisplayName_Clothbelt_Class_B = "布条腰带（普通）",
+    DisplayName_Clothbelt_Class_C = "布条腰带（优良）",
+    DisplayName_Clothbelt_Class_D = "布条腰带（精良）",
+    DisplayName_Clothbelt_Class_E = "布条腰带（绝伦）",
+    DisplayName_Clothbelt_Class_F = "布条腰带（大师）",
+
+    DisplayName_Clothstraps_Class_A = "布条背带（劣质）",
+    DisplayName_Clothstraps_Class_B = "布条背带（普通）",
+    DisplayName_Clothstraps_Class_C = "布条背带（大师）",
+
+    DisplayName_RippedSheetsPack = "布条卷",
+}

@@ -1,0 +1,71 @@
+module Base
+{
+
+item ModConflictMagBetterEngi
+    {
+				NumberOfPages		=	1,
+				Weight					=	0.1,
+        Type						=	Literature,
+        DisplayName			=	ModConflictMagHairsprayBetterEngi,
+        Icon						= Aerosolbomb,
+        TeachedRecipes  = Make Remote Controller V2/Make Remote Controller V3/Make Remote Trigger Alternative,
+				ReplaceOnUse   	= Pen,
+    }  
+
+recipe Make Remote Controller V2
+    {
+       RemoteCraftedV1,
+       keep [Recipe.GetItemTypes.Screwdriver],
+       ElectronicsScrap=3,
+       Glue=2,
+
+       Result:RemoteCraftedV2,
+       SkillRequired:Electricity=4,
+       NeedToBeLearn:true,
+       Time:50.0,
+       Category:Electrical,
+    }
+
+    recipe Make Remote Controller V3
+    {
+       RemoteCraftedV2,
+       keep [Recipe.GetItemTypes.Screwdriver],
+       ElectronicsScrap=4,
+       Glue=2,
+
+       Result:RemoteCraftedV3,
+       SkillRequired:Electricity=6,
+       NeedToBeLearn:true,
+       Time:50.0,
+       Category:Electrical,
+    }
+
+    recipe Scavange for a Motion Sensor
+    {
+       ElectronicsScrap=10,
+       keep [Recipe.GetItemTypes.Screwdriver],
+
+       Result:MotionSensor,
+       Time:500.0,
+       OnCreate:Recipe.OnCreate.Dismantle,
+       OnGiveXP:Recipe.OnGiveXP.DismantleElectronics,
+       Category:Electrical,
+       AnimNode:Disassemble,
+       Prop1:Screwdriver,
+       Prop2:ElectronicsScrap,
+    }
+
+  recipe Make Remote Trigger Alternative
+    {
+       Receiver/Radio.RadioReceiver,
+       keep [Recipe.GetItemTypes.Screwdriver],
+       ElectronicsScrap=2,
+       Woodglue=2,
+
+       Result:TriggerCrafted,
+       SkillRequired:Electricity=2,
+       Time:50.0,
+       Category:Electrical,
+    }
+
+}

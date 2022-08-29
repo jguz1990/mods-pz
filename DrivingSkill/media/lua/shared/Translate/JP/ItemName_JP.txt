@@ -1,0 +1,7 @@
+ItemName_JP = {
+    ItemName_DrivingSkill.DrivingSkill_BookDriving1 = "書籍(初心者の運転入門)",
+    ItemName_DrivingSkill.DrivingSkill_BookDriving2 = "書籍(中級者の運転講座)",
+    ItemName_DrivingSkill.DrivingSkill_BookDriving3 = "書籍(上級者の運転講座)",
+    ItemName_DrivingSkill.DrivingSkill_BookDriving4 = "書籍(熟練者の運転技術)",
+    ItemName_DrivingSkill.DrivingSkill_BookDriving5 = "書籍(匠の運転技術)",
+}

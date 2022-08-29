@@ -1,0 +1,62 @@
+module HereTheyCome {
+    imports {
+        Base
+    }
+
+    sound EventTrigger01
+    {
+        category = World,
+        clip
+        {
+            file = media/sound/event_sound_01.wav,
+            distanceMin = 0,
+			distanceMax = 200,
+			reverbMaxRange = 200,
+			reverbFactor = 0,
+			volume = 1.0,
+        }
+    }
+
+    sound EventTrigger02
+    {
+        category = World,
+        clip
+        {
+            file = media/sound/event_sound_02.wav,
+            distanceMin = 0,
+			distanceMax = 200,
+			reverbMaxRange = 200,
+			reverbFactor = 0,
+			volume = 1.0,
+        }
+    }
+
+    sound EventTrigger03
+    {
+        category = World,
+        clip
+        {
+            file = media/sound/event_sound_03.wav,
+            distanceMin = 0,
+			distanceMax = 200,
+			reverbMaxRange = 200,
+			reverbFactor = 0,
+			volume = 1.0,
+        }
+    }
+
+    sound WaveStart
+    {
+        category = World,
+        clip
+        {
+            file = media/sound/wave_sound_01.wav,
+            distanceMin = 0,
+			distanceMax = 200,
+			reverbMaxRange = 200,
+			reverbFactor = 0,
+			volume = 1.0,
+        }
+    }
+
+}

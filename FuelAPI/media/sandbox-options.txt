@@ -1,0 +1,29 @@
+VERSION = 1,
+
+option FuelAPI.BarrelMaxCapacity
+{
+	type = double,
+	default = 400,
+	min = 100,
+	max = 5000,
+	page = FuelAPI,
+	translation = FuelAPI_BarrelMaxCapacity,
+}
+
+option FuelAPI.BarrelRandomQuantityPercent
+{
+	type = double,
+	default = 0.5,
+	min = 0,
+	max = 1,
+	page = FuelAPI,
+	translation = FuelAPI_BarrelRandomQuantityPercent,
+}
+
+option FuelAPI.BarrelCanPickupFull
+{
+	type = boolean,
+	default = false,
+	page = FuelAPI,
+	translation = FuelAPI_BarrelCanPickupFull,
+}

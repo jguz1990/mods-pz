@@ -1,0 +1,169 @@
+module Base
+{
+    model ATADodgeRoofrack
+	{
+		mesh = vehicles/ATA_Dodge_base|roof1_a,
+		texture = Vehicles/ATA_Dodge_items,
+		shader = vehiclewheel,
+		scale = 0.01,
+	}
+    model ATADodgeRoofBag1
+	{
+		mesh = vehicles/ATA_Dodge_base|roof1_bag1,
+		texture = DuffelBagBlue,
+		shader = vehiclewheel,
+		scale = 0.01,
+	}
+	model ATADodgeRoofBag2
+	{
+		mesh = vehicles/ATA_Dodge_base|roof1_bag2,
+		texture = DuffelBagGreen,
+		shader = vehiclewheel,
+		scale = 0.01,
+	}
+    model ATADodgeRoofWheel
+	{
+		mesh = vehicles/ATA_Dodge_base|roof1_zapaska,
+		texture =  Vehicles/ATA_Dodge_wheel,
+		shader = vehiclewheel,
+		scale = 0.01,
+	}
+    
+    model ATADodgeWindowRack
+	{
+		mesh = vehicles/ATA_Dodge_base|roof2_a,
+		texture = Vehicles/ATA_Dodge_items,
+		shader = vehiclewheel,
+		scale = 0.01,
+	}
+    model ATADodgeWindowRackBag1
+	{
+		mesh = vehicles/ATA_Dodge_base|roof2_level1,
+		texture = Vehicles/ATA_Dodge_roof2,
+		shader = vehiclewheel,
+		scale = 0.01,
+	}
+	model ATADodgeWindowRackBag2
+	{
+		mesh = vehicles/ATA_Dodge_base|roof2_level2,
+		texture = Vehicles/ATA_Dodge_roof2,
+		shader = vehiclewheel,
+		scale = 0.01,
+	}
+    model ATADodgeWindowRackBag3
+	{
+		mesh = vehicles/ATA_Dodge_base|roof2_level3,
+		texture = Vehicles/ATA_Dodge_roof2,
+		shader = vehiclewheel,
+		scale = 0.01,
+	}
+    
+    template vehicle ATADodge_RoofRack
+	{
+        template = ATAInteractiveTrunk/part/ATAInteractiveTrunkRoofRack,
+        
+        part ATAInteractiveTrunkRoofRack
+		{
+            area = ATARoof,
+            itemType = Autotsar.ATADodgeRoofRackItem,
+            model ATADodgeRoofrack
+            {
+                file = ATADodgeRoofrack,
+            }
+            model ATADodgeRoofBag1
+            {
+                file = ATADodgeRoofBag1,
+            }
+            model ATADodgeRoofBag2
+            {
+                file = ATADodgeRoofBag2,
+            }
+            model ATADodgeRoofWheel
+            {
+                file = ATADodgeRoofWheel,
+            }
+            table interactiveItems 
+            {
+                Base = ATADodgeRoofrack,
+                fullness
+                {
+                    1 = ATADodgeRoofBag1,
+                    2 = ATADodgeRoofBag2,
+                }
+                OldTire3#NormalTire3#ModernTire3
+                {
+                    1 = ATADodgeRoofWheel,
+                }
+            }
+            table install
+            {
+                recipes = Advanced Mechanics;Basic Tuning,
+            }
+
+            table uninstall
+            {
+                recipes = Advanced Mechanics;Basic Tuning,
+            }
+        }
+    }
+    
+    template vehicle ATADodge_WindowRack
+	{
+        template = ATAInteractiveTrunk/part/ATAInteractiveTrunkWindowRearRack,
+        part ATAInteractiveTrunkWindowRearRack
+		{
+            area = ATARoof,
+            itemType = Autotsar.ATADodgeWindowRackItem,
+            model ATADodgeWindowRack
+            {
+                file = ATADodgeWindowRack,
+            }
+            model ATADodgeWindowRackBag1
+            {
+                file = ATADodgeWindowRackBag1,
+            }
+            model ATADodgeWindowRackBag2
+            {
+                file = ATADodgeWindowRackBag2,
+            }
+            model ATADodgeWindowRackBag3
+            {
+                file = ATADodgeWindowRackBag3,
+            }
+            table interactiveItems 
+            {
+                Base = ATADodgeWindowRack,
+                fullness_one
+                {
+                    1 = ATADodgeWindowRackBag1,
+                    2 = ATADodgeWindowRackBag2,
+                    3 = ATADodgeWindowRackBag3,
+                }
+            }
+            table install
+			{
+                requireInstalled = TrunkDoor,
+                recipes = Advanced Mechanics;Basic Tuning,
+			}
+            table uninstall
+            {
+                recipes = Advanced Mechanics;Basic Tuning,
+            }
+        }
+        
+        template = Windshield/part/WindshieldRear,
+        part WindshieldRear
+		{
+			table install
+			{
+				recipes = Advanced Mechanics,
+                requireInstalled = TrunkDoor,
+			}
+            table uninstall
+            {
+				recipes = Advanced Mechanics,
+                requireUninstalled = ATAInteractiveTrunkWindowRack,
+			}
+		}
+    }
+}

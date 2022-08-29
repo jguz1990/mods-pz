@@ -1,0 +1,5 @@
+Recipes_EN = {
+    Recipe_Make_Angry_Pistol_Turret = "Make Angry Pistol Turret",
+    Recipe_Make_Angry_Shotgun_Turret = "Make Angry Shotgun Turret",
+    Recipe_Make_Angry_Sniper_Turret = "Make Angry Sniper Turret",
+}

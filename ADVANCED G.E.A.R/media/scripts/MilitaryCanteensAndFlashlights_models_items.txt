@@ -1,0 +1,39 @@
+module Base
+{
+	model PA_Flashlight_Military
+	{
+		mesh = PA_FlashlightMilitary,
+		texture = Flashlight_Military,
+		texture = PA_FlashlightMilitary,
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+
+	
+	model PA_Canteen
+    {
+        mesh = PA_Canteen,
+        texture = PA_Canteen2,
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 0.0000,
+		}
+    }
+	
+	model PA_Canteen_World
+    {
+        mesh = PA_Canteen_World,
+        texture = PA_Canteen2,
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 0.0000,
+		}
+    }
+
+
+}

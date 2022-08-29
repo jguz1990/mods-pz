@@ -1,0 +1,113 @@
+module esqhBundler
+{
+    imports { Base }
+
+    recipe Make Thread
+    {
+        esQoL.emptyBundle=20,
+        keep [Recipe.GetItemTypes.Scissors],
+        keep [Recipe.GetItemTypes.SewingNeedle],
+
+        Result:Base.Thread,
+        Time:40.0,
+        Category:Survivalist,
+        AnimNode:Disassemble,
+    }
+    recipe Make Bundling Cord
+    {
+        RippedSheetsDirty=12,
+        keep [Recipe.GetItemTypes.Scissors],
+        keep [Recipe.GetItemTypes.SewingNeedle],
+
+        Result:esQoL.emptyBundle,
+        Time:10.0,
+        Category:Survivalist,
+        AnimNode:Disassemble,
+        OnCreate:esqhBundler.OnCreateEmptyBundle1,
+    }
+    recipe Make Bundling Cord
+    {
+        DenimStripsDirty=12,
+        keep [Recipe.GetItemTypes.Scissors],
+        keep [Recipe.GetItemTypes.SewingNeedle],
+
+        Result:esQoL.emptyBundle,
+        Time:10.0,
+        Category:Survivalist,
+        AnimNode:Disassemble,
+        OnCreate:esqhBundler.OnCreateEmptyBundle1,
+    }
+    recipe Make Bundling Cord
+    {
+        LeatherStripsDirty=12,
+        keep [Recipe.GetItemTypes.Scissors],
+        keep [Recipe.GetItemTypes.SewingNeedle],
+
+        Result:esQoL.emptyBundle,
+        Time:10.0,
+        Category:Survivalist,
+        AnimNode:Disassemble,
+        OnCreate:esqhBundler.OnCreateEmptyBundle1,
+    }
+    recipe Make Bundling Cord
+    {
+        RippedSheets=12,
+        keep [Recipe.GetItemTypes.Scissors],
+        keep [Recipe.GetItemTypes.SewingNeedle],
+
+        Result:esQoL.emptyBundle,
+        Time:10.0,
+        Category:Survivalist,
+        AnimNode:Disassemble,
+        OnCreate:esqhBundler.OnCreateEmptyBundle1,
+    }
+    recipe Make Bundling Cord
+    {
+        DenimStrips=12,
+        keep [Recipe.GetItemTypes.Scissors],
+        keep [Recipe.GetItemTypes.SewingNeedle],
+
+        Result:esQoL.emptyBundle,
+        Time:10.0,
+        Category:Survivalist,
+        AnimNode:Disassemble,
+        OnCreate:esqhBundler.OnCreateEmptyBundle1,
+    }
+    recipe Make Bundling Cord
+    {
+        LeatherStrips=12,
+        keep [Recipe.GetItemTypes.Scissors],
+        keep [Recipe.GetItemTypes.SewingNeedle],
+
+        Result:esQoL.emptyBundle,
+        Time:10.0,
+        Category:Survivalist,
+        AnimNode:Disassemble,
+        OnCreate:esqhBundler.OnCreateEmptyBundle1,
+    }
+    recipe Make Bundling Cord
+    {
+        SheetRope/Rope,
+        keep [Recipe.GetItemTypes.Scissors],
+        keep [Recipe.GetItemTypes.SewingNeedle],
+
+        Result:esQoL.emptyBundle,
+        Time:10.0,
+        Category:Survivalist,
+        AnimNode:Disassemble,
+        OnCreate:esqhBundler.OnCreateEmptyBundle1,
+    }
+    recipe Make Bundling Cord
+    {
+        Twine=5,
+        keep [Recipe.GetItemTypes.Scissors],
+        keep [Recipe.GetItemTypes.SewingNeedle],
+
+        Result:esQoL.emptyBundle,
+        Time:10.0,
+        Category:Survivalist,
+        AnimNode:Disassemble,
+        OnCreate:esqhBundler.OnCreateEmptyBundle1,
+    }
+
+}

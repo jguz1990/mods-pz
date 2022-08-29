@@ -1,0 +1,4 @@
+IGUI_RU = {
+    IGUI_RainWash_Option = "Мыться под дождём"
+    IGUI_RainWash_Option_Tooltip_RainLow = "Слишком низкая интенсивность дождя."
+}

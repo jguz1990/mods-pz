@@ -1,0 +1,6 @@
+IGUI_EN = {
+    IGUI_VehicleNameBHelicopter = "UH-1 Iroquois 'Huey'",
+    IGUI_VehiclePartCatblade = "Blades",
+    IGUI_VehiclePartheliblade = "Main blades",
+    IGUI_VehicleParthelibladeSmall = "Rotate blades",
+}

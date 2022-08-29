@@ -1,0 +1,111 @@
+VERSION = 1,
+
+option esQMI.esQMIAmmoInfo
+{
+    type = enum,
+    default = 1,
+    numValues = 7,
+    valueTranslation = esQTW_AC,
+
+    page = esQMI,
+    translation = esQMIAmmoInfo,
+}
+
+option esQMI.esQMIHealthInfo
+{
+    type = enum,
+    default = 1,
+    numValues = 2,
+    valueTranslation = esQLIB_OnOff,
+
+    page = esQMI,
+    translation = esQMIHealthInfo,
+}
+
+option esQMI.esQMICarInfo
+{
+    type = enum,
+    default = 1,
+    numValues = 2,
+    valueTranslation = esQLIB_OnOff,
+
+    page = esQMI,
+    translation = esQMICarInfo,
+}
+
+option esQMI.esQMIDrainInfo
+{
+    type = enum,
+    default = 1,
+    numValues = 2,
+    valueTranslation = esQLIB_OnOff,
+
+    page = esQMI,
+    translation = esQMIDrainInfo,
+}
+
+option esQMI.esQMIWeapons
+{
+    type = enum,
+    default = 1,
+    numValues = 4,
+    valueTranslation = esQLIB_OnOffCardinal,
+
+    page = esQMI,
+    translation = esQMIWeapons,
+}
+
+option esQMI.esQMIWeaponsParts
+{
+    type = enum,
+    default = 1,
+    numValues = 4,
+    valueTranslation = esQLIB_OnOffCardinal,
+
+    page = esQMI,
+    translation = esQMIWeaponsParts,
+}
+
+option esQMI.esQMIClothing
+{
+    type = enum,
+    default = 1,
+    numValues = 4,
+    valueTranslation = esQLIB_OnOffCardinal,
+
+    page = esQMI,
+    translation = esQMIClothing,
+}
+
+option esQMI.esQMIBooks
+{
+    type = enum,
+    default = 1,
+    numValues = 4,
+    valueTranslation = esQLIB_OnOffCardinal,
+
+    page = esQMI,
+    translation = esQMIBooks,
+}
+
+option esQMI.esQMIFoods
+{
+    type = enum,
+    default = 1,
+    numValues = 4,
+    valueTranslation = esQLIB_OnOffCardinal,
+
+    page = esQMI,
+    translation = esQMIFoods,
+}
+
+option esQMI.esQMIInfoBar
+{
+    type = enum,
+    default = 1,
+    numValues = 2,
+    valueTranslation = esQLIB_OnOff,
+
+    page = esQMI,
+    translation = esQMIInfoBar,
+}

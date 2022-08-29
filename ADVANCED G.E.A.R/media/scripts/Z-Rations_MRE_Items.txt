@@ -1,0 +1,113 @@
+module Base
+{
+  sound Packaging2
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/Packaging2.ogg,
+		}
+	} 
+	
+recipe Unbox MREs
+    {
+		MRE_Box,
+		Result:MRE=12,
+		Time 			: 50.0,
+		Category:Cooking,
+        Sound:PutItemInBag,
+		OnCreate:OpenMREBox,
+    }	
+recipe Box MREs
+    {
+		MRE=12,
+		Small_Cardboard_Box,
+		Scotchtape=1,
+		Result:MRE_Box,
+		Time 			: 50.0,
+		Category:Cooking,
+        Sound:PutItemInBag,
+		OnCreate : ZREOnCreateBox2,
+    }	
+recipe Unstack MRE Cartons
+    {
+		MRE_Stack,
+		Result:MRE_Box=4,
+		Time 			: 50.0,
+		Category:Cooking,
+        Sound:PutItemInBag,
+    }	
+recipe Stack MRE Cartons
+    {
+		MRE_Box=4,
+		Result:MRE_Stack,
+		Time 			: 50.0,
+		Category:Cooking,
+        Sound:PutItemInBag,
+		OnCreate : ZREOnCreateCarton2,
+    }
+
+recipe Open MRE
+	{
+		MRE,
+		Result 			: MRE_Pouch_Trash,
+		OnCreate		: OpenMRE,
+		Time 			: 150.0,
+		Category 		: Cooking,
+        /*Sound:PutItemInBag,*/
+        Sound:Packaging2,
+	   Prop2:MRE_closed,
+	}
+	
+item Small_Cardboard_Box
+	{
+		Weight			=	1,
+		Icon			=	Small_Cardboard_Box,
+		DisplayName		=	Small Cardboard Box,
+		Type			= Moveable,
+		WorldObjectSprite	= smallcardboardbox_01_0,
+	}
+	
+item MRE_Box
+	{
+		Weight			=	10,
+		Icon			=	MRE_Box,
+		DisplayName		=	MRE Carton,
+		Type			= Moveable,
+		WorldObjectSprite	= zre_01_0,
+		OnCreate = ZREOnCreateBox,
+	}	
+item MRE_Stack
+	{
+		Weight			=	40,
+		Icon			=	MRE_Stack,
+		DisplayName		=	MRE Carton Stack,
+		Type			= Moveable,
+		WorldObjectSprite	= zre_02_0,
+		OnCreate = ZREOnCreateCarton,
+	}	
+	
+item MRE
+	{
+		DisplayName 		= MRE,
+		Type 				= Food,
+		Weight 				= 1,
+		Icon 				= MREPackage,
+		FoodType 			= NoExplicit,
+		Packaged 			= TRUE,
+		CantBeFrozen 		= TRUE,
+        StaticModel = MRE_closed,
+        WorldStaticModel = MRE_closed_world,
+	}
+
+item MRE_FlamelessRationHeater
+	{
+		DisplayName					=	MRE Flameless Ration Heater,
+		Icon						=	MRE_Heater,
+		Weight						=	0.05,
+		DisplayCategory 			=	Item,
+        WorldStaticModel = MRE_small_world,
+		/*ReplaceOnUse 		= MRE_FlamelessRationHeater_Trash,*/
+	}
+}
+

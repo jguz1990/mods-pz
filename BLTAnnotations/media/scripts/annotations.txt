@@ -1,0 +1,24 @@
+module BLTAnnotations {
+    imports {
+        Base
+    }
+    item BLTAnnotations
+    {
+        DisplayCategory = Cartography,
+        Type         = Normal,
+        DisplayName  = Map annotations,
+        Icon         = Paper,
+        Weight       = 0.1,
+        WorldStaticModel = Map,
+    }
+    recipe Jot down annotations
+    {
+        SheetPaper2/Notebook/Tissue/ToiletPaper/Newspaper/PaperBag/Paperbag_Spiffos/Paperbag_Jays,
+        keep Pencil/BluePen/Pen/RedPen,
+
+        Result:BLTAnnotations,
+        Sound:MapAddSymbol,
+        Time:100.0,
+        OnCreate:BLTAnnotations.OnCreate
+    }
+}

@@ -1,0 +1,125 @@
+-------------------
+v.2.11
+2022-08-16
+
+Исправлена ошибка с появлением неправильного меню бумбокса при активации с земли.
+Исправлена ошибка в таблице спавна предметов.
+Добавлены дополнительные проверки исключений.
+
+Fixed bug with appearance of wrong boombox menu when activating from the ground.
+Fixed bug in the item spawn table.
+Added additional exception checks.
+
+-------------------
+v.2.10
+2022-01-20
+
+Перенесены переводы в tsarslib.
+Исправлена ошибка связанная с увеличением громкости музыки при открытии окна автомобиля.
+Исправлена ошибка позволяющая дубликовать кассеты при помощи бардачка.
+Исправлена ошибка позволяющая дубликовать батарейки при помощи бумбокса.
+Исправлена ошибка из-за которой в мире мог появиться невидимый проигрыватель.
+
+Moved translations to tsarslib.
+Fixed bug related to music volume increase when opening car window.
+Fixed a bug with duplicate cassettes using a glove box.
+Fixed a bug with duplicate batteries using a boombox.
+Fixed a bug that could cause an invisible music player to appear in the world.
+
+-------------------
+v.2.09
+2021-12-26
+
+Синхронизирована музыка в мультиплеере.
+Добавлено влияние наушников на то, слышат ли музыку другие игроки.
+Убрана необходимость использования динамиков для винилового проигрывателя.
+Добавлено влияние открытых/разбитых окон автомобиля на громкость музыки и приманивание зомби.
+Заблокирована возможность включения игроком двух бумбоксов одновремено (из инвентаря).
+Добавлен рандомный спавн кассет и пластинок в разных типах контейнеров.
+Добавлены расширенные настройки звуков для регулировки громкости каждой песни.
+
+Synchronized music in multiplayer.
+Added the effect of headphones on whether another players can hear the music.
+Removed the need for speakers for the vinyl player.
+Added effect of open/broken car windows on music volume and zombie baiting.
+Blocked possibility for player to turn on two boomboxes at the same time (from inventory).
+Added random spawn of cassettes and vinyls in different types of containers.
+Added advanced sound settings to adjust the volume of each song.
+
+-------------------
+
+v.2.08
+
+Исправлена ошибка из-за которой нельзя было отключить громкость одним нажанием.
+Отключена лишняя опция в контекстном меню винилового проигрывателя.
+
+Fixed a bug that made it impossible to turn off the volume with one touch.
+Disabled unnecessary option in the context menu for vinyl player.
+
+-------------------
+
+v.2.07
+
+Устранена несовместимость с Hydrocraft из-за которой бумбокс и виниловый проигрыватель, размещенные на земле, не работали.
+Отключена лишняя опция в контекстном меню бумбокса.
+Музыка, добавленная игроком, перенесена в категорию "Окружение", чтобы дать возможность отключать ванильную музыку.
+Добавлены уточнения в readme.txt
+
+Fixed an incompatibility with Hydrocraft that caused a boombox and vinyl player placed on the ground to not work.
+Disabled unnecessary option in the context menu for boombox.
+The music added by player has been moved to the "Ambient" category to allow to turn off vanilla music.
+Added clarifications to readme.txt
+
+-------------------
+
+v.2.06
+
+Исправлена ошибка связанная с воспроизведением музыки в машине после изъятия кассеты.
+
+Fixed a bug related to playing music in the car after removing the cassette.
+
+-------------------
+
+v.2.05
+
+При включении музыки в машине, радио отключается.
+Убрано дрожание музыки во время езды в автомобиле.
+
+When you turn on the music in the car, the radio turns off.
+Removed the jitter of music while driving in a car.
+
+-------------------
+
+v.2.04
+
+Улучшено приманивание зомби. Очень сильно улучшено! Будьте осторожны!
+
+Improved luring zombies. Very much improved! Be careful!
+
+-------------------
+
+v.2.03
+
+Исправлена ошибка, связанная с невозможностью подключения колонок на верхних этажах зданий.
+
+Fixed a bug related to the impossibility of connecting the speakers on the upper floors of buildings.
+
+-------------------
+
+v.2.02
+
+Добавлен архив в формате rar.
+
+Added archive in rar format.
+
+-------------------
+
+v.2.01
+
+Исправлены ошибки в переводах.
+
+Fixed errors in translations.
+
+-------------------
+
+v.2.0

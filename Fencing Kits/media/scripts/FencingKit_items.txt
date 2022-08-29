@@ -1,0 +1,26 @@
+module FencingKit {
+
+
+  /** ------------------------------- **/
+
+  item FenceKit {
+    Type=Normal,
+    Weight=8.5,
+    DisplayName=Chainlink Fencing Kit,
+    WorldStaticModel=FenceKit,
+    Icon=FenceKit,
+  }
+
+
+    item ChainWireRoll {
+    Type=Drainable,
+    UseDelta=0.2,
+    UseWhileEquipped=false,
+    Weight=4.0,
+    DisplayName=Chainlink Wire Roll,
+    WorldStaticModel=FenceRoll,
+    Icon=FenceRoll,
+  }
+
+
+}

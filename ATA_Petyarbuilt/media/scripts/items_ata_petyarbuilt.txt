@@ -1,0 +1,286 @@
+module Autotsar
+{
+	imports
+	{
+		Base
+	}
+    item ATAPetyarbuiltTuningMag /* Spawn */ 
+    {
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Autotsar Tuning - Ford Mustang,
+        Icon	=	ATATuningMagUniverseIcon,
+        TeachedRecipes  =   Basic Tuning;Make ATAPetyarbuiltProtectionSleeperItem;Make ATAPetyarbuiltProtectionRearWheelsItem;Make ATAPetyarbuiltProtectionGasTankItem;Make ATAPetyarbuiltProtectionSideItem;Make ATAPetyarbuiltProtectionSideFrontItem;Make ATAPetyarbuiltProtectionSideTopItem,
+        ReplaceOnUse    =   ATAPetyarbuiltTuningMag,
+        Tooltip = Tooltip_item_ATAPetyarbuiltTuningMag,
+        StaticModel = Autotsar.ATATuningMagUniverse_Reading,
+        WorldStaticModel = Autotsar.ATATuningMagUniverse_Ground,
+    }
+    
+    model ATAPetyarbuiltItemWorld
+	{
+		mesh = WorldItems/ATA_Petyarbuilt_items,
+		texture = Vehicles/ATA_Petyarbuilt_items,
+		scale = 0.014,
+	}
+    
+    /* Side protection
+███─███─████──███────████─████─████─███─███─████─███─███─████─█──█
+█────█──█──██─█──────█──█─█──█─█──█──█──█───█──█──█───█──█──█─██─█
+███──█──█──██─███────████─████─█──█──█──███─█─────█───█──█──█─█─██
+──█──█──█──██─█──────█────█─█──█──█──█──█───█──█──█───█──█──█─█──█
+███─███─████──███────█────█─█──████──█──███─████──█──███─████─█──█
+*/
+
+	item ATAPetyarbuiltProtectionSleeperItem /* Craft */ 
+	{
+		DisplayCategory = Tuning,
+		Weight	=	20.0,
+        Type	=	Normal,
+        DisplayName	=	ATAPetyarbuiltProtectionSleeperItem,
+        Icon	=	ATAPetyarbuiltProtectionSleeperItem,
+		ConditionMax = 100,
+        MechanicsItem = TRUE,
+		Tooltip = Tooltip_item_tuning,
+        ataProtection = WindowRearLeft;WindowRearRight;GasTank,
+		WorldStaticModel = Autotsar.ATAPetyarbuiltItemWorld,
+	}
+    recipe Make ATAPetyarbuiltProtectionSleeperItem
+    {
+       MetalPipe = 10,
+	   SheetMetal = 5,
+	   MetalBar=3,
+	   Screws=8,
+       BlowTorch=54,
+       keep WeldingMask,
+       Result:ATAPetyarbuiltProtectionSleeperItem,
+       Time:350.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=10,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+    }
+    recipe Cut ATAPetyarbuiltProtectionSleeperItem
+    {
+       ATAPetyarbuiltProtectionSleeperItem=1,
+       BlowTorch=30,
+       keep WeldingMask,
+       Result:MetalPipe=5,
+       Time:350.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=2,
+	   OnCreate:Recipe.OnCreate.CutATAPetyarbuiltProtectionSleeperItem,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+       NeedToBeLearn:false,
+    }
+	
+    item ATAPetyarbuiltProtectionRearWheelsItem /* Craft */ 
+	{
+		DisplayCategory = Tuning,
+		Weight	=	10.0,
+        Type	=	Normal,
+        DisplayName	=	ATAPetyarbuiltProtectionRearWheelsItem,
+        Icon	=	ATAPetyarbuiltProtectionRearWheelsItem,
+		ConditionMax = 100,
+        MechanicsItem = TRUE,
+		Tooltip = Tooltip_item_tuning,
+		WorldStaticModel = Autotsar.ATAPetyarbuiltItemWorld,
+        ataProtection = TireMiddleLeft;TireMiddleRight;TireRearLeft;TireRearRight,
+	}
+    recipe Make ATAPetyarbuiltProtectionRearWheelsItem
+    {
+       MetalPipe = 6,
+	   SheetMetal = 2,
+	   MetalBar=6,
+	   Screws=6,
+       BlowTorch=32,
+       keep WeldingMask,
+       Result:ATAPetyarbuiltProtectionRearWheelsItem,
+       Time:350.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=5,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+    }
+    recipe Cut ATAPetyarbuiltProtectionRearWheelsItem
+    {
+       ATAPetyarbuiltProtectionRearWheelsItem=1,
+       BlowTorch=14,
+       keep WeldingMask,
+       Result:MetalPipe=3,
+       Time:350.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=2,
+	   OnCreate:Recipe.OnCreate.CutATAPetyarbuiltProtectionRearWheelsItem,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+       NeedToBeLearn:false,
+    }
+    
+    item ATAPetyarbuiltProtectionGasTankItem /* Craft */ 
+	{
+		DisplayCategory = Tuning,
+		Weight	=	10.0,
+        Type	=	Normal,
+        DisplayName	=	ATAPetyarbuiltProtectionGasTankItem,
+        Icon	=	ATAPetyarbuiltProtectionRearWheelsItem,
+		ConditionMax = 100,
+        MechanicsItem = TRUE,
+		Tooltip = Tooltip_item_tuning,
+		WorldStaticModel = Autotsar.ATAPetyarbuiltItemWorld,
+        ataProtection = TireMiddleLeft;TireMiddleRight;TireRearLeft;TireRearRight,
+	}
+    recipe Make ATAPetyarbuiltProtectionGasTankItem
+    {
+       MetalPipe = 6,
+	   SheetMetal = 2,
+	   MetalBar=6,
+	   Screws=6,
+       BlowTorch=32,
+       keep WeldingMask,
+       Result:ATAPetyarbuiltProtectionGasTankItem,
+       Time:350.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=5,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+    }
+    recipe Cut ATAPetyarbuiltProtectionGasTankItem
+    {
+       ATAPetyarbuiltProtectionGasTankItem=1,
+       BlowTorch=14,
+       keep WeldingMask,
+       Result:MetalPipe=3,
+       Time:350.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=2,
+	   OnCreate:Recipe.OnCreate.CutATAPetyarbuiltProtectionRearWheelsItem,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+       NeedToBeLearn:false,
+    }
+    
+    item ATAPetyarbuiltProtectionSideItem /* Craft */ 
+	{
+		DisplayCategory = Tuning,
+		Weight	=	15.0,
+        Type	=	Normal,
+        DisplayName	=	ATAPetyarbuiltProtectionSideItem,
+        Icon	=	ATAPetyarbuiltProtectionSideItem,
+		ConditionMax = 100,
+        MechanicsItem = TRUE,
+		Tooltip = Tooltip_item_tuning,
+		WorldStaticModel = Autotsar.ATAPetyarbuiltItemWorld,
+	}
+    recipe Make ATAPetyarbuiltProtectionSideItem
+    {
+       MetalPipe = 4,
+	   SheetMetal = 10,
+	   MetalBar=8,
+	   Screws=8,
+       BlowTorch=54,
+       keep WeldingMask,
+       Result:ATAPetyarbuiltProtectionSideItem,
+       Time:350.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=8,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+    }
+    recipe Cut ATAPetyarbuiltProtectionSideItem
+    {
+       ATAPetyarbuiltProtectionSideItem=1,
+       BlowTorch=30,
+       keep WeldingMask,
+       Result:SheetMetal=5,
+       Time:350.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=2,
+	   OnCreate:Recipe.OnCreate.CutATAPetyarbuiltProtectionSideItem,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+       NeedToBeLearn:false,
+    }
+    
+    item ATAPetyarbuiltProtectionSideFrontItem /* Craft */ 
+	{
+		DisplayCategory = Tuning,
+		Weight	=	15.0,
+        Type	=	Normal,
+        DisplayName	=	ATAPetyarbuiltProtectionSideFrontItem,
+        Icon	=	ATAPetyarbuiltProtectionSideFrontItem,
+		ConditionMax = 100,
+        MechanicsItem = TRUE,
+		Tooltip = Tooltip_item_tuning,
+		WorldStaticModel = Autotsar.ATAPetyarbuiltItemWorld,
+        ataProtection = EngineDoor;HeadlightLeft;HeadlightRight,
+	}
+    recipe Make ATAPetyarbuiltProtectionSideFrontItem
+    {
+       MetalPipe = 2,
+	   SheetMetal = 8,
+	   MetalBar=8,
+	   Screws=8,
+       BlowTorch=44,
+       keep WeldingMask,
+       Result:ATAPetyarbuiltProtectionSideFrontItem,
+       Time:350.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=9,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+    }
+    recipe Cut ATAPetyarbuiltProtectionSideFrontItem
+    {
+       ATAPetyarbuiltProtectionSideFrontItem=1,
+       BlowTorch=14,
+       keep WeldingMask,
+       Result:SheetMetal=4,
+       Time:350.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=2,
+	   OnCreate:Recipe.OnCreate.CutATAPetyarbuiltProtectionSideFrontItem,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+       NeedToBeLearn:false,
+    }
+    
+    item ATAPetyarbuiltProtectionSideTopItem /* Craft */ 
+	{
+		DisplayCategory = Tuning,
+		Weight	=	10.0,
+        Type	=	Normal,
+        DisplayName	=	ATAPetyarbuiltProtectionSideTopItem,
+        Icon	=	ATAPetyarbuiltProtectionSideTopItem,
+		ConditionMax = 100,
+        MechanicsItem = TRUE,
+		Tooltip = Tooltip_item_tuning,
+		WorldStaticModel = Autotsar.ATAPetyarbuiltItemWorld,
+        ataProtection = Windshield,
+	}
+    recipe Make ATAPetyarbuiltProtectionSideTopItem
+    {
+       Windshield1/Windshield2/Windshield3,
+       MetalPipe = 2,
+	   SheetMetal = 8,
+	   MetalBar=8,
+	   Screws=8,
+       BlowTorch=44,
+       keep WeldingMask,
+       Result:ATAPetyarbuiltProtectionSideTopItem,
+       Time:350.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=10,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+    }
+    recipe Cut ATAPetyarbuiltProtectionSideTopItem
+    {
+       ATAPetyarbuiltProtectionSideTopItem=1,
+       BlowTorch=14,
+       keep WeldingMask,
+       Result:SheetMetal=4,
+       Time:350.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=2,
+	   OnCreate:Recipe.OnCreate.CutATAPetyarbuiltProtectionSideFrontItem,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+       NeedToBeLearn:false,
+    }
+}

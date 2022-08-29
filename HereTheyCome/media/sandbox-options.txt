@@ -1,0 +1,225 @@
+VERSION = 1,
+
+option HereTheyCome.HordeCooldown
+{
+	type = integer,
+	min = 0,
+	max = 72000,
+	default = 8640,
+	page = HereTheyCome,
+	translation = HereTheyCome_HordeCooldown,
+}
+
+option HereTheyCome.HordeMinHour
+{
+	type = integer,
+	min = 0,
+	max = 23,
+	default = 0,
+	page = HereTheyCome,
+	translation = HereTheyCome_HordeMinHour,
+}
+
+option HereTheyCome.HordeMaxHour
+{
+	type = integer,
+	min = 0,
+	max = 23,
+	default = 6,
+	page = HereTheyCome,
+	translation = HereTheyCome_HordeMaxHour,
+}
+
+option HereTheyCome.HordeMinHourlyProgress
+{
+    type = integer,
+    min = 0,
+    max = 10000,
+    default = 0,
+    page = HereTheyCome,
+    translation = HereTheyCome_HordeMinHourlyProgress,
+}
+
+option HereTheyCome.HordeMaxHourlyProgress
+{
+    type = integer,
+    min = 0,
+    max = 10000,
+    default = 250,
+    page = HereTheyCome,
+    translation = HereTheyCome_HordeMaxHourlyProgress,
+}
+
+option HereTheyCome.HordeTriggerThreshold
+{
+    type = integer,
+    min = 0,
+    max = 10000,
+    default = 1000,
+    page = HereTheyCome,
+    translation = HereTheyCome_HordeTriggerThreshold,
+}
+
+option HereTheyCome.HordeFirstDay
+{
+	type = integer,
+	min = 0,
+	max = 365,
+	default = 20,
+	page = HereTheyCome,
+	translation = HereTheyCome_HordeFirstDay,
+}
+
+option HereTheyCome.HordeNumWaves
+{
+	type = integer,
+	min = 1,
+	max = 10,
+	default = 5,
+	page = HereTheyCome,
+	translation = HereTheyCome_HordeNumWaves,
+}
+
+option HereTheyCome.TimeBetweenWaves
+{
+	type = integer,
+	min = 1,
+	max = 120,
+	default = 30,
+	page = HereTheyCome,
+	translation = HereTheyCome_TimeBetweenWaves,
+}
+
+option HereTheyCome.HordeWaveBatchTicks
+{
+	type = integer,
+	min = 1,
+	max = 1200,
+	default = 100,
+	page = HereTheyCome,
+	translation = HereTheyCome_HordeWaveBatchTicks,
+}
+
+option HereTheyCome.HordeWaveBatchSize
+{
+	type = integer,
+	min = 1,
+	max = 100,
+	default = 5,
+	page = HereTheyCome,
+	translation = HereTheyCome_HordeWaveBatchSize,
+}
+
+option HereTheyCome.HordeWaveMinZombieCount
+{
+	type = integer,
+	min = 1,
+	max = 300,
+	default = 30,
+	page = HereTheyCome,
+	translation = HereTheyCome_HordeWaveMinZombieCount,
+}
+
+option HereTheyCome.HordeWaveMaxZombieCount
+{
+	type = integer,
+	min = 0,
+	max = 300,
+	default = 75,
+	page = HereTheyCome,
+	translation = HereTheyCome_HordeWaveMaxZombieCount,
+}
+
+option HereTheyCome.HordeZombieIncrement
+{
+	type = integer,
+	min = 0,
+	max = 100,
+	default = 1,
+	page = HereTheyCome,
+	translation = HereTheyCome_HordeZombieIncrement,
+}
+
+option HereTheyCome.HordeMinSpawnDistance
+{
+	type = integer,
+	min = 5,
+	max = 200,
+	default = 65,
+	page = HereTheyCome,
+	translation = HereTheyCome_HordeMinSpawnDistance,
+}
+
+option HereTheyCome.HordeMaxSpawnDistance
+{
+	type = integer,
+	min = 5,
+	max = 200,
+	default = 85,
+	page = HereTheyCome,
+	translation = HereTheyCome_HordeMaxSpawnDistance,
+}
+
+option HereTheyCome.HordeProgressIndicator
+{
+	type = boolean,
+	default = true,
+	page = HereTheyCome,
+	translation = HereTheyCome_HordeProgressIndicator,
+}
+
+option HereTheyCome.HordeWarnText
+{
+	type = boolean,
+	default = true,
+    page = HereTheyCome,
+    translation = HereTheyCome_HordeWarnText,
+}
+
+option HereTheyCome.HordeWarnTime
+{
+    type = integer,
+    min = 5,
+    max = 180,
+    default = 10,
+    page = HereTheyCome,
+    translation = HereTheyCome_HordeWarnTime,
+}
+
+option HereTheyCome.HordeDirectionMaxAngle
+{
+    type = integer,
+    min = 0,
+    max = 360,
+    default = 30,
+    page = HereTheyCome,
+    translation = HereTheyCome_HordeDirectionMaxAngle,
+}
+
+option HereTheyCome.PulsePlayersDuringHorde
+{
+	type = boolean,
+	default = true,
+	page = HereTheyCome,
+	translation = HereTheyCome_PulsePlayersDuringHorde,
+}
+
+option HereTheyCome.PulseRange
+{
+	type = integer,
+	min = 5,
+	max = 200,
+	default = 125,
+	page = HereTheyCome,
+	translation = HereTheyCome_PulseRange,
+}
+
+option HereTheyCome.TimeBetweenPulses
+{
+	type = integer,
+	min = 1,
+	max = 120,
+	default = 5,
+	page = HereTheyCome,
+	translation = HereTheyCome_TimeBetweenPulses,
+}

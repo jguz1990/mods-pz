@@ -1,0 +1,6 @@
+name=简单僵尸陷阱Simple zombie traps
+id=Simplezombietrap
+poster=poster.png
+description=Simplezombietrap
+pack=simpletraps
+tiledef=simpletraps 877

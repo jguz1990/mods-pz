@@ -1,0 +1,155 @@
+VERSION = 1,
+
+option esQTW.esQTWIC
+{
+    type = enum,
+    default = 1,
+    numValues = 3,
+    valueTranslation = esQTW_IC,
+
+    page = esQTW,
+    translation = esQTW_esQTWIC,
+}
+
+option esQTW.esQTWSorter
+{
+    type = enum,
+    default = 1,
+    numValues = 3,
+    valueTranslation = esQTW_SORTER,
+
+    page = esQTW,
+    translation = esQTW_esQTWSorter,
+}
+
+option esQTW.esQTWSac
+{
+    type = enum,
+    default = 1,
+    numValues = 3,
+    valueTranslation = esQTW_SAC,
+
+    page = esQTW,
+    translation = esQTW_esQTWSac,
+}
+
+option esQTW.esQTWCorpseMerge
+{
+    type = enum,
+    default = 1,
+    numValues = 2,
+    valueTranslation = esQLIB_OnOff,
+
+    page = esQTW,
+    translation = esQTW_esQTWCorpseMerge,
+}
+
+option esQTW.esQTWPowders
+{
+    type = enum,
+    default = 1,
+    numValues = 2,
+    valueTranslation = esQLIB_OnOff,
+
+    page = esQTW,
+    translation = esQTW_esQTWPowders,
+}
+
+option esQTW.esQTWMetals
+{
+    type = enum,
+    default = 1,
+    numValues = 2,
+    valueTranslation = esQLIB_OnOff,
+
+    page = esQTW,
+    translation = esQTW_esQTWMetals,
+}
+
+option esQTW.esQTWWrecks
+{
+    type = enum,
+    default = 1,
+    numValues = 2,
+    valueTranslation = esQLIB_OnOff,
+
+    page = esQTW,
+    translation = esQTW_esQTWWrecks,
+}
+
+option esQTW.esQTWCarCare
+{
+    type = enum,
+    default = 1,
+    numValues = 2,
+    valueTranslation = esQLIB_OnOff,
+
+    page = esQTW,
+    translation = esQTW_esQTWCarCare,
+}
+
+option esQTW.esQTWVitaMax
+{
+    type = enum,
+    default = 1,
+    numValues = 2,
+    valueTranslation = esQLIB_OnOff,
+
+    page = esQTW,
+    translation = esQTW_esQTWVitaMax,
+}
+
+option esQTW.esQTWFixers
+{
+    type = enum,
+    default = 1,
+    numValues = 2,
+    valueTranslation = esQLIB_OnOff,
+
+    page = esQTW,
+    translation = esQTW_esQTWFixers,
+}
+
+option esQTW.esQTWFastTravel
+{
+    type = enum,
+    default = 1,
+    numValues = 2,
+    valueTranslation = esQLIB_OnOff,
+
+    page = esQTW,
+    translation = esQTW_esQTWFastTravel,
+}
+
+option esQTW.esQTWDrier
+{
+    type = enum,
+    default = 1,
+    numValues = 2,
+    valueTranslation = esQLIB_OnOff,
+
+    page = esQTW,
+    translation = esQTW_esQTWDrier,
+}
+
+option esQTW.esQTWDieter
+{
+    type = enum,
+    default = 1,
+    numValues = 2,
+    valueTranslation = esQLIB_OnOff,
+
+    page = esQTW,
+    translation = esQTW_esQTWDieter,
+}
+
+option esQTW.esQTWAutoEquip
+{
+    type = enum,
+    default = 1,
+    numValues = 3,
+    valueTranslation = esQTW_esQTWAutoEquip,
+
+    page = esQTW,
+    translation = esQTW_esQTWAutoEquip,
+}

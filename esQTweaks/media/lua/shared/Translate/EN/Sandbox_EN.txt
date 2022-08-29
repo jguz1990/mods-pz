@@ -1,0 +1,66 @@
+Sandbox_EN = {
+    Sandbox_esQTW = "ExtraSauce Features",
+
+    Sandbox_esQTW_IC_option1 = "Off",
+    Sandbox_esQTW_IC_option2 = "On",
+    Sandbox_esQTW_IC_option3 = "On Keep empty item",
+    Sandbox_esQTW_esQTWIC = "Instant Consolidation",
+    Sandbox_esQTW_esQTWIC_tooltip = "Merge stacks of drainables.",
+
+    Sandbox_esQTW_SORTER_option1 = "Off",
+    Sandbox_esQTW_SORTER_option2 = "On Auto Sorting",
+    Sandbox_esQTW_SORTER_option3 = "On Manual sorting",
+    Sandbox_esQTW_esQTWSorter = "Sorter",
+    Sandbox_esQTW_esQTWSorter_tooltip = "Tag and Sort items quickly; Auto sorts inventory, after certain actions like crafting, dismantling.",
+
+    Sandbox_esQTW_SAC_option1 = "Off",
+    Sandbox_esQTW_SAC_option2 = "On",
+    Sandbox_esQTW_SAC_option3 = "On Ignore parent capacity",
+    Sandbox_esQTW_esQTWSac = "Sac",
+    Sandbox_esQTW_esQTWSac_tooltip = "Allow easy access to bags.",
+
+    Sandbox_esQTW_AC_option1 = "Off",
+    Sandbox_esQTW_AC_option2 = "[<GunAmmo>]",
+    Sandbox_esQTW_AC_option3 = "[<GunAmmo>] @<BagAmmo>",
+    Sandbox_esQTW_AC_option4 = "<GunName> [<GunAmmo>]",
+    Sandbox_esQTW_AC_option5 = "<GunName> [<GunAmmo>] @<BagAmmo>",
+    Sandbox_esQTW_AC_option6 = "<GunName> [<GunAmmo>] #[<MagAmmo>]",
+    Sandbox_esQTW_AC_option7 = "<GunName> [<GunAmmo>] #[<MagAmmo>] @<BagAmmo>",
+
+    Sandbox_esQTW_esQTWCorpseMerge = "Corpse Move",
+    Sandbox_esQTW_esQTWCorpseMerge_tooltip = "Pile dead corpses.",
+
+    Sandbox_esQTW_esQTWPowders = "Scrap Ammo",
+    Sandbox_esQTW_esQTWPowders_tooltip = "Make gunpowder from stacks of bullets, instead of all.",
+
+    Sandbox_esQTW_esQTWMetals = "Scrap Metals",
+    Sandbox_esQTW_esQTWMetals_tooltip = "Attempt to get metals, from certain items.",
+
+    Sandbox_esQTW_esQTWWrecks = "Scrap Cars",
+    Sandbox_esQTW_esQTWWrecks_tooltip = "Dismantle cars with low engine condition.",
+
+    Sandbox_esQTW_esQTWCarCare = "Car Care",
+    Sandbox_esQTW_esQTWCarCare_tooltip = "Opens hood anywhere near car, and faster; Repairs parts without uninstalling; Repair heater and light bars; Replace Parts option.",
+
+    Sandbox_esQTW_esQTWVitaMax = "VitaMax",
+    Sandbox_esQTW_esQTWVitaMax_tooltip = "Take more than 1 vitamin at a time.",
+
+    Sandbox_esQTW_esQTWFixers = "Weapons Fixer",
+    Sandbox_esQTW_esQTWFixers_tooltip = "Fixes weapons and craft ammo.",
+
+    Sandbox_esQTW_esQTWFastTravel = "Fast Travel",
+    Sandbox_esQTW_esQTWFastTravel_tooltip = "Fast travel back to campfires.",
+
+    Sandbox_esQTW_esQTWDrier = "Drier",
+    Sandbox_esQTW_esQTWDrier_tooltip = "Use a stack of towels.",
+
+    Sandbox_esQTW_esQTWDieter = "Dieter",
+    Sandbox_esQTW_esQTWDieter_tooltip = "Eats just the right portion of food.",
+
+    Sandbox_esQTW_esQTWAutoEquip = "AutoEquip",
+    Sandbox_esQTW_esQTWAutoEquip_tooltip = "Auto Equip the next worst weapon.",
+    Sandbox_esQTW_esQTWAutoEquip_option1 = "Off",
+    Sandbox_esQTW_esQTWAutoEquip_option2 = "On",
+    Sandbox_esQTW_esQTWAutoEquip_option3 = "On & Drop Broken Weapons",
+}
+

@@ -1,0 +1,518 @@
+module Autotsar
+{
+    imports
+    {
+        Base
+    }
+    item ATAVanDeRumbaTuningMag /* Спавн */ 
+    {
+        Weight    =    0.1,
+        Type    =    Literature,
+        DisplayName    =    Autotsar Tuning Universe,
+        Icon    =    ATATuningMagUniverseIcon,
+        TeachedRecipes  =   Basic Tuning;Make ATAVanDeRumbaBullbar2Item;Make ATAVanDeRumbaBullbar3Item;Make ATAVanDeRumbaProtectionHoodItem;Make ATAVanDeRumbaProtectionWindowFrontItem;Make ATAVanDeRumbaProtectionWindowFrontSideItem;Make ATAVanDeRumbaProtectionWindowRearItem;Make ATAVanDeRumbaInteractiveTrunkRoofRackItem;Make ATAVanDeRumbaLadderItem;Make ATAVanDeRumbaRoofBaseItem;Make ATAVanDeRumbRoofBoxItem,
+        ReplaceOnUse    =   ATAVanDeRumbaTuningMag,
+        Tooltip = Tooltip_item_ATATuningMagDeRumba,
+        StaticModel = Autotsar.ATATuningMagUniverse_Reading,
+        WorldStaticModel = Autotsar.ATATuningMagUniverse_Ground,
+    }
+
+    model ATAVanDeRumbaBullbar1World
+    {
+        mesh = WorldItems/ATA_VanDeRumba_witems|bumper1,
+        texture = Vehicles/ATA_VanDeRumba_items,
+        scale = 0.004,
+    }
+    item ATAVanDeRumbaBullbar1Item
+    {
+        DisplayCategory = Tuning,
+        Weight    =    10.0,
+        Type    =    Normal,
+        DisplayName    = ATAVanDeRumbaBullbar1Item,
+        Icon    =    ATAVanDeRumbaBullbar1Item,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 25,
+        MechanicsItem = TRUE,
+        Tooltip = Tooltip_item_tuning,
+        ataProtection = HeadlightLeft;HeadlightRight,
+        WorldStaticModel = Autotsar.ATAVanDeRumbaBullbar1World,
+    }
+    model ATAVanDeRumbaBullbar2World
+    {
+        mesh = WorldItems/ATA_VanDeRumba_witems|bumper2,
+        texture = Vehicles/ATA_VanDeRumba_items,
+        scale = 0.004,
+    }
+    item ATAVanDeRumbaBullbar2Item
+    {
+        DisplayCategory = Tuning,
+        Weight    =    10.0,
+        Type    =    Normal,
+        DisplayName    = ATAVanDeRumbaBullbar2Item,
+        Icon    =    ATAVanDeRumbaBullbar2Item,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 25,
+        MechanicsItem = TRUE,
+        Tooltip = Tooltip_item_tuning,
+        ataProtection = HeadlightLeft;HeadlightRight,
+        WorldStaticModel = Autotsar.ATAVanDeRumbaBullbar2World,
+    }
+    model ATAVanDeRumbaBullbar3World
+    {
+        mesh = WorldItems/ATA_VanDeRumba_witems|bumper3,
+        texture = Vehicles/ATA_VanDeRumba_items,
+        scale = 0.004,
+    }
+    item ATAVanDeRumbaBullbar3Item /* Спавн */
+    {
+        DisplayCategory = Tuning,
+        Weight    =    10.0,
+        Type    =    Normal,
+        DisplayName    = ATAVanDeRumbaBullbar3Item,
+        Icon    =    ATAVanDeRumbaBullbar3Item,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 95,
+        MechanicsItem = TRUE,
+        Tooltip = Tooltip_item_tuning,
+        ataProtection = HeadlightLeft;HeadlightRight,
+        WorldStaticModel = Autotsar.ATAVanDeRumbaBullbar3World,
+    }
+    recipe Cut ATAVanDeRumbaBullbar1Item
+    {
+        ATAVanDeRumbaBullbar1Item=1,
+        BlowTorch=21,
+        keep WeldingMask,
+        Result:MetalPipe=4,
+        Time:350.0,
+        Category:Tuning,
+        SkillRequired:MetalWelding=2,
+        OnCreate:Recipe.OnCreate.CutATAUnusableMetal,
+        OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+        NeedToBeLearn:false,
+    }
+    recipe Cut ATAVanDeRumbaBullbar2Item
+    {
+       ATAVanDeRumbaBullbar2Item=1,
+       BlowTorch=21,
+       keep WeldingMask,
+       Result:MetalPipe=3,
+       Time:350.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=2,
+       OnCreate:Recipe.OnCreate.CutATAUnusableMetal,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+       NeedToBeLearn:false,
+    }
+    recipe Make ATAVanDeRumbaBullbar2Item
+    {
+       MetalPipe=3,
+       SmallSheetMetal=2,
+       MetalBar=2,
+       Screws=2,
+       BlowTorch=14,
+       keep WeldingMask,
+       Result:ATAVanDeRumbaBullbar2Item,
+       Time:650.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=3,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+       NeedToBeLearn:true,
+    }
+    
+    recipe Cut ATAVanDeRumbaBullbar3Item 
+    {
+       ATAVanDeRumbaBullbar3Item=1,
+       BlowTorch=20,
+       keep WeldingMask,
+       Result:ATAVanDeRumbaBullbar2Item,
+       Time:350.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=2,
+       OnCreate:Recipe.OnCreate.CutATAVanDeRumbaBullbar3Item,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+       NeedToBeLearn:false,
+    }
+    recipe Make ATAVanDeRumbaBullbar3Item
+    {
+       ATAVanDeRumbaBullbar2Item,
+       SheetMetal=4,
+       MetalBar=4,
+       Screws=4,
+       BlowTorch=20,
+       keep WeldingMask,
+       Result:ATAVanDeRumbaBullbar3Item,
+       Time:650.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=5,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+    }
+
+    model ATAVanDeRumbaProtectionHoodWorld
+    {
+        mesh = WorldItems/ATA_VanDeRumba_witems|armor_hood,
+        texture = Vehicles/ATA_VanDeRumba_items,
+        scale = 0.004,
+    }
+    item ATAVanDeRumbaProtectionHoodItem /* Craft */ 
+    {
+        DisplayCategory = Tuning,
+        Weight    =    10.0,
+        Type    =    Normal,
+        DisplayName    =    ATAVanDeRumbaProtectionHoodItem,
+        Icon    =    ATAVanDeRumbaProtectionHoodItem,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        Tooltip = Tooltip_item_tuning,
+        WorldStaticModel = Autotsar.ATAVanDeRumbaProtectionHoodWorld,
+    }
+    recipe Make ATAVanDeRumbaProtectionHoodItem
+    {
+       SheetMetal=2,
+       MetalBar=4,
+       Screws=4,
+       BlowTorch=12,
+       keep WeldingMask,
+       Result:ATAVanDeRumbaProtectionHoodItem,
+       Time:350.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=3,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+       NeedToBeLearn:true,
+    }
+    recipe Cut ATAVanDeRumbaProtectionHoodItem
+    {
+       ATAVanDeRumbaProtectionHoodItem=1,
+       BlowTorch=9,
+       keep WeldingMask,
+       Result:SheetMetal=2,
+       Time:350.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=2,
+       OnCreate:Recipe.OnCreate.CutATAUnusableMetal,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+       NeedToBeLearn:false,
+    }
+    model ATAVanDeRumbaProtectionWindowFrontWorld
+    {
+        mesh = WorldItems/ATA_VanDeRumba_witems|armor_window_front,
+        texture = Vehicles/ATA_VanDeRumba_items,
+        scale = 0.004,
+    }
+    item ATAVanDeRumbaProtectionWindowFrontItem /* Craft */ 
+    {
+        DisplayCategory = Tuning,
+        Weight    =    10.0,
+        Type    =    Normal,
+        DisplayName    =    ATAVanDeRumbaProtectionWindowFrontItem,
+        Icon    =    ATAVanDeRumbaProtectionWindowFrontItem,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        Tooltip = Tooltip_item_tuning,
+        WorldStaticModel = Autotsar.ATAVanDeRumbaProtectionWindowFrontWorld,
+    }
+    recipe Make ATAVanDeRumbaProtectionWindowFrontItem
+    {
+       SheetMetal=4,
+       MetalBar=4,
+       Screws=4,
+       BlowTorch=16,
+       keep WeldingMask,
+       Result:ATAVanDeRumbaProtectionWindowFrontItem,
+       Time:350.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=4,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+       NeedToBeLearn:true,
+    }
+    recipe Cut ATAVanDeRumbaProtectionWindowFrontItem
+    {
+       ATAVanDeRumbaProtectionWindowFrontItem=1,
+       BlowTorch=15,
+       keep WeldingMask,
+       Result:SheetMetal=2,
+       Time:350.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=2,
+       OnCreate:Recipe.OnCreate.CutATAVanDeRumbaProtectionWindowFrontItem,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+       NeedToBeLearn:false,
+    }
+    model ATAVanDeRumbaProtectionWindowFrontSideWorld
+    {
+        mesh = WorldItems/ATA_VanDeRumba_witems|armor_window_left,
+        texture = Vehicles/ATA_VanDeRumba_items,
+        scale = 0.004,
+    }
+    item ATAVanDeRumbaProtectionWindowFrontSideItem /* Craft */ 
+    {
+        DisplayCategory = Tuning,
+        Weight    =    10.0,
+        Type    =    Normal,
+        DisplayName    =    ATAVanDeRumbaProtectionWindowFrontSideItem,
+        Icon    =    ATAVanDeRumbaProtectionWindowFrontSideItem,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        Tooltip = Tooltip_item_tuning,
+        WorldStaticModel = Autotsar.ATAVanDeRumbaProtectionWindowFrontSideWorld,
+    }
+    recipe Make ATAVanDeRumbaProtectionWindowFrontSideItem
+    {
+       SheetMetal=2,
+       MetalBar=2,
+       Screws=4,
+       BlowTorch=8,
+       keep WeldingMask,
+       Result:ATAVanDeRumbaProtectionWindowFrontSideItem,
+       Time:350.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=4,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+       NeedToBeLearn:true,
+    }
+    recipe Cut ATAVanDeRumbaProtectionWindowFrontSideItem
+    {
+       ATAVanDeRumbaProtectionWindowFrontSideItem=1,
+       BlowTorch=8,
+       keep WeldingMask,
+       Result:SheetMetal,
+       Time:350.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=2,
+       OnCreate:Recipe.OnCreate.CutATAUnusableMetal,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+       NeedToBeLearn:false,
+    }
+    model ATAVanDeRumbaProtectionWindowFrontWorld
+    {
+        mesh = WorldItems/ATA_VanDeRumba_witems|armor_window_rear,
+        texture = Vehicles/ATA_VanDeRumba_items,
+        scale = 0.004,
+    }
+    item ATAVanDeRumbaProtectionWindowRearItem /* Craft */ 
+    {
+        DisplayCategory = Tuning,
+        Weight    =    10.0,
+        Type    =    Normal,
+        DisplayName    =    ATAVanDeRumbaProtectionWindowRearItem,
+        Icon    =    ATAVanDeRumbaProtectionWindowRearItem,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        Tooltip = Tooltip_item_tuning,
+        WorldStaticModel = Autotsar.ATAVanDeRumbaProtectionWindowFrontWorld,
+    }
+    recipe Make ATAVanDeRumbaProtectionWindowRearItem
+    {
+       SheetMetal=4,
+       MetalBar=4,
+       Screws=4,
+       BlowTorch=16,
+       keep WeldingMask,
+       Result:ATAVanDeRumbaProtectionWindowRearItem,
+       Time:350.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=4,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+       NeedToBeLearn:true,
+    }
+    recipe Cut ATAVanDeRumbaProtectionWindowRearItem
+    {
+       ATAVanDeRumbaProtectionWindowRearItem=1,
+       BlowTorch=15,
+       keep WeldingMask,
+       Result:SheetMetal=2,
+       Time:350.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=2,
+       OnCreate:Recipe.OnCreate.CutATAVanDeRumbaProtectionWindowFrontItem,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+       NeedToBeLearn:false,
+    }
+    model ATAVanDeRumbaItemWorldSheetSq
+    {
+        mesh = WorldItems/ATA_VanDeRumba_witems|sheet_sq,
+        texture = Vehicles/ATA_VanDeRumba_items,
+        scale = 0.01,
+    }
+    item ATAVanDeRumbaInteractiveTrunkRoofRackItem /* Craft */ 
+    {
+        DisplayCategory = Tuning,
+        Weight    =    10.0,
+        Type    =    Normal,
+        DisplayName    =    ATAVanDeRumbaInteractiveTrunkRoofRackItem,
+        Icon    =    ATAVanDeRumbaInteractiveTrunkRoofRackItem,
+        MaxCapacity = 200,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        Tooltip = Tooltip_item_tuning,
+        WorldStaticModel = Autotsar.ATAVanDeRumbaItemWorldSheetSq,
+    }
+    recipe Make ATAVanDeRumbaInteractiveTrunkRoofRackItem
+    {
+       MetalPipe = 5,
+       SheetMetal = 10,
+       MetalBar=4,
+       Screws=10,
+       BlowTorch=38,
+       keep WeldingMask,
+       Result:ATAVanDeRumbaInteractiveTrunkRoofRackItem,
+       Time:350.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=5,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+    }
+    recipe Cut ATAVanDeRumbaInteractiveTrunkRoofRackItem
+    {
+       ATAVanDeRumbaInteractiveTrunkRoofRackItem=1,
+       BlowTorch=18,
+       keep WeldingMask,
+       Result:SheetMetal=5,
+       Time:350.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=2,
+       OnCreate:Recipe.OnCreate.CutATAVanDeRumbaInteractiveTrunkRoofRackItem,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+       NeedToBeLearn:false,
+    }
+    model ATAVanDeRumbaItemWorldPipe
+    {
+        mesh = WorldItems/ATA_VanDeRumba_witems|pipes,
+        texture = Vehicles/ATA_VanDeRumba_items,
+        scale = 0.004,
+    }
+    item ATAVanDeRumbaLadderItem /* Craft */ 
+    {
+        DisplayCategory = Tuning,
+        Weight    =    10.0,
+        Type    =    Normal,
+        DisplayName    =    ATAVanDeRumbaLadderItem,
+        Icon    =    ATAVanDeRumbaLadderItem,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        Tooltip = Tooltip_item_tuning,
+        WorldStaticModel = Autotsar.ATAVanDeRumbaItemWorldPipe,
+    }
+    recipe Make ATAVanDeRumbaLadderItem
+    {
+        MetalPipe = 4,
+        MetalBar=6,
+        Screws=4,
+        BlowTorch=20,
+        keep WeldingMask,
+        Result:ATAVanDeRumbaLadderItem,
+        Time:350.0,
+        Category:Tuning,
+        SkillRequired:MetalWelding=5,
+        OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+        NeedToBeLearn:true,
+    }
+    recipe Cut ATAVanDeRumbaLadderItem
+    {
+        ATAVanDeRumbaLadderItem=1,
+        BlowTorch=14,
+        keep WeldingMask,
+        Result:MetalBar=3,
+        Time:350.0,
+        Category:Tuning,
+        SkillRequired:MetalWelding=2,
+        OnCreate:Recipe.OnCreate.CutATAVanDeRumbaLadderItem,
+        OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+        NeedToBeLearn:false,
+    }
+    
+    model ATAVanDeRumbaRoofBaseWorld
+    {
+        mesh = WorldItems/ATA_VanDeRumba_witems|armor_window,
+        texture = Vehicles/ATA_VanDeRumba_items,
+        scale = 0.035,
+    }
+    
+    item ATAVanDeRumbaRoofBaseItem /* Spawn + Craft */
+    {
+        DisplayCategory = Tuning,
+        Weight    =    10.0,
+        Type    =    Normal,
+        DisplayName    = ATAVanDeRumbaRoofBaseItem,
+        Icon    =    ATAVanDeRumbaRoofBaseItem,
+        ChanceToSpawnDamaged = 25,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        Tooltip = Tooltip_item_tuning,
+        WorldStaticModel = Autotsar.ATAVanDeRumbaItemWorldPipe,
+    }
+    recipe Make ATAVanDeRumbaRoofBaseItem
+    {
+        MetalPipe=6,
+        BlowTorch=16,
+        keep WeldingMask,
+        Result:ATAVanDeRumbaRoofBaseItem,
+        Time:350.0,
+        Category:Tuning,
+        SkillRequired:MetalWelding=4,
+        OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+        NeedToBeLearn:true,
+    }
+    
+    recipe Cut ATAVanDeRumbaRoofBaseItem
+    {
+        ATAVanDeRumbaRoofBaseItem=1,
+        BlowTorch=16,
+        keep WeldingMask,
+        Result:MetalPipe=3,
+        Time:350.0,
+        Category:Tuning,
+        SkillRequired:MetalWelding=2,
+        OnCreate:Recipe.OnCreate.CutATAUnusableMetal,
+        OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+        NeedToBeLearn:false,
+    }
+    model ATAVanDeRumbRoofBoxWorld
+    {
+        mesh = WorldItems/ATA_VanDeRumba_witems|roof_toolbox,
+        texture = Vehicles/ATA_VanDeRumba_items2,
+        scale = 0.006,
+    }
+    
+    item ATAVanDeRumbRoofBoxItem
+    {
+        DisplayCategory = Tuning,
+        Weight    =    15.0,
+        Type    =    Normal,
+        DisplayName    = ATAVanDeRumbRoofBoxItem,
+        Icon    =    ATAVanDeRumbRoofBoxItem,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        MaxCapacity = 40,
+        ConditionAffectsCapacity = false,
+        ChanceToSpawnDamaged = 10,
+        Tooltip = Tooltip_item_tuning,
+        WorldStaticModel = Autotsar.ATAVanDeRumbRoofBoxWorld,
+    }
+    recipe Make ATAVanDeRumbRoofBoxItem
+    {
+        SheetMetal=11,
+        BlowTorch=22,
+        keep WeldingMask,
+        Result:ATAVanDeRumbRoofBoxItem,
+        Time:350.0,
+        Category:Tuning,
+        SkillRequired:MetalWelding=7,
+        OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+        NeedToBeLearn:true,
+    }
+    recipe Cut ATAVanDeRumbRoofBoxItem
+    {
+        ATAVanDeRumbRoofBoxItem=1,
+        BlowTorch=16,
+        keep WeldingMask,
+        Result:SheetMetal=6,
+        Time:350.0,
+        Category:Tuning,
+        SkillRequired:MetalWelding=2,
+        OnCreate:Recipe.OnCreate.CutATAUnusableMetal,
+        OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+        NeedToBeLearn:false,
+    }
+}

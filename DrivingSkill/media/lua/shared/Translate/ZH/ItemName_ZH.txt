@@ -1,0 +1,7 @@
+ItemName_ZH = {
+	ItemName_DrivingSkill.DrivingSkill_BookDriving1 = "驾驶1阶-初级",
+	ItemName_DrivingSkill.DrivingSkill_BookDriving2 = "驾驶2阶-中级",
+	ItemName_DrivingSkill.DrivingSkill_BookDriving3 = "驾驶3阶-高级",
+	ItemName_DrivingSkill.DrivingSkill_BookDriving4 = "驾驶4阶-专家",
+	ItemName_DrivingSkill.DrivingSkill_BookDriving5 = "驾驶5阶-大师",
+}

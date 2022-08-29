@@ -1,0 +1,7 @@
+ItemName_PTBR = {
+	ItemName_DrivingSkill.DrivingSkill_BookDriving1 = "Direção para Iniciantes",
+	ItemName_DrivingSkill.DrivingSkill_BookDriving2 = "Direção para Intermediários",
+	ItemName_DrivingSkill.DrivingSkill_BookDriving3 = "Direção Avançada",
+	ItemName_DrivingSkill.DrivingSkill_BookDriving4 = "Expert na Direção",
+	ItemName_DrivingSkill.DrivingSkill_BookDriving5 = "Mestre na Direção",
+}

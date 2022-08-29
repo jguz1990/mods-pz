@@ -1,0 +1,11 @@
+﻿IGUI_EN = {
+	IGUI_HotbarAttachment_S_Belta = "Belta",
+    IGUI_HotbarAttachment_S_Beltb = "Beltb",
+    IGUI_HotbarAttachment_S_Beltc = "Beltc",
+    IGUI_HotbarAttachment_S_Beltd = "Beltd",
+    IGUI_HotbarAttachment_S_Belte = "Belte",
+    IGUI_HotbarAttachment_S_Beltf = "Beltf",
+    IGUI_HotbarAttachment_S_Beltg = "Beltg",
+    IGUI_HotbarAttachment_S_Belth = "Belth",
+    IGUI_HotbarAttachment_S_Belti = "Belti",
+}

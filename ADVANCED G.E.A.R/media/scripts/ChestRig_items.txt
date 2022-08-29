@@ -1,0 +1,148 @@
+module Base
+{
+    
+	model PA_Webbing
+	{
+		mesh = PA_webbing_Ground,
+		scale = 1.0,
+	
+	}
+	
+    item ChestRig
+    {
+        Weight	=	0.5,
+        Type	=	Clothing,
+        DisplayName	=	Chest Holster,
+        IconsForTexture = ChestRig_Gray;ChestRig_Green;ChestRig_Tan,
+        BodyLocation = TorsoRig,
+        ClothingItem = ChestRig,
+        AttachmentsProvided = ChestRig,
+		WorldStaticModel = PA_Webbing,
+    }
+    item Webbing
+    {
+        Weight	=	0.5,
+        Type	=	Clothing,
+        DisplayName	=	Webbing (Tight),
+        IconsForTexture = Webbing_Gray;Webbing_Green;Webbing_Tan,
+        BodyLocation = TorsoRig,
+        ClothingItem = Webbing,
+        AttachmentsProvided = ChestRig;ChestRigRight,
+        ClothingItemExtra = WebbingLoose,
+        ClothingItemExtraOption = WearLoose,
+        ClothingExtraSubmenu = WearTight,
+		WorldStaticModel = PA_Webbing,
+    }
+    item WebbingLoose
+    {
+        Weight	=	0.5,
+        Type	=	Clothing,
+        DisplayName	=	Webbing (Loose),
+        IconsForTexture = Webbing_Gray;Webbing_Green;Webbing_Tan,
+        BodyLocation = TorsoRig,
+        ClothingItem = WebbingLoose,
+        AttachmentsProvided = ChestRig;ChestRigRight,
+        ClothingItemExtra = Webbing,
+        ClothingItemExtraOption = WearTight,
+        ClothingExtraSubmenu = WearLoose,
+		WorldStaticModel = PA_Webbing,
+    }
+ 
+    item Webbing_Military
+    {
+        Weight	=	0.5,
+        Type	=	Clothing,
+        DisplayName	=	Webbing (Tight),
+        IconsForTexture = Webbing_Green;Webbing_Tan,
+        BodyLocation = TorsoRig,
+        ClothingItem = Webbing_Military,
+        AttachmentsProvided = ChestRig;ChestRigRight,
+        ClothingItemExtra = Webbing_MilitaryLoose,
+        ClothingItemExtraOption = WearLoose,
+        ClothingExtraSubmenu = WearTight,
+		WorldStaticModel = PA_Webbing,
+    }
+    item Webbing_MilitaryLoose
+    {
+        Weight	=	0.5,
+        Type	=	Clothing,
+        DisplayName	=	Webbing (Loose),
+        IconsForTexture = Webbing_Green;Webbing_Tan,
+        BodyLocation = TorsoRig,
+        ClothingItem = Webbing_MilitaryLoose,
+        AttachmentsProvided = ChestRig;ChestRigRight,
+        ClothingItemExtra = WebbingMilitary,
+        ClothingItemExtraOption = WearTight,
+        ClothingExtraSubmenu = WearLoose,
+		WorldStaticModel = PA_Webbing,
+    }
+
+
+    item Webbing_Black
+    {
+        Weight	=	0.5,
+        Type	=	Clothing,
+        DisplayName	=	Webbing (Tight),
+        Icon = Webbing_Gray,
+        BodyLocation = TorsoRig,
+        ClothingItem = Webbing_Black,
+        AttachmentsProvided = ChestRig;ChestRigRight,
+        ClothingItemExtra = Webbing_BlackLoose,
+        ClothingItemExtraOption = WearLoose,
+        clothingExtraSubmenu = WearTight,
+		WorldStaticModel = PA_Webbing,
+    }
+    item Webbing_BlackLoose
+    {
+        Weight	=	0.5,
+        Type	=	Clothing,
+        DisplayName	=	Webbing (Loose),
+        Icon = Webbing_Gray,
+        BodyLocation = TorsoRig,
+        ClothingItem = Webbing_BlackLoose,
+        AttachmentsProvided = ChestRig;ChestRigRight,
+        ClothingItemExtra = Webbing_Black,
+        ClothingItemExtraOption = WearTight,
+        clothingExtraSubmenu = WearLoose,
+		WorldStaticModel = PA_Webbing,
+    }
+	
+	recipe Make Chest Rig
+    {
+	Belt2=2,
+	LeatherStrips/LeatherStripsDirty,
+	LeatherStrips/LeatherStripsDirty,
+	Thread=2, 
+        DuctTape/Scotchtape=2,
+        keep KitchenKnife/HuntingKnife/Scissors,
+        keep Needle,
+        /*NeedToBeLearn:true,*/
+        Result:ChestRig,
+        Time:600.0,
+        Category:Survivalist,
+      	SkillRequired:Tailoring=3,
+    }
+
+
+
+
+
+
+	recipe Make Webbing
+    {
+	Belt2=3,
+	LeatherStrips/LeatherStripsDirty,
+	LeatherStrips/LeatherStripsDirty,
+	LeatherStrips/LeatherStripsDirty,
+	Thread=3, 
+        DuctTape/Scotchtape=3,
+        keep KitchenKnife/HuntingKnife/Scissors,
+        keep Needle,
+        /*NeedToBeLearn:true,*/
+        Result:Webbing,
+        Time:900.0,
+        Category:Survivalist,
+      	SkillRequired:Tailoring=4,
+    }
+}
+

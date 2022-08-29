@@ -1,0 +1,8 @@
+ExtraMapSymbolsUI_EN =
+{
+	UI_ExtraMapSymbolsUI_Options = "Options",
+	UI_ExtraMapSymbolsUI_OptionsAlternativeSymbols = "Use random symbol variants",
+	UI_ExtraMapSymbolsUI_OptionsColumns = "Columns",
+	UI_ExtraMapSymbolsUI_OptionsScalingStep = "Scaling step"
+	UI_ExtraMapSymbolsUI_OptionsScalingTooltip = "Numpad +/- : change symbol/text scale\nNumpad Enter : reset to default"
+}

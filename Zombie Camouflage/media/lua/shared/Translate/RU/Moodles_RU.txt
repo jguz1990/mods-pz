@@ -1,0 +1,10 @@
+Moodles_RU {
+    Moodles_zombiehidden_lvl1 = "Слегка незаметный",
+    Moodles_zombiehidden_desc_lvl1 = "Это кровь?",
+    Moodles_zombiehidden_lvl2 = "Умеренно незаметный",
+    Moodles_zombiehidden_desc_lvl2 = "Что-то плохо пахнет!",
+    Moodles_zombiehidden_lvl3 = "Почти незаметный",
+    Moodles_zombiehidden_desc_lvl3 = "Подумайте о том, чтобы принять хорошую ванну.",
+    Moodles_zombiehidden_lvl4 = "Незаметный",
+    Moodles_zombiehidden_desc_lvl4 = "Вы точно не один из них?",    
+}

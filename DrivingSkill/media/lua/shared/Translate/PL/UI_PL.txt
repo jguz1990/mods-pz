@@ -1,0 +1,6 @@
+UI_PL = {
+	UI_trait_driver = "Kierowca",
+	UI_trait_driverdesc = "Ciagle odwozenie znajomych po melanzach w koncu ci sie oplacilo.<br>+1 Jazda Pojazdami",
+	UI_prof_cabdriver = "Taksówkarz",
+	UI_prof_cabdriverdesc = "Spedziles sporo czasu za kólkiem. <br>+2 Jazda Pojazdami<br>+2 Naprawa Pojazdów",
+}

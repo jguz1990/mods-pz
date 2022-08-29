@@ -1,0 +1,5 @@
+description=Reduces the Weight of some of the clothes. (Requires the Item Tweaker API.)
+id=ClothingWeightReduction
+name=Clothing Weight Reduction
+require=ItemTweakerAPI
+poster=preview.png

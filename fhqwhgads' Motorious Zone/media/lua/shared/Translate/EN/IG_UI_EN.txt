@@ -1,0 +1,142 @@
+IG_UI_EN = {
+	IGUI_VehicleNamefhqGT40Gulf = "Franklin LM70 Race Car",
+	IGUI_VehicleNamefhqGT40 = "Franklin LM70",
+	IGUI_VehicleNamefhqGT40LM = "Franklin LM70 GTLM Edition",
+
+	IGUI_VehicleNamefhqSupraMkIV = "Kiichiro Raspu",
+	IGUI_VehicleNamefhqSupraMkIVSmooth = "Kiichiro Raspu",
+	IGUI_VehicleNamefhqSupraMkIVOWR = "Kiichiro Raspu OW Racing",
+	IGUI_VehicleNamefhqSupraMkIVOWROOTHST = "Kiichiro Raspu OOTHST Racing",
+
+	IGUI_VehicleNamefhqonevia = "Gosun RC2400 Coupe",
+	IGUI_VehicleNamefhqoneviaPreFL = "Gosun RC2400 Coupe",
+	IGUI_VehicleNamefhqoneviaS = "Gosun RC2400 Coupe Custom",
+	IGUI_VehicleNamefhqoneviadrift = "Gosun RC2400 Coupe Drift Custom",
+
+	IGUI_VehicleNamefhqFBMustangLX = "Franklin Caballo Fennec",
+	IGUI_VehicleNamefhqFBMustangLXCoupe = "Franklin Caballo Fennec",
+	IGUI_VehicleNamefhqFBMustangLX50 = "Franklin Caballo Fennec  5.0L",
+	IGUI_VehicleNamefhqFBMustangLXCoupe50 = "Franklin Caballo Fennec 5.0L",
+	IGUI_VehicleNamefhqFBMustangLX50Custom = "Franklin Caballo Fennec",
+	IGUI_VehicleNamefhqFBMustangSVT = "Franklin Caballo Fennec Stinger",
+	IGUI_VehicleNamefhqFBMustangSSP = "Franklin Caballo Fennec Police",
+	IGUI_VehicleNamefhqFBMustangSSPLightbar = "Franklin Caballo Fennec Police",
+	IGUI_VehicleNamefhqFBMustangGT = "Franklin Caballo Fennec GT",
+
+	IGUI_VehicleNamefhqDiablo = "Iltoro Romulus",
+	IGUI_VehicleNamefhqDiabloPolice = "Iltoro Romulus Police Car",
+	IGUI_VehicleNamefhqDiabloStrosek = "Iltoro Romulus DE Custom",
+	IGUI_VehicleNamefhqDiabloInterceptor = "Iltoro Romulus Police Interceptor",
+	IGUI_VehicleNamefhqDiabloSE30 = "Iltoro Romulus Anniversary Edition",
+
+	IGUI_VehicleNamefhqStratosRally = "Rallia Mesos Rally Car",
+	IGUI_VehicleNamefhqStratos = "Rallia Mesos",
+
+	IGUI_VehicleNamefhqMX5NA = "Matsuda Minia",
+	IGUI_VehicleNamefhqMX5NAWink = "Matsuda Minia",
+	IGUI_VehicleNamefhqMX5NAHardtop = "Matsuda Minia",
+	IGUI_VehicleNamefhqMX5NARally = "Matsuda Minia Rally",
+	IGUI_VehicleNamefhqMX5NAOffroad = "Matsuda Minia Offroad",
+
+	IGUI_VehicleNamefhq300ZXZ32 = "Gosun 200XV",
+	IGUI_VehicleNamefhq300ZXZ32Plus2 = "Gosun 200XV 2+2",
+	IGUI_VehicleNamefhq300ZXZ32Slicktop = "Gosun 200XV",
+	IGUI_VehicleNamefhq300ZXZ32Forza = "Gosun 200XV Rossi Motorsport Custom",
+	IGUI_VehicleNamefhq300ZXZ32MC2Police = "Gosun 200XV Tokyo Police Car",
+
+	IGUI_VehicleNamefhqR32GTR = "Gosun Streetscape R6",
+	IGUI_VehicleNamefhqR32GTRPace = "Gosun Streetscape R6 Pace Car",
+	IGUI_VehicleNamefhqR32GTS = "Gosun Streetscape RT-S",
+	IGUI_VehicleNamefhqR32Sedan = "Gosun Streetscape Sedan",
+	IGUI_VehicleNamefhqR32GTRTouring = "Gosun Streetscape R6 Touring Car",
+	IGUI_VehicleNamefhqR32GTRN1 = "Gosun Streetscape R6 GT",
+	
+	IGUI_VehicleNamefhqBronco = "Franklin Rodeo",
+	IGUI_VehicleNamefhqBroncoHalfCab = "Franklin Rodeo Pickup",
+	IGUI_VehicleNamefhqBroncoOffroad = "Franklin Rodeo Offroad",
+	IGUI_VehicleNamefhqBroncoHalfCabOffroad = "Franklin Rodeo Pickup Offroad",
+	
+	IGUI_VehicleNamefhqVWT2T1 = "Krichten Minibus",
+	IGUI_VehicleNamefhqVWT2T1Van = "Krichten Minibus Panel Van",
+	IGUI_VehicleNamefhqVWT2T1Livery = "Krichten Minibus Panel Van",
+	IGUI_VehicleNamefhqVWT2T1Truck = "Krichten Minibus Pickup",
+	IGUI_VehicleNamefhqVWT2T1CrewCab = "Krichten Minibus Pickup",
+
+	/*IGUI_VehicleNamefhqRX7FD = "Matsuda Rotari 'Delta'",*/
+	
+	IGUI_VehicleNamefhqRobinMk2 = "Lawrence Finch",
+	IGUI_VehicleNamefhqRobinMk2Stabilisers = "Lawrence Finch With Stabilizers",
+	IGUI_VehicleNamefhqRollbinMk2 = "Unstable Lawrence Finch",
+	IGUI_VehicleNamefhqRollbinMk2Stabilisers = "Unstable Lawrence Finch With Stabilizers",
+	
+	IGUI_VehicleNamefhqCrestaJZX90 = "Kiichiro Penacho",
+	IGUI_VehicleNamefhqChaserJZX90 = "Kiichiro Cazador",
+	IGUI_VehicleNamefhqMarkIIJZX90 = "Kiichiro Cima V2",
+	IGUI_VehicleNamefhq92Econoline = "Franklin New Valuline",
+	IGUI_VehicleNamefhq92EconolinePanel = "Franklin New Valuline Panel Van",
+	IGUI_VehicleNamefhq92EconolineXL = "Franklin New Valuline XL",
+	IGUI_VehicleNamefhq92Econoline4Door = "Franklin New Valuline",
+	IGUI_VehicleNamefhq92EconolineXLPanel = "Franklin New Valuline XL Panel Van",
+	IGUI_VehicleNamefhq92EconolinePAYDAY = "Suspicious Looking Van",
+	IGUI_VehicleNamefhq92EconolineAmbulance = "Franklin New Valuline Ambulance",
+	IGUI_VehicleNamefhq92EconolineAmbulanceLightbar = "Franklin New Valuline Ambulance",
+	IGUI_VehicleNamefhq92EconolineT3Ambulance = "Franklin New Valuline Type III Ambulance",
+	IGUI_VehicleNamefhq92EconolineValkyrie = "Franklin New Valuline Valkyrie Custom",
+	
+	IGUI_VehicleNamefhqLM002 = "Iltoro R4-M80",
+	IGUI_VehicleNamefhqLM002Estate = "Iltoro R4-M80 Estate",
+	
+	IGUI_VehicleNamefhq70Challenger = "Dash Competitor",
+	IGUI_VehicleNamefhq70ChallengerTARace = "Dash Competitor Race Car",
+	IGUI_VehicleNamefhq70ChallengerSF = "Dash Competitor Detective Special",
+	IGUI_VehicleNamefhq70ChallengerRT = "Dash Competitor T/S",
+	IGUI_VehicleNamefhq70ChallengerTA = "Dash Competitor S/R",
+	IGUI_VehicleNamefhq71Cuda = "Mayflower Pike",
+	
+	IGUI_VehicleNamefhq57BelAir = "Chevalier Bomber",
+	IGUI_VehicleNamefhqBomberBFS = "Chevalier Bomber BFS",
+	IGUI_VehicleNamefhq57BelAirPolice = "Chevalier Bomber Police",
+	IGUI_VehicleNamefhq57BelAirKSP = "Chevalier Bomber Police",
+	
+	IGUI_VehicleNamefhqLeCar = "Diamant Piment",
+	IGUI_VehicleNamefhqLeCarPolice = "Diamant Piment Police",
+	IGUI_VehicleNamefhqChili = "Diamant Piment Derby",
+	
+	IGUI_VehicleNamefhqCappuccino = "Takatsuka Espresso",
+	IGUI_VehicleNamefhqAZ1 = "Matsuda MZ-660",
+	IGUI_VehicleNamefhqBeat = "Tokai Decibel",
+	IGUI_VehicleNamefhqCara = "Takatsuka Gina",
+	IGUI_VehicleNamefhqBeatMugen = "Tokai Sokudo Decibel",
+	IGUI_VehicleNamefhqBeatRace = "Tokai Decibel Race Car",
+	
+	IGUI_VehicleNamefhqE36318iSedan = "Wittelsbach Konig Sedan",
+	IGUI_VehicleNamefhqE36318iCoupe = "Wittelsbach Konig",
+	IGUI_VehicleNamefhqE36M3Sedan = "Wittelsbach Konig RK Sedan",
+	IGUI_VehicleNamefhqE36M3Coupe = "Wittelsbach Konig RK",
+	IGUI_VehicleNamefhqE36M3GTR = "Wittelsbach Konig RK GT",
+	IGUI_VehicleNamefhqE36M3GTRMW = "Wittelsbach Konig RK GT 'Blacklist'",
+	IGUI_VehicleNamefhqE36Lime = "The Lime Mobile",
+	
+	IGUI_VehicleNamefhqPrevia = "Kiichiro Avanzo",
+	IGUI_VehicleNamefhqPreviaAllTrac = "Kiichiro Avanzo 4-All",
+	
+	IGUI_VehicleNamefhqImpreza = "Pleiades Scozzese",
+	IGUI_VehicleNamefhqImprezaCoupe = "Pleiades Scozzese Coupe",
+	IGUI_VehicleNamefhqImprezaWag = "Pleiades Scozzese Wagon",
+	IGUI_VehicleNamefhqImprezaWRX = "Pleiades Scozzese RCS",
+	IGUI_VehicleNamefhqImprezaWRXWag = "Pleiades Scozzese RCS Wagon",
+	
+	IGUI_VehicleNamefhqSidekick = "Takatsuka Strenuus",
+	IGUI_VehicleNamefhqSidekickLWB = "Takatsuka Strenuus 4-Door",
+	IGUI_VehicleNamefhqSidekickLWBRanger = "Takatsuka Strenuus 4-Door Ranger",
+	
+	IGUI_VehicleNamefhqM20b = "Yoshikikuo TK240R",
+	IGUI_VehicleNamefhqZeroR = "TRS TURBO GT",
+	IGUI_VehicleNamefhqImprezaRally = "Pleiades Scozzese Prototype Rally Car",
+	IGUI_VehicleNamefhqR32GTRTommy = "Yoshikikuo S",
+	*/IGUI_VehicleNamefhqM30 = "Yoshikikuo TK280",*/
+	
+	IGUI_VehicleNamefhqCountach = "Iltoro Vicio",
+	
+	IGUI_VehicleNamefhqMcLarenF1 = "Aron Motors BM12",
+}

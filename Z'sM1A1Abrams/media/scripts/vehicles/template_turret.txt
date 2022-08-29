@@ -1,0 +1,2184 @@
+module Base
+{
+	model m1a1_Turret
+	{
+		mesh = vehicles/Vehicles_M1A1|Turret,
+		shader = vehicle,
+		invertX = FALSE,
+		scale = 0.5495,
+	}
+	template vehicle Turret
+	{
+		part Turret
+		{
+			model 0
+			{
+				file = m1a1_Turret,
+				rotate = 0 0 0,
+				offset = 0 0 0,
+			}
+			model 1
+			{
+				file = m1a1_Turret,
+				rotate = 0 359 0,
+				offset = 0 0 0,
+			}
+			model 2
+			{
+				file = m1a1_Turret,
+				rotate = 0 358 0,
+				offset = 0 0 0,
+			}
+			model 3
+			{
+				file = m1a1_Turret,
+				rotate = 0 357 0,
+				offset = 0 0 0,
+			}
+			model 4
+			{
+				file = m1a1_Turret,
+				rotate = 0 356 0,
+				offset = 0 0 0,
+			}
+			model 5
+			{
+				file = m1a1_Turret,
+				rotate = 0 355 0,
+				offset = 0 0 0,
+			}
+			model 6
+			{
+				file = m1a1_Turret,
+				rotate = 0 354 0,
+				offset = 0 0 0,
+			}
+			model 7
+			{
+				file = m1a1_Turret,
+				rotate = 0 353 0,
+				offset = 0 0 0,
+			}
+			model 8
+			{
+				file = m1a1_Turret,
+				rotate = 0 352 0,
+				offset = 0 0 0,
+			}
+			model 9
+			{
+				file = m1a1_Turret,
+				rotate = 0 351 0,
+				offset = 0 0 0,
+			}
+			model 10
+			{
+				file = m1a1_Turret,
+				rotate = 0 350 0,
+				offset = 0 0 0,
+			}
+			model 11
+			{
+				file = m1a1_Turret,
+				rotate = 0 349 0,
+				offset = 0 0 0,
+			}
+			model 12
+			{
+				file = m1a1_Turret,
+				rotate = 0 348 0,
+				offset = 0 0 0,
+			}
+			model 13
+			{
+				file = m1a1_Turret,
+				rotate = 0 347 0,
+				offset = 0 0 0,
+			}
+			model 14
+			{
+				file = m1a1_Turret,
+				rotate = 0 346 0,
+				offset = 0 0 0,
+			}
+			model 15
+			{
+				file = m1a1_Turret,
+				rotate = 0 345 0,
+				offset = 0 0 0,
+			}
+			model 16
+			{
+				file = m1a1_Turret,
+				rotate = 0 344 0,
+				offset = 0 0 0,
+			}
+			model 17
+			{
+				file = m1a1_Turret,
+				rotate = 0 343 0,
+				offset = 0 0 0,
+			}
+			model 18
+			{
+				file = m1a1_Turret,
+				rotate = 0 342 0,
+				offset = 0 0 0,
+			}
+			model 19
+			{
+				file = m1a1_Turret,
+				rotate = 0 341 0,
+				offset = 0 0 0,
+			}
+			model 20
+			{
+				file = m1a1_Turret,
+				rotate = 0 340 0,
+				offset = 0 0 0,
+			}
+			model 21
+			{
+				file = m1a1_Turret,
+				rotate = 0 339 0,
+				offset = 0 0 0,
+			}
+			model 22
+			{
+				file = m1a1_Turret,
+				rotate = 0 338 0,
+				offset = 0 0 0,
+			}
+			model 23
+			{
+				file = m1a1_Turret,
+				rotate = 0 337 0,
+				offset = 0 0 0,
+			}
+			model 24
+			{
+				file = m1a1_Turret,
+				rotate = 0 336 0,
+				offset = 0 0 0,
+			}
+			model 25
+			{
+				file = m1a1_Turret,
+				rotate = 0 335 0,
+				offset = 0 0 0,
+			}
+			model 26
+			{
+				file = m1a1_Turret,
+				rotate = 0 334 0,
+				offset = 0 0 0,
+			}
+			model 27
+			{
+				file = m1a1_Turret,
+				rotate = 0 333 0,
+				offset = 0 0 0,
+			}
+			model 28
+			{
+				file = m1a1_Turret,
+				rotate = 0 332 0,
+				offset = 0 0 0,
+			}
+			model 29
+			{
+				file = m1a1_Turret,
+				rotate = 0 331 0,
+				offset = 0 0 0,
+			}
+			model 30
+			{
+				file = m1a1_Turret,
+				rotate = 0 330 0,
+				offset = 0 0 0,
+			}
+			model 31
+			{
+				file = m1a1_Turret,
+				rotate = 0 329 0,
+				offset = 0 0 0,
+			}
+			model 32
+			{
+				file = m1a1_Turret,
+				rotate = 0 328 0,
+				offset = 0 0 0,
+			}
+			model 33
+			{
+				file = m1a1_Turret,
+				rotate = 0 327 0,
+				offset = 0 0 0,
+			}
+			model 34
+			{
+				file = m1a1_Turret,
+				rotate = 0 326 0,
+				offset = 0 0 0,
+			}
+			model 35
+			{
+				file = m1a1_Turret,
+				rotate = 0 325 0,
+				offset = 0 0 0,
+			}
+			model 36
+			{
+				file = m1a1_Turret,
+				rotate = 0 324 0,
+				offset = 0 0 0,
+			}
+			model 37
+			{
+				file = m1a1_Turret,
+				rotate = 0 323 0,
+				offset = 0 0 0,
+			}
+			model 38
+			{
+				file = m1a1_Turret,
+				rotate = 0 322 0,
+				offset = 0 0 0,
+			}
+			model 39
+			{
+				file = m1a1_Turret,
+				rotate = 0 321 0,
+				offset = 0 0 0,
+			}
+			model 40
+			{
+				file = m1a1_Turret,
+				rotate = 0 320 0,
+				offset = 0 0 0,
+			}
+			model 41
+			{
+				file = m1a1_Turret,
+				rotate = 0 319 0,
+				offset = 0 0 0,
+			}
+			model 42
+			{
+				file = m1a1_Turret,
+				rotate = 0 318 0,
+				offset = 0 0 0,
+			}
+			model 43
+			{
+				file = m1a1_Turret,
+				rotate = 0 317 0,
+				offset = 0 0 0,
+			}
+			model 44
+			{
+				file = m1a1_Turret,
+				rotate = 0 316 0,
+				offset = 0 0 0,
+			}
+			model 45
+			{
+				file = m1a1_Turret,
+				rotate = 0 315 0,
+				offset = 0 0 0,
+			}
+			model 46
+			{
+				file = m1a1_Turret,
+				rotate = 0 314 0,
+				offset = 0 0 0,
+			}
+			model 47
+			{
+				file = m1a1_Turret,
+				rotate = 0 313 0,
+				offset = 0 0 0,
+			}
+			model 48
+			{
+				file = m1a1_Turret,
+				rotate = 0 312 0,
+				offset = 0 0 0,
+			}
+			model 49
+			{
+				file = m1a1_Turret,
+				rotate = 0 311 0,
+				offset = 0 0 0,
+			}
+			model 50
+			{
+				file = m1a1_Turret,
+				rotate = 0 310 0,
+				offset = 0 0 0,
+			}
+			model 51
+			{
+				file = m1a1_Turret,
+				rotate = 0 309 0,
+				offset = 0 0 0,
+			}
+			model 52
+			{
+				file = m1a1_Turret,
+				rotate = 0 308 0,
+				offset = 0 0 0,
+			}
+			model 53
+			{
+				file = m1a1_Turret,
+				rotate = 0 307 0,
+				offset = 0 0 0,
+			}
+			model 54
+			{
+				file = m1a1_Turret,
+				rotate = 0 306 0,
+				offset = 0 0 0,
+			}
+			model 55
+			{
+				file = m1a1_Turret,
+				rotate = 0 305 0,
+				offset = 0 0 0,
+			}
+			model 56
+			{
+				file = m1a1_Turret,
+				rotate = 0 304 0,
+				offset = 0 0 0,
+			}
+			model 57
+			{
+				file = m1a1_Turret,
+				rotate = 0 303 0,
+				offset = 0 0 0,
+			}
+			model 58
+			{
+				file = m1a1_Turret,
+				rotate = 0 302 0,
+				offset = 0 0 0,
+			}
+			model 59
+			{
+				file = m1a1_Turret,
+				rotate = 0 301 0,
+				offset = 0 0 0,
+			}
+			model 60
+			{
+				file = m1a1_Turret,
+				rotate = 0 300 0,
+				offset = 0 0 0,
+			}
+			model 61
+			{
+				file = m1a1_Turret,
+				rotate = 0 299 0,
+				offset = 0 0 0,
+			}
+			model 62
+			{
+				file = m1a1_Turret,
+				rotate = 0 298 0,
+				offset = 0 0 0,
+			}
+			model 63
+			{
+				file = m1a1_Turret,
+				rotate = 0 297 0,
+				offset = 0 0 0,
+			}
+			model 64
+			{
+				file = m1a1_Turret,
+				rotate = 0 296 0,
+				offset = 0 0 0,
+			}
+			model 65
+			{
+				file = m1a1_Turret,
+				rotate = 0 295 0,
+				offset = 0 0 0,
+			}
+			model 66
+			{
+				file = m1a1_Turret,
+				rotate = 0 294 0,
+				offset = 0 0 0,
+			}
+			model 67
+			{
+				file = m1a1_Turret,
+				rotate = 0 293 0,
+				offset = 0 0 0,
+			}
+			model 68
+			{
+				file = m1a1_Turret,
+				rotate = 0 292 0,
+				offset = 0 0 0,
+			}
+			model 69
+			{
+				file = m1a1_Turret,
+				rotate = 0 291 0,
+				offset = 0 0 0,
+			}
+			model 70
+			{
+				file = m1a1_Turret,
+				rotate = 0 290 0,
+				offset = 0 0 0,
+			}
+			model 71
+			{
+				file = m1a1_Turret,
+				rotate = 0 289 0,
+				offset = 0 0 0,
+			}
+			model 72
+			{
+				file = m1a1_Turret,
+				rotate = 0 288 0,
+				offset = 0 0 0,
+			}
+			model 73
+			{
+				file = m1a1_Turret,
+				rotate = 0 287 0,
+				offset = 0 0 0,
+			}
+			model 74
+			{
+				file = m1a1_Turret,
+				rotate = 0 286 0,
+				offset = 0 0 0,
+			}
+			model 75
+			{
+				file = m1a1_Turret,
+				rotate = 0 285 0,
+				offset = 0 0 0,
+			}
+			model 76
+			{
+				file = m1a1_Turret,
+				rotate = 0 284 0,
+				offset = 0 0 0,
+			}
+			model 77
+			{
+				file = m1a1_Turret,
+				rotate = 0 283 0,
+				offset = 0 0 0,
+			}
+			model 78
+			{
+				file = m1a1_Turret,
+				rotate = 0 282 0,
+				offset = 0 0 0,
+			}
+			model 79
+			{
+				file = m1a1_Turret,
+				rotate = 0 281 0,
+				offset = 0 0 0,
+			}
+			model 80
+			{
+				file = m1a1_Turret,
+				rotate = 0 280 0,
+				offset = 0 0 0,
+			}
+			model 81
+			{
+				file = m1a1_Turret,
+				rotate = 0 279 0,
+				offset = 0 0 0,
+			}
+			model 82
+			{
+				file = m1a1_Turret,
+				rotate = 0 278 0,
+				offset = 0 0 0,
+			}
+			model 83
+			{
+				file = m1a1_Turret,
+				rotate = 0 277 0,
+				offset = 0 0 0,
+			}
+			model 84
+			{
+				file = m1a1_Turret,
+				rotate = 0 276 0,
+				offset = 0 0 0,
+			}
+			model 85
+			{
+				file = m1a1_Turret,
+				rotate = 0 275 0,
+				offset = 0 0 0,
+			}
+			model 86
+			{
+				file = m1a1_Turret,
+				rotate = 0 274 0,
+				offset = 0 0 0,
+			}
+			model 87
+			{
+				file = m1a1_Turret,
+				rotate = 0 273 0,
+				offset = 0 0 0,
+			}
+			model 88
+			{
+				file = m1a1_Turret,
+				rotate = 0 272 0,
+				offset = 0 0 0,
+			}
+			model 89
+			{
+				file = m1a1_Turret,
+				rotate = 0 271 0,
+				offset = 0 0 0,
+			}
+			model 90
+			{
+				file = m1a1_Turret,
+				rotate = 0 270 0,
+				offset = 0 0 0,
+			}
+			model 91
+			{
+				file = m1a1_Turret,
+				rotate = 0 269 0,
+				offset = 0 0 0,
+			}
+			model 92
+			{
+				file = m1a1_Turret,
+				rotate = 0 268 0,
+				offset = 0 0 0,
+			}
+			model 93
+			{
+				file = m1a1_Turret,
+				rotate = 0 267 0,
+				offset = 0 0 0,
+			}
+			model 94
+			{
+				file = m1a1_Turret,
+				rotate = 0 266 0,
+				offset = 0 0 0,
+			}
+			model 95
+			{
+				file = m1a1_Turret,
+				rotate = 0 265 0,
+				offset = 0 0 0,
+			}
+			model 96
+			{
+				file = m1a1_Turret,
+				rotate = 0 264 0,
+				offset = 0 0 0,
+			}
+			model 97
+			{
+				file = m1a1_Turret,
+				rotate = 0 263 0,
+				offset = 0 0 0,
+			}
+			model 98
+			{
+				file = m1a1_Turret,
+				rotate = 0 262 0,
+				offset = 0 0 0,
+			}
+			model 99
+			{
+				file = m1a1_Turret,
+				rotate = 0 261 0,
+				offset = 0 0 0,
+			}
+			model 100
+			{
+				file = m1a1_Turret,
+				rotate = 0 260 0,
+				offset = 0 0 0,
+			}
+			model 101
+			{
+				file = m1a1_Turret,
+				rotate = 0 259 0,
+				offset = 0 0 0,
+			}
+			model 102
+			{
+				file = m1a1_Turret,
+				rotate = 0 258 0,
+				offset = 0 0 0,
+			}
+			model 103
+			{
+				file = m1a1_Turret,
+				rotate = 0 257 0,
+				offset = 0 0 0,
+			}
+			model 104
+			{
+				file = m1a1_Turret,
+				rotate = 0 256 0,
+				offset = 0 0 0,
+			}
+			model 105
+			{
+				file = m1a1_Turret,
+				rotate = 0 255 0,
+				offset = 0 0 0,
+			}
+			model 106
+			{
+				file = m1a1_Turret,
+				rotate = 0 254 0,
+				offset = 0 0 0,
+			}
+			model 107
+			{
+				file = m1a1_Turret,
+				rotate = 0 253 0,
+				offset = 0 0 0,
+			}
+			model 108
+			{
+				file = m1a1_Turret,
+				rotate = 0 252 0,
+				offset = 0 0 0,
+			}
+			model 109
+			{
+				file = m1a1_Turret,
+				rotate = 0 251 0,
+				offset = 0 0 0,
+			}
+			model 110
+			{
+				file = m1a1_Turret,
+				rotate = 0 250 0,
+				offset = 0 0 0,
+			}
+			model 111
+			{
+				file = m1a1_Turret,
+				rotate = 0 249 0,
+				offset = 0 0 0,
+			}
+			model 112
+			{
+				file = m1a1_Turret,
+				rotate = 0 248 0,
+				offset = 0 0 0,
+			}
+			model 113
+			{
+				file = m1a1_Turret,
+				rotate = 0 247 0,
+				offset = 0 0 0,
+			}
+			model 114
+			{
+				file = m1a1_Turret,
+				rotate = 0 246 0,
+				offset = 0 0 0,
+			}
+			model 115
+			{
+				file = m1a1_Turret,
+				rotate = 0 245 0,
+				offset = 0 0 0,
+			}
+			model 116
+			{
+				file = m1a1_Turret,
+				rotate = 0 244 0,
+				offset = 0 0 0,
+			}
+			model 117
+			{
+				file = m1a1_Turret,
+				rotate = 0 243 0,
+				offset = 0 0 0,
+			}
+			model 118
+			{
+				file = m1a1_Turret,
+				rotate = 0 242 0,
+				offset = 0 0 0,
+			}
+			model 119
+			{
+				file = m1a1_Turret,
+				rotate = 0 241 0,
+				offset = 0 0 0,
+			}
+			model 120
+			{
+				file = m1a1_Turret,
+				rotate = 0 240 0,
+				offset = 0 0 0,
+			}
+			model 121
+			{
+				file = m1a1_Turret,
+				rotate = 0 239 0,
+				offset = 0 0 0,
+			}
+			model 122
+			{
+				file = m1a1_Turret,
+				rotate = 0 238 0,
+				offset = 0 0 0,
+			}
+			model 123
+			{
+				file = m1a1_Turret,
+				rotate = 0 237 0,
+				offset = 0 0 0,
+			}
+			model 124
+			{
+				file = m1a1_Turret,
+				rotate = 0 236 0,
+				offset = 0 0 0,
+			}
+			model 125
+			{
+				file = m1a1_Turret,
+				rotate = 0 235 0,
+				offset = 0 0 0,
+			}
+			model 126
+			{
+				file = m1a1_Turret,
+				rotate = 0 234 0,
+				offset = 0 0 0,
+			}
+			model 127
+			{
+				file = m1a1_Turret,
+				rotate = 0 233 0,
+				offset = 0 0 0,
+			}
+			model 128
+			{
+				file = m1a1_Turret,
+				rotate = 0 232 0,
+				offset = 0 0 0,
+			}
+			model 129
+			{
+				file = m1a1_Turret,
+				rotate = 0 231 0,
+				offset = 0 0 0,
+			}
+			model 130
+			{
+				file = m1a1_Turret,
+				rotate = 0 230 0,
+				offset = 0 0 0,
+			}
+			model 131
+			{
+				file = m1a1_Turret,
+				rotate = 0 229 0,
+				offset = 0 0 0,
+			}
+			model 132
+			{
+				file = m1a1_Turret,
+				rotate = 0 228 0,
+				offset = 0 0 0,
+			}
+			model 133
+			{
+				file = m1a1_Turret,
+				rotate = 0 227 0,
+				offset = 0 0 0,
+			}
+			model 134
+			{
+				file = m1a1_Turret,
+				rotate = 0 226 0,
+				offset = 0 0 0,
+			}
+			model 135
+			{
+				file = m1a1_Turret,
+				rotate = 0 225 0,
+				offset = 0 0 0,
+			}
+			model 136
+			{
+				file = m1a1_Turret,
+				rotate = 0 224 0,
+				offset = 0 0 0,
+			}
+			model 137
+			{
+				file = m1a1_Turret,
+				rotate = 0 223 0,
+				offset = 0 0 0,
+			}
+			model 138
+			{
+				file = m1a1_Turret,
+				rotate = 0 222 0,
+				offset = 0 0 0,
+			}
+			model 139
+			{
+				file = m1a1_Turret,
+				rotate = 0 221 0,
+				offset = 0 0 0,
+			}
+			model 140
+			{
+				file = m1a1_Turret,
+				rotate = 0 220 0,
+				offset = 0 0 0,
+			}
+			model 141
+			{
+				file = m1a1_Turret,
+				rotate = 0 219 0,
+				offset = 0 0 0,
+			}
+			model 142
+			{
+				file = m1a1_Turret,
+				rotate = 0 218 0,
+				offset = 0 0 0,
+			}
+			model 143
+			{
+				file = m1a1_Turret,
+				rotate = 0 217 0,
+				offset = 0 0 0,
+			}
+			model 144
+			{
+				file = m1a1_Turret,
+				rotate = 0 216 0,
+				offset = 0 0 0,
+			}
+			model 145
+			{
+				file = m1a1_Turret,
+				rotate = 0 215 0,
+				offset = 0 0 0,
+			}
+			model 146
+			{
+				file = m1a1_Turret,
+				rotate = 0 214 0,
+				offset = 0 0 0,
+			}
+			model 147
+			{
+				file = m1a1_Turret,
+				rotate = 0 213 0,
+				offset = 0 0 0,
+			}
+			model 148
+			{
+				file = m1a1_Turret,
+				rotate = 0 212 0,
+				offset = 0 0 0,
+			}
+			model 149
+			{
+				file = m1a1_Turret,
+				rotate = 0 211 0,
+				offset = 0 0 0,
+			}
+			model 150
+			{
+				file = m1a1_Turret,
+				rotate = 0 210 0,
+				offset = 0 0 0,
+			}
+			model 151
+			{
+				file = m1a1_Turret,
+				rotate = 0 209 0,
+				offset = 0 0 0,
+			}
+			model 152
+			{
+				file = m1a1_Turret,
+				rotate = 0 208 0,
+				offset = 0 0 0,
+			}
+			model 153
+			{
+				file = m1a1_Turret,
+				rotate = 0 207 0,
+				offset = 0 0 0,
+			}
+			model 154
+			{
+				file = m1a1_Turret,
+				rotate = 0 206 0,
+				offset = 0 0 0,
+			}
+			model 155
+			{
+				file = m1a1_Turret,
+				rotate = 0 205 0,
+				offset = 0 0 0,
+			}
+			model 156
+			{
+				file = m1a1_Turret,
+				rotate = 0 204 0,
+				offset = 0 0 0,
+			}
+			model 157
+			{
+				file = m1a1_Turret,
+				rotate = 0 203 0,
+				offset = 0 0 0,
+			}
+			model 158
+			{
+				file = m1a1_Turret,
+				rotate = 0 202 0,
+				offset = 0 0 0,
+			}
+			model 159
+			{
+				file = m1a1_Turret,
+				rotate = 0 201 0,
+				offset = 0 0 0,
+			}
+			model 160
+			{
+				file = m1a1_Turret,
+				rotate = 0 200 0,
+				offset = 0 0 0,
+			}
+			model 161
+			{
+				file = m1a1_Turret,
+				rotate = 0 199 0,
+				offset = 0 0 0,
+			}
+			model 162
+			{
+				file = m1a1_Turret,
+				rotate = 0 198 0,
+				offset = 0 0 0,
+			}
+			model 163
+			{
+				file = m1a1_Turret,
+				rotate = 0 197 0,
+				offset = 0 0 0,
+			}
+			model 164
+			{
+				file = m1a1_Turret,
+				rotate = 0 196 0,
+				offset = 0 0 0,
+			}
+			model 165
+			{
+				file = m1a1_Turret,
+				rotate = 0 195 0,
+				offset = 0 0 0,
+			}
+			model 166
+			{
+				file = m1a1_Turret,
+				rotate = 0 194 0,
+				offset = 0 0 0,
+			}
+			model 167
+			{
+				file = m1a1_Turret,
+				rotate = 0 193 0,
+				offset = 0 0 0,
+			}
+			model 168
+			{
+				file = m1a1_Turret,
+				rotate = 0 192 0,
+				offset = 0 0 0,
+			}
+			model 169
+			{
+				file = m1a1_Turret,
+				rotate = 0 191 0,
+				offset = 0 0 0,
+			}
+			model 170
+			{
+				file = m1a1_Turret,
+				rotate = 0 190 0,
+				offset = 0 0 0,
+			}
+			model 171
+			{
+				file = m1a1_Turret,
+				rotate = 0 189 0,
+				offset = 0 0 0,
+			}
+			model 172
+			{
+				file = m1a1_Turret,
+				rotate = 0 188 0,
+				offset = 0 0 0,
+			}
+			model 173
+			{
+				file = m1a1_Turret,
+				rotate = 0 187 0,
+				offset = 0 0 0,
+			}
+			model 174
+			{
+				file = m1a1_Turret,
+				rotate = 0 186 0,
+				offset = 0 0 0,
+			}
+			model 175
+			{
+				file = m1a1_Turret,
+				rotate = 0 185 0,
+				offset = 0 0 0,
+			}
+			model 176
+			{
+				file = m1a1_Turret,
+				rotate = 0 184 0,
+				offset = 0 0 0,
+			}
+			model 177
+			{
+				file = m1a1_Turret,
+				rotate = 0 183 0,
+				offset = 0 0 0,
+			}
+			model 178
+			{
+				file = m1a1_Turret,
+				rotate = 0 182 0,
+				offset = 0 0 0,
+			}
+			model 179
+			{
+				file = m1a1_Turret,
+				rotate = 0 181 0,
+				offset = 0 0 0,
+			}
+			model 180
+			{
+				file = m1a1_Turret,
+				rotate = 0 180 0,
+				offset = 0 0 0,
+			}
+			model 181
+			{
+				file = m1a1_Turret,
+				rotate = 0 179 0,
+				offset = 0 0 0,
+			}
+			model 182
+			{
+				file = m1a1_Turret,
+				rotate = 0 178 0,
+				offset = 0 0 0,
+			}
+			model 183
+			{
+				file = m1a1_Turret,
+				rotate = 0 177 0,
+				offset = 0 0 0,
+			}
+			model 184
+			{
+				file = m1a1_Turret,
+				rotate = 0 176 0,
+				offset = 0 0 0,
+			}
+			model 185
+			{
+				file = m1a1_Turret,
+				rotate = 0 175 0,
+				offset = 0 0 0,
+			}
+			model 186
+			{
+				file = m1a1_Turret,
+				rotate = 0 174 0,
+				offset = 0 0 0,
+			}
+			model 187
+			{
+				file = m1a1_Turret,
+				rotate = 0 173 0,
+				offset = 0 0 0,
+			}
+			model 188
+			{
+				file = m1a1_Turret,
+				rotate = 0 172 0,
+				offset = 0 0 0,
+			}
+			model 189
+			{
+				file = m1a1_Turret,
+				rotate = 0 171 0,
+				offset = 0 0 0,
+			}
+			model 190
+			{
+				file = m1a1_Turret,
+				rotate = 0 170 0,
+				offset = 0 0 0,
+			}
+			model 191
+			{
+				file = m1a1_Turret,
+				rotate = 0 169 0,
+				offset = 0 0 0,
+			}
+			model 192
+			{
+				file = m1a1_Turret,
+				rotate = 0 168 0,
+				offset = 0 0 0,
+			}
+			model 193
+			{
+				file = m1a1_Turret,
+				rotate = 0 167 0,
+				offset = 0 0 0,
+			}
+			model 194
+			{
+				file = m1a1_Turret,
+				rotate = 0 166 0,
+				offset = 0 0 0,
+			}
+			model 195
+			{
+				file = m1a1_Turret,
+				rotate = 0 165 0,
+				offset = 0 0 0,
+			}
+			model 196
+			{
+				file = m1a1_Turret,
+				rotate = 0 164 0,
+				offset = 0 0 0,
+			}
+			model 197
+			{
+				file = m1a1_Turret,
+				rotate = 0 163 0,
+				offset = 0 0 0,
+			}
+			model 198
+			{
+				file = m1a1_Turret,
+				rotate = 0 162 0,
+				offset = 0 0 0,
+			}
+			model 199
+			{
+				file = m1a1_Turret,
+				rotate = 0 161 0,
+				offset = 0 0 0,
+			}
+			model 200
+			{
+				file = m1a1_Turret,
+				rotate = 0 160 0,
+				offset = 0 0 0,
+			}
+			model 201
+			{
+				file = m1a1_Turret,
+				rotate = 0 159 0,
+				offset = 0 0 0,
+			}
+			model 202
+			{
+				file = m1a1_Turret,
+				rotate = 0 158 0,
+				offset = 0 0 0,
+			}
+			model 203
+			{
+				file = m1a1_Turret,
+				rotate = 0 157 0,
+				offset = 0 0 0,
+			}
+			model 204
+			{
+				file = m1a1_Turret,
+				rotate = 0 156 0,
+				offset = 0 0 0,
+			}
+			model 205
+			{
+				file = m1a1_Turret,
+				rotate = 0 155 0,
+				offset = 0 0 0,
+			}
+			model 206
+			{
+				file = m1a1_Turret,
+				rotate = 0 154 0,
+				offset = 0 0 0,
+			}
+			model 207
+			{
+				file = m1a1_Turret,
+				rotate = 0 153 0,
+				offset = 0 0 0,
+			}
+			model 208
+			{
+				file = m1a1_Turret,
+				rotate = 0 152 0,
+				offset = 0 0 0,
+			}
+			model 209
+			{
+				file = m1a1_Turret,
+				rotate = 0 151 0,
+				offset = 0 0 0,
+			}
+			model 210
+			{
+				file = m1a1_Turret,
+				rotate = 0 150 0,
+				offset = 0 0 0,
+			}
+			model 211
+			{
+				file = m1a1_Turret,
+				rotate = 0 149 0,
+				offset = 0 0 0,
+			}
+			model 212
+			{
+				file = m1a1_Turret,
+				rotate = 0 148 0,
+				offset = 0 0 0,
+			}
+			model 213
+			{
+				file = m1a1_Turret,
+				rotate = 0 147 0,
+				offset = 0 0 0,
+			}
+			model 214
+			{
+				file = m1a1_Turret,
+				rotate = 0 146 0,
+				offset = 0 0 0,
+			}
+			model 215
+			{
+				file = m1a1_Turret,
+				rotate = 0 145 0,
+				offset = 0 0 0,
+			}
+			model 216
+			{
+				file = m1a1_Turret,
+				rotate = 0 144 0,
+				offset = 0 0 0,
+			}
+			model 217
+			{
+				file = m1a1_Turret,
+				rotate = 0 143 0,
+				offset = 0 0 0,
+			}
+			model 218
+			{
+				file = m1a1_Turret,
+				rotate = 0 142 0,
+				offset = 0 0 0,
+			}
+			model 219
+			{
+				file = m1a1_Turret,
+				rotate = 0 141 0,
+				offset = 0 0 0,
+			}
+			model 220
+			{
+				file = m1a1_Turret,
+				rotate = 0 140 0,
+				offset = 0 0 0,
+			}
+			model 221
+			{
+				file = m1a1_Turret,
+				rotate = 0 139 0,
+				offset = 0 0 0,
+			}
+			model 222
+			{
+				file = m1a1_Turret,
+				rotate = 0 138 0,
+				offset = 0 0 0,
+			}
+			model 223
+			{
+				file = m1a1_Turret,
+				rotate = 0 137 0,
+				offset = 0 0 0,
+			}
+			model 224
+			{
+				file = m1a1_Turret,
+				rotate = 0 136 0,
+				offset = 0 0 0,
+			}
+			model 225
+			{
+				file = m1a1_Turret,
+				rotate = 0 135 0,
+				offset = 0 0 0,
+			}
+			model 226
+			{
+				file = m1a1_Turret,
+				rotate = 0 134 0,
+				offset = 0 0 0,
+			}
+			model 227
+			{
+				file = m1a1_Turret,
+				rotate = 0 133 0,
+				offset = 0 0 0,
+			}
+			model 228
+			{
+				file = m1a1_Turret,
+				rotate = 0 132 0,
+				offset = 0 0 0,
+			}
+			model 229
+			{
+				file = m1a1_Turret,
+				rotate = 0 131 0,
+				offset = 0 0 0,
+			}
+			model 230
+			{
+				file = m1a1_Turret,
+				rotate = 0 130 0,
+				offset = 0 0 0,
+			}
+			model 231
+			{
+				file = m1a1_Turret,
+				rotate = 0 129 0,
+				offset = 0 0 0,
+			}
+			model 232
+			{
+				file = m1a1_Turret,
+				rotate = 0 128 0,
+				offset = 0 0 0,
+			}
+			model 233
+			{
+				file = m1a1_Turret,
+				rotate = 0 127 0,
+				offset = 0 0 0,
+			}
+			model 234
+			{
+				file = m1a1_Turret,
+				rotate = 0 126 0,
+				offset = 0 0 0,
+			}
+			model 235
+			{
+				file = m1a1_Turret,
+				rotate = 0 125 0,
+				offset = 0 0 0,
+			}
+			model 236
+			{
+				file = m1a1_Turret,
+				rotate = 0 124 0,
+				offset = 0 0 0,
+			}
+			model 237
+			{
+				file = m1a1_Turret,
+				rotate = 0 123 0,
+				offset = 0 0 0,
+			}
+			model 238
+			{
+				file = m1a1_Turret,
+				rotate = 0 122 0,
+				offset = 0 0 0,
+			}
+			model 239
+			{
+				file = m1a1_Turret,
+				rotate = 0 121 0,
+				offset = 0 0 0,
+			}
+			model 240
+			{
+				file = m1a1_Turret,
+				rotate = 0 120 0,
+				offset = 0 0 0,
+			}
+			model 241
+			{
+				file = m1a1_Turret,
+				rotate = 0 119 0,
+				offset = 0 0 0,
+			}
+			model 242
+			{
+				file = m1a1_Turret,
+				rotate = 0 118 0,
+				offset = 0 0 0,
+			}
+			model 243
+			{
+				file = m1a1_Turret,
+				rotate = 0 117 0,
+				offset = 0 0 0,
+			}
+			model 244
+			{
+				file = m1a1_Turret,
+				rotate = 0 116 0,
+				offset = 0 0 0,
+			}
+			model 245
+			{
+				file = m1a1_Turret,
+				rotate = 0 115 0,
+				offset = 0 0 0,
+			}
+			model 246
+			{
+				file = m1a1_Turret,
+				rotate = 0 114 0,
+				offset = 0 0 0,
+			}
+			model 247
+			{
+				file = m1a1_Turret,
+				rotate = 0 113 0,
+				offset = 0 0 0,
+			}
+			model 248
+			{
+				file = m1a1_Turret,
+				rotate = 0 112 0,
+				offset = 0 0 0,
+			}
+			model 249
+			{
+				file = m1a1_Turret,
+				rotate = 0 111 0,
+				offset = 0 0 0,
+			}
+			model 250
+			{
+				file = m1a1_Turret,
+				rotate = 0 110 0,
+				offset = 0 0 0,
+			}
+			model 251
+			{
+				file = m1a1_Turret,
+				rotate = 0 109 0,
+				offset = 0 0 0,
+			}
+			model 252
+			{
+				file = m1a1_Turret,
+				rotate = 0 108 0,
+				offset = 0 0 0,
+			}
+			model 253
+			{
+				file = m1a1_Turret,
+				rotate = 0 107 0,
+				offset = 0 0 0,
+			}
+			model 254
+			{
+				file = m1a1_Turret,
+				rotate = 0 106 0,
+				offset = 0 0 0,
+			}
+			model 255
+			{
+				file = m1a1_Turret,
+				rotate = 0 105 0,
+				offset = 0 0 0,
+			}
+			model 256
+			{
+				file = m1a1_Turret,
+				rotate = 0 104 0,
+				offset = 0 0 0,
+			}
+			model 257
+			{
+				file = m1a1_Turret,
+				rotate = 0 103 0,
+				offset = 0 0 0,
+			}
+			model 258
+			{
+				file = m1a1_Turret,
+				rotate = 0 102 0,
+				offset = 0 0 0,
+			}
+			model 259
+			{
+				file = m1a1_Turret,
+				rotate = 0 101 0,
+				offset = 0 0 0,
+			}
+			model 260
+			{
+				file = m1a1_Turret,
+				rotate = 0 100 0,
+				offset = 0 0 0,
+			}
+			model 261
+			{
+				file = m1a1_Turret,
+				rotate = 0 99 0,
+				offset = 0 0 0,
+			}
+			model 262
+			{
+				file = m1a1_Turret,
+				rotate = 0 98 0,
+				offset = 0 0 0,
+			}
+			model 263
+			{
+				file = m1a1_Turret,
+				rotate = 0 97 0,
+				offset = 0 0 0,
+			}
+			model 264
+			{
+				file = m1a1_Turret,
+				rotate = 0 96 0,
+				offset = 0 0 0,
+			}
+			model 265
+			{
+				file = m1a1_Turret,
+				rotate = 0 95 0,
+				offset = 0 0 0,
+			}
+			model 266
+			{
+				file = m1a1_Turret,
+				rotate = 0 94 0,
+				offset = 0 0 0,
+			}
+			model 267
+			{
+				file = m1a1_Turret,
+				rotate = 0 93 0,
+				offset = 0 0 0,
+			}
+			model 268
+			{
+				file = m1a1_Turret,
+				rotate = 0 92 0,
+				offset = 0 0 0,
+			}
+			model 269
+			{
+				file = m1a1_Turret,
+				rotate = 0 91 0,
+				offset = 0 0 0,
+			}
+			model 270
+			{
+				file = m1a1_Turret,
+				rotate = 0 90 0,
+				offset = 0 0 0,
+			}
+			model 271
+			{
+				file = m1a1_Turret,
+				rotate = 0 89 0,
+				offset = 0 0 0,
+			}
+			model 272
+			{
+				file = m1a1_Turret,
+				rotate = 0 88 0,
+				offset = 0 0 0,
+			}
+			model 273
+			{
+				file = m1a1_Turret,
+				rotate = 0 87 0,
+				offset = 0 0 0,
+			}
+			model 274
+			{
+				file = m1a1_Turret,
+				rotate = 0 86 0,
+				offset = 0 0 0,
+			}
+			model 275
+			{
+				file = m1a1_Turret,
+				rotate = 0 85 0,
+				offset = 0 0 0,
+			}
+			model 276
+			{
+				file = m1a1_Turret,
+				rotate = 0 84 0,
+				offset = 0 0 0,
+			}
+			model 277
+			{
+				file = m1a1_Turret,
+				rotate = 0 83 0,
+				offset = 0 0 0,
+			}
+			model 278
+			{
+				file = m1a1_Turret,
+				rotate = 0 82 0,
+				offset = 0 0 0,
+			}
+			model 279
+			{
+				file = m1a1_Turret,
+				rotate = 0 81 0,
+				offset = 0 0 0,
+			}
+			model 280
+			{
+				file = m1a1_Turret,
+				rotate = 0 80 0,
+				offset = 0 0 0,
+			}
+			model 281
+			{
+				file = m1a1_Turret,
+				rotate = 0 79 0,
+				offset = 0 0 0,
+			}
+			model 282
+			{
+				file = m1a1_Turret,
+				rotate = 0 78 0,
+				offset = 0 0 0,
+			}
+			model 283
+			{
+				file = m1a1_Turret,
+				rotate = 0 77 0,
+				offset = 0 0 0,
+			}
+			model 284
+			{
+				file = m1a1_Turret,
+				rotate = 0 76 0,
+				offset = 0 0 0,
+			}
+			model 285
+			{
+				file = m1a1_Turret,
+				rotate = 0 75 0,
+				offset = 0 0 0,
+			}
+			model 286
+			{
+				file = m1a1_Turret,
+				rotate = 0 74 0,
+				offset = 0 0 0,
+			}
+			model 287
+			{
+				file = m1a1_Turret,
+				rotate = 0 73 0,
+				offset = 0 0 0,
+			}
+			model 288
+			{
+				file = m1a1_Turret,
+				rotate = 0 72 0,
+				offset = 0 0 0,
+			}
+			model 289
+			{
+				file = m1a1_Turret,
+				rotate = 0 71 0,
+				offset = 0 0 0,
+			}
+			model 290
+			{
+				file = m1a1_Turret,
+				rotate = 0 70 0,
+				offset = 0 0 0,
+			}
+			model 291
+			{
+				file = m1a1_Turret,
+				rotate = 0 69 0,
+				offset = 0 0 0,
+			}
+			model 292
+			{
+				file = m1a1_Turret,
+				rotate = 0 68 0,
+				offset = 0 0 0,
+			}
+			model 293
+			{
+				file = m1a1_Turret,
+				rotate = 0 67 0,
+				offset = 0 0 0,
+			}
+			model 294
+			{
+				file = m1a1_Turret,
+				rotate = 0 66 0,
+				offset = 0 0 0,
+			}
+			model 295
+			{
+				file = m1a1_Turret,
+				rotate = 0 65 0,
+				offset = 0 0 0,
+			}
+			model 296
+			{
+				file = m1a1_Turret,
+				rotate = 0 64 0,
+				offset = 0 0 0,
+			}
+			model 297
+			{
+				file = m1a1_Turret,
+				rotate = 0 63 0,
+				offset = 0 0 0,
+			}
+			model 298
+			{
+				file = m1a1_Turret,
+				rotate = 0 62 0,
+				offset = 0 0 0,
+			}
+			model 299
+			{
+				file = m1a1_Turret,
+				rotate = 0 61 0,
+				offset = 0 0 0,
+			}
+			model 300
+			{
+				file = m1a1_Turret,
+				rotate = 0 60 0,
+				offset = 0 0 0,
+			}
+			model 301
+			{
+				file = m1a1_Turret,
+				rotate = 0 59 0,
+				offset = 0 0 0,
+			}
+			model 302
+			{
+				file = m1a1_Turret,
+				rotate = 0 58 0,
+				offset = 0 0 0,
+			}
+			model 303
+			{
+				file = m1a1_Turret,
+				rotate = 0 57 0,
+				offset = 0 0 0,
+			}
+			model 304
+			{
+				file = m1a1_Turret,
+				rotate = 0 56 0,
+				offset = 0 0 0,
+			}
+			model 305
+			{
+				file = m1a1_Turret,
+				rotate = 0 55 0,
+				offset = 0 0 0,
+			}
+			model 306
+			{
+				file = m1a1_Turret,
+				rotate = 0 54 0,
+				offset = 0 0 0,
+			}
+			model 307
+			{
+				file = m1a1_Turret,
+				rotate = 0 53 0,
+				offset = 0 0 0,
+			}
+			model 308
+			{
+				file = m1a1_Turret,
+				rotate = 0 52 0,
+				offset = 0 0 0,
+			}
+			model 309
+			{
+				file = m1a1_Turret,
+				rotate = 0 51 0,
+				offset = 0 0 0,
+			}
+			model 310
+			{
+				file = m1a1_Turret,
+				rotate = 0 50 0,
+				offset = 0 0 0,
+			}
+			model 311
+			{
+				file = m1a1_Turret,
+				rotate = 0 49 0,
+				offset = 0 0 0,
+			}
+			model 312
+			{
+				file = m1a1_Turret,
+				rotate = 0 48 0,
+				offset = 0 0 0,
+			}
+			model 313
+			{
+				file = m1a1_Turret,
+				rotate = 0 47 0,
+				offset = 0 0 0,
+			}
+			model 314
+			{
+				file = m1a1_Turret,
+				rotate = 0 46 0,
+				offset = 0 0 0,
+			}
+			model 315
+			{
+				file = m1a1_Turret,
+				rotate = 0 45 0,
+				offset = 0 0 0,
+			}
+			model 316
+			{
+				file = m1a1_Turret,
+				rotate = 0 44 0,
+				offset = 0 0 0,
+			}
+			model 317
+			{
+				file = m1a1_Turret,
+				rotate = 0 43 0,
+				offset = 0 0 0,
+			}
+			model 318
+			{
+				file = m1a1_Turret,
+				rotate = 0 42 0,
+				offset = 0 0 0,
+			}
+			model 319
+			{
+				file = m1a1_Turret,
+				rotate = 0 41 0,
+				offset = 0 0 0,
+			}
+			model 320
+			{
+				file = m1a1_Turret,
+				rotate = 0 40 0,
+				offset = 0 0 0,
+			}
+			model 321
+			{
+				file = m1a1_Turret,
+				rotate = 0 39 0,
+				offset = 0 0 0,
+			}
+			model 322
+			{
+				file = m1a1_Turret,
+				rotate = 0 38 0,
+				offset = 0 0 0,
+			}
+			model 323
+			{
+				file = m1a1_Turret,
+				rotate = 0 37 0,
+				offset = 0 0 0,
+			}
+			model 324
+			{
+				file = m1a1_Turret,
+				rotate = 0 36 0,
+				offset = 0 0 0,
+			}
+			model 325
+			{
+				file = m1a1_Turret,
+				rotate = 0 35 0,
+				offset = 0 0 0,
+			}
+			model 326
+			{
+				file = m1a1_Turret,
+				rotate = 0 34 0,
+				offset = 0 0 0,
+			}
+			model 327
+			{
+				file = m1a1_Turret,
+				rotate = 0 33 0,
+				offset = 0 0 0,
+			}
+			model 328
+			{
+				file = m1a1_Turret,
+				rotate = 0 32 0,
+				offset = 0 0 0,
+			}
+			model 329
+			{
+				file = m1a1_Turret,
+				rotate = 0 31 0,
+				offset = 0 0 0,
+			}
+			model 330
+			{
+				file = m1a1_Turret,
+				rotate = 0 30 0,
+				offset = 0 0 0,
+			}
+			model 331
+			{
+				file = m1a1_Turret,
+				rotate = 0 29 0,
+				offset = 0 0 0,
+			}
+			model 332
+			{
+				file = m1a1_Turret,
+				rotate = 0 28 0,
+				offset = 0 0 0,
+			}
+			model 333
+			{
+				file = m1a1_Turret,
+				rotate = 0 27 0,
+				offset = 0 0 0,
+			}
+			model 334
+			{
+				file = m1a1_Turret,
+				rotate = 0 26 0,
+				offset = 0 0 0,
+			}
+			model 335
+			{
+				file = m1a1_Turret,
+				rotate = 0 25 0,
+				offset = 0 0 0,
+			}
+			model 336
+			{
+				file = m1a1_Turret,
+				rotate = 0 24 0,
+				offset = 0 0 0,
+			}
+			model 337
+			{
+				file = m1a1_Turret,
+				rotate = 0 23 0,
+				offset = 0 0 0,
+			}
+			model 338
+			{
+				file = m1a1_Turret,
+				rotate = 0 22 0,
+				offset = 0 0 0,
+			}
+			model 339
+			{
+				file = m1a1_Turret,
+				rotate = 0 21 0,
+				offset = 0 0 0,
+			}
+			model 340
+			{
+				file = m1a1_Turret,
+				rotate = 0 20 0,
+				offset = 0 0 0,
+			}
+			model 341
+			{
+				file = m1a1_Turret,
+				rotate = 0 19 0,
+				offset = 0 0 0,
+			}
+			model 342
+			{
+				file = m1a1_Turret,
+				rotate = 0 18 0,
+				offset = 0 0 0,
+			}
+			model 343
+			{
+				file = m1a1_Turret,
+				rotate = 0 17 0,
+				offset = 0 0 0,
+			}
+			model 344
+			{
+				file = m1a1_Turret,
+				rotate = 0 16 0,
+				offset = 0 0 0,
+			}
+			model 345
+			{
+				file = m1a1_Turret,
+				rotate = 0 15 0,
+				offset = 0 0 0,
+			}
+			model 346
+			{
+				file = m1a1_Turret,
+				rotate = 0 14 0,
+				offset = 0 0 0,
+			}
+			model 347
+			{
+				file = m1a1_Turret,
+				rotate = 0 13 0,
+				offset = 0 0 0,
+			}
+			model 348
+			{
+				file = m1a1_Turret,
+				rotate = 0 12 0,
+				offset = 0 0 0,
+			}
+			model 349
+			{
+				file = m1a1_Turret,
+				rotate = 0 11 0,
+				offset = 0 0 0,
+			}
+			model 350
+			{
+				file = m1a1_Turret,
+				rotate = 0 10 0,
+				offset = 0 0 0,
+			}
+			model 351
+			{
+				file = m1a1_Turret,
+				rotate = 0 9 0,
+				offset = 0 0 0,
+			}
+			model 352
+			{
+				file = m1a1_Turret,
+				rotate = 0 8 0,
+				offset = 0 0 0,
+			}
+			model 353
+			{
+				file = m1a1_Turret,
+				rotate = 0 7 0,
+				offset = 0 0 0,
+			}
+			model 354
+			{
+				file = m1a1_Turret,
+				rotate = 0 6 0,
+				offset = 0 0 0,
+			}
+			model 355
+			{
+				file = m1a1_Turret,
+				rotate = 0 5 0,
+				offset = 0 0 0,
+			}
+			model 356
+			{
+				file = m1a1_Turret,
+				rotate = 0 4 0,
+				offset = 0 0 0,
+			}
+			model 357
+			{
+				file = m1a1_Turret,
+				rotate = 0 3 0,
+				offset = 0 0 0,
+			}
+			model 358
+			{
+				file = m1a1_Turret,
+				rotate = 0 2 0,
+				offset = 0 0 0,
+			}
+			model 359
+			{
+				file = m1a1_Turret,
+				rotate = 0 1 0,
+				offset = 0 0 0,
+			}
+			category = nodisplay,
+		    itemType = Base.ScrapMetal,
+			lua
+			{
+				create = ZTanks.Create.Default,
+				init = ZTanks.Create.Default,
+			}
+		}
+	}
+}
+

@@ -1,0 +1,23 @@
+VERSION = 1,
+
+option CustomizableAmmo.Weight
+{
+	type = enum,
+	numValues = 10,
+	default = 1,
+	
+	page = CustomizableBackpacks,
+	translation = CustomizableAmmo_Weight,
+	valueTranslation = CustomizableAmmo_Weight,
+}
+
+option CustomizableMagazines.Weight
+{
+	type = enum,
+	numValues = 10,
+	default = 1,
+	
+	page = CustomizableBackpacks,
+	translation = CustomizableMagazines_Weight,
+	valueTranslation = CustomizableMagazines_Weight,
+}

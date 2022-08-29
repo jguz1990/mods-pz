@@ -1,0 +1,33 @@
+Sandbox_EN = {
+    Sandbox_esQMI = "ExtraSauce More Info",
+
+    Sandbox_esQMIAmmoInfo = "Ammo Info",
+    Sandbox_esQMIAmmoInfo_tooltip = "Simple ammo HUD.",
+
+    Sandbox_esQMIHealthInfo = "Health Info",
+    Sandbox_esQMIHealthInfo_tooltip = "Displays injuries under the bandage.",
+
+    Sandbox_esQMIDrainInfo = "Drainable Info",
+    Sandbox_esQMIDrainInfo_tooltip = "Shows Drainables' remaining usage.",
+
+    Sandbox_esQMIWeapons = "Weapons Info",
+    Sandbox_esQMIWeapons_tooltip = "Info for melee, ranged and attachments.",
+    Sandbox_esQMIWeaponsParts = "Weapons Parts Info",
+    Sandbox_esQMIWeaponsParts_tooltip = "Guns' attachments (Weapons parts) info.",
+
+    Sandbox_esQMIClothing = "Clothing Info",
+    Sandbox_esQMIClothing_tooltip = "Shows clothing numerical values.",
+
+    Sandbox_esQMIBooks = "Book Info",
+    Sandbox_esQMIBooks_tooltip = "Shows more info for Books/CD/VHS.",
+
+    Sandbox_esQMICarInfo = "Car Info",
+    Sandbox_esQMICarInfo_tooltip = "Shows more info on the dashboard.",
+
+    Sandbox_esQMIFoods = "Foods Info",
+    Sandbox_esQMIFoods_tooltip = "Numerical Foods Info.",
+
+    Sandbox_esQMIInfoBar = "Info Bars",
+    Sandbox_esQMIInfoBar_tooltip = "Shows floating info bars.",
+}
+

@@ -1,0 +1,9 @@
+UI_RU = {
+
+	-- DrivingSkills
+
+	UI_trait_driver = "Водитель",
+	UI_trait_driverdesc = "У вас есть опыт вождения. <br>+1 Вождение",
+	UI_prof_cabdriver = "Водитель такси",
+	UI_prof_cabdriverdesc = "Вы провели много времени за рулём. <br>+2 Вождение<br>+2 Механика",
+}

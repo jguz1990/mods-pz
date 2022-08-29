@@ -1,0 +1,116 @@
+module Base
+{
+	model BHheliblade1
+	{
+		mesh = vehicles/BHblade_1,
+		texture = Vehicles/BHBlack_Hawk_blade,
+		scale = 0.0022,
+		shader = vehiclewheel,
+	}
+	
+    model BHheliblade2
+	{
+		mesh = vehicles/BHblade_2,
+		texture = Vehicles/BHBlack_Hawk_blade,
+		scale = 0.0022,
+		shader = vehiclewheel,
+	}
+
+	model BHheliblade3
+	{
+		mesh = vehicles/BHblade_3,
+		texture = Vehicles/BHBlack_Hawk_blade,
+		scale = 0.0022,
+		shader = vehiclewheel,
+	}
+
+	model BHheliblade4
+	{
+		mesh = vehicles/BHblade_4,
+		texture = Vehicles/BHBlack_Hawk_blade,
+		scale = 0.0022,
+		shader = vehiclewheel,
+	}
+
+	model BHheliblade5
+	{
+		mesh = vehicles/BHblade_5,
+		texture = Vehicles/BHBlack_Hawk_blade,
+		scale = 0.0022,
+		shader = vehiclewheel,
+	}
+
+	model BHheliblade6
+	{
+		mesh = vehicles/BHblade_6,
+		texture = Vehicles/BHBlack_Hawk_blade,
+		scale = 0.0022,
+		shader = vehiclewheel,
+	}
+
+	model BHheliblade7
+	{
+		mesh = vehicles/BHblade_7,
+		texture = Vehicles/BHBlack_Hawk_blade,
+		scale = 0.0022,
+		shader = vehiclewheel,
+	}
+
+	model BHheliblade8
+	{
+		mesh = vehicles/BHblade_8,
+		texture = Vehicles/BHBlack_Hawk_blade,
+		scale = 0.0022,
+		shader = vehiclewheel,
+	}
+
+    template vehicle BHhelicopterblade
+	{
+		part BHheliblade
+		{
+			model BHblade1
+			{
+				file = BHheliblade1,
+			}
+			model BHblade2
+			{
+				file = BHheliblade2,
+			}
+			model BHblade3
+			{
+				file = BHheliblade3,
+			}
+			model BHblade4
+			{
+				file = BHheliblade4,
+			}
+			model BHblade5
+			{
+				file = BHheliblade5,
+			}
+			model BHblade6
+			{
+				file = BHheliblade6,
+			}
+			model BHblade7
+			{
+				file = BHheliblade7,
+			}
+			model BHblade8
+			{
+				file = BHheliblade8,
+			}
+			area = Engine,
+			category = blade,
+			specificItem = false,
+			mechanicRequireKey = false,
+			repairMechanic = true,
+			lua
+			{
+				create = BHblade.Create.blader,
+				init = BHblade.Init.blader,
+			}
+		}
+
+	}
+}

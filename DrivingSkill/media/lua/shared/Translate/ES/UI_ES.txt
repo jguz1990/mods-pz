@@ -1,0 +1,6 @@
+UI_ES = {
+	UI_trait_driver = "Conductor",
+	UI_trait_driverdesc = "Cómodo tras el volante.<br>+1 Conducción",
+	UI_prof_cabdriver = "Taxista",
+	UI_prof_cabdriverdesc = "Pasaste mucho tiempo trabajando con un vehículo. <br>+2 Conducción<br>+2 Mecánica",
+}

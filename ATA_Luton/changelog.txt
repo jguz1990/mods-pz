@@ -1,0 +1,22 @@
+-------------------
+v.1.02
+2022-05-22
+
+Увеличена мощность двигателя.
+
+Increased engine power.
+
+-------------------
+v.1.01
+2022-04-11
+
+Исправлена ошибка возникающая при разрезании передней защиты.
+Исправлена ошибка из-за которой не получалось установить мебель в кузов.
+
+Fixed a bug that appeared when cutting the front protection.
+Fixed a bug that made it impossible to install furniture into the back body.
+
+-------------------
+v.1.00
+2022-04-10
+-------------------

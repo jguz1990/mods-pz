@@ -1,0 +1,5 @@
+ItemName_PTBR = {
+    ItemName_FuelAPI.LargePetrolCan = "Galão de Combústível Grande Vazio",
+    ItemName_FuelAPI.LargePetrolCanFull = "Galão de Combústível Grande",
+    ItemName_FuelAPI.LargePetrolCanWater = "Galão de Combústível Grande (Cheio de água)",
+}

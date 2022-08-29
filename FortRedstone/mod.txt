@@ -1,0 +1,6 @@
+name=Fort Redstone, KY
+id=FORTREDSTONE
+description=description=A Military base, located just out of Rosewood.
+poster=poster.png
+pack=Redstonepak
+tiledef=Redstonetiles 495

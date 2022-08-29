@@ -1,0 +1,166 @@
+module Base
+{
+    item simpletrap1
+	{
+		Icon 		= simpletraps1,
+		Weight 		= 0.1,
+		Type 		= Moveable,
+		WorldObjectSprite 		= simpletrap_0,
+		DisplayName 		= Zombie trap1,
+		Tooltip 		= Tooltip_simpletraps1,
+	}
+	item simpletrap2
+	{
+		Icon 		= simpletraps2,
+		Weight 		= 0.1,
+		Type 		= Moveable,
+		WorldObjectSprite 		= simpletrap_1,
+		DisplayName 		= Zombie trap2,
+		Tooltip 		= Tooltip_simpletraps2,
+	}
+    item simpletrap3
+	{
+		Icon 		= simpletraps3,
+		Weight 		= 0.1,
+		Type 		= Moveable,
+		WorldObjectSprite 		= simpletrap_2,
+		DisplayName 		= Zombie trap3,
+		Tooltip 		= Tooltip_simpletraps3,
+	}
+	item simpletrap4
+	{
+		Icon 		= simpletraps4,
+		Weight 		= 0.1,
+		Type 		= Moveable,
+		WorldObjectSprite 		= simpletrap_6,
+		DisplayName 		= Zombie trap4,
+		Tooltip 		= Tooltip_simpletraps4,
+	}
+	item simpletrap5
+	{
+		Icon 		= simpletraps5,
+		Weight 		= 0.1,
+		Type 		= Moveable,
+		WorldObjectSprite 		= simpletrap_7,
+		DisplayName 		= Zombie trap5,
+		Tooltip 		= Tooltip_simpletraps5,
+	}
+	item simpletrap6
+	{
+		Icon 		= simpletraps6,
+		Weight 		= 0.1,
+		Type 		= Moveable,
+		WorldObjectSprite 		= simpletrap_8,
+		DisplayName 		= Zombie trap6,
+		Tooltip 		= Tooltip_simpletraps6,
+	}
+	item simpletrap7
+	{
+		Icon 		= simpletraps7,
+		Weight 		= 0.1,
+		Type 		= Moveable,
+		WorldObjectSprite 		= simpletrap_9,
+		DisplayName 		= Zombie trap7,
+		Tooltip 		= Tooltip_simpletraps7,
+	}
+    recipe Make simpletrap1
+	{
+		Plank=4,
+		Nails=1,
+		SmallSheetMetal=1,
+        BlowTorch,
+        keep Hammer,
+		Result 		: simpletrap1,
+		Time 		: 90,
+		Category 		: Carpentry,
+		CanBeDoneFromFloor 		: true,
+        SkillRequired:Trapping=3;Woodwork=4;,
+	}
+
+    recipe Make simpletrap2
+	{
+		Nails=1,
+		SmallSheetMetal=1,
+        Wire,
+        BlowTorch,
+        keep Hammer,
+		Result 		: simpletrap2,
+		Time 		: 90,
+		Category 		: Carpentry,
+		CanBeDoneFromFloor 		: true,
+        SkillRequired:Mechanics=2;MetalWelding=2;,
+	}
+
+    recipe Make simpletrap3
+	{
+		Wire=5,
+		SmallSheetMetal=3,
+        BlowTorch,
+        keep Hammer,
+        MetalBar=6,
+		Result 		: simpletrap3,
+		Time 		: 90,
+		Category 		: Carpentry,
+		CanBeDoneFromFloor 		: true,
+        SkillRequired:Trapping=5;MetalWelding=5;,
+	}
+
+	recipe Make simpletrap4
+	{
+		MetalBar = 10,
+		SheetMetal=5,
+        BlowTorch=6,
+        keep Hammer,
+		Result 		: simpletrap4,
+		Time 		: 90,
+		Category 		: Carpentry,
+		CanBeDoneFromFloor 		: true,
+        SkillRequired:Trapping=4;MetalWelding=7;,
+	}
+
+	recipe Make simpletrap5
+	{
+		MetalBar = 2,
+		SmallSheetMetal=2,
+		ElectronicsScrap=2,
+		ScrapMetal = 2,
+		GunPowder = 20,
+        BlowTorch=3,
+        keep Hammer,
+		Result 		: simpletrap5,
+		Time 		: 90,
+		Category 		: Carpentry,
+		CanBeDoneFromFloor 		: true,
+        SkillRequired:Trapping=4;MetalWelding=3;Electricity=5;,
+	}
+
+	recipe Make simpletrap6
+	{
+		MetalBar = 6,
+		SheetMetal=3,
+		Wire = 20,
+        BlowTorch=6,
+        keep Hammer,
+		Result 		: simpletrap6,
+		Time 		: 90,
+		Category 		: Carpentry,
+		CanBeDoneFromFloor 		: true,
+        SkillRequired:Trapping=4;MetalWelding=4;,
+	}
+
+	recipe Make simpletrap7
+	{
+		MetalBar = 6,
+		Wire = 5,
+        BlowTorch=6,
+        keep Hammer,
+		Result 		: simpletrap7,
+		Time 		: 90,
+		Category 		: Carpentry,
+		CanBeDoneFromFloor 		: true,
+        SkillRequired:Trapping=4;MetalWelding=4;,
+	}
+
+
+
+}

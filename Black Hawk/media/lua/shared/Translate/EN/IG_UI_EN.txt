@@ -1,0 +1,5 @@
+IGUI_EN = {
+    IGUI_VehicleNameBlack_Hawk = "UH-60 Black Hawkr",
+    IGUI_VehiclePartCatblade = "Propeller",
+    IGUI_VehiclePartheliblade = "Blade",
+}

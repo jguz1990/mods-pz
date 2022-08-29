@@ -1,0 +1,54 @@
+module FencingKit {
+
+
+
+  /** ----------------------------------------------------- **/
+
+  recipe Unbundle Chainlink Fencing Kit {
+    FenceKit,
+    Result:MetalPipe=12,
+    Time:300.0,  
+    Category:Welding,
+    OnCreate:giveFence,
+    Sound:LogRemoveFromStack,
+  }
+
+  recipe Bundle Chainlink Fencing Kit {
+    MetalPipe=12,
+    ChainWireRoll=5,
+    Result:FenceKit,
+    Time:500.0,  
+    Category:Welding,
+    Sound:LogAddToStack,
+  }
+
+  recipe Unroll Some Wire {
+    ChainWireRoll,
+    Result:Wire,
+    Time:100.0,  
+    Category:Welding,
+    Sound:OpenCannedFood,
+  }
+
+  recipe Combine Wire Into Roll {
+    Wire=25,
+    Result:ChainWireRoll,
+    Time:100.0,  
+    Category:Welding,
+    Sound:PutItemInBag,
+  }
+
+  recipe Mangle Some Chain Rolling Into Scrap {
+    ChainWireRoll=1,
+    keep Hammer/HammerStone,
+    keep Saw,
+    Result:ScrapMetal=3,
+    CanBeDoneFromFloor:true,
+    Time:340.0,
+    Sound:Sawing,
+    AnimNode:SawLog,
+    Category:Welding,
+  }
+
+}
+  

@@ -1,0 +1,12 @@
+Sandbox_EN = {
+    Sandbox_FuelAPI = "Fuel API",
+
+    Sandbox_FuelAPI_BarrelMaxCapacity = "Barrel Fuel Max Capacity",
+    Sandbox_FuelAPI_BarrelMaxCapacity_tooltip = "The maximum amount of fuel a barrel can contain.",
+
+    Sandbox_FuelAPI_BarrelCanPickupFull = "Can Pickup Full Barrel",
+    Sandbox_FuelAPI_BarrelCanPickupFull_tooltip = "Allow picking up barrel that contain fuel.",
+
+    Sandbox_FuelAPI_BarrelRandomQuantityPercent = "Barrel Random Initial Fuel (%)",
+    Sandbox_FuelAPI_BarrelRandomQuantityPercent_tooltip = "The percentage of initial random fuel found in barrels.",
+}

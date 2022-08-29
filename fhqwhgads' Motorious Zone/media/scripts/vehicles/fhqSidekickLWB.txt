@@ -1,0 +1,441 @@
+module Base
+{
+	model fhqSidekickLWB
+	{
+		mesh = vehicles/vehicle_fhqsidekicklwb|fhqVitaraLWB,
+		shader = vehicle_multiuv,
+		invertX = FALSE,
+		scale = 1,
+	}
+	model fhqSidekickSpareLWB
+	{
+		mesh = vehicles/vehicle_fhqsidekicklwb|VitaraLWBSpare,
+		shader = vehiclewheel,
+		texture = vehicles/vehicles_WheelfhqMZSidekick,
+		invertX = FALSE,
+		scale = 1,
+	}
+	vehicle fhqSidekickLWB
+	{
+		mechanicType = 1,
+		offRoadEfficiency = 1.2,
+		engineRepairLevel = 4,
+		playerDamageProtection = 0.8,
+
+		model
+		{
+			file = fhqSidekickLWB,
+			scale = 0.7200,
+			offset = 0.0000 0.4167 0.0278,
+		}
+
+		spawnOffsetY = 0.12999995,
+
+		skin
+		{
+			texture = Vehicles/vehicle_fhqSidekickLWB_shell,
+		}
+
+		textureMask = Vehicles/vehicle_fhqSidekickLWB_Mask,
+		textureLights = Vehicles/vehicle_fhqSidekick_Lights,
+		textureDamage1Overlay = Vehicles/Veh_Blood_Mask,
+		textureDamage2Overlay = Vehicles/Veh_Blood_Hvy,
+		textureDamage1Shell = Vehicles/Veh_Damage1,
+		textureDamage2Shell = Vehicles/Veh_Damage2,
+		textureRust = Vehicles/Veh_Rust,
+
+		sound
+		{
+			engine = VehicleEngineSmallCar02,
+			engineStart = VehicleEngineSmallCar02,
+			engineTurnOff = VehicleEngineSmallCar02,
+			horn = VehicleHornStandard,
+			ignitionFail = VehicleIgnitionFailSmallCar02,
+		}
+
+		extents = 1.9167 1.6111 4.6111,
+		mass = 900,
+		physicsChassisShape = 1.9167 1.6111 4.6111,
+		centerOfMassOffset = 0.0000 0.7917 0.0000,
+		shadowExtents = 2.0887 4.6899,
+		shadowOffset = 0.0000 0.0000,
+		engineForce = 2750,
+		engineLoudness = 65,
+		engineQuality = 60,
+		maxSpeed = 90f,
+		gearRatioCount = 4,
+		stoppingMovementForce = 1.9f,
+		rollInfluence = 0.7f,
+		steeringIncrement = 0.04,
+		steeringClamp = 0.3,
+		suspensionStiffness = 30,
+		suspensionCompression = 2.81,
+		suspensionDamping = 2.82,
+		maxSuspensionTravelCm = 20,
+		suspensionRestLength = 0.2f,
+		wheelFriction = 1.6f,
+		frontEndHealth = 150,
+		rearEndHealth = 150,
+		seats = 2,
+
+		wheel FrontLeft
+		{
+			front = true,
+			offset = 0.7639 -0.4722 1.5000,
+			radius = 0.35f,
+			width = 0.25f,
+		}
+
+		wheel FrontRight
+		{
+			front = true,
+			offset = -0.7639 -0.4722 1.5000,
+			radius = 0.35f,
+			width = 0.25f,
+		}
+
+		wheel RearLeft
+		{
+			front = false,
+			offset = 0.7639 -0.4722 -1.3750,
+			radius = 0.35f,
+			width = 0.25f,
+		}
+
+		wheel RearRight
+		{
+			front = false,
+			offset = -0.7639 -0.4722 -1.3750,
+			radius = 0.35f,
+			width = 0.25f,
+		}
+
+		template = PassengerSeat4,
+
+		passenger FrontLeft
+		{
+			position inside
+			{
+				offset = 0.5000 0.0694 0.0139,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = 1.3889 -0.8472 0.2917,
+				rotate = 0.0000 0.0000 0.0000,
+				area = SeatFrontLeft,
+			}
+		}
+
+		passenger FrontRight
+		{
+			position inside
+			{
+				offset = -0.5000 0.0694 0.0139,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = -1.3889 -0.8472 0.2917,
+				rotate = 0.0000 0.0000 0.0000,
+				area = SeatFrontRight,
+			}
+		}
+
+		passenger RearLeft
+		{
+			position inside
+			{
+				offset = 0.5000 0.0694 -0.9861,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = 1.3889 -0.8472 -0.7361,
+				rotate = 0.0000 0.0000 0.0000,
+				area = SeatRearLeft,
+			}
+		}
+
+		passenger RearRight
+		{
+			position inside
+			{
+				offset = -0.5000 0.0694 -0.9861,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = -1.4028 -0.8472 -0.7361,
+				rotate = 0.0000 0.0000 0.0000,
+				area = SeatRearRight,
+			}
+		}
+
+		area Engine
+		{
+			xywh = 0.0000 2.9167 2.0000 1.2222,
+		}
+
+		area TruckBed
+		{
+			xywh = 0.0000 -2.9167 2.2500 1.2222,
+		}
+
+		area SeatFrontLeft
+		{
+			xywh = 1.5139 0.3056 1.1111 1.1111,
+		}
+
+		area SeatFrontRight
+		{
+			xywh = -1.5139 0.3056 1.1111 1.1111,
+		}
+
+		area SeatRearLeft
+		{
+			xywh = 1.5139 -0.8056 1.1111 1.1111,
+		}
+
+		area SeatRearRight
+		{
+			xywh = -1.5139 -0.8056 1.1111 1.1111,
+		}
+
+		area GasTank
+		{
+			xywh = -1.2778 -1.4861 0.6389 0.6389,
+		}
+
+		area TireFrontLeft
+		{
+			xywh = 1.3472 1.3194 0.7778 0.7778,
+		}
+
+		area TireFrontRight
+		{
+			xywh = -1.3472 1.3194 0.7778 0.7778,
+		}
+
+		area TireRearLeft
+		{
+			xywh = 1.3472 -1.2778 0.7778 0.7778,
+		}
+
+		area TireRearRight
+		{
+			xywh = -1.3472 -1.2778 0.7778 0.7778,
+		}
+
+		template = TrunkDoor,
+
+		part TrunkDoor
+		{
+			model Default
+			{
+				file = fhqSidekickSpareLWB,
+			}
+			
+			anim Open
+			{
+				sound = VehicleTrunkOpenJeep,
+			}
+
+			anim Close
+			{
+				sound = VehicleTrunkCloseJeep,
+			}
+
+			anim Lock
+			{
+				sound = LockVehicleDoorJeep,
+			}
+
+			anim Unlock
+			{
+				sound = UnlockVehicleDoorJeep,
+			}
+
+			anim IsLocked
+			{
+				sound = VehicleDoorIsLockedJeep,
+			}
+			
+			table uninstall
+			{
+				requireUninstalled = WindshieldRear,
+			}
+		}
+
+		template = Trunk/part/TruckBed,
+
+		part TruckBed
+		{
+			itemType = Base.NormalTrunk,
+		}
+
+		template = Seat/part/SeatFrontLeft,
+		template = Seat/part/SeatFrontRight,
+		template = Seat/part/SeatRearLeft,
+		template = Seat/part/SeatRearRight,
+
+		part Seat*
+		{
+			table install
+			{
+				skills = Mechanics:2,
+			}
+
+			table uninstall
+			{
+				skills = Mechanics:2,
+			}
+		}
+
+		template = GloveBox,
+		template = GasTank,
+		template = Battery,
+		template = Engine,
+		template = Muffler,
+		template = EngineDoor,
+
+		part EngineDoor
+		{
+			anim Open
+			{
+				sound = VehicleHoodOpenJeep,
+			}
+
+			anim Close
+			{
+				sound = VehicleHoodCloseJeep,
+			}
+		}
+
+		part Heater
+		{
+			category = engine,
+
+			lua
+			{
+				update = Vehicles.Update.Heater,
+			}
+		}
+
+		part PassengerCompartment
+		{
+			category = nodisplay,
+
+			lua
+			{
+				update = Vehicles.Update.PassengerCompartment,
+			}
+		}
+
+		template = Windshield/part/Windshield,
+		template = Windshield/part/WindshieldRear,
+		
+		part WindshieldRear
+		{
+			parent = TrunkDoor,
+			table install
+			{
+				requireInstalled = TrunkDoor,
+			}
+		}
+		
+		template = Window/part/WindowFrontLeft,
+		template = Window/part/WindowFrontRight,
+		template = Window/part/WindowRearLeft,
+		template = Window/part/WindowRearRight,
+		template = Door/part/DoorFrontLeft,
+		template = Door/part/DoorFrontRight,
+		template = Door/part/DoorRearLeft,
+		template = Door/part/DoorRearRight,
+
+		part Door*
+		{
+			anim Open
+			{
+				sound = VehicleDoorOpenJeep,
+			}
+
+			anim Close
+			{
+				sound = VehicleDoorCloseJeep,
+			}
+
+			anim Lock
+			{
+				sound = LockVehicleDoorJeep,
+			}
+
+			anim Unlock
+			{
+				sound = UnlockVehicleDoorJeep,
+			}
+
+			anim IsLocked
+			{
+				sound = VehicleDoorIsLockedJeep,
+			}
+		}
+
+		template = Tire,
+
+		part TireFrontLeft
+		{
+			model InflatedTirePlusWheel
+			{
+				file = fhqSidekickWheelLeft,
+			}
+		}
+
+		part TireFrontRight
+		{
+			model InflatedTirePlusWheel
+			{
+				file = fhqSidekickWheelRight,
+			}
+		}
+
+		part TireRearLeft
+		{
+			model InflatedTirePlusWheel
+			{
+				file = fhqSidekickWheelLeft,
+			}
+		}
+
+		part TireRearRight
+		{
+			model InflatedTirePlusWheel
+			{
+				file = fhqSidekickWheelRight,
+			}
+		}
+
+		template = Brake,
+		template = Suspension,
+		template = Radio,
+		template = Headlight,
+
+		attachment trailer
+		{
+			offset = 0.0000 -0.0556 -2.3333,
+			rotate = 0.0000 0.0000 0.0000,
+			zoffset = -1.0000,
+		}
+
+		attachment trailerfront
+		{
+			offset = 0.0000 -0.1096 2.2603,
+			rotate = 0.0000 0.0000 0.0000,
+			zoffset = 1.0000,
+		}
+	}
+}

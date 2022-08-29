@@ -1,0 +1,3 @@
+UI_EN = {
+	UI_optionscreen_binding_Hot key = "Stig's RDC Hot key",
+}

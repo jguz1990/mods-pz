@@ -1,0 +1,270 @@
+/*module Base
+{
+
+
+ 
+    /************************ Dismantle stuff ************************/
+
+    recipe Dismantle TV Remote
+    {
+       Remote,
+       keep Screwdriver/Multitool/SAK,
+
+       Result:Receiver,
+       Time:30.0,
+       OnGiveXP:DismantleElectronics_OnGiveXP,
+       Category:Electrical,
+       OnCreate:Dismantle_OnCreate,
+       AnimNode:Disassemble,
+       Prop1:Screwdriver,
+       Prop2:CDplayer,
+	Override:true,
+    }
+
+    recipe Dismantle Video Game
+    {
+       VideoGame,
+       keep Screwdriver/Multitool/SAK,
+
+       Result:ElectronicsScrap,
+       Time:30.0,
+       OnGiveXP:DismantleElectronics_OnGiveXP,
+       Category:Electrical,
+       AnimNode:Disassemble,
+       Prop1:Screwdriver,
+       Prop2:CDplayer,
+	Override:true,
+    }
+
+    recipe Dismantle Cordless Phone
+    {
+       CordlessPhone,
+       keep Screwdriver/Multitool/SAK,
+
+       Result:ElectronicsScrap,
+       Time:30.0,
+       OnGiveXP:DismantleElectronics_OnGiveXP,
+       Category:Electrical,
+       AnimNode:Disassemble,
+       Prop1:Screwdriver,
+       Prop2:CDplayer,
+	Override:true,
+    }
+
+    recipe Dismantle Speaker
+    {
+       Speaker,
+       keep Screwdriver/Multitool/SAK,
+
+       Result:Amplifier,
+       Time:30.0,
+       OnCreate:Dismantle_OnCreate,
+       OnGiveXP:DismantleElectronics_OnGiveXP,
+       Category:Electrical,
+       AnimNode:Disassemble,
+       Prop1:Screwdriver,
+       Prop2:CDplayer,
+	Override:true,
+    }
+
+    recipe Dismantle Home Alarm
+    {
+       HomeAlarm,
+       keep Screwdriver/Multitool/SAK,
+
+       Result:MotionSensor,
+       Time:30.0,
+       OnCreate:Dismantle_OnCreate,
+       OnGiveXP:DismantleElectronics_OnGiveXP,
+       Category:Electrical,
+       AnimNode:Disassemble,
+       Prop1:Screwdriver,
+       Prop2:CDplayer,
+	Override:true,
+    }
+
+    recipe Dismantle Digital Watch
+    {
+       [Recipe.GetItemTypes.DismantleDigitalWatch],
+       keep Screwdriver/Multitool/SAK,
+
+       Result:ElectronicsScrap,
+       Time:30.0,
+       OnGiveXP:DismantleElectronics_OnGiveXP,
+       Category:Electrical,
+       AnimNode:Disassemble,
+       Prop1:Screwdriver,
+       Prop2:CDplayer,
+	Override:true,
+    }
+
+    recipe Dismantle Earbuds
+    {
+       Earbuds,
+       keep Screwdriver/Multitool/SAK,
+
+       Result:ElectronicsScrap,
+       Time:30.0,
+       OnGiveXP:DismantleElectronics_OnGiveXP,
+       Category:Electrical,
+       AnimNode:Disassemble,
+       Prop1:Screwdriver,
+       Prop2:CDplayer,
+	Override:true,
+    }
+
+    recipe Dismantle Headphones
+    {
+       Headphones,
+       keep Screwdriver/Multitool/SAK,
+
+       Result:ElectronicsScrap,
+       Time:30.0,
+       OnGiveXP:DismantleElectronics_OnGiveXP,
+       Category:Electrical,
+       AnimNode:Disassemble,
+       Prop1:Screwdriver,
+       Prop2:CDplayer,
+	Override:true,
+    }
+
+    recipe Dismantle CD Player
+    {
+       CDplayer,
+       keep Screwdriver/Multitool/SAK,
+
+       Result:ElectronicsScrap=2,
+       Time:30.0,
+       OnGiveXP:DismantleElectronics_OnGiveXP,
+       Category:Electrical,
+       AnimNode:Disassemble,
+       Prop1:Screwdriver,
+       Prop2:CDplayer,
+	Override:true,
+    }
+
+
+
+    /************************ Traps ************************/
+
+    recipe Make Remote Controller V1
+    {
+       Remote,
+       keep Screwdriver/Multitool/SAK,
+       ElectronicsScrap=2,
+       Glue=2,
+
+       Result:RemoteCraftedV1,
+       SkillRequired:Electricity=2,
+       NeedToBeLearn:true,
+       Time:50.0,
+       Category:Electrical,
+	Override:true,
+    }
+
+    recipe Make Remote Controller V2
+    {
+       Remote,
+       keep Screwdriver/Multitool/SAK,
+       ElectronicsScrap=3,
+       Glue=2,
+
+       Result:RemoteCraftedV2,
+       SkillRequired:Electricity=4,
+       NeedToBeLearn:true,
+       Time:50.0,
+       Category:Electrical,
+	Override:true,
+    }
+
+    recipe Make Remote Controller V3
+    {
+       Remote,
+       keep Screwdriver/Multitool/SAK,
+       ElectronicsScrap=4,
+       Glue=2,
+
+       Result:RemoteCraftedV3,
+       SkillRequired:Electricity=6,
+       NeedToBeLearn:true,
+       Time:50.0,
+       Category:Electrical,
+	Override:true,
+    }
+
+    recipe Make Remote Trigger
+    {
+       Receiver/Radio.RadioReceiver,
+       keep Screwdriver/Multitool/SAK,
+       ElectronicsScrap=2,
+       Glue=2,
+
+       Result:TriggerCrafted,
+       SkillRequired:Electricity=2,
+       NeedToBeLearn:true,
+       Time:50.0,
+       Category:Electrical,
+	Override:true,
+    }
+
+    recipe Make Timer
+    {
+       Timer/AlarmClock2,
+       keep Screwdriver/Multitool/SAK,
+       ElectronicsScrap,
+       Glue=1,
+
+       Result:TimerCrafted,
+       SkillRequired:Electricity=1,
+       NeedToBeLearn:true,
+       Time:50.0,
+       Category:Electrical,
+	Override:true,
+    }
+
+
+
+    recipe Create Spear
+    {
+        Plank/TreeBranch,
+        keep HuntingKnife/KitchenKnife/SharpedStone/FlintKnife/MeatCleaver/Machete/Multitool/SAK,
+
+        Result:SpearCrafted,
+        Time:100.0,
+        OnCreate:CreateSpear_OnCreate,
+        Category:Survivalist,
+        OnGiveXP:Give5WoodworkXP,
+	Override:true,
+    }
+
+
+
+    recipe Rip Clothing With Multitool
+    {
+        [Recipe.GetItemTypes.RipClothing_Denim],
+        keep Multitool,
+
+        Result:DenimStrips,
+        RemoveResultItem:true,
+        Sound:ClothesRipping,
+        Time:100.0,
+        AnimNode:RipSheets,
+        OnCreate:Recipe.OnCreate.RipClothing,
+    }
+
+    recipe Rip Clothing With Multitool
+    {
+        [Recipe.GetItemTypes.RipClothing_Leather],
+        keep Multitool,
+
+        Result:LeatherStrips,
+        RemoveResultItem:true,
+        Sound:ClothesRipping,
+        Time:100.0,
+        AnimNode:RipSheets,
+        OnCreate:Recipe.OnCreate.RipClothing,
+    }
+
+
+}
+*/

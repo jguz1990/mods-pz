@@ -1,0 +1,3 @@
+Recipe_ES = {
+  Recipe_Jot_down_annotations = "Escribir anotaciones",
+}

@@ -1,0 +1,11 @@
+Recipe_CN = {
+    Recipe_Make_simpletrap1 = "制作 尖刺陷阱",
+    Recipe_Make_simpletrap2 = "制作 夹子陷阱",  
+    Recipe_Make_simpletrap3 ="制作 拒马",
+
+    Recipe_Make_simpletrap4 ="制作 钢刺",
+    Recipe_Make_simpletrap5 ="制作 地雷",
+    Recipe_Make_simpletrap6 ="制作 围栏",
+    Recipe_Make_simpletrap7 ="制作 障碍",
+}
+

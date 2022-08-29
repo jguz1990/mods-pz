@@ -1,0 +1,10 @@
+UI_EN = {
+    UI_esBundler = "Bundler",
+    UI_esBundler_zip = "Pack this ",
+    UI_esBundler_zip_title = "Stack of %2 (%1)",
+    UI_esBundler_zip_use = "Use %1 %2",
+    UI_esBundler_unzip = "UnPack %1",
+    UI_esBundler_default = "Set Default Naming",
+    UI_esBagMerge = "Bagmerge",
+
+}

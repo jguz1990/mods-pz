@@ -1,0 +1,4 @@
+Tooltip_EN = {
+/************ Autotsar Tuning Atelier - Petyarbuilt ************/
+	Tooltip_item_ATAPetyarbuiltTuningMag = "After reading this issue, you will get basic tuning knowledge and learn how to<br>create protection for Petyarbuilt 379",
+}

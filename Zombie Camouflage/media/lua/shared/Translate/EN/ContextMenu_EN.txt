@@ -1,0 +1,3 @@
+ContextMenu_EN = {
+    ContextMenu_Get_Zombie_Blood = "Cover Yourself with Corpse Blood"
+}

@@ -1,0 +1,8 @@
+UI_EN = {
+    UI_RainWash_Multiplier = "Multiplier",
+    UI_RainWash_Multiplier_Tooltip = "The larger the multiplier, the faster the blood and dirt is washed off in the rain.",
+    UI_RainWash_Vehicle = "Vehicle",
+    UI_RainWash_Vehicle_Tooltip = "Only the vehicle your character is in and attached vehicle is cleaned.",
+    UI_RainWash_RecentVehicle = "Last Used Vehicle",
+    UI_RainWash_RecentVehicle_Tooltip = "After you get out of the vehicle it will be cleaned too.",
+}

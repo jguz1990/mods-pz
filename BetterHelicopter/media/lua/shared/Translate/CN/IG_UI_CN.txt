@@ -1,0 +1,6 @@
+IGUI_CN = {
+    IGUI_VehicleNameBHelicopter = "UH-1 直升机",
+    IGUI_VehiclePartCatblade = "螺旋桨",
+    IGUI_VehiclePartheliblade = "螺旋桨",
+    IGUI_VehicleParthelibladeSmall = "尾桨",
+}

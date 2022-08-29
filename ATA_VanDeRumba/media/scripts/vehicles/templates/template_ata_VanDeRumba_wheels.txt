@@ -1,0 +1,55 @@
+module Base
+{
+	model ATA_VanDeRumba_SpareWheel
+	{
+		mesh = vehicles/ATA_VanDeRumba_body|wheel_5,
+		texture = Vehicles/ATA_VanDeRumba_wheel,
+		shader = vehiclewheel,
+		scale = 0.004,
+	}
+    model ATA_VanDeRumba_SpareWheel_static
+	{
+		mesh = vehicles/ATA_VanDeRumba_body|wheel_attach,
+		texture = Vehicles/ATA_VanDeRumba_items,
+		shader = vehiclewheel,
+		scale = 0.004,
+	}
+    model ATA_VanDeRumba_WheelProtection
+	{
+		mesh = vehicles/ATA_VanDeRumba_wheel|wheel_chain,
+		texture = Vehicles/ATA_wheelchain,
+		shader = vehiclewheel,
+		invertX = TRUE,
+		scale = 0.004,
+	}
+	
+	template vehicle ATA_VanDeRumba_Template_Wheels
+	{
+		template = Tire,
+        template = ATAProtection/part/ATAProtectionWheels,
+        part Tire*
+        {
+            model ATAProtection
+			{
+				file = ATA_VanDeRumba_WheelProtection,
+			}
+            table uninstall
+			{
+                requireUninstalled = ATAProtectionWheels,
+            }
+        }
+        
+        template = ATASpareWheel/part/ATASpareWheel,
+		part ATASpareWheel
+		{
+			model Default
+			{
+				file = ATA_VanDeRumba_SpareWheel,
+			}
+            model StaticPart
+            {
+                file = ATA_VanDeRumba_SpareWheel_static,
+            }
+		}
+	}
+}

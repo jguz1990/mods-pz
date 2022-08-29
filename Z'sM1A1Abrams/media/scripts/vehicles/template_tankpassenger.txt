@@ -1,0 +1,116 @@
+module Base
+{
+	template vehicle TankCrew4
+	{
+		passenger TankDriver
+		{
+			door = DoorFrontLeft,
+			area = SeatFrontLeft,
+			
+			switchSeat Gunner
+			{
+				anim = Climb_WindowB,
+				rate = 1,
+				sound = ,
+			}
+			
+			switchSeat Commander
+			{
+				anim = Climb_WindowB,
+				rate = 1,
+				sound = ,
+			}
+			
+			switchSeat Loader
+			{
+				anim = Climb_WindowB,
+				rate = 1,
+				sound = ,
+			}
+		}
+
+		passenger Gunner
+		{
+			door = DoorFrontRight,
+			area = SeatFrontRight,
+			
+			switchSeat TankDriver
+			{
+				anim = Climb_WindowB,
+				rate = 1,
+				sound = ,
+			}
+			
+			switchSeat Commander
+			{
+				anim = Climb_WindowB,
+				rate = 1,
+				sound = ,
+			}
+			
+			switchSeat Loader
+			{
+				anim = Climb_WindowB,
+				rate = 1,
+				sound = ,
+			}
+		}
+
+		passenger Commander
+		{
+			door = DoorRearLeft,
+			area = SeatRearLeft,
+			
+			switchSeat TankDriver
+			{
+				anim = Climb_WindowB,
+				rate = 1,
+				sound = ,
+			}
+			
+			switchSeat Gunner
+			{
+				anim = Climb_WindowB,
+				rate = 1,
+				sound = ,
+			}
+			
+			switchSeat Loader
+			{
+				anim = Climb_WindowB,
+				rate = 1,
+				sound = ,
+			}
+		}
+
+		passenger Loader
+		{
+			door = DoorRearRight,
+			area = SeatRearRight,
+			
+			switchSeat TankDriver
+			{
+				anim = Climb_WindowB,
+				rate = 1,
+				sound = ,
+			}
+			
+			switchSeat Gunner
+			{
+				anim = Climb_WindowB,
+				rate = 1,
+				sound = ,
+			}
+			
+			switchSeat Commander
+			{
+				anim = Climb_WindowB,
+				rate = 1,
+				sound = ,
+			}
+		}
+
+		template! = PassengerCommon,
+	}
+}
+

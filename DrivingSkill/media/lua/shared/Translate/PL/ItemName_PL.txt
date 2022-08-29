@@ -1,0 +1,7 @@
+ItemName_PL = {
+	ItemName_DrivingSkill.DrivingSkill_BookDriving1 = "Jazda Pojazdami Tom 1",
+	ItemName_DrivingSkill.DrivingSkill_BookDriving2 = "Jazda Pojazdami Tom 2",
+	ItemName_DrivingSkill.DrivingSkill_BookDriving3 = "Jazda Pojazdami Tom 3",
+	ItemName_DrivingSkill.DrivingSkill_BookDriving4 = "Jazda Pojazdami Tom 4",
+	ItemName_DrivingSkill.DrivingSkill_BookDriving5 = "Jazda Pojazdami Tom 5",
+}

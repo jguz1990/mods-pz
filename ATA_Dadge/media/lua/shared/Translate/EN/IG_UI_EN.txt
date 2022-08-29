@@ -1,0 +1,4 @@
+IG_UI_EN = {	
+	IGUI_VehicleNameATADodge = "Dadge Steals RT Twin Turbo",
+	IGUI_VehicleNameATADodgePpg = "Dadge Steals RT Twin Turbo (Pace Car)",
+}

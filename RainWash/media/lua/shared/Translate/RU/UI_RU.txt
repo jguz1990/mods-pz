@@ -1,0 +1,8 @@
+UI_RU = {
+    UI_RainWash_Multiplier = "Множитель",
+    UI_RainWash_Multiplier_Tooltip = "Чем больше множитель, тем быстрее смывается кровь и грязь под дождем.",
+    UI_RainWash_Vehicle = "Авто",
+    UI_RainWash_Vehicle_Tooltip = "Очищается только машина, в которой находится ваш персонаж.",
+    UI_RainWash_RecentVehicle = "Последний использованный авто",
+    UI_RainWash_RecentVehicle_Tooltip = "После того, как вы выйдете из машины, она будет очищаться.",
+}

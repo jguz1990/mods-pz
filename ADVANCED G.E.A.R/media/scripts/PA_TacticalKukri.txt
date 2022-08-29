@@ -1,0 +1,68 @@
+module Base
+{
+/*"Machete - Kukri" (https://skfb.ly/6VS67) by Frobin_G is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).*/
+    item PA_TacticalKukri
+    {
+        MaxRange	=	1.3,
+        WeaponSprite	=	PA_TacticalKukri,
+        MinAngle	=	0.65,
+        Type	=	Weapon,
+        MinimumSwingTime	=	4,
+        KnockBackOnNoDeath	=	FALSE,
+        SwingAmountBeforeImpact	=	0.02,
+        Categories	=	LongBlade,
+        ConditionLowerChanceOneIn	=	25,
+        Weight	=	1.2,
+        SplatNumber	=	2,
+        PushBackMod	=	0.3,
+        SubCategory	=	Swinging,
+        ConditionMax	=	13,
+        MaxHitCount	=	2,
+        DoorDamage	=	10,
+        SwingAnim	=	Bat,
+        DisplayName	=	Tactical Kukri,
+        MinRange	=	0.61,
+        SwingTime	=	4,
+        KnockdownMod	=	2,
+        SplatBloodOnNoDeath	=	FALSE,
+        Icon	=	PA_TacticalKukri,
+        BreakSound  =   BreakMetalItem,
+        TreeDamage  =   10,
+        CriticalChance	=	20,
+        CritDmgMultiplier = 5,
+        MinDamage	=	2,
+        MaxDamage	=	3,
+        BaseSpeed = 1,
+        WeaponLength = 0.3,
+        DamageCategory = Slash,
+        DamageMakeHole = TRUE,
+        AttachmentType = Knife,
+        AttachmentType = BigBlade,
+        Tags = CutPlant;SharpKnife,
+        DoorHitSound = MacheteHit,
+		HitSound = MacheteHit,
+		HitFloorSound = MacheteHit,
+        BreakSound  =   MacheteBreak,
+		SwingSound = MacheteSwing,
+     }
+
+
+   fixing Fix Tactical Kukri
+    {
+       Require : PA_TacticalKukri,
+
+       Fixer : DuctTape=2,
+       Fixer : Scotchtape=3,
+    }
+
+	model PA_TacticalKukri
+	{
+		mesh = Weapons/1Handed/PA_TacticalKukri,
+		scale = 0.01,
+		attachment world
+		{
+			offset = 0.0000 0.1400 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+}

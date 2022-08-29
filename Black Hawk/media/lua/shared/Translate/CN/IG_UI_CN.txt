@@ -1,0 +1,5 @@
+IGUI_CN = {
+    IGUI_VehicleNameBlack_Hawk = "UH-60黑鹰直升机",
+    IGUI_VehiclePartCatblade = "螺旋桨",
+    IGUI_VehiclePartheliblade = "螺旋桨",
+}

@@ -1,0 +1,524 @@
+module Base
+{	
+	model ATA_Luton_roofrack
+	{
+		mesh = vehicles/ATA_Luton_body|roof_trunk,
+		texture = Vehicles/ATA_Luton_items,
+		shader = vehiclewheel,
+		scale = 0.035,
+	}
+	model ATA_Luton_roofrack_bag1
+	{
+		mesh = vehicles/ATA_Luton_body|roof_bag1,
+		texture = DuffelBagBlue,
+		shader = vehiclewheel,
+		scale = 0.035,
+	}
+	model ATA_Luton_roofrack_bag2
+	{
+		mesh = vehicles/ATA_Luton_body|roof_bag2,
+		texture = DuffelBagGreen,
+		shader = vehiclewheel,
+		scale = 0.035,
+	}
+	model ATA_Luton_roofrack_bag3
+	{
+		mesh = vehicles/ATA_Luton_body|roof_bag3,
+		texture = DuffelBagWhite,
+		shader = vehiclewheel,
+		scale = 0.035,
+	}
+    model ATA_Luton_roofrack_bag4
+	{
+		mesh = vehicles/ATA_Luton_body|roof_bag4,
+		texture = DuffelBagBlue,
+		shader = vehiclewheel,
+		scale = 0.035,
+	}
+    
+    model ATA_Luton_roofrack_Box1
+	{
+		mesh = vehicles/ATA_Luton_body|roof_Box1,
+		texture = Vehicles/ATA_Luton_items,
+		shader = vehiclewheel,
+		scale = 0.035,
+	}
+	model ATA_Luton_roofrack_Box2
+	{
+		mesh = vehicles/ATA_Luton_body|roof_Box2,
+		texture = Vehicles/ATA_Luton_items,
+		shader = vehiclewheel,
+		scale = 0.035,
+	}
+	model ATA_Luton_roofrack_Box3
+	{
+		mesh = vehicles/ATA_Luton_body|roof_Box3,
+		texture = Vehicles/ATA_Luton_items,
+		shader = vehiclewheel,
+		scale = 0.035,
+	}
+    model ATA_Luton_roofrack_Box4
+	{
+		mesh = vehicles/ATA_Luton_body|roof_Box4,
+		texture = Vehicles/ATA_Luton_items,
+		shader = vehiclewheel,
+		scale = 0.035,
+	}
+    model ATA_Luton_roofrack_Box5
+	{
+		mesh = vehicles/ATA_Luton_body|roof_Box5,
+		texture = Vehicles/ATA_Luton_items,
+		shader = vehiclewheel,
+		scale = 0.035,
+	}
+    model ATA_Luton_roofrack_Box6
+	{
+		mesh = vehicles/ATA_Luton_body|roof_Box6,
+		texture = Vehicles/ATA_Luton_items,
+		shader = vehiclewheel,
+		scale = 0.035,
+	}
+    
+    model ATA_Luton_roofrack_GasCan1
+	{
+		mesh = vehicles/ATA_Luton_body|roof_GasCan1,
+		texture = GasCan,
+		shader = vehiclewheel,
+		scale = 0.035,
+	}
+    model ATA_Luton_roofrack_GasCan2
+	{
+		mesh = vehicles/ATA_Luton_body|roof_GasCan2,
+		texture = GasCan,
+		shader = vehiclewheel,
+		scale = 0.035,
+	}
+    model ATA_Luton_roofrack_GasCan3
+	{
+		mesh = vehicles/ATA_Luton_body|roof_GasCan3,
+		texture = GasCan,
+		shader = vehiclewheel,
+		scale = 0.035,
+	}
+    model ATA_Luton_roofrack_GasCan4
+	{
+		mesh = vehicles/ATA_Luton_body|roof_GasCan4,
+		texture = GasCan,
+		shader = vehiclewheel,
+		scale = 0.035,
+	}
+    model ATA_Luton_roofrack_GasCan5
+	{
+		mesh = vehicles/ATA_Luton_body|roof_GasCan5,
+		texture = GasCan,
+		shader = vehiclewheel,
+		scale = 0.035,
+	}
+    model ATA_Luton_roofrack_GasCan6
+	{
+		mesh = vehicles/ATA_Luton_body|roof_GasCan6,
+		texture = GasCan,
+		shader = vehiclewheel,
+		scale = 0.035,
+	}
+    model ATA_Luton_roofrack_GasCan7
+	{
+		mesh = vehicles/ATA_Luton_body|roof_GasCan7,
+		texture = GasCan,
+		shader = vehiclewheel,
+		scale = 0.035,
+	}
+    
+    model ATA_Luton_roofrack_Generator1
+	{
+		mesh = vehicles/ATA_Luton_body|roof_Generator1,
+		texture = WorldItems/Generator,
+		shader = vehiclewheel,
+		scale = 0.035,
+	}
+    model ATA_Luton_roofrack_Generator2
+	{
+		mesh = vehicles/ATA_Luton_body|roof_Generator2,
+		texture = WorldItems/Generator,
+		shader = vehiclewheel,
+		scale = 0.035,
+	}
+    
+    model ATA_Luton_roofrack_log1
+	{
+		mesh = vehicles/ATA_Luton_body|roof_log1,
+		texture = Log,
+		shader = vehiclewheel,
+		scale = 0.035,
+	}
+    model ATA_Luton_roofrack_log2
+	{
+		mesh = vehicles/ATA_Luton_body|roof_log2,
+		texture = Log,
+		shader = vehiclewheel,
+		scale = 0.035,
+	}
+    model ATA_Luton_roofrack_log3
+	{
+		mesh = vehicles/ATA_Luton_body|roof_log3,
+		texture = Log,
+		shader = vehiclewheel,
+		scale = 0.035,
+	}
+    model ATA_Luton_roofrack_log4
+	{
+		mesh = vehicles/ATA_Luton_body|roof_log4,
+		texture = Log,
+		shader = vehiclewheel,
+		scale = 0.035,
+	}
+    model ATA_Luton_roofrack_log5
+	{
+		mesh = vehicles/ATA_Luton_body|roof_log5,
+		texture = Log,
+		shader = vehiclewheel,
+		scale = 0.035,
+	}
+    model ATA_Luton_roofrack_log6
+	{
+		mesh = vehicles/ATA_Luton_body|roof_log6,
+		texture = Log,
+		shader = vehiclewheel,
+		scale = 0.035,
+	}
+    model ATA_Luton_roofrack_log7
+	{
+		mesh = vehicles/ATA_Luton_body|roof_log7,
+		texture = Log,
+		shader = vehiclewheel,
+		scale = 0.035,
+	}
+    
+    model ATA_Luton_roofrack_pipe1
+	{
+		mesh = vehicles/ATA_Luton_body|roof_pipe1,
+		texture = Vehicles/ATA_Luton_items,
+		shader = vehiclewheel,
+		scale = 0.035,
+	}
+    model ATA_Luton_roofrack_pipe2
+	{
+		mesh = vehicles/ATA_Luton_body|roof_pipe2,
+		texture = Vehicles/ATA_Luton_items,
+		shader = vehiclewheel,
+		scale = 0.035,
+	}
+    model ATA_Luton_roofrack_pipe3
+	{
+		mesh = vehicles/ATA_Luton_body|roof_pipe3,
+		texture = Vehicles/ATA_Luton_items,
+		shader = vehiclewheel,
+		scale = 0.035,
+	}
+    model ATA_Luton_roofrack_pipe4
+	{
+		mesh = vehicles/ATA_Luton_body|roof_pipe4,
+		texture = Vehicles/ATA_Luton_items,
+		shader = vehiclewheel,
+		scale = 0.035,
+	}
+    model ATA_Luton_roofrack_pipe5
+	{
+		mesh = vehicles/ATA_Luton_body|roof_pipe5,
+		texture = Vehicles/ATA_Luton_items,
+		shader = vehiclewheel,
+		scale = 0.035,
+	}
+    model ATA_Luton_roofrack_pipe6
+	{
+		mesh = vehicles/ATA_Luton_body|roof_pipe6,
+		texture = Vehicles/ATA_Luton_items,
+		shader = vehiclewheel,
+		scale = 0.035,
+	}
+    model ATA_Luton_roofrack_pipe7
+	{
+		mesh = vehicles/ATA_Luton_body|roof_pipe7,
+		texture = Vehicles/ATA_Luton_items,
+		shader = vehiclewheel,
+		scale = 0.035,
+	}
+    model ATA_Luton_roofrack_pipe8
+	{
+		mesh = vehicles/ATA_Luton_body|roof_pipe8,
+		texture = Vehicles/ATA_Luton_items,
+		shader = vehiclewheel,
+		scale = 0.035,
+	}
+    model ATA_Luton_roofrack_pipe9
+	{
+		mesh = vehicles/ATA_Luton_body|roof_pipe9,
+		texture = Vehicles/ATA_Luton_items,
+		shader = vehiclewheel,
+		scale = 0.035,
+	}
+    model ATA_Luton_roofrack_pipe10
+	{
+		mesh = vehicles/ATA_Luton_body|roof_pipe10,
+		texture = Vehicles/ATA_Luton_items,
+		shader = vehiclewheel,
+		scale = 0.035,
+	}
+    model ATA_Luton_roofrack_pipe11
+	{
+		mesh = vehicles/ATA_Luton_body|roof_pipe11,
+		texture = Vehicles/ATA_Luton_items,
+		shader = vehiclewheel,
+		scale = 0.035,
+	}
+    model ATA_Luton_roofrack_lader
+	{
+		mesh = vehicles/ATA_Luton_body|stair,
+		texture = Vehicles/ATA_Luton_items,
+		shader = vehiclewheel,
+		scale = 0.035,
+	}
+	
+	template vehicle ATA_Luton_Template_RoofRack
+	{
+		template = ata_visual/part/ATAVisualLadder,
+		part ATAVisualLadder
+		{
+			area = GasTank,
+            itemType = Autotsar.ATALutonLadderItem,
+			model Default
+			{
+				file = ATA_Luton_roofrack_lader,
+			}
+		}
+		
+		template = ATAInteractiveTrunk/part/ATAInteractiveTrunkRoofRack,
+		part ATAInteractiveTrunkRoofRack
+		{
+			area = GasTank,
+			itemType = Autotsar.ATALutonInteractiveTrunkRoofRackItem,
+			table install
+            {
+                requireInstalled = ATAVisualLadder,
+				requireUninstalled = ,
+			}
+			model ATA_Luton_roofrack
+			{
+				file = ATA_Luton_roofrack,
+			}
+			model ATA_Luton_roofrack_bag1
+			{
+				file = ATA_Luton_roofrack_bag1,
+			}
+			model ATA_Luton_roofrack_bag2
+			{
+				file = ATA_Luton_roofrack_bag2,
+			}
+			model ATA_Luton_roofrack_bag3
+			{
+				file = ATA_Luton_roofrack_bag3,
+			}
+            model ATA_Luton_roofrack_bag4
+			{
+				file = ATA_Luton_roofrack_bag4,
+			}
+            model ATA_Luton_roofrack_Box1
+			{
+				file = ATA_Luton_roofrack_Box1,
+			}
+            model ATA_Luton_roofrack_Box2
+			{
+				file = ATA_Luton_roofrack_Box2,
+			}
+            model ATA_Luton_roofrack_Box3
+			{
+				file = ATA_Luton_roofrack_Box3,
+			}
+            model ATA_Luton_roofrack_Box4
+			{
+				file = ATA_Luton_roofrack_Box4,
+			}
+            model ATA_Luton_roofrack_Box5
+			{
+				file = ATA_Luton_roofrack_Box5,
+			}
+            model ATA_Luton_roofrack_Box6
+			{
+				file = ATA_Luton_roofrack_Box6,
+			}
+            model ATA_Luton_roofrack_GasCan1
+			{
+				file = ATA_Luton_roofrack_GasCan1,
+			}
+            model ATA_Luton_roofrack_GasCan2
+			{
+				file = ATA_Luton_roofrack_GasCan2,
+			}
+            model ATA_Luton_roofrack_GasCan3
+			{
+				file = ATA_Luton_roofrack_GasCan3,
+			}
+            model ATA_Luton_roofrack_GasCan4
+			{
+				file = ATA_Luton_roofrack_GasCan4,
+			}
+            model ATA_Luton_roofrack_GasCan5
+			{
+				file = ATA_Luton_roofrack_GasCan5,
+			}
+            model ATA_Luton_roofrack_GasCan6
+			{
+				file = ATA_Luton_roofrack_GasCan6,
+			}
+            model ATA_Luton_roofrack_GasCan7
+			{
+				file = ATA_Luton_roofrack_GasCan7,
+			}
+            model ATA_Luton_roofrack_Generator1
+			{
+				file = ATA_Luton_roofrack_Generator1,
+			}
+            model ATA_Luton_roofrack_Generator2
+			{
+				file = ATA_Luton_roofrack_Generator2,
+			}
+            model ATA_Luton_roofrack_log1
+			{
+				file = ATA_Luton_roofrack_log1,
+			}
+            model ATA_Luton_roofrack_log2
+			{
+				file = ATA_Luton_roofrack_log2,
+			}
+            model ATA_Luton_roofrack_log3
+			{
+				file = ATA_Luton_roofrack_log3,
+			}
+            model ATA_Luton_roofrack_log4
+			{
+				file = ATA_Luton_roofrack_log4,
+			}
+            model ATA_Luton_roofrack_log5
+			{
+				file = ATA_Luton_roofrack_log5,
+			}
+            model ATA_Luton_roofrack_log6
+			{
+				file = ATA_Luton_roofrack_log6,
+			}
+            model ATA_Luton_roofrack_log7
+			{
+				file = ATA_Luton_roofrack_log7,
+			}
+            model ATA_Luton_roofrack_pipe1
+			{
+				file = ATA_Luton_roofrack_pipe1,
+			}
+            model ATA_Luton_roofrack_pipe2
+			{
+				file = ATA_Luton_roofrack_pipe2,
+			}
+            model ATA_Luton_roofrack_pipe3
+			{
+				file = ATA_Luton_roofrack_pipe3,
+			}
+            model ATA_Luton_roofrack_pipe4
+			{
+				file = ATA_Luton_roofrack_pipe4,
+			}
+            model ATA_Luton_roofrack_pipe5
+			{
+				file = ATA_Luton_roofrack_pipe5,
+			}
+            model ATA_Luton_roofrack_pipe6
+			{
+				file = ATA_Luton_roofrack_pipe6,
+			}
+            model ATA_Luton_roofrack_pipe7
+			{
+				file = ATA_Luton_roofrack_pipe7,
+			}
+            model ATA_Luton_roofrack_pipe8
+			{
+				file = ATA_Luton_roofrack_pipe8,
+			}
+            model ATA_Luton_roofrack_pipe9
+			{
+				file = ATA_Luton_roofrack_pipe9,
+			}
+            model ATA_Luton_roofrack_pipe10
+			{
+				file = ATA_Luton_roofrack_pipe10,
+			}
+            model ATA_Luton_roofrack_pipe11
+			{
+				file = ATA_Luton_roofrack_pipe11,
+			}
+			
+			table interactiveItems 
+			{
+				Base = ATA_Luton_roofrack,
+				fullness
+				{
+					1 = ATA_Luton_roofrack_Box1,
+					2 = ATA_Luton_roofrack_Box2,
+					3 = ATA_Luton_roofrack_Box3,
+					4 = ATA_Luton_roofrack_Box4,
+					5 = ATA_Luton_roofrack_Box5,
+					6 = ATA_Luton_roofrack_Box6,
+				}
+                PetrolCan#EmptyPetrolCan
+				{
+					1 = ATA_Luton_roofrack_GasCan1,
+					2 = ATA_Luton_roofrack_GasCan2,
+					3 = ATA_Luton_roofrack_GasCan3,
+					4 = ATA_Luton_roofrack_GasCan4,
+					5 = ATA_Luton_roofrack_GasCan5,
+					6 = ATA_Luton_roofrack_GasCan6,
+					7 = ATA_Luton_roofrack_GasCan7,
+				}
+                Bag_ShotgunDblSawnoffBag#Bag_ShotgunDblBag#Bag_ShotgunBag#Bag_ShotgunSawnoffBag#Bag_DuffelBagTINT#Bag_InmateEscapedBag#Bag_WorkerBag#Bag_WeaponBag#Bag_DuffelBag#Bag_MoneyBag
+                {
+                    1 = ATA_Luton_roofrack_bag1,
+                    2 = ATA_Luton_roofrack_bag2,
+                    3 = ATA_Luton_roofrack_bag3,
+                    4 = ATA_Luton_roofrack_bag4,
+                }
+                
+				Generator
+				{
+					1 = ATA_Luton_roofrack_Generator1,
+					2 = ATA_Luton_roofrack_Generator2,
+				}
+				Log#LogStacks2#LogStacks3#LogStacks4#Plank
+				{
+					1 = ATA_Luton_roofrack_log1,
+					2 = ATA_Luton_roofrack_log2,
+					3 = ATA_Luton_roofrack_log3,
+					4 = ATA_Luton_roofrack_log4,
+					5 = ATA_Luton_roofrack_log5,
+					6 = ATA_Luton_roofrack_log6,
+					7 = ATA_Luton_roofrack_log7,
+				}
+				Pipe#MetalPipe#LeadPipe
+				{
+					1 = ATA_Luton_roofrack_pipe1,
+					2 = ATA_Luton_roofrack_pipe2,
+					3 = ATA_Luton_roofrack_pipe3,
+					4 = ATA_Luton_roofrack_pipe4,
+					5 = ATA_Luton_roofrack_pipe5,
+					6 = ATA_Luton_roofrack_pipe6,
+					7 = ATA_Luton_roofrack_pipe7,
+					8 = ATA_Luton_roofrack_pipe8,
+					9 = ATA_Luton_roofrack_pipe9,
+					10 = ATA_Luton_roofrack_pipe10,
+					11 = ATA_Luton_roofrack_pipe11,
+				}
+			}
+			table install
+			{
+				requireInstalled = ATAVisualLadder,
+			}
+		}
+	}
+}

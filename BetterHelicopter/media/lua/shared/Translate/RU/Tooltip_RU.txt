@@ -1,0 +1,4 @@
+Tooltip_RU = {
+	Tooltip_item_HeliMag = "Летать может каждый!", 
+	Tooltip_I_dont_know = "Я не знаю как управлять вертолетом"
+}

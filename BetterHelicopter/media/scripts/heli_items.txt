@@ -1,0 +1,19 @@
+module AI_HELI
+{
+    imports
+	{
+		Base
+	}
+
+    item HeliMag
+    {
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	= Heli for dummies,
+        Icon	=	MagazineMechanics,
+        TeachedRecipes  =   Heli driving,
+        ReplaceOnUse    =   HeliMag,
+        Tooltip = Tooltip_item_HeliMag,
+        StaticModel = Magazine,
+    }
+}

@@ -1,0 +1,21 @@
+module Base
+{
+
+	model pa_SmokeGrenade
+	{
+		mesh = pa_smokegrenade,
+		texture = pa_smokegrenade,
+
+	}
+	model pa_SmokeGrenade_ground
+	{
+		mesh = pa_smokegrenade,
+		texture = pa_smokegrenade,
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 90.0000 0.0000 0.0000,
+		}
+
+	}
+}

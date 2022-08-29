@@ -1,0 +1,8 @@
+VERSION = 1,
+
+option BLTAnnotations.DropMapOnDeath
+{
+	type = boolean, default = false,
+	page = BLTAnnotations,
+	translation = BLTAnnotations_DropMapOnDeath,
+}

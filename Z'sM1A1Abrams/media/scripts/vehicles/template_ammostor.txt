@@ -1,0 +1,38 @@
+module Base
+{
+	template vehicle AmmoStor
+	{
+		part AmmoStor
+		{
+			area = SeatGunner,
+			itemType = Base.GloveBox,
+			mechanicRequireKey = true,
+			container
+			{
+				test = ZTanks.ContainerAccess.AmmoStor,
+			}
+			lua
+			{
+				create = Vehicles.Create.Default,
+			}
+		}
+	}
+	template vehicle GunBreech
+	{
+		part GunBreech
+		{
+			area = SeatGunner,
+			itemType = Base.GloveBox,
+			mechanicRequireKey = true,
+			container
+			{
+				test = ZTanks.ContainerAccess.AmmoStor,
+			}
+			lua
+			{
+				create = Vehicles.Create.Default,
+			}
+		}
+	}
+}
+

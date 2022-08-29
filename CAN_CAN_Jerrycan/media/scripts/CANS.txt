@@ -1,0 +1,626 @@
+module Base {
+
+	item EmptyJerrycan
+    {
+		DisplayCategory     = VehicleMaintenance,
+        Weight	            = 0.9,
+		CanStoreWater		= TRUE,
+        Type	            = Normal,
+        DisplayName 	    = Empty Jerrycan,
+		RainFactor          = 0.005,
+        Icon	            = CAN_1,
+		ReplaceOnUseOn      = WaterSource-WaterJerrycan,
+        StaticModel         = CAN1,
+		WorldStaticModel    = CCJModel.CAN1_ground,
+        SurvivalGear        = TRUE,
+        ReplaceInSecondHand = CAN1_L holdingbagleft,
+        ReplaceInPrimaryHand = CAN1_R holdingbagright,
+		Tags                = EmptyPetrol,
+        ReplaceTypes            = PetrolSource Jerrycan;WaterSource WaterJerrycan,
+    }
+
+	item WaterJerrycan
+	{
+		DisplayCategory     = WaterContainer,
+		Weight				= 15,
+		Type				= Drainable,
+		IsWaterSource		= TRUE,
+		CanStoreWater		= TRUE,
+		UseWhileEquipped	= FALSE,
+		ReplaceOnUseOn		= WaterSource-WaterJerrycan
+		UseDelta			= 0.005,
+		DisplayName			= Water Jerrycan,
+		Icon				= CAN_1,
+		RainFactor          = 0.005,
+		ReplaceOnDeplete	= EmptyJerrycan,
+		StaticModel 		= CAN1,
+		WorldStaticModel    = CCJModel.CAN1_ground,
+        ReplaceInSecondHand = CAN1_L holdingbagleft,
+        ReplaceInPrimaryHand = CAN1_R holdingbagright,
+        FillFromDispenserSound  = GetWaterFromDispenserMetalBig,
+        FillFromTapSound        = GetWaterFromTapMetalBig,
+	}	
+
+	item Jerrycan
+	{
+		DisplayCategory 	= VehicleMaintenance,
+		Weight				= 20,
+		Type				= Drainable,
+		cantBeConsolided    = TRUE,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.005,
+		DisplayName			= Jerrycan,
+		Icon				= CAN_1,
+		ReplaceOnDeplete	= EmptyJerrycan,
+		StaticModel 		= CAN1,
+		WorldStaticModel    = CCJModel.CAN1_ground,
+        ReplaceInSecondHand = CAN1_L holdingbagleft,
+        ReplaceInPrimaryHand = CAN1_R holdingbagright,
+		Tags                = Petrol,
+	}
+
+	item EmptyCAN3
+    {
+        Weight	            = 0.2,
+        CanStoreWater		= TRUE, 
+		Type	            = Normal,
+        ReplaceOnUseOn		= WaterSource-FullCAN3,
+        DisplayName 	    = Empty Plastic Jerrycan,
+        Icon	            = CAN_3,
+        StaticModel         = CAN3,
+		WorldStaticModel    = CCJModel.CAN3_ground,
+        SurvivalGear        = TRUE,
+        ReplaceInSecondHand = CAN3_L holdingbagleft,
+        ReplaceInPrimaryHand = CAN3_R holdingbagright,
+		Tags                = EmptyPetrol,
+        ReplaceTypes            = PetrolSource GasCAN3;WaterSource FullCAN3,
+    }
+
+	item FullCAN3
+	{
+		Weight				= 5.1,
+		Type				= Drainable,
+		IsWaterSource		= TRUE,
+		CanStoreWater		= TRUE,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.0125,
+		DisplayName			= Plastic Jerrycan,
+		Icon				= CAN_3,
+		ReplaceOnDeplete	= EmptyCAN3,
+		StaticModel 		= CAN3,
+		WorldStaticModel    = CCJModel.CAN3_ground,
+		IsCookable          = FALSE,
+		RainFactor          = 0.05,
+		ReplaceOnUseOn		= WaterSource-FullCAN3,
+        ReplaceInSecondHand = CAN3_L holdingbagleft,
+        ReplaceInPrimaryHand = CAN3_R holdingbagright,
+	}
+	
+	item GasCAN3
+	{
+		DisplayCategory 	= VehicleMaintenance,
+		Weight				= 5.1,
+		Type				= Drainable,
+		cantBeConsolided    = TRUE,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.0125,
+		DisplayName			= Plastic Jerrycan,
+		Icon				= CAN_3,
+		ReplaceOnDeplete	= EmptyCAN3,
+		StaticModel 		= CAN3,
+		WorldStaticModel    = CCJModel.CAN3_ground,
+        ReplaceInSecondHand = CAN3_L holdingbagleft,
+        ReplaceInPrimaryHand = CAN3_R holdingbagright,
+		Tags                = CustomFuelContainer; Empty_Base_EmptyCAN3,
+	}
+
+	item EmptyCAN4
+    {
+        Weight	            = 0.8,
+        CanStoreWater		= TRUE, 
+		Type	            = Normal,
+        ReplaceOnUseOn		= WaterSource-FullCAN4,
+        DisplayName 	    = Empty Big Plastic Jerrycan,
+        Icon	            = CAN_4,
+        StaticModel         = CAN4,
+		WorldStaticModel    = CCJModel.CAN4_ground,
+        SurvivalGear        = TRUE,
+        ReplaceInSecondHand = CAN4_L holdingbagleft,
+        ReplaceInPrimaryHand = CAN4_R holdingbagright,
+		Tags                = EmptyPetrol,
+        ReplaceTypes            = PetrolSource GasCAN4;WaterSource FullCAN4,
+    }
+
+	item FullCAN4
+	{
+		Weight				= 32,
+		Type				= Drainable,
+		IsWaterSource		= TRUE,
+		CanStoreWater		= TRUE,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.002,
+		DisplayName			= Big Plastic Jerrycan,
+		Icon				= CAN_4,
+		ReplaceOnDeplete	= EmptyCAN4,
+		StaticModel 		= CAN4,
+		WorldStaticModel    = CCJModel.CAN4_ground,
+		IsCookable          = FALSE,
+		RainFactor          = 0.05,
+		ReplaceOnUseOn		= WaterSource-FullCAN4,
+        ReplaceInSecondHand = CAN4_L holdingbagleft,
+        ReplaceInPrimaryHand = CAN4_R holdingbagright,
+	}
+	
+	item GasCAN4
+	{
+		DisplayCategory 	= VehicleMaintenance,
+		Weight				= 32,
+		Type				= Drainable,
+		cantBeConsolided    = TRUE,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.002,
+		DisplayName			= Big Plastic Jerrycan,
+		Icon				= CAN_4,
+		ReplaceOnDeplete	= EmptyCAN4,
+		StaticModel 		= CAN4,
+		WorldStaticModel    = CCJModel.CAN4_ground,
+        ReplaceInSecondHand = CAN4_L holdingbagleft,
+        ReplaceInPrimaryHand = CAN4_R holdingbagright,
+		Tags                = Petrol,
+	}
+
+	item EmptyCAN5
+    {
+        Weight	            = 0.2,
+        CanStoreWater		= TRUE, 
+		Type	            = Normal,
+        ReplaceOnUseOn		= WaterSource-FullCAN5,
+        DisplayName 	    = Empty Red Plastic Jerrycan,
+        Icon	            = CAN_5,
+        StaticModel         = CAN5,
+		WorldStaticModel    = CCJModel.CAN5_ground,
+        SurvivalGear        = TRUE,
+        ReplaceInSecondHand = CAN5_L holdingbagleft,
+        ReplaceInPrimaryHand = CAN5_R holdingbagright,
+        Tags                    = EmptyPetrol,
+        ReplaceTypes            = PetrolSource GasCAN5;WaterSource FullCAN5,
+    }
+
+    item FullCAN5
+	{
+		Weight				= 8,
+		Type				= Drainable,
+		IsWaterSource		= TRUE,
+		CanStoreWater		= TRUE,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.01,
+		DisplayName			= Red Plastic Jerrycan,
+		Icon				= CAN_5,
+		ReplaceOnDeplete	= EmptyCAN5,
+		StaticModel 		= CAN5,
+		WorldStaticModel    = CCJModel.CAN5_ground,
+		IsCookable          = FALSE,
+		RainFactor          = 0.05,
+		ReplaceOnUseOn		=	WaterSource-FullCAN5,
+        ReplaceInSecondHand = CAN5_L holdingbagleft,
+        ReplaceInPrimaryHand = CAN5_R holdingbagright,
+	}
+	
+	item GasCAN5
+	{
+		DisplayCategory 	= VehicleMaintenance,
+		Weight				= 8,
+		Type				= Drainable,
+		cantBeConsolided    = TRUE,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.01,
+		DisplayName			= Red Plastic Jerrycan,
+		Icon				= CAN_5,
+		ReplaceOnDeplete	= EmptyCAN5,
+		StaticModel 		= CAN5,
+		WorldStaticModel    = CCJModel.CAN5_ground,
+        ReplaceInSecondHand = CAN5_L holdingbagleft,
+        ReplaceInPrimaryHand = CAN5_R holdingbagright,
+		Tags                = Petrol,
+	}
+
+	item EmptyCAN2
+    {
+        Weight	            = 1.2,
+        CanStoreWater		= TRUE, 
+		Type	            = Normal,
+        ReplaceOnUseOn		= WaterSource-FullCAN2,
+        DisplayName 	    = Empty Bag Plastic Jerrycan,
+        Icon	            = CAN_2,
+        StaticModel         = CAN2,
+		WorldStaticModel    = CCJModel.CAN2_ground,
+        SurvivalGear        = TRUE,
+        ReplaceInSecondHand = CAN2_L holdingbagleft,
+        ReplaceInPrimaryHand = CAN2_R holdingbagright,
+
+        CanBeEquipped = Back,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.90,
+        AttachmentReplacement = Bag,
+        ClothingItem = CAN2,
+		Tags                = EmptyPetrol,
+        ReplaceTypes            = PetrolSource GasCAN2;WaterSource FullCAN2,
+
+    }
+
+    item FullCAN2
+	{
+		Weight				= 45,
+		Type				= Drainable,
+		IsWaterSource		= TRUE,
+		CanStoreWater		= TRUE,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.002,
+		DisplayName			= Bag Plastic Jerrycan,
+		Icon				= CAN_2,
+		ReplaceOnDeplete	= EmptyCAN2,
+		StaticModel 		= CAN2,
+		WorldStaticModel    = CCJModel.CAN2_ground,
+		IsCookable          = FALSE,
+		RainFactor          = 0.004,
+		ReplaceOnUseOn		=	WaterSource-FullCAN2,
+        ReplaceInSecondHand = CAN2_L holdingbagleft,
+        ReplaceInPrimaryHand = CAN2_R holdingbagright,
+        CanBeEquipped 		= Back,
+        BloodLocation 		= Bag,
+        RunSpeedModifier 	= 0.90,
+        AttachmentReplacement = Bag,
+        ClothingItem 		= CAN2,
+	}
+	
+	item GasCAN2
+	{
+		DisplayCategory 	= VehicleMaintenance,
+		Weight				= 45,
+		Type				= Drainable,
+		cantBeConsolided    = TRUE,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.002,
+		DisplayName			= Bag Plastic Jerrycan,
+		Icon				= CAN_2,
+		ReplaceOnDeplete	= EmptyCAN2,
+		StaticModel 		= CAN2,
+		WorldStaticModel    = CCJModel.CAN2_ground,
+        ReplaceInSecondHand = CAN2_L holdingbagleft,
+        ReplaceInPrimaryHand = CAN2_R holdingbagright,
+		Tags                = Petrol,
+	}
+
+	item EmptyCAN6
+    {
+        Weight	            = 0.2,
+        CanStoreWater		= TRUE, 
+       Type	            	= Normal,
+        ReplaceOnUseOn		= WaterSource-FullCAN6,
+        DisplayName 	    = Empty beige Plastic Jerrycan,
+        Icon	            = CAN_6,
+        StaticModel         = CAN6,
+		WorldStaticModel    = CCJModel.CAN6_ground,
+        SurvivalGear        = TRUE,
+        ReplaceInSecondHand = CAN6_L holdingbagleft,
+        ReplaceInPrimaryHand = CAN6_R holdingbagright,
+		Tags                = EmptyPetrol,
+        ReplaceTypes            = PetrolSource GasCAN6;WaterSource FullCAN6,
+    }
+
+    item FullCAN6
+	{
+		Weight				= 12,
+		Type				= Drainable,
+		IsWaterSource		= TRUE,
+		CanStoreWater		= TRUE,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.01,
+		DisplayName			= beige Plastic Jerrycan,
+		Icon				= CAN_6,
+		ReplaceOnDeplete	= EmptyCAN6,
+		StaticModel 		= CAN6,
+		WorldStaticModel    = CCJModel.CAN6_ground,
+		IsCookable          = FALSE,
+		RainFactor          = 0.05,
+		ReplaceOnUseOn		= WaterSource-FullCAN6,
+        ReplaceInSecondHand = CAN6_L holdingbagleft,
+        ReplaceInPrimaryHand = CAN6_R holdingbagright,
+	}
+	
+	item GasCAN6
+	{
+		DisplayCategory 	= VehicleMaintenance,
+		Weight				= 12,
+		Type				= Drainable,
+		cantBeConsolided    = TRUE,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.01,
+		DisplayName			= beige Plastic Jerrycan,
+		Icon				= CAN_6,
+		ReplaceOnDeplete	= EmptyCAN6,
+		StaticModel 		= CAN6,
+		WorldStaticModel    = CCJModel.CAN6_ground,
+        ReplaceInSecondHand = CAN6_L holdingbagleft,
+        ReplaceInPrimaryHand = CAN6_R holdingbagright,
+		Tags                = Petrol,
+	}
+
+	item EmptyCAN7
+    {
+        Weight	            = 1.5,
+        CanStoreWater		= TRUE, 
+		Type	            = Normal,
+        ReplaceOnUseOn		= WaterSource-FullCAN7,
+        DisplayName 	    = Empty beige Plastic can,
+        Icon	            = CAN_7,
+        StaticModel         = CAN7,
+		WorldStaticModel    = CCJModel.CAN7_ground,
+        SurvivalGear        = TRUE,
+        ReplaceInSecondHand = CAN7_L holdingbagleft,
+        ReplaceInPrimaryHand = CAN7_R holdingbagright,
+		Tags                = EmptyPetrol,
+        ReplaceTypes            = PetrolSource GasCAN7;WaterSource FullCAN7,
+    }
+
+    item FullCAN7
+	{
+		Weight				= 45,
+		Type				= Drainable,
+		IsWaterSource		= TRUE,
+		CanStoreWater		= TRUE,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.00125,
+		DisplayName			= beige Plastic can,
+		Icon				= CAN_7,
+		ReplaceOnDeplete	= EmptyCAN7,
+		StaticModel 		= CAN7,
+		WorldStaticModel    = CCJModel.CAN7_ground,
+		IsCookable          = FALSE,
+		RainFactor          = 0.05,
+		ReplaceOnUseOn		= WaterSource-FullCAN7,
+        ReplaceInSecondHand = CAN7_L holdingbagleft,
+        ReplaceInPrimaryHand = CAN7_R holdingbagright,
+	}
+	
+	item GasCAN7
+	{
+		DisplayCategory 	= VehicleMaintenance,
+		Weight				= 45,
+		Type				= Drainable,
+		cantBeConsolided    = TRUE,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.00125,
+		DisplayName			= beige Plastic can,
+		Icon				= CAN_7,
+		ReplaceOnDeplete	= EmptyCAN7,
+		StaticModel 		= CAN7,
+		WorldStaticModel    = CCJModel.CAN7_ground,
+        ReplaceInSecondHand = CAN7_L holdingbagleft,
+        ReplaceInPrimaryHand = CAN7_R holdingbagright,
+		Tags                = Petrol,
+	}
+
+	item EmptyCAN8
+    {
+        Weight	            = 0.4,
+        CanStoreWater		= TRUE, 
+        Type	            = Normal,
+        ReplaceOnUseOn		= WaterSource-FullCAN8,
+        DisplayName 	    = Empty Thermos,
+        Icon	            = CAN_8,
+        StaticModel         = CAN8,
+		WorldStaticModel    = CCJModel.CAN8_ground,
+        SurvivalGear        = TRUE,
+        ReplaceInSecondHand = CAN8_L holdingbagleft,
+        ReplaceInPrimaryHand = CAN8_R holdingbagright,
+    }
+
+    item FullCAN8
+	{
+		Weight				= 1.6,
+		Type				= Drainable,
+		IsWaterSource		= TRUE,
+		CanStoreWater		= TRUE,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.025,
+		DisplayName			= Thermos,
+		Icon				= CAN_8,
+		ReplaceOnDeplete	= EmptyCAN8,
+		StaticModel 		= CAN8,
+		WorldStaticModel    = CCJModel.CAN8_ground,
+		IsCookable          = FALSE,
+		RainFactor          = 0.1,
+		ReplaceOnUseOn		= WaterSource-FullCAN8,
+        ReplaceInSecondHand = CAN8_L holdingbagleft,
+        ReplaceInPrimaryHand = CAN8_R holdingbagright,
+		CustomContextMenu 	= Drink,
+		CustomEatSound 		= DrinkingFromBottle,
+		EatType             = Pot,
+	}
+
+	item EmptyCAN9
+    {
+        Weight	            = 0.2,
+        CanStoreWater		= TRUE, 
+		Type	            = Normal,
+        ReplaceOnUseOn		= WaterSource-FullCAN9,
+        DisplayName 	    = Empty Red Plastic Jerrycan 2,
+        Icon	            = CAN_9,
+        StaticModel         = CAN9,
+		WorldStaticModel    = CCJModel.CAN9_ground,
+        SurvivalGear        = TRUE,
+        ReplaceInSecondHand = CAN9_L holdingbagleft,
+        ReplaceInPrimaryHand = CAN9_R holdingbagright,
+		Tags                = EmptyPetrol,
+        ReplaceTypes            = PetrolSource GasCAN9;WaterSource FullCAN9,
+    }
+
+    item FullCAN9
+	{
+		Weight				= 6,
+		Type				= Drainable,
+		IsWaterSource		= TRUE,
+		CanStoreWater		= TRUE,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.0125,
+		DisplayName			= Red Plastic Jerrycan 2,
+		Icon				= CAN_9,
+		ReplaceOnDeplete	= EmptyCAN9,
+		StaticModel 		= CAN9,
+		WorldStaticModel    = CCJModel.CAN9_ground,
+		IsCookable          = FALSE,
+		RainFactor          = 0.05,
+		ReplaceOnUseOn		= WaterSource-FullCAN9,
+        ReplaceInSecondHand = CAN9_L holdingbagleft,
+        ReplaceInPrimaryHand = CAN9_R holdingbagright,
+	}
+	
+	item GasCAN9
+	{
+		DisplayCategory 	= VehicleMaintenance,
+		Weight				= 6,
+		Type				= Drainable,
+		cantBeConsolided    = TRUE,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.0125,
+		DisplayName			= Red Plastic Jerrycan 2,
+		Icon				= CAN_9,
+		ReplaceOnDeplete	= EmptyCAN9,
+		StaticModel 		= CAN9,
+		WorldStaticModel    = CCJModel.CAN9_ground,
+        ReplaceInSecondHand = CAN9_L holdingbagleft,
+        ReplaceInPrimaryHand = CAN9_R holdingbagright,
+		Tags                = Petrol,
+	}
+
+	item EmptyCAN10
+    {
+        Weight	            = 0.6,
+        CanStoreWater		= TRUE, 
+		Type	            = Normal,
+        ReplaceOnUseOn		= WaterSource-FullCAN10,
+        DisplayName 	    = Empty White Plastic Jerrycan,
+        Icon	            = CAN_10,
+        StaticModel         = CAN10,
+		WorldStaticModel    = CCJModel.CAN10_ground,
+        SurvivalGear        = TRUE,
+        ReplaceInSecondHand = CAN10_L holdingbagleft,
+        ReplaceInPrimaryHand = CAN10_R holdingbagright,
+		Tags                = EmptyPetrol,
+        ReplaceTypes            = PetrolSource GasCAN10;WaterSource FullCAN10,
+    }
+	item EmptyCAN11
+    {
+        Weight	            = 0.4,
+        CanStoreWater		= TRUE, 
+        Type	            = Normal,
+        ReplaceOnUseOn		= WaterSource-FullCAN11,
+        DisplayName 	    = Empty Canteen,
+        Icon	            = CAN_11,
+        StaticModel         = CAN11,
+		WorldStaticModel    = CCJModel.CAN11_ground,
+        SurvivalGear        = TRUE,
+        ReplaceInSecondHand = CAN11_L holdingbagleft,
+        ReplaceInPrimaryHand = CAN11_R holdingbagright,
+    }
+
+    item FullCAN11
+	{
+		Weight				= 1.6,
+		Type				= Drainable,
+		IsWaterSource		= TRUE,
+		CanStoreWater		= TRUE,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.034,
+		DisplayName			= Canteen,
+		Icon				= CAN_11,
+		ReplaceOnDeplete	= EmptyCAN11,
+		StaticModel 		= CAN11,
+		WorldStaticModel    = CCJModel.CAN11_ground,
+		IsCookable          = FALSE,
+		RainFactor          = 0.1,
+		ReplaceOnUseOn		= WaterSource-FullCAN11,
+        ReplaceInSecondHand = CAN11_L holdingbagleft,
+        ReplaceInPrimaryHand = CAN11_R holdingbagright,
+		CustomContextMenu 	= Drink,
+		CustomEatSound 		= DrinkingFromBottle,
+		EatType             = Pot,
+	}
+
+	item EmptyCAN12
+    {
+        Weight	            = 0.4,
+        CanStoreWater		= TRUE, 
+        Type	            = Normal,
+        ReplaceOnUseOn		= WaterSource-FullCAN12,
+        DisplayName 	    = Empty Canteen with Cover,
+        Icon	            = CAN_12,
+        StaticModel         = CAN12,
+		WorldStaticModel    = CCJModel.CAN12_ground,
+        SurvivalGear        = TRUE,
+        ReplaceInSecondHand = CAN12_L holdingbagleft,
+        ReplaceInPrimaryHand = CAN12_R holdingbagright,
+    }
+
+    item FullCAN12
+	{
+		Weight				= 1.6,
+		Type				= Drainable,
+		IsWaterSource		= TRUE,
+		CanStoreWater		= TRUE,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.034,
+		DisplayName			= Canteen with Cover,
+		Icon				= CAN_12,
+		ReplaceOnDeplete	= EmptyCAN12,
+		StaticModel 		= CAN12,
+		WorldStaticModel    = CCJModel.CAN12_ground,
+		IsCookable          = FALSE,
+		RainFactor          = 0.1,
+		ReplaceOnUseOn		= WaterSource-FullCAN12,
+        ReplaceInSecondHand = CAN12_L holdingbagleft,
+        ReplaceInPrimaryHand = CAN12_R holdingbagright,
+		CustomContextMenu 	= Drink,
+		CustomEatSound 		= DrinkingFromBottle,
+		EatType             = Pot,
+	}
+	
+    item FullCAN10
+	{
+		Weight				= 20,
+		Type				= Drainable,
+		IsWaterSource		= TRUE,
+		CanStoreWater		= TRUE,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.02,
+		DisplayName			= White Plastic Jerrycan,
+		Icon				= CAN_10,
+		ReplaceOnDeplete	= EmptyCAN10,
+		StaticModel 		= CAN10,
+		WorldStaticModel    = CCJModel.CAN10_ground,
+		IsCookable          = FALSE,
+		RainFactor          = 0.05,
+		ReplaceOnUseOn		= WaterSource-FullCAN10,
+        ReplaceInSecondHand = CAN10_L holdingbagleft,
+        ReplaceInPrimaryHand = CAN10_R holdingbagright,
+	}
+	
+	item GasCAN10
+	{
+		DisplayCategory 	= VehicleMaintenance,
+		Weight				= 20,
+		Type				= Drainable,
+		cantBeConsolided    = TRUE,
+		UseWhileEquipped	= FALSE,
+		UseDelta			= 0.02,
+		DisplayName			= White Plastic Jerrycan,
+		Icon				= CAN_10,
+		ReplaceOnDeplete	= EmptyCAN10,
+		StaticModel 		= CAN10,
+		WorldStaticModel    = CCJModel.CAN10_ground,
+        ReplaceInSecondHand = CAN10_L holdingbagleft,
+        ReplaceInPrimaryHand = CAN10_R holdingbagright,
+		Tags                = Petrol,
+	}
+}

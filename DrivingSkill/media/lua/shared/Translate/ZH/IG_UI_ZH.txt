@@ -1,0 +1,4 @@
+IGUI_ZH = {
+	IGUI_perks_Driving = "驾驶",
+	IGUI_perks_Miscellaneous = "杂项"
+}

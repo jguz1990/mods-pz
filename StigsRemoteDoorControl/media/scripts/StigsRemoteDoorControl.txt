@@ -1,0 +1,187 @@
+module Base
+{
+	item Simple Remote Door Control Receiver
+    {
+		KnockdownMod	=	0,
+		MinimumSwingTime	=	1.5,
+		UseSelf	=	TRUE,
+		SwingTime	=	1.5,
+		SwingAmountBeforeImpact	=	0.1,
+		Type	=	Weapon,
+		SwingAnim	=	Throw,
+        WeaponSprite = Molotov,
+        DisplayName	=	Simple Remote Door Control Receiver,
+        PhysicsObject	=	NoiseGenerator,
+        Weight	=	5,
+        Icon	=	NoiseMaker,
+        CanBePlaced = TRUE,
+        CanBeReused =   TRUE,
+        CanBeRemote = TRUE,
+        WorldStaticModel = NoiseMakerSensor,
+		SensorRange =   5,
+    }
+	
+	recipe Dismantle Simple Remote Door Control Receiver
+    {
+       Simple Remote Door Control Receiver,
+       keep [Recipe.GetItemTypes.Screwdriver],
+       NoBrokenItems:true,
+       Result:ElectronicsScrap=3,
+       Time:30.0,
+       OnGiveXP:Recipe.OnGiveXP.DismantleRadio,
+       Category:Electrical,
+       AnimNode:Disassemble,
+       Prop1:Screwdriver,
+    }
+	
+	item Master V2 Remote
+    {
+        DisplayCategory = Electronics,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Master V2 Remote,
+        Icon	=	RemoteCrafted,
+        WorldStaticModel = RemoteController,
+    }
+	
+	recipe Make Master V2 Remote
+	{
+		keep Base.Screwdriver,
+		Radio.ElectricWire = 2,
+		ElectronicsScrap=5,
+		RemoteCraftedV2=1,
+		SkillRequired:Electricity=5,
+		Result:Master V2 Remote,
+		Time:100,
+		CanBeDoneFromFloor:true,
+		NeedToBeLearn:true,
+		Category:Electrical,
+	}
+   
+	recipe Make Simple Remote Door Control Receiver
+	{
+		keep Base.Screwdriver,
+		Radio.ElectricWire = 2,
+		ElectronicsScrap=7,
+		TriggerCrafted=1,
+		SkillRequired:Electricity=2,
+		Result:Simple Remote Door Control Receiver,
+		Time:50,
+		CanBeDoneFromFloor:true,
+		NeedToBeLearn:true,
+		Category:Electrical,
+	}
+	
+	item EngineerMagazine1
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Engineer Magazine Vol. 1,
+        Icon	=	MagazineMechanics,
+        TeachedRecipes  =   Make Noise Maker;Make Simple Remote Door Control Receiver;Make Master V2 Remote,
+        ReplaceOnUse    =   EngineerMagazine1,
+        StaticModel = Magazine,
+        WorldStaticModel = MagazineEngi1Ground,
+    }
+	
+	item Master V3 Remote
+    {
+        DisplayCategory = Electronics,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Master V3 Remote,
+        Icon	=	RemoteCrafted,
+        WorldStaticModel = RemoteController,
+    }
+	
+	item Remote Door Control Receiver
+    {
+		MaxRange	=	10,
+		KnockdownMod	=	0,
+		MinimumSwingTime	=	1.5,
+		UseSelf	=	TRUE,
+		SwingTime	=	1.5,
+		SwingAmountBeforeImpact	=	0.1,
+        DisplayCategory = Devices,
+		Type	=	Weapon,
+		SwingAnim	=	Throw,
+        WeaponSprite = Molotov,
+        DisplayName	=	Remote Door Control Receiver,
+        PhysicsObject	=	NoiseGenerator,
+        Weight	=	10,
+        Icon	=	NoiseMaker,
+        CanBePlaced = TRUE,
+        CanBeReused =   TRUE,
+        CanBeRemote = TRUE,
+        WorldStaticModel = NoiseMakerSensor,
+    }
+	
+	recipe Dismantle Remote Door Control Receiver
+    {
+       Remote Door Control Receiver,
+       keep [Recipe.GetItemTypes.Screwdriver],
+       NoBrokenItems:true,
+       Result:Radio.ElectricWire=5,
+       Time:30.0,
+       OnGiveXP:Recipe.OnGiveXP.DismantleRadio,
+       Category:Electrical,
+       AnimNode:Disassemble,
+       Prop1:Screwdriver,
+    }
+	
+	recipe Make Remote Door Control Receiver
+	{
+		keep Base.Screwdriver,
+		Radio.ElectricWire = 10,
+		ElectronicsScrap=25,
+		TriggerCrafted=1,
+		SkillRequired:Electricity=5,
+		Result:Remote Door Control Receiver,
+		Time:100,
+		CanBeDoneFromFloor:true,
+		NeedToBeLearn:true,
+		Category:Electrical,
+	}
+	
+	recipe Make Master V3 Remote
+	{
+		keep Base.Screwdriver,
+		Radio.ElectricWire = 2,
+		ElectronicsScrap=5,
+		RemoteCraftedV3=1,
+		SkillRequired:Electricity=6,
+		Result:Master V3 Remote,
+		Time:100,
+		CanBeDoneFromFloor:true,
+		NeedToBeLearn:true,
+		Category:Electrical,
+	}
+	
+	recipe Make Remote Door Control Receiver
+	{
+		keep Base.Screwdriver,
+		Radio.ElectricWire = 10,
+		ElectronicsScrap=25,
+		TriggerCrafted=1,
+		SkillRequired:Electricity=5,
+		Result:Remote Door Control Receiver,
+		Time:100,
+		CanBeDoneFromFloor:true,
+		NeedToBeLearn:true,
+		Category:Electrical,
+	}
+	
+	item EngineerMagazine2
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Engineer Magazine Vol. 2,
+        Icon	=	MagazineMechanics,
+        TeachedRecipes  =   Make Smoke Bomb;Make Remote Door Control Receiver;Make Master V3 Remote,
+        ReplaceOnUse    =   EngineerMagazine2,
+        StaticModel = Magazine,
+        WorldStaticModel = MagazineEngi1Ground,
+    }
+}

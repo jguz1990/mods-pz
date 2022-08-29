@@ -1,0 +1,10 @@
+Moodles_EN {
+    Moodles_zombiehidden_lvl1 = "Slightly Imperceptible",
+    Moodles_zombiehidden_desc_lvl1 = "Is that blood?",
+    Moodles_zombiehidden_lvl2 = "Moderately Imperceptible",
+    Moodles_zombiehidden_desc_lvl2 = "Something smells bad!",
+    Moodles_zombiehidden_lvl3 = "Almost Imperceptible",
+    Moodles_zombiehidden_desc_lvl3 = "Consider taking a good bath.",
+    Moodles_zombiehidden_lvl4 = "Imperceptible",
+    Moodles_zombiehidden_desc_lvl4 = "Are you really not one of them?",    
+}

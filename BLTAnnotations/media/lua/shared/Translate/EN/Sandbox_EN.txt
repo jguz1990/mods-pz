@@ -1,0 +1,6 @@
+Sandbox_EN = {
+  Sandbox_BLTAnnotations = "Share Annotations",
+
+  Sandbox_BLTAnnotations_DropMapOnDeath = "Drop map upon player death",
+  Sandbox_BLTAnnotations_DropMapOnDeath_tooltip = "If enabled, player corpses will include a fully annotated map containing every symbols from their main map",
+}

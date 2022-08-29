@@ -1,0 +1,366 @@
+module Autotsar
+{
+	imports
+	{
+		Base
+	}
+    
+    item ATADodgeTuningMag /* Spawn */ 
+    {
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Autotsar Tuning - Ford Mustang,
+        Icon	=	ATATuningMagUniverseIcon,
+        TeachedRecipes  =   Basic Tuning;Make ATADodgeBullbar2Item;Make ATADodgeBullbar3Item;Make ATADodgeProtectionWindowSideItem;Make ATADodgeProtectionWindowFrontItem;Make ATADodgeRoofRackItem;Make ATADodgeWindowRackItem,
+        ReplaceOnUse    =   ATADodgeTuningMag,
+        Tooltip = Tooltip_item_ATADodgeTuningMag,
+        StaticModel = Autotsar.ATATuningMagUniverse_Reading,
+        WorldStaticModel = Autotsar.ATATuningMagUniverse_Ground,
+    }
+/* Trunks
+███─████─█─█─█──█─█──█─███
+─█──█──█─█─█─██─█─█─█──█──
+─█──████─█─█─█─██─██───███
+─█──█─█──█─█─█──█─█─█────█
+─█──█─█──███─█──█─█──█─███
+*/
+    model ATADodgeRoofRackWorld
+	{
+		mesh = WorldItems/ATA_Dodge_items|ds_roofrack,
+		texture = Vehicles/ATA_Dodge_items,
+		scale = 0.014,
+	}
+    
+	item ATADodgeRoofRackItem /* Craft */ 
+	{
+		DisplayCategory = Tuning,
+		Weight	=	10.0,
+        Type	=	Normal,
+        DisplayName	=	ATADodgeRoofRackItem,
+        Icon	=	ATADodgeRoofRackItem,
+		MaxCapacity = 35,
+        ConditionAffectsCapacity = false,
+		ConditionMax = 100,
+        MechanicsItem = TRUE,
+		Tooltip = Tooltip_item_tuning,
+		WorldStaticModel = Autotsar.ATADodgeRoofRackWorld,
+	}
+    recipe Make ATADodgeRoofRackItem
+	{
+	   MetalPipe=4,
+	   SheetMetal = 3,
+	   MetalBar=4,
+	   Screws=4,
+	   BlowTorch=22,
+	   keep WeldingMask,
+	   keep Screwdriver,
+	   Result:ATADodgeRoofRackItem,
+	   Time:650.0,
+	   Category:Tuning,
+	   SkillRequired:MetalWelding=5,
+	   OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	   NeedToBeLearn:true,
+	}
+	recipe Cut ATADodgeRoofRackItem
+	{
+	   ATADodgeRoofRackItem=1,
+	   BlowTorch=10,
+	   keep WeldingMask,
+	   keep Screwdriver,
+	   Result:SmallSheetMetal=6,
+	   Time:650.0,
+	   Category:Tuning,
+	   SkillRequired:MetalWelding=2,
+	   OnCreate:Recipe.OnCreate.CutATADodgeRoofRackItem,
+	   OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	   NeedToBeLearn:false,
+	}
+    
+    model ATADodgeWindowRackWorld
+	{
+		mesh = WorldItems/ATA_Dodge_items|ds_backroofrack,
+		texture = Vehicles/ATA_Dodge_items,
+		scale = 0.014,
+	}
+	
+	item ATADodgeWindowRackItem /* Craft */ 
+	{
+		DisplayCategory = Tuning,
+		Weight	=	10.0,
+        Type	=	Normal,
+        DisplayName	=	ATADodgeWindowRackItem,
+        Icon	=	ATADodgeWindowRackItem,
+		MaxCapacity = 30,
+        ConditionAffectsCapacity = false,
+		ConditionMax = 100,
+        MechanicsItem = TRUE,
+		Tooltip = Tooltip_item_tuning,
+		WorldStaticModel = Autotsar.ATADodgeWindowRackWorld,
+	}
+    recipe Make ATADodgeWindowRackItem
+	{
+	   MetalPipe=5,
+	   MetalBar=7,
+	   Screws=4,
+	   BlowTorch=22,
+	   keep WeldingMask,
+	   keep Screwdriver,
+	   Result:ATADodgeWindowRackItem,
+	   Time:650.0,
+	   Category:Tuning,
+	   SkillRequired:MetalWelding=4,
+	   OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	   NeedToBeLearn:true,
+	}
+	recipe Cut ATADodgeWindowRackItem
+	{
+	   ATADodgeWindowRackItem=1,
+	   BlowTorch=10,
+	   keep WeldingMask,
+	   keep Screwdriver,
+	   Result:MetalBar=3,
+	   Time:650.0,
+	   Category:Tuning,
+	   SkillRequired:MetalWelding=2,
+	   OnCreate:Recipe.OnCreate.CutATADodgeWindowRackItem,
+	   OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	   NeedToBeLearn:false,
+	}
+    
+/* Bullbars
+████──█─█─█───█───████──████─████─███
+█──██─█─█─█───█───█──██─█──█─█──█─█──
+████──█─█─█───█───████──████─████─███
+█──██─█─█─█───█───█──██─█──█─█─█────█
+████──███─███─███─████──█──█─█─█──███
+*/
+    model ATADodgeBullbar1World
+	{
+		mesh = WorldItems/ATA_Dodge_items|bumper1,
+		texture = Vehicles/ATA_Dodge_items,
+		scale = 0.014,
+	}
+	item ATADodgeBullbar1Item /* Vehicle */
+	{
+		DisplayCategory = Tuning,
+		Weight	=	10.0,
+        Type	=	Normal,
+        DisplayName	= ATADodgeBullbar1Item,
+        Icon	=	ATADodgeBullbar1Item,
+		ConditionMax = 100,
+		ChanceToSpawnDamaged = 25,
+        MechanicsItem = TRUE,
+		Tooltip = Tooltip_item_tuning,
+		WorldStaticModel = Autotsar.ATADodgeBullbar1World,
+	}
+    recipe Cut ATADodgeBullbar1Item
+    {
+		ATADodgeBullbar1Item=1,
+		BlowTorch=8,
+		keep WeldingMask,
+		Result:MetalPipe=4,
+		Time:350.0,
+		Category:Tuning,
+		SkillRequired:MetalWelding=2,
+		OnCreate:Recipe.OnCreate.CutATAUnusableMetal,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+		NeedToBeLearn:false,
+    }
+    
+	model ATADodgeBullbar2World
+	{
+		mesh = WorldItems/ATA_Dodge_items|bumper2,
+		texture = Vehicles/ATA_Dodge_items,
+		scale = 0.014,
+	}
+	item ATADodgeBullbar2Item /* Craft */
+	{
+		DisplayCategory = Tuning,
+		Weight	=	10.0,
+        Type	=	Normal,
+        DisplayName	= ATADodgeBullbar2Item,
+        Icon	=	ATADodgeBullbar2Item,
+		ConditionMax = 100,
+		ChanceToSpawnDamaged = 25,
+        MechanicsItem = TRUE,
+		Tooltip = Tooltip_item_tuning,
+        ataProtection = HeadlightLeft;HeadlightRight,
+		WorldStaticModel = Autotsar.ATADodgeBullbar2World,
+	}
+    recipe Make ATADodgeBullbar2Item
+    {
+       MetalPipe=4,
+	   MetalBar=4,
+       BlowTorch=16,
+       keep WeldingMask,
+       Result:ATADodgeBullbar2Item,
+       Time:650.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=4,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+    }
+	recipe Cut ATADodgeBullbar2Item
+    {
+       ATADodgeBullbar2Item=1,
+       BlowTorch=14,
+       keep WeldingMask,
+       Result:MetalPipe=2,
+       Time:350.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=2,
+	   OnCreate:Recipe.OnCreate.CutATADodgeBullbar2Item,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+       NeedToBeLearn:false,
+    }
+    
+	model ATADodgeBullbar3World
+	{
+		mesh = WorldItems/ATA_Dodge_items|bumper3,
+		texture = Vehicles/ATA_Dodge_items,
+		scale = 0.014,
+	}
+	item ATADodgeBullbar3Item /* Craft */
+	{
+		DisplayCategory = Tuning,
+		Weight	=	10.0,
+        Type	=	Normal,
+        DisplayName	= ATADodgeBullbar3Item,
+        Icon	=	ATADodgeBullbar3Item,
+		ConditionMax = 100,
+		ChanceToSpawnDamaged = 95,
+        MechanicsItem = TRUE,
+		Tooltip = Tooltip_item_tuning,
+		ataProtection = EngineDoor;HeadlightLeft;HeadlightRight,
+		WorldStaticModel = Autotsar.ATADodgeBullbar3World,
+	}
+    recipe Make ATADodgeBullbar3Item
+    {
+       MetalPipe=3,
+	   SheetMetal=5,
+	   MetalBar=6,
+	   Screws=8,
+       BlowTorch=28,
+       keep WeldingMask,
+       Result:ATADodgeBullbar3Item,
+       Time:650.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=7,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+    }
+	recipe Cut ATADodgeBullbar3Item
+    {
+       ATADodgeBullbar3Item=1,
+       BlowTorch=14,
+       keep WeldingMask,
+       Result:SheetMetal=3,
+       Time:350.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=2,
+	   OnCreate:Recipe.OnCreate.CutATADodgeBullbar3Item,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+       NeedToBeLearn:false,
+    }
+    
+/* Window protection
+█───█─███─█──█─████──████─█───█────████─████─████─███─███─████─███─███─████─█──█
+█───█──█──██─█─█──██─█──█─█───█────█──█─█──█─█──█──█──█───█──█──█───█──█──█─██─█
+█─█─█──█──█─██─█──██─█──█─█─█─█────████─████─█──█──█──███─█─────█───█──█──█─█─██
+█████──█──█──█─█──██─█──█─█████────█────█─█──█──█──█──█───█──█──█───█──█──█─█──█
+─█─█──███─█──█─████──████──█─█─────█────█─█──████──█──███─████──█──███─████─█──█
+*/
+	model ATADodgeProtectionWindowSideWorld
+	{
+		mesh = WorldItems/ATA_Dodge_items|ds_side_armor,
+		texture = Vehicles/ATA_Dodge_items,
+		scale = 0.014,
+	}
+
+	item ATADodgeProtectionWindowSideItem /* Craft */ 
+	{
+		DisplayCategory = Tuning,
+		Weight	=	10.0,
+        Type	=	Normal,
+        DisplayName	=	ATADodgeProtectionWindowSideItem,
+        Icon	=	ATAProtectionWindowItem,
+		ConditionMax = 100,
+        MechanicsItem = TRUE,
+		Tooltip = Tooltip_item_tuning,
+		WorldStaticModel = Autotsar.ATADodgeProtectionWindowSideWorld,
+	}
+    recipe Make ATADodgeProtectionWindowSideItem
+    {
+       MetalPipe = 6,
+	   SheetMetal = 3,
+	   MetalBar=7,
+	   Screws=4,
+       BlowTorch=32,
+       keep WeldingMask,
+       Result:ATADodgeProtectionWindowSideItem,
+       Time:350.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=5,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+       NeedToBeLearn:true,
+    }
+    recipe Cut ATADodgeProtectionWindowSideItem
+    {
+       ATADodgeProtectionWindowSideItem=1,
+       BlowTorch=14,
+       keep WeldingMask,
+       Result:MetalPipe=3,
+       Time:350.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=2,
+	   OnCreate:Recipe.OnCreate.CutATADodgeProtectionWindowSideItem,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+       NeedToBeLearn:false,
+    }
+	
+	model ATADodgeProtectionWindowFrontItemWorld
+	{
+		mesh = WorldItems/ATA_Dodge_items|ds_front_armor,
+		texture = Vehicles/ATA_Dodge_items,
+		scale = 0.014,
+	}
+	item ATADodgeProtectionWindowFrontItem /* Craft */ 
+	{
+		DisplayCategory = Tuning,
+		Weight	=	10.0,
+        Type	=	Normal,
+        DisplayName	=	ATADodgeProtectionWindowFrontItem,
+        Icon	=	ATAProtectionWindowFrontItem,
+		ConditionMax = 100,
+        MechanicsItem = TRUE,
+		Tooltip = Tooltip_item_tuning,
+		WorldStaticModel = Autotsar.ATADodgeProtectionWindowFrontItemWorld,
+	}
+    recipe Make ATADodgeProtectionWindowFrontItem
+    {
+	   MetalPipe=4,
+	   MetalBar=8,
+	   Screws=6,
+       BlowTorch=30,
+       keep WeldingMask,
+       Result:ATADodgeProtectionWindowFrontItem,
+       Time:350.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=4,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+       NeedToBeLearn:true,
+    }
+	recipe Cut ATADodgeProtectionWindowFrontItem
+    {
+       ATADodgeProtectionWindowFrontItem=1,
+       BlowTorch=14,
+       keep WeldingMask,
+       Result:MetalBar=4,
+       Time:350.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=2,
+	   OnCreate:Recipe.OnCreate.CutATADodgeProtectionWindowFrontItem,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+       NeedToBeLearn:false,
+    }
+}

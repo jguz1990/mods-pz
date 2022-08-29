@@ -1,0 +1,3 @@
+ItemName_CN = {
+	ItemName_AI_HELI.HeliMag = "直升机操作手册",
+}

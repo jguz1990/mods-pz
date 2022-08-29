@@ -1,0 +1,8 @@
+name=Instant Transfer
+description=<RGB:1,0,0>Allows you to move items around your inventory and the world instantly. Positive or negative traits do not affect the speed
+modversion=6
+id=instanttransfer
+authors=maceleet
+url=https://discord.com/invite/vP7GNgE
+icon=0.png
+poster=1.png

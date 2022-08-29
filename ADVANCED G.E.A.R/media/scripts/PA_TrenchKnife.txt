@@ -1,0 +1,293 @@
+module Base
+{
+/*"Knuckle Knife" (https://skfb.ly/6VZYn) by shuvalov.di is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).*/
+/*"Trench Knife/Combat Knife" (https://skfb.ly/o6p6x) by NekotTheBrave is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).*/
+/*"Combat Commander Trench Knife" (https://skfb.ly/6vGE9) by Jacob Miller is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).*/
+    item PA_TrenchKnife
+  {
+	    DisplayCategory = Weapon,
+		MaxRange	=	0.9,
+		WeaponSprite	=	PA_TrenchKnife,
+		MinAngle	=	0.65,
+		Type	=	Weapon,
+		MinimumSwingTime	=	2,
+		KnockBackOnNoDeath	=	FALSE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	SmallBlade,
+		ConditionLowerChanceOneIn	=	15,
+		Weight	=	0.5,
+		SplatNumber	=	4,
+		PushBackMod	=	0.3,
+		SubCategory	=	Stab,
+		AimingMod	=	0.8,
+		ConditionMax	=	10,
+		MaxHitCount	=	1,
+		IsAimedHandWeapon	=	TRUE,
+		DoorDamage	=	1,
+		SwingAnim	=	Stab,
+		DisplayName	=	Trench Knife,
+		MinRange	=	0.61,
+		CloseKillMove = Jaw_Stab,
+		SwingTime	=	2,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	PA_TrenchKnife,
+		RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+        TreeDamage  =   2,
+        EnduranceMod = 0.5,
+        BreakSound  =   HuntingKnifeBreak,
+        MetalValue = 30,
+        CriticalChance	=	50,
+        CritDmgMultiplier = 3,
+        MinDamage	=	0.6,
+        MaxDamage	=	1.2,
+	 	WeaponLength = 0.25,
+        DamageCategory = Slash,
+        DamageMakeHole = TRUE,
+        HitFloorSound	=	HuntingKnifeHit,
+        ImpactSound	=	HuntingKnifeHit,
+        DoorHitSound = HuntingKnifeHit,
+		HitSound	=	HuntingKnifeHit,
+		SwingSound = HuntingKnifeSwing,
+		AttachmentType = Knife,
+        Tags = CutPlant;SharpKnife,
+    }
+  item PA_TrenchKnifeB
+  {
+	    DisplayCategory = Weapon,
+		MaxRange	=	0.9,
+		WeaponSprite	=	PA_TrenchKnifeB,
+		MinAngle	=	0.65,
+		Type	=	Weapon,
+		MinimumSwingTime	=	2,
+		KnockBackOnNoDeath	=	FALSE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	SmallBlade,
+		ConditionLowerChanceOneIn	=	15,
+		Weight	=	0.5,
+		SplatNumber	=	4,
+		PushBackMod	=	0.3,
+		SubCategory	=	Stab,
+		AimingMod	=	0.8,
+		ConditionMax	=	10,
+		MaxHitCount	=	1,
+		IsAimedHandWeapon	=	TRUE,
+		DoorDamage	=	1,
+		SwingAnim	=	Stab,
+		DisplayName	=	Trench Knife,
+		MinRange	=	0.61,
+		CloseKillMove = Jaw_Stab,
+		SwingTime	=	2,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	PA_TrenchKnifeB,
+		RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+        TreeDamage  =   2,
+        EnduranceMod = 0.5,
+        BreakSound  =   HuntingKnifeBreak,
+        MetalValue = 30,
+        CriticalChance	=	50,
+        CritDmgMultiplier = 3,
+        MinDamage	=	0.6,
+        MaxDamage	=	1.2,
+	 	WeaponLength = 0.25,
+        DamageCategory = Slash,
+        DamageMakeHole = TRUE,
+        HitFloorSound	=	HuntingKnifeHit,
+        ImpactSound	=	HuntingKnifeHit,
+        DoorHitSound = HuntingKnifeHit,
+		HitSound	=	HuntingKnifeHit,
+		SwingSound = HuntingKnifeSwing,
+		AttachmentType = Knife,
+        Tags = CutPlant;SharpKnife,
+    }	
+  item PA_TrenchKnifeC
+  {
+	    DisplayCategory = Weapon,
+		MaxRange	=	0.9,
+		WeaponSprite	=	PA_TrenchKnifeC,
+		MinAngle	=	0.65,
+		Type	=	Weapon,
+		MinimumSwingTime	=	2,
+		KnockBackOnNoDeath	=	FALSE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	SmallBlade,
+		ConditionLowerChanceOneIn	=	15,
+		Weight	=	0.5,
+		SplatNumber	=	4,
+		PushBackMod	=	0.3,
+		SubCategory	=	Stab,
+		AimingMod	=	0.8,
+		ConditionMax	=	10,
+		MaxHitCount	=	1,
+		IsAimedHandWeapon	=	TRUE,
+		DoorDamage	=	1,
+		SwingAnim	=	Stab,
+		DisplayName	=	Trench Knife,
+		MinRange	=	0.61,
+		CloseKillMove = Jaw_Stab,
+		SwingTime	=	2,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	PA_TrenchKnifeC,
+		RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+        TreeDamage  =   2,
+        EnduranceMod = 0.5,
+        BreakSound  =   HuntingKnifeBreak,
+        MetalValue = 30,
+        CriticalChance	=	50,
+        CritDmgMultiplier = 3,
+        MinDamage	=	0.6,
+        MaxDamage	=	1.2,
+	 	WeaponLength = 0.25,
+        DamageCategory = Slash,
+        DamageMakeHole = TRUE,
+        HitFloorSound	=	HuntingKnifeHit,
+        ImpactSound	=	HuntingKnifeHit,
+        DoorHitSound = HuntingKnifeHit,
+		HitSound	=	HuntingKnifeHit,
+		SwingSound = HuntingKnifeSwing,
+		AttachmentType = Knife,
+        Tags = CutPlant;SharpKnife,
+    }	
+	recipe Stab
+	{
+		PA_TrenchKnife2,
+		Result 		: PA_TrenchKnife,
+		Time 		: 0,
+		OnCreate 		:  PA_TrenchSwap,
+		OnTest: PA_IsHeld,
+		IsHidden: true,
+	}
+	recipe Bash
+	{
+		PA_TrenchKnife,
+		Result 		: PA_TrenchKnife2,
+		Time 		: 0,
+		OnCreate 		: PA_TrenchSwap,
+		OnTest: PA_IsHeld,
+		IsHidden: true,
+	}
+
+	recipe Stab
+	{
+		PA_TrenchKnifeB2,
+		Result 		: PA_TrenchKnifeB,
+		Time 		: 0,
+		OnCreate 		:  PA_TrenchSwap,
+		OnTest: PA_IsHeld,
+		IsHidden: true,
+	}
+	recipe Bash
+	{
+		PA_TrenchKnifeB,
+		Result 		: PA_TrenchKnifeB2,
+		Time 		: 0,
+		OnCreate 		: PA_TrenchSwap,
+		OnTest: PA_IsHeld,
+		IsHidden: true,
+	}
+	recipe Stab
+	{
+		PA_TrenchKnifeC2,
+		Result 		: PA_TrenchKnifeC,
+		Time 		: 0,
+		OnCreate 		:  PA_TrenchSwap,
+		OnTest: PA_IsHeld,
+		IsHidden: true,
+	}
+	recipe Bash
+	{
+		PA_TrenchKnifeC,
+		Result 		: PA_TrenchKnifeC2,
+		Time 		: 0,
+		OnCreate 		: PA_TrenchSwap,
+		OnTest: PA_IsHeld,
+		IsHidden: true,
+	}
+
+   fixing Fix Trench Knife
+    {
+       Require : PA_TrenchKnife;PA_TrenchKnife2;PA_TrenchKnifeB;PA_TrenchKnifeB2;PA_TrenchKnifeC;PA_TrenchKnifeC2,
+
+       Fixer : DuctTape,
+       Fixer : Glue,
+       Fixer : Scotchtape=2,
+    }
+   /*fixing Fix Trench Knife 2
+    {
+       Require : PA_TrenchKnife2,
+
+       Fixer : DuctTape,
+       Fixer : Glue,
+       Fixer : Scotchtape=2,
+    }
+
+   fixing Fix Trench Knife 3
+    {
+       Require : PA_TrenchKnifeB,
+
+       Fixer : DuctTape,
+       Fixer : Glue,
+       Fixer : Scotchtape=2,
+    }
+   fixing Fix Trench Knife 4
+    {
+       Require : PA_TrenchKnifeB2,
+
+       Fixer : DuctTape,
+       Fixer : Glue,
+       Fixer : Scotchtape=2,
+    }
+   fixing Fix Trench Knife 5
+    {
+       Require : PA_TrenchKnifeC,
+
+       Fixer : DuctTape,
+       Fixer : Glue,
+       Fixer : Scotchtape=2,
+    }
+   fixing Fix Trench Knife 6
+    {
+       Require : PA_TrenchKnifeC2,
+
+       Fixer : DuctTape,
+       Fixer : Glue,
+       Fixer : Scotchtape=2,
+    }*/
+	model PA_TrenchKnife
+	{
+		mesh = Weapons/1Handed/PA_TrenchKnife,
+		scale = 0.01,
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model PA_TrenchKnifeB
+	{
+		mesh = Weapons/1Handed/PA_TrenchKnifeB,
+		scale = 0.01,
+		attachment world
+		{
+			offset = 0.0000 0.1400 0.0000,
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model PA_TrenchKnifeC
+	{
+		mesh = Weapons/1Handed/PA_TrenchKnifeC,
+		scale = 0.01,
+		attachment world
+		{
+			offset = 0.0000 0.1400 0.0000,
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 90.0000 0.0000,
+		}
+	}
+}

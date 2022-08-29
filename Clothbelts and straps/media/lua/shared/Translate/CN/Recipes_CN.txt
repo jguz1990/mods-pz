@@ -1,0 +1,7 @@
+Recipe_CN = {
+    Recipe_Craft_Clothbelt = "制作 布条腰带",
+    Recipe_Craft_Clothstraps = "制作 布条背带",  
+    Recipe_Pack_RippedSheetsPack ="打包 布条",
+    Recipe_Unpack_RippedSheetsPack ="解开 布条卷",
+}
+

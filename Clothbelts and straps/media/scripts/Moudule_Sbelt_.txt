@@ -1,0 +1,167 @@
+module Base
+{
+	item S_Belt1
+    {
+        DisplayCategory = Accessory,
+        Weight	=	0.2,
+        Type	=	Clothing,
+        DisplayName	=	Clothbelt Class A,
+        Icon	=	S_Belt,
+        BodyLocation = Belt_b,
+        ClothingItem = Belt,
+        AttachmentsProvided = S_Belta,
+        WorldStaticModel = Belt_Ground,
+    }
+	item S_Belt2
+    {
+        DisplayCategory = Accessory,
+        Weight	=	0.2,
+        Type	=	Clothing,
+        DisplayName	=	Clothbelt Class B,
+        Icon	=	S_Belt,
+        BodyLocation = Belt_b,
+        ClothingItem = Belt,
+        AttachmentsProvided = S_Belta;S_Beltb,
+        WorldStaticModel = Belt_Ground,
+    }
+	item S_Belt3
+    {
+        DisplayCategory = Accessory,
+        Weight	=	0.2,
+        Type	=	Clothing,
+        DisplayName	=	Clothstraps Class A,
+        Icon	=	Clothstraps,
+        BodyLocation = Belt_a,
+        ClothingItem = Belt,
+        AttachmentsProvided = S_Beltc,
+        WorldStaticModel = Belt_Ground,
+    }
+	item S_Belt4
+    {
+        DisplayCategory = Accessory,
+        Weight	=	0.2,
+        Type	=	Clothing,
+        DisplayName	=	Clothbelt Class C,
+        Icon	=	S_Belt,
+        BodyLocation = Belt_b,
+        ClothingItem = Belt,
+        AttachmentsProvided = S_Belta;S_Beltb;S_Beltd,
+        WorldStaticModel = Belt_Ground,
+    }
+	item S_Belt5
+    {
+        DisplayCategory = Accessory,
+        Weight	=	0.2,
+        Type	=	Clothing,
+        DisplayName	=	Clothbelt Class D,
+        Icon	=	S_Belt,
+        BodyLocation = Belt_b,
+        ClothingItem = Belt,
+        AttachmentsProvided = S_Belta;S_Beltb;S_Beltd;S_Belte,
+        WorldStaticModel = Belt_Ground,
+    }
+	item S_Belt6
+    {
+        DisplayCategory = Accessory,
+        Weight	=	0.2,
+        Type	=	Clothing,
+        DisplayName	=	Clothstraps Class B,
+        Icon	=	Clothstraps,
+        BodyLocation = Belt_a,
+        ClothingItem = Belt,
+        AttachmentsProvided = S_Beltc;S_Beltf,
+        WorldStaticModel = Belt_Ground,
+    }
+	item S_Belt7
+    {
+        DisplayCategory = Accessory,
+        Weight	=	0.2,
+        Type	=	Clothing,
+        DisplayName	=	Clothbelt Class E,
+        Icon	=	S_Belt,
+        BodyLocation = Belt_b,
+        ClothingItem = Belt,
+        AttachmentsProvided = S_Belta;S_Beltb;S_Beltd;S_Belte;S_Beltg,
+        WorldStaticModel = Belt_Ground,
+    }
+	item S_Belt8
+    {
+        DisplayCategory = Accessory,
+        Weight	=	0.2,
+        Type	=	Clothing,
+        DisplayName	=	Clothbelt Class F,
+        Icon	=	S_Belt,
+        BodyLocation = Belt_b,
+        ClothingItem = Belt,
+        AttachmentsProvided = S_Belta;S_Beltb;S_Beltd;S_Belte;S_Beltg;S_Belth,
+        WorldStaticModel = Belt_Ground,
+    }
+	item S_Belt9
+    {
+        DisplayCategory = Accessory,
+        Weight	=	0.2,
+        Type	=	Clothing,
+        DisplayName	=	Clothstraps Class C,
+        Icon	=	Clothstraps,
+        BodyLocation = Belt_a,
+        ClothingItem = Belt,
+        AttachmentsProvided = S_Beltc;S_Beltf;S_Belti,
+        WorldStaticModel = Belt_Ground,
+    }
+
+    recipe Craft Clothbelt
+	{
+		RippedSheets=15,
+		DenimStrips=4,
+        keep Needle,
+        Thread,
+		Result 		: S_Belt8,
+		Time 		: 80,
+		Category 		: tailor,
+		CanBeDoneFromFloor 		: TRUE,
+        RemoveResultItem 		: TRUE,
+        OnCreate 		: Recipe.OnCreate.CraftClothbelt,
+        Tooltip : Tooltip_Craft_Clothbelt,
+	}
+
+    recipe Craft Clothstraps
+	{
+		RippedSheets=10,
+		DenimStrips=3,
+        Thread,
+        Wire,
+		Result 		: S_Belt9,
+		Time 		: 80,
+		Category 		: tailor,
+		CanBeDoneFromFloor 		: TRUE,
+        RemoveResultItem 		: TRUE,
+        OnCreate 		: Recipe.OnCreate.CraftClothstraps,
+        Tooltip : Tooltip_Craft_Clothbelt,
+	}
+
+    item RippedSheetsPack
+	{
+		Icon 		= RippedSheetsPack,
+		Weight 		= 1,
+		Type 		= Normal,
+		DisplayName 		= RippedSheetsPack,
+	}
+
+    recipe Pack RippedSheetsPack
+	{
+		RippedSheets=40,
+		Result 		: RippedSheetsPack,
+		Time 		: 40,
+		Category 		: tailor,
+		CanBeDoneFromFloor 		: TRUE,
+	}
+    recipe Unpack RippedSheetsPack
+	{
+		RippedSheetsPack,
+		Result 		: RippedSheets=40,
+		Time 		: 40,
+		Category 		: tailor,
+		CanBeDoneFromFloor 		: TRUE,
+	}
+    
+}

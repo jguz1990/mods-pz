@@ -1,0 +1,537 @@
+module Base
+{
+    model Vehicle_ATA_Luton
+    {
+        mesh = vehicles/ATA_Luton_body|body,
+        shader = vehicle_norandom_multiuv,
+        invertX = FALSE,
+        scale = 0.035,
+    }
+    model ATA_Luton_Wheel_R
+    {
+        mesh = vehicles/ATA_Luton_wheel,
+        texture = Vehicles/ATA_Luton_wheel,
+        shader = vehiclewheel,
+        invertX = TRUE,
+        scale = 0.035,
+    }
+    model ATA_Luton_Wheel_L
+    {
+        mesh = vehicles/ATA_Luton_wheel,
+        texture = Vehicles/ATA_Luton_wheel,
+        shader = vehiclewheel,
+        invertX = FALSE,
+        scale = 0.035,
+    }
+    vehicle ATA_Luton
+    {
+        
+        part TCLConfig
+        {
+            category = nodisplay,
+            table TCLConfig
+            {
+                disableOpenWindowParts
+                {
+                    FrontLeft = ATAProtectionWindowFrontLeft,
+                    FrontRight = ATAProtectionWindowFrontRight,
+                }
+            }
+        }
+        
+        mechanicType = 2,
+        engineRepairLevel = 5,
+        playerDamageProtection = 1.1,
+        engineRPMType = van,
+
+        model
+        {
+            file = Vehicle_ATA_Luton,
+            scale = 1.5000,
+            offset = 0.0000 0.0400 0.1267,
+        }
+
+        skin
+        {
+            texture = Vehicles/ATA_Luton_base,
+        }
+
+        textureMask = Vehicles/ATA_Luton_mask,
+        textureLights = Vehicles/ATA_Luton_lights,
+        textureDamage1Overlay = Vehicles/ATA_Luton_blood,
+        textureDamage2Overlay = Vehicles/ATA_Luton_blood,
+        textureDamage1Shell = Vehicles/ATA_Luton_damage1,
+        textureDamage2Shell = Vehicles/ATA_Luton_damage2,
+        textureRust = Vehicles/ATA_Luton_rust,
+
+        sound
+        {
+            backSignal = VehicleBackUpBeeper,
+            engine = VehicleEngineVan,
+            engineStart = VehicleEngineVan,
+            engineTurnOff = VehicleEngineVan,
+            horn = VehicleHornVan,
+            ignitionFail = VehicleIgnitionFailVan,
+        }
+
+        extents = 1.3600 1.6667 4.2133,
+        mass = 816,
+        physicsChassisShape = 1.3600 1.6667 4.2133,
+        centerOfMassOffset = 0.0000 0.7800 0.1333,
+        shadowExtents = 1.4867 4.5467,
+        shadowOffset = 0.0000 0.1200,
+        engineForce = 4500,
+        engineQuality = 70,
+        engineLoudness = 100,
+        maxSpeed = 65f,
+        brakingForce = 70,
+        stoppingMovementForce = 5.0f,
+        rollInfluence = 0.7f,
+        steeringIncrement = 0.03,
+        steeringClamp = 0.3,
+        suspensionStiffness = 50,
+        suspensionCompression = 1.83,
+        suspensionDamping = 2.88,
+        maxSuspensionTravelCm = 10,
+        suspensionRestLength = 0.4,
+        wheelFriction = 1.4f,
+        frontEndHealth = 150,
+        rearEndHealth = 150,
+        seats = 4,
+        isSmallVehicle = false,
+
+        wheel FrontLeft
+        {
+            front = true,
+            offset = 0.5467 -0.0400 1.5600,
+            radius = 0.2f,
+            width = 0.2f,
+        }
+
+        wheel FrontRight
+        {
+            front = true,
+            offset = -0.5467 -0.0400 1.5600,
+            radius = 0.2f,
+            width = 0.2f,
+        }
+
+        wheel RearLeft
+        {
+            front = false,
+            offset = 0.5733 -0.0400 -0.8933,
+            radius = 0.2f,
+            width = 0.2f,
+        }
+
+        wheel RearRight
+        {
+            front = false,
+            offset = -0.5733 -0.0400 -0.8933,
+            radius = 0.2f,
+            width = 0.2f,
+        }
+
+        template = PassengerSeat4,
+
+        passenger FrontLeft
+        {
+            position inside
+            {
+                offset = 0.2800 0.4667 1.0333,
+                rotate = 0.0000 0.0000 0.0000,
+            }
+
+            position outside
+            {
+                offset = 0.8733 -0.2533 1.0333,
+                rotate = 0.0000 0.0000 0.0000,
+                area = SeatFrontLeft,
+            }
+
+            switchSeat RearLeft
+            {
+            }
+
+            switchSeat RearRight
+            {
+            }
+        }
+
+        passenger FrontRight
+        {
+            position inside
+            {
+                offset = -0.2800 0.4667 1.0333,
+                rotate = 0.0000 0.0000 0.0000,
+            }
+
+            position outside
+            {
+                offset = -0.8667 -0.2533 1.0333,
+                rotate = 0.0000 0.0000 0.0000,
+                area = SeatFrontRight,
+            }
+
+            switchSeat RearLeft
+            {
+            }
+
+            switchSeat RearRight
+            {
+            }
+        }
+
+        passenger RearLeft
+        {
+            door = DoorRear,
+            door2 = DoorRear,
+            position inside
+            {
+                offset = 0.0000 0.4667 -0.1267,
+                rotate = 0.0000 0.0000 0.0000,
+            }
+
+            position outside
+            {
+                offset = 0.0000 -0.2533 -2.3267,
+                rotate = 0.0000 0.0000 0.0000,
+                area = TruckBed,
+            }
+
+            switchSeat FrontLeft
+            {
+            }
+
+            switchSeat FrontRight
+            {
+            }
+        }
+
+        passenger RearRight
+        {
+            door = DoorRear,
+            door2 = DoorRear,
+            position inside
+            {
+                offset = 0.0000 0.4667 -1.4600,
+                rotate = 0.0000 0.0000 0.0000,
+            }
+
+            position outside
+            {
+                offset = 0.0000 -0.2533 -2.3267,
+                rotate = 0.0000 0.0000 0.0000,
+                area = TruckBed,
+            }
+
+            switchSeat FrontLeft
+            {
+            }
+
+            switchSeat FrontRight
+            {
+            }
+        }
+
+        area Engine
+        {
+            xywh = 0.0000 2.3467 1.1867 0.5067,
+        }
+
+        area TruckBed
+        {
+            xywh = 0.0000 -2.3067 1.3333 0.6533,
+        }
+
+        area SeatFrontLeft
+        {
+            xywh = 0.9333 1.1867 0.5067 0.5067,
+        }
+
+        area SeatFrontRight
+        {
+            xywh = -0.9333 1.1867 0.5067 0.5067,
+        }
+
+        area GasTank
+        {
+            xywh = 0.9333 0.5933 0.5067 0.5067,
+        }
+
+        area TireFrontLeft
+        {
+            xywh = 0.9333 1.6867 0.5067 0.5067,
+        }
+
+        area TireFrontRight
+        {
+            xywh = -0.9333 1.6867 0.5067 0.5067,
+        }
+
+        area TireRearLeft
+        {
+            xywh = 0.9333 -0.7667 0.5067 0.5067,
+        }
+
+        area TireRearRight
+        {
+            xywh = -0.9333 -0.7667 0.5067 0.5067,
+        }
+
+        template = Seat/part/SeatFrontLeft,
+        template = Seat/part/SeatFrontRight,
+
+        part Seat*
+        {
+            table install
+            {
+                skills = Mechanics:2,
+                recipes = Intermediate Mechanics,
+            }
+
+            table uninstall
+            {
+                skills = Mechanics:2,
+                recipes = Intermediate Mechanics,
+            }
+        }
+
+        template = Seat/part/SeatRearLeft,
+        template = Seat/part/SeatRearRight,
+
+        part SeatRear*
+        {
+            category = nodisplay,
+
+            container
+            {
+                test = ATATuning.ContainerAccess.BlockSeat,
+            }
+        }
+
+        template = GloveBox,
+        template = GasTank,
+
+        part GasTank
+        {
+            install
+            {
+                skills = Mechanics:7,
+                recipes = Intermediate Mechanics,
+            }
+
+            uninstall
+            {
+                skills = Mechanics:7,
+                recipes = Intermediate Mechanics,
+            }
+        }
+
+        template = Battery,
+        template = Engine,
+        template = Muffler,
+
+        part Muffler
+        {
+            table install
+            {
+                recipes = Intermediate Mechanics,
+            }
+
+            table uninstall
+            {
+                recipes = Intermediate Mechanics,
+            }
+        }
+
+        part Heater
+        {
+            category = engine,
+
+            lua
+            {
+                update = Vehicles.Update.Heater,
+            }
+        }
+
+        part PassengerCompartment
+        {
+            category = nodisplay,
+
+            lua
+            {
+                update = Vehicles.Update.PassengerCompartment,
+            }
+        }
+
+        template = Door/part/DoorFrontLeft,
+        template = Door/part/DoorFrontRight,
+        template = Door/part/DoorRear,
+
+        part Door*
+        {
+            anim Open
+            {
+                sound = VehicleDoorOpenVan,
+            }
+
+            anim Close
+            {
+                sound = VehicleDoorCloseVan,
+            }
+
+            anim Lock
+            {
+                sound = LockVehicleDoorVan,
+            }
+
+            anim Unlock
+            {
+                sound = UnlockVehicleDoorVan,
+            }
+
+            anim IsLocked
+            {
+                sound = VehicleDoorIsLockedVan,
+            }
+
+            table install
+            {
+                recipes = Intermediate Mechanics,
+            }
+
+            table uninstall
+            {
+                recipes = Intermediate Mechanics,
+            }
+        }
+
+        part DoorRear
+        {
+            anim Open
+            {
+                sound = VehicleTrunkOpenVan,
+            }
+
+            anim Close
+            {
+                sound = VehicleTrunkCloseVan,
+            }
+
+            table uninstall
+            {
+                requireUninstalled = WindshieldRear,
+                skills = Mechanics:6,
+            }
+
+            hasLightsRear = false,
+            lua
+            {
+                create = Vehicles.Create.TrunkDoor,
+                init = Vehicles.Init.Door,
+                update = Vehicles.Update.TrunkDoor,
+                use = Vehicles.Use.Door,
+            }
+        }
+
+        template! = ATA_Luton_Template_Protection,
+        template! = ATA_Luton_Template_RoofRack,
+        template = Tire,
+
+        part TireFrontLeft
+        {
+            model InflatedTirePlusWheel
+            {
+                file = ATA_Luton_Wheel_L,
+            }
+        }
+
+        part TireFrontRight
+        {
+            model InflatedTirePlusWheel
+            {
+                file = ATA_Luton_Wheel_R,
+            }
+        }
+
+        part TireRearLeft
+        {
+            model InflatedTirePlusWheel
+            {
+                file = ATA_Luton_Wheel_L,
+            }
+        }
+
+        part TireRearRight
+        {
+            model InflatedTirePlusWheel
+            {
+                file = ATA_Luton_Wheel_R,
+            }
+        }
+
+        template = Brake,
+
+        part Brake*
+        {
+            table install
+            {
+                skills = Mechanics:6,
+                recipes = Intermediate Mechanics,
+            }
+
+            table uninstall
+            {
+                skills = Mechanics:6,
+                recipes = Intermediate Mechanics,
+            }
+        }
+
+        template = Suspension,
+
+        part Suspension*
+        {
+            table install
+            {
+                skills = Mechanics:6,
+                recipes = Intermediate Mechanics,
+            }
+
+            table uninstall
+            {
+                skills = Mechanics:6,
+                recipes = Intermediate Mechanics,
+            }
+        }
+
+        template = Radio,
+        template = Headlight,
+        template = Freeplace/part/Freeplace1RearLeft,
+        template = Freeplace/part/Freeplace2RearLeft,
+        template = Freeplace/part/Freeplace3RearLeft,
+        template = Freeplace/part/Freeplace1RearRight,
+        template = Freeplace/part/Freeplace2RearRight,
+        template = Freeplace/part/Freeplace3RearRight,
+        part Freeplace*
+        {
+            area = TruckBed,
+        }
+        template = Freeplace/part/FreestorageRearLeft,
+        template = Freeplace/part/FreestorageRearRight,
+
+        attachment trailer
+        {
+            offset = 0.0000 0.1533 -2.1733,
+            rotate = 0.0000 0.0000 0.0000,
+            zoffset = -1.0000,
+        }
+
+        attachment trailerfront
+        {
+            offset = 0.0000 -0.0133 2.1667,
+            rotate = 0.0000 0.0000 0.0000,
+            zoffset = 1.0000,
+        }
+    }
+}

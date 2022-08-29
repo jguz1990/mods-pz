@@ -1,0 +1,4 @@
+Tooltip_EN = {
+	Tooltip_item_HeliMag = "Fly can everybody!", 
+	Tooltip_I_dont_know = "I don't know how to fly a helicopter"
+}

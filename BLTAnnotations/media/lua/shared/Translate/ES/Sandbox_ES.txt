@@ -1,0 +1,6 @@
+Sandbox_ES = {
+  Sandbox_BLTAnnotations = "Compartir Anotaciones",
+
+  Sandbox_BLTAnnotations_DropMapOnDeath = "Dejar caer el mapa cuando el jugador muere",
+  Sandbox_BLTAnnotations_DropMapOnDeath_tooltip = "Si se activa, los cadáveres de los jugadores incluirán un mapa completamente anotado que contiene todos los símbolos de su mapa principal.",
+}

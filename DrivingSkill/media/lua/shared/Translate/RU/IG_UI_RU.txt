@@ -1,0 +1,8 @@
+IGUI_RU = {
+	
+	-- DrivingSkills
+	
+    IGUI_perks_Driving = "Вождение",
+	IGUI_perks_Miscellaneous = "Навыки",
+	
+}

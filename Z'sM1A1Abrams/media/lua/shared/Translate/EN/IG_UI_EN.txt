@@ -1,0 +1,17 @@
+IG_UI_EN = {
+    IGUI_VehicleNamem1a1 = "M1A1 Abrams",
+	
+	IGUI_VehiclePartSidePanel = "Engine Access Panel",
+	IGUI_VehiclePartAmmoStor = "Ammo Storage",
+	IGUI_VehiclePartGunBreech = "Gun Breech",
+	IGUI_VehiclePartMilRadio = "Tank Radio",
+	IGUI_VehiclePartSeatTankDriver = "Driver Seat",
+	IGUI_VehiclePartSeatGunner = "Gunner Seat",
+	IGUI_VehiclePartSeatCommander = "Commander Seat",
+	IGUI_VehiclePartSeatLoader = "Loader Seat",
+	
+	IGUI_SeatTankDriver = "Driver",
+	IGUI_SeatGunner = "Gunner",
+	IGUI_SeatCommander = "Commander",
+	IGUI_SeatLoader = "Loader",
+}

@@ -1,0 +1,89 @@
+module Base
+{
+		imports
+		{
+			Base
+		}
+		
+		item ATPistolTurret
+	{
+		Weight 		= 10.0,
+		Type 		= Moveable,
+		DisplayCategory = Turret,
+		WorldObjectSprite 		= angryturrets_pack_0,
+		DisplayName 		= Angry Pistol Turret,
+		Icon 		= ATPistolTurret,
+	}
+		item ATShotgunTurret
+	{
+		Weight 		= 10.0,
+		Type 		= Moveable,
+		DisplayCategory = Turret,
+		WorldObjectSprite 		= angryturrets_pack_4,
+		DisplayName 		= Angry Shotgun Turret,
+		Icon 		= ATShotgunTurret,
+	}
+		item ATSniperTurret
+	{
+		Weight 		= 10.0,
+		Type 		= Moveable,
+		DisplayCategory = Turret,
+		WorldObjectSprite 		= angryturrets_pack_8,
+		DisplayName 		= Angry Sniper Turret,
+		Icon 		= ATSniperTurret,
+	}
+
+		recipe Make Angry Pistol Turret
+    {
+       ElectronicsScrap=3,
+       ScrapMetal=3,
+       MotionSensor,
+       Pistol/Pistol2/Pistol3/Revolver/Revolver_Short/Revolver_Long/G17/G18/G21/G34/G42/M9/M9A3/B93R/Taurus856/Colt_Service38/Colt_Service45/Colt_Navy_1851/M1936,
+       keep Wrench/PipeWrench,
+
+       Result:ATPistolTurret,
+       Time:500.0,
+       NeedToBeLearn:true,
+       Category:Engineer,
+    }
+		recipe Make Angry Shotgun Turret
+    {
+       ElectronicsScrap=3,
+       ScrapMetal=3,
+       MotionSensor,
+       Shotgun/ShotgunSawnoff/DoubleBarrelShotgun/DoubleBarrelShotgunSawnoff/Shorty/M1897/Ithaca_M37/DT11/DT11_Sawed/Coachgun/Coachgun_Sawed/Triple_Crown/Origin/SPAS_15/USAS_12/Saiga12/Saiga12_Long/AA12/CAWS,
+       keep Wrench/PipeWrench,
+
+       Result:ATShotgunTurret,
+       Time:500.0,
+       NeedToBeLearn:true,
+       Category:Engineer,
+    }
+		recipe Make Angry Sniper Turret
+    {
+       ElectronicsScrap=3,
+       ScrapMetal=3,
+       MotionSensor,
+       VarmintRifle/HuntingRifle/AssaultRifle/AssaultRifle2/CAR15_Survival/M635/M14/M14EBR/M16A1/M16A2/M16A3/ColtM16/Sako85/Savage12/L96/SKS,
+       keep Wrench/PipeWrench,
+
+       Result:ATSniperTurret,
+       Time:500.0,
+       NeedToBeLearn:true,
+       Category:Engineer,
+    }
+    
+        item ATAngryMagazine
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Angry Turrets for dummies,
+        Icon	=	ATAngryMagazine,
+        TeachedRecipes  =   Make Angry Pistol Turret;Make Angry Shotgun Turret;Make Angry Sniper Turret,
+        ReplaceOnUse    =   ATAngryMagazine,
+        StaticModel = Magazine,
+        WorldStaticModel = MagazineEngi1Ground,
+    }
+
+}

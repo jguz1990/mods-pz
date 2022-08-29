@@ -1,0 +1,33 @@
+IG_UI_EN = {
+  IGUI_BLTJanuary = "January",
+  IGUI_BLTFebruary = "February",
+  IGUI_BLTMarch = "March",
+  IGUI_BLTApril = "April",
+  IGUI_BLTMay = "May",
+  IGUI_BLTJune = "June",
+  IGUI_BLTJuly = "July",
+  IGUI_BLTAugust = "August",
+  IGUI_BLTSeptember = "September",
+  IGUI_BLTOctober = "October",
+  IGUI_BLTNovember = "November",
+  IGUI_BLTDecember = "December",
+  IGUI_BLTRemember_Annotations = "Remember annotations",
+  IGUI_BLTNothing_New = "There is nothing new for me to learn here",
+  IGUI_BLTCould_Not_Create = "I couldn't create these notes",
+  IGUI_BLTUnknown_Location = "Unknown location",
+
+  IGUI_BLTLearned = "I learned %d new places from these notes",
+  IGUI_BLTAlready_Knew = "I already knew %d places from these notes",
+
+  -- 1=PrettyMonth 2=DayOfMonth 3=DaySuffix(ENOnly) 4=Year(YYYY)
+  IGUI_BLTDate = "%1 %2%3 %4",
+
+  -- 1=Hour 2=Minutes
+  IGUI_BLTHourMinutes = "%1:%2",
+
+  -- 1=Location 2=IGUI_BLTDate 3=IGUI_BLTHourMinutes
+  IGUI_BLTBy_Anonymous = "By anonymous in %1, read on %2 at %3",
+
+  -- 1=Forename 2=Surname 3=IGUI_BLTDate 4=IGUI_BLTHourMinutes
+  IGUI_BLTBy = "By %1 %2, %3 at %4",
+}

@@ -1,0 +1,304 @@
+module Autotsar
+{
+    imports
+    {
+        Base
+    }
+    model ATALutonBumper1World
+    {
+        mesh = WorldItems/ATA_Bumper1,
+        texture = Vehicles/ATA_Luton_items,
+        scale = 0.04,
+    }
+    
+    item ATALutonTuningMag /* Спавн */ 
+    {
+        Weight    =    0.1,
+        Type    =    Literature,
+        DisplayName    =    Autotsar Tuning Universe,
+        Icon    =    ATATuningMagUniverseIcon,
+        TeachedRecipes  =   Basic Tuning;Make ATALutonProtectionSideFrontItem;Make ATALutonProtectionHoodItem;Make ATALutonProtectionWindowFrontSideItem;Make ATALutonProtectionWindowFrontItem;Make ATALutonInteractiveTrunkRoofRackItem;Make ATALutonLadderItem,
+        ReplaceOnUse    =   ATALutonTuningMag,
+        Tooltip = Tooltip_item_ATATuningMagLuton,
+        StaticModel = Autotsar.ATATuningMagUniverse_Reading,
+        WorldStaticModel = Autotsar.ATATuningMagUniverse_Ground,
+    }
+    
+    /* Protection
+████─████─████─███─███─████─███─███─████─█──█
+█──█─█──█─█──█──█──█───█──█──█───█──█──█─██─█
+████─████─█──█──█──███─█─────█───█──█──█─█─██
+█────█─█──█──█──█──█───█──█──█───█──█──█─█──█
+█────█─█──████──█──███─████──█──███─████─█──█
+*/
+    model ATALutonItemWorldPipe
+    {
+        mesh = WorldItems/ATA_Luton_world|pipes,
+        texture = Vehicles/ATA_Luton_items,
+        scale = 0.025,
+    }
+    model ATALutonItemWorldPipeSq
+    {
+        mesh = WorldItems/ATA_Luton_world|pipes_sq,
+        texture = Vehicles/ATA_Luton_items,
+        scale = 0.025,
+    }
+    model ATALutonItemWorldSheetSq
+    {
+        mesh = WorldItems/ATA_Luton_world|sheet_sq,
+        texture = Vehicles/ATA_Luton_items,
+        scale = 0.020,
+    }
+    model ATALutonProtectionWindowFrontSideItemWorld
+    {
+        mesh = WorldItems/ATA_Luton_world|armor_leftwindow,
+        texture = Vehicles/ATA_Luton_items,
+        scale = 0.035,
+    }
+    model ATALutonProtectionWindowFrontItemWorld
+    {
+        mesh = WorldItems/ATA_Luton_world|armor_window,
+        texture = Vehicles/ATA_Luton_items,
+        scale = 0.035,
+    }
+    
+    item ATALutonProtectionSideFrontItem /* Craft */ 
+    {
+        DisplayCategory = Tuning,
+        Weight    =    10.0,
+        Type    =    Normal,
+        DisplayName    =    ATALutonProtectionSideFrontItem,
+        Icon    =    ATALutonProtectionSideFrontItem,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        Tooltip = Tooltip_item_tuning,
+        WorldStaticModel = Autotsar.ATALutonItemWorldPipeSq,
+        ataProtection = HeadlightLeft;HeadlightRight,
+    }
+    recipe Make ATALutonProtectionSideFrontItem
+    {
+       MetalPipe = 6,
+       MetalBar=8,
+       Screws=8,
+       BlowTorch=32,
+       keep WeldingMask,
+       Result:ATALutonProtectionSideFrontItem,
+       Time:350.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=6,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+    }
+    recipe Cut ATALutonProtectionSideFrontItem
+    {
+       ATALutonProtectionSideFrontItem=1,
+       BlowTorch=16,
+       keep WeldingMask,
+       Result:MetalBar=4,
+       Time:350.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=2,
+       OnCreate:Recipe.OnCreate.CutATALutonProtectionSideFrontItem,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+       NeedToBeLearn:false,
+    }
+    item ATALutonProtectionHoodItem /* Craft */ 
+    {
+        DisplayCategory = Tuning,
+        Weight    =    10.0,
+        Type    =    Normal,
+        DisplayName    =    ATALutonProtectionHoodItem,
+        Icon    =    ATALutonProtectionHoodItem,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        Tooltip = Tooltip_item_tuning,
+        WorldStaticModel = Autotsar.ATALutonItemWorldPipe,
+    }
+    recipe Make ATALutonProtectionHoodItem
+    {
+       MetalPipe=9,
+       BlowTorch=18,
+       keep WeldingMask,
+       Result:ATALutonProtectionHoodItem,
+       Time:350.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=3,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+       NeedToBeLearn:true,
+    }
+    recipe Cut ATALutonProtectionHoodItem
+    {
+       ATALutonProtectionHoodItem=1,
+       BlowTorch=9,
+       keep WeldingMask,
+       Result:MetalPipe=4,
+       Time:350.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=2,
+       OnCreate:Recipe.OnCreate.CutATAUnusableMetal,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+       NeedToBeLearn:false,
+    }
+    
+    item ATALutonProtectionWindowFrontSideItem /* Craft */ 
+    {
+        DisplayCategory = Tuning,
+        Weight    =    10.0,
+        Type    =    Normal,
+        DisplayName    =    ATALutonProtectionWindowFrontSideItem,
+        Icon    =    ATALutonProtectionWindowFrontSideItem,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        Tooltip = Tooltip_item_tuning,
+        WorldStaticModel = Autotsar.ATALutonProtectionWindowFrontSideItemWorld,
+    }
+    recipe Make ATALutonProtectionWindowFrontSideItem
+    {
+       MetalPipe = 3,
+       MetalBar=5,
+       Screws=4,
+       BlowTorch=16,
+       keep WeldingMask,
+       Result:ATALutonProtectionWindowFrontSideItem,
+       Time:350.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=4,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+       NeedToBeLearn:true,
+    }
+    recipe Cut ATALutonProtectionWindowFrontSideItem
+    {
+       ATALutonProtectionWindowFrontSideItem=1,
+       BlowTorch=8,
+       keep WeldingMask,
+       Result:MetalBar=4,
+       Time:350.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=2,
+       OnCreate:Recipe.OnCreate.CutATAUnusableMetal,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+       NeedToBeLearn:false,
+    }
+
+    item ATALutonProtectionWindowFrontItem /* Craft */ 
+    {
+        DisplayCategory = Tuning,
+        Weight    =    10.0,
+        Type    =    Normal,
+        DisplayName    =    ATALutonProtectionWindowFrontItem,
+        Icon    =    ATALutonProtectionWindowFrontItem,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        Tooltip = Tooltip_item_tuning,
+        WorldStaticModel = Autotsar.ATALutonProtectionWindowFrontItemWorld,
+    }
+    recipe Make ATALutonProtectionWindowFrontItem
+    {
+       MetalPipe = 6,
+       MetalBar=9,
+       Screws=4,
+       BlowTorch=30,
+       keep WeldingMask,
+       Result:ATALutonProtectionWindowFrontItem,
+       Time:350.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=5,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+       NeedToBeLearn:true,
+    }
+    recipe Cut ATALutonProtectionWindowFrontItem
+    {
+       ATALutonProtectionWindowFrontItem=1,
+       BlowTorch=15,
+       keep WeldingMask,
+       Result:MetalBar=5,
+       Time:350.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=2,
+       OnCreate:Recipe.OnCreate.CutATALutonProtectionWindowFrontItem,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+       NeedToBeLearn:false,
+    }
+    
+    item ATALutonInteractiveTrunkRoofRackItem /* Craft */ 
+    {
+        DisplayCategory = Tuning,
+        Weight    =    10.0,
+        Type    =    Normal,
+        DisplayName    =    ATALutonInteractiveTrunkRoofRackItem,
+        Icon    =    ATALutonInteractiveTrunkRoofRackItem,
+        MaxCapacity = 200,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        Tooltip = Tooltip_item_tuning,
+        WorldStaticModel = Autotsar.ATALutonItemWorldSheetSq,
+    }
+    recipe Make ATALutonInteractiveTrunkRoofRackItem
+    {
+       MetalPipe = 6,
+       SheetMetal = 8,
+       MetalBar=4,
+       Screws=8,
+       BlowTorch=36,
+       keep WeldingMask,
+       Result:ATALutonInteractiveTrunkRoofRackItem,
+       Time:350.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=7,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       NeedToBeLearn:true,
+    }
+    recipe Cut ATALutonInteractiveTrunkRoofRackItem
+    {
+       ATALutonInteractiveTrunkRoofRackItem=1,
+       BlowTorch=18,
+       keep WeldingMask,
+       Result:SheetMetal=4,
+       Time:350.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=2,
+       OnCreate:Recipe.OnCreate.CutATALutonInteractiveTrunkRoofRackItem,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+       NeedToBeLearn:false,
+    }
+    item ATALutonLadderItem /* Craft */ 
+    {
+        DisplayCategory = Tuning,
+        Weight    =    10.0,
+        Type    =    Normal,
+        DisplayName    =    ATALutonLadderItem,
+        Icon    =    ATALutonLadderItem,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        Tooltip = Tooltip_item_tuning,
+        WorldStaticModel = Autotsar.ATALutonItemWorldPipe,
+    }
+    recipe Make ATALutonLadderItem
+    {
+       MetalPipe = 4,
+       MetalBar=8,
+       Screws=4,
+       BlowTorch=24,
+       keep WeldingMask,
+       Result:ATALutonLadderItem,
+       Time:350.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=5,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+       NeedToBeLearn:true,
+    }
+    recipe Cut ATALutonLadderItem
+    {
+       ATALutonLadderItem=1,
+       BlowTorch=14,
+       keep WeldingMask,
+       Result:MetalBar=4,
+       Time:350.0,
+       Category:Tuning,
+       SkillRequired:MetalWelding=2,
+       OnCreate:Recipe.OnCreate.CutATALutonLadderItem,
+       OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+       NeedToBeLearn:false,
+    }
+}

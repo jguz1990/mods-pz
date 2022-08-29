@@ -1,0 +1,4 @@
+IGUI_TR = {
+    IGUI_perks_Driving = "Sürücülük",
+	IGUI_perks_Miscellaneous = "Çesitli"
+}

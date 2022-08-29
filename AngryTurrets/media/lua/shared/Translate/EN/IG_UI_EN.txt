@@ -1,0 +1,6 @@
+IGUI_EN = {
+    IGUI_ContainerTitle_TurretPistol = "Angry Pistol Turret",
+    IGUI_ContainerTitle_TurretShotgun = "Angry Shotgun Turret",
+    IGUI_ContainerTitle_TurretSniper = "Angry Sniper Turret",
+    IGUI_ItemCat_Turret ="Turret",
+}

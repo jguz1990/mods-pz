@@ -1,0 +1,189 @@
+module Base
+{
+  
+item ModConflictMagLightbulbBomb
+    {
+				NumberOfPages		=	1,
+				Weight					=	0.1,
+        Type						=	Literature,
+        DisplayName			=	ModConflictMagLightbulbBomb,
+        Icon						= LightbulbBomb,
+        TeachedRecipes  = Make Lightbulb Bomb,
+				ReplaceOnUse   	= Pen,
+    } 
+
+item LightbulbBomb
+    {
+        MaxRange		= 10,
+		KnockdownMod		= 0,
+		Type			= Weapon,
+		MinimumSwingTime	= 1.5,
+		SwingAnim		= Throw,
+		WeaponSprite		= Molotov,
+		UseSelf			= TRUE,
+		DisplayName		= Lightbulb Bomb,
+		SwingTime		= 1.5,
+		SwingAmountBeforeImpact	= 0.1,
+		PhysicsObject		= Aerosolbomb,
+		MinDamage		= 0,
+		Weight			= 1.5,
+		MaxDamage		= 0,
+		MaxHitCount		= 0,
+		Icon			= LightbulbBomb,
+		ExplosionPower		= 0,
+		ExtraDamage                 	=	100,
+		ExplosionRange		= 1,
+		triggerExplosionTimer	= 50,
+		ExplosionSound		= SmallExplosion,
+		PlacedSprite		= constructedobjects_01_32,
+		Tooltip			= Tooltip_Trap,
+        
+    }
+ item LightbulbBombTimed
+    {
+        MaxRange		= 10,
+		KnockdownMod		= 0,
+		Type			= Weapon,
+		MinimumSwingTime	= 1.5,
+		SwingAnim		= Throw,
+		WeaponSprite		= Molotov,
+		UseSelf			= TRUE,
+		DisplayName		= Lightbulb Bomb with a Timer,
+		SwingTime		= 1.5,
+		SwingAmountBeforeImpact	= 0.1,
+		PhysicsObject		= Aerosolbomb,
+		MinDamage		= 0,
+		Weight			= 1.5,
+		MaxDamage		= 0,
+		MaxHitCount		= 0,
+		Icon			= LightbulbBomb,
+		ExplosionPower		= 0,
+		ExplosionRange		= 1,
+		ExtraDamage                 	=	100,
+		triggerExplosionTimer	= 50,
+		ExplosionTimer = 10,
+		CanBePlaced = TRUE,
+		ExplosionSound		= SmallExplosion,
+		PlacedSprite		= constructedobjects_01_32,
+		Tooltip			= Tooltip_Trap,
+        
+    }
+ item LightbulbBombSensor
+    {
+        MaxRange		= 10,
+		KnockdownMod		= 0,
+		Type			= Weapon,
+		MinimumSwingTime	= 1.5,
+		SwingAnim		= Throw,
+		WeaponSprite		= Molotov,
+		UseSelf			= TRUE,
+		DisplayName		= Lightbulb Bomb with a Motion Sensor,
+		SwingTime		= 1.5,
+		SwingAmountBeforeImpact	= 0.1,
+		PhysicsObject		= Aerosolbomb,
+		MinDamage		= 0,
+		Weight			= 1.5,
+		MaxDamage		= 0,
+		MaxHitCount		= 0,
+		Icon			= LightbulbBomb,
+		ExplosionPower		= 0,
+		ExplosionRange		= 1,
+		ExtraDamage                 	=	100,
+		triggerExplosionTimer	= 50,
+		ExplosionTimer = 5,
+		SensorRange =   1,
+		CanBePlaced = TRUE,
+		ExplosionSound		= SmallExplosion,
+		PlacedSprite		= constructedobjects_01_32,
+		Tooltip			= Tooltip_Trap,
+        
+    }
+
+ item LightbulbBombRemote
+    {
+        MaxRange		= 10,
+		KnockdownMod		= 0,
+		Type			= Weapon,
+		MinimumSwingTime	= 1.5,
+		SwingAnim		= Throw,
+		WeaponSprite		= Molotov,
+		UseSelf			= TRUE,
+		DisplayName		= Remote Lightbulb Bomb,
+		SwingTime		= 1.5,
+		SwingAmountBeforeImpact	= 0.1,
+		PhysicsObject		= Aerosolbomb,
+		MinDamage		= 0,
+		Weight			= 1.5,
+		MaxDamage		= 0,
+		MaxHitCount		= 0,
+		Icon			= LightbulbBomb,
+		ExplosionPower		= 0,
+		ExplosionRange		= 1,
+		ExtraDamage                 	=	100,
+		triggerExplosionTimer	= 50,
+		CanBePlaced = TRUE,
+		CanBeRemote = TRUE,
+		ExplosionSound		= SmallExplosion,
+		PlacedSprite		= constructedobjects_01_32,
+		Tooltip			= Tooltip_Trap,
+        
+    }
+ 
+	
+	recipe Make Lightbulb Bomb
+    {
+       LightBulb/LightBulbRed/LightBulbGreen/LightBulbBlue/LightBulbYellow/LightBulbCyan/LightBulbMagenta/LightBulbOrange/LightBulbPurple/LightBulbPink,	
+       GunPowder=2,
+	Twine=1,
+	Scotchtape=2,
+	ElectronicsScrap,
+	
+       
+       Result:LightbulbBomb,
+       Time:50.0,
+       NeedToBeLearn:true,
+       Category:Engineer,
+    }
+	recipe Add Timer
+    {
+       LightbulbBomb,
+       TimerCrafted,
+       ElectronicsScrap=2,
+       DuctTape=1,
+
+       Result:LightbulbBombTimed,
+       NeedToBeLearn:true,
+       Time:80.0,
+       Category:Electrical,
+    }
+
+    recipe Add Motion Sensor V1
+    {
+       LightbulbBomb,
+       MotionSensor,
+       ElectronicsScrap=2,
+       DuctTape=1,
+
+       Result:LightbulbBombSensor,
+       NeedToBeLearn:true,
+       SkillRequired:Electricity=2,
+       Time:80.0,
+       Category:Electrical,
+    }
+
+    
+
+    recipe Add Crafted Trigger
+    {
+       LightbulbBomb,
+       TriggerCrafted,
+       ElectronicsScrap=2,
+       DuctTape=1,
+
+       Result:LightbulbBombRemote,
+       NeedToBeLearn:true,
+       SkillRequired:Electricity=2,
+       Time:80.0,
+       Category:Electrical,
+    }
+}

@@ -1,0 +1,5 @@
+name=ExtraSauce Hoarders
+id=esQHoarders
+poster=modThumb.png
+require=esQLib
+description=For your hoarding needs. Contains BagMerge and Bundler.
