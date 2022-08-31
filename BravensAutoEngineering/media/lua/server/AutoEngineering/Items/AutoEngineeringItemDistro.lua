@@ -1,0 +1,89 @@
+require "Items/ProceduralDistributions"
+
+-- Vehicle Tricks Magazine Vol. 1
+table.insert(ProceduralDistributions.list["BookstoreMisc"].items, "Braven.AutoTricksMagVol1");
+table.insert(ProceduralDistributions.list["BookstoreMisc"].items, 1.5);
+table.insert(ProceduralDistributions.list["CrateMagazines"].items, "Braven.AutoTricksMagVol1");
+table.insert(ProceduralDistributions.list["CrateMagazines"].items, 1.5);
+table.insert(ProceduralDistributions.list["EngineerTools"].items, "Braven.AutoTricksMagVol1");
+table.insert(ProceduralDistributions.list["EngineerTools"].items, 1.5);
+table.insert(ProceduralDistributions.list["MagazineRackMixed"].items, "Braven.AutoTricksMagVol1");
+table.insert(ProceduralDistributions.list["MagazineRackMixed"].items, 1.5);
+table.insert(ProceduralDistributions.list["PostOfficeMagazines"].items, "Braven.AutoTricksMagVol1");
+table.insert(ProceduralDistributions.list["PostOfficeMagazines"].items, 1.5);
+table.insert(ProceduralDistributions.list["ShelfGeneric"].items, "Braven.AutoTricksMagVol1");
+table.insert(ProceduralDistributions.list["ShelfGeneric"].items, 0.3);
+table.insert(ProceduralDistributions.list["LibraryBooks"].items, "Braven.AutoTricksMagVol1");
+table.insert(ProceduralDistributions.list["LibraryBooks"].items, 1.5);
+table.insert(ProceduralDistributions.list["ToolStoreBooks"].items, "Braven.AutoTricksMagVol1");
+table.insert(ProceduralDistributions.list["ToolStoreBooks"].items, 1.5);
+table.insert(ProceduralDistributions.list["LivingRoomShelf"].items, "Braven.AutoTricksMagVol1");
+table.insert(ProceduralDistributions.list["LivingRoomShelf"].items, 0.3);
+table.insert(ProceduralDistributions.list["LivingRoomShelfNoTapes"].items, "Braven.AutoTricksMagVol1");
+table.insert(ProceduralDistributions.list["LivingRoomShelfNoTapes"].items, 0.3);
+
+-- Auto Engineering Magazine Vol. 1
+table.insert(ProceduralDistributions.list["BookstoreMisc"].items, "Braven.AutoEngineerMagVol1");
+table.insert(ProceduralDistributions.list["BookstoreMisc"].items, 1.5);
+table.insert(ProceduralDistributions.list["CrateMagazines"].items, "Braven.AutoEngineerMagVol1");
+table.insert(ProceduralDistributions.list["CrateMagazines"].items, 1.5);
+table.insert(ProceduralDistributions.list["EngineerTools"].items, "Braven.AutoEngineerMagVol1");
+table.insert(ProceduralDistributions.list["EngineerTools"].items, 1.5);
+table.insert(ProceduralDistributions.list["MagazineRackMixed"].items, "Braven.AutoEngineerMagVol1");
+table.insert(ProceduralDistributions.list["MagazineRackMixed"].items, 1.5);
+table.insert(ProceduralDistributions.list["PostOfficeMagazines"].items, "Braven.AutoEngineerMagVol1");
+table.insert(ProceduralDistributions.list["PostOfficeMagazines"].items, 1.5);
+table.insert(ProceduralDistributions.list["ShelfGeneric"].items, "Braven.AutoEngineerMagVol1");
+table.insert(ProceduralDistributions.list["ShelfGeneric"].items, 0.3);
+table.insert(ProceduralDistributions.list["LibraryBooks"].items, "Braven.AutoEngineerMagVol1");
+table.insert(ProceduralDistributions.list["LibraryBooks"].items, 1.5);
+table.insert(ProceduralDistributions.list["ToolStoreBooks"].items, "Braven.AutoEngineerMagVol1");
+table.insert(ProceduralDistributions.list["ToolStoreBooks"].items, 1.5);
+table.insert(ProceduralDistributions.list["LivingRoomShelf"].items, "Braven.AutoEngineerMagVol1");
+table.insert(ProceduralDistributions.list["LivingRoomShelf"].items, 0.3);
+table.insert(ProceduralDistributions.list["LivingRoomShelfNoTapes"].items, "Braven.AutoEngineerMagVol1");
+table.insert(ProceduralDistributions.list["LivingRoomShelfNoTapes"].items, 0.3);
+
+-- Auto Engineering Magazine Vol. 2
+table.insert(ProceduralDistributions.list["BookstoreMisc"].items, "Braven.AutoEngineerMagVol2");
+table.insert(ProceduralDistributions.list["BookstoreMisc"].items, 1.5);
+table.insert(ProceduralDistributions.list["CrateMagazines"].items, "Braven.AutoEngineerMagVol2");
+table.insert(ProceduralDistributions.list["CrateMagazines"].items, 1.5);
+table.insert(ProceduralDistributions.list["EngineerTools"].items, "Braven.AutoEngineerMagVol2");
+table.insert(ProceduralDistributions.list["EngineerTools"].items, 1.5);
+table.insert(ProceduralDistributions.list["MagazineRackMixed"].items, "Braven.AutoEngineerMagVol2");
+table.insert(ProceduralDistributions.list["MagazineRackMixed"].items, 1.5);
+table.insert(ProceduralDistributions.list["PostOfficeMagazines"].items, "Braven.AutoEngineerMagVol2");
+table.insert(ProceduralDistributions.list["PostOfficeMagazines"].items, 1.5);
+table.insert(ProceduralDistributions.list["ShelfGeneric"].items, "Braven.AutoEngineerMagVol2");
+table.insert(ProceduralDistributions.list["ShelfGeneric"].items, 0.3);
+table.insert(ProceduralDistributions.list["LibraryBooks"].items, "Braven.AutoEngineerMagVol2");
+table.insert(ProceduralDistributions.list["LibraryBooks"].items, 1.5);
+table.insert(ProceduralDistributions.list["ToolStoreBooks"].items, "Braven.AutoEngineerMagVol2");
+table.insert(ProceduralDistributions.list["ToolStoreBooks"].items, 1.5);
+table.insert(ProceduralDistributions.list["LivingRoomShelf"].items, "Braven.AutoEngineerMagVol2");
+table.insert(ProceduralDistributions.list["LivingRoomShelf"].items, 0.3);
+table.insert(ProceduralDistributions.list["LivingRoomShelfNoTapes"].items, "Braven.AutoEngineerMagVol2");
+table.insert(ProceduralDistributions.list["LivingRoomShelfNoTapes"].items, 0.3);
+
+-- Auto Engineering Magazine Vol. 3
+table.insert(ProceduralDistributions.list["BookstoreMisc"].items, "Braven.AutoEngineerMagVol3");
+table.insert(ProceduralDistributions.list["BookstoreMisc"].items, 1.5);
+table.insert(ProceduralDistributions.list["CrateMagazines"].items, "Braven.AutoEngineerMagVol3");
+table.insert(ProceduralDistributions.list["CrateMagazines"].items, 1.5);
+table.insert(ProceduralDistributions.list["EngineerTools"].items, "Braven.AutoEngineerMagVol3");
+table.insert(ProceduralDistributions.list["EngineerTools"].items, 1.5);
+table.insert(ProceduralDistributions.list["MagazineRackMixed"].items, "Braven.AutoEngineerMagVol3");
+table.insert(ProceduralDistributions.list["MagazineRackMixed"].items, 1.5);
+table.insert(ProceduralDistributions.list["PostOfficeMagazines"].items, "Braven.AutoEngineerMagVol3");
+table.insert(ProceduralDistributions.list["PostOfficeMagazines"].items, 1.5);
+table.insert(ProceduralDistributions.list["ShelfGeneric"].items, "Braven.AutoEngineerMagVol3");
+table.insert(ProceduralDistributions.list["ShelfGeneric"].items, 0.3);
+table.insert(ProceduralDistributions.list["LibraryBooks"].items, "Braven.AutoEngineerMagVol3");
+table.insert(ProceduralDistributions.list["LibraryBooks"].items, 1.5);
+table.insert(ProceduralDistributions.list["ToolStoreBooks"].items, "Braven.AutoEngineerMagVol3");
+table.insert(ProceduralDistributions.list["ToolStoreBooks"].items, 1.5);
+table.insert(ProceduralDistributions.list["LivingRoomShelf"].items, "Braven.AutoEngineerMagVol3");
+table.insert(ProceduralDistributions.list["LivingRoomShelf"].items, 0.3);
+table.insert(ProceduralDistributions.list["LivingRoomShelfNoTapes"].items, "Braven.AutoEngineerMagVol3");
+table.insert(ProceduralDistributions.list["LivingRoomShelfNoTapes"].items, 0.3);

@@ -1,0 +1,7 @@
+ItemName_CH = {
+    ItemName_Braven.AEEngine = "引擎",
+    ItemName_Braven.AutoTricksMagVol1 = "汽车技巧卷。 1",
+    ItemName_Braven.AutoEngineerMagVol1 = "汽车工程卷。 1",
+    ItemName_Braven.AutoEngineerMagVol2 = "汽车工程卷。 2",
+    ItemName_Braven.AutoEngineerMagVol3 = "汽车工程卷。 3",
+}

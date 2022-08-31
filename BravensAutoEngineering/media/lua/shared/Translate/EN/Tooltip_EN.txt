@@ -1,0 +1,9 @@
+Tooltip_EN = {
+	Tooltip_NeedsWreckMagazine = "To do this, you must first read ",
+	Tooltip_WreckFixInfo = "Repairing wreckage will turn it into a vehicle in working condition again. ",
+	Tooltip_RemoveEngineInfo = "Remove this engine so that it can be installed in another vehicle. ",
+	Tooltip_item_AEEngine = "Right click to load engine details.",
+	Tooltip_EngineUnusable = "This vehicle's engine is too damaged to be removed. ",
+	Tooltip_EngineForce = "Horsepower:",
+	Tooltip_EngineQuality = "Quality:",
+}

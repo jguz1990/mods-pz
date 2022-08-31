@@ -1,0 +1,19 @@
+module Braven
+{
+    imports {
+        Base,
+    }
+
+    item AEEngine
+    {
+        DisplayCategory          =   VehicleMaintenance,
+        Weight	                 =	 20,
+        DisplayName              =	 ItemName_Braven.AEEngine,
+        Icon	                 =	 EngineBlock,
+        VehicleType              =   3,
+        ChanceToSpawnDamaged     =   10,
+        ConditionMax             =   100,
+        MechanicsItem            =   TRUE,
+        tooltip                  =   Tooltip_item_AEEngine,
+    }
+}

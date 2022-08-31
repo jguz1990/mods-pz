@@ -1,0 +1,6 @@
+Recipes_JP = {
+	Recipe_RemoveHotwire = "熱線を取り外します",
+    Recipe_RepairWreckType1 = "標準的な自動車事故を修復する",
+    Recipe_RepairWreckType2 = "商用車のクラッシュを修復する",
+    Recipe_RepairWreckType3 = "スポーツカーのクラッシュを修復する",
+}

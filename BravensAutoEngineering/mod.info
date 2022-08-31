@@ -1,0 +1,8 @@
+name=Braven's Auto Engineering
+id=BB_Auto_Engineering
+require=BB_Utils
+poster=poster.png
+icon=icon.png
+authors=BitBraven
+modversion=1.0.0
+description=This mod allows you to repair wrecks and turn them into functional vehicles!

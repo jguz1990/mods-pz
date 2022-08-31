@@ -1,0 +1,6 @@
+Recipes_CH = {
+	Recipe_RemoveHotwire = "移除热线",
+    Recipe_RepairWreckType1 = "修复默认车祸",
+    Recipe_RepairWreckType2 = "修理商务车碰撞",
+    Recipe_RepairWreckType3 = "修理跑车碰撞",
+}

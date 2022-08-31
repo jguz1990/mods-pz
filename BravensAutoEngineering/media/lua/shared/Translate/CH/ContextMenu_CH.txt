@@ -1,0 +1,6 @@
+ContextMenu_CH = {
+    ContextMenu_Repair_Wreck = "修理汽车残骸",
+    ContextMenu_VehicleHotwireOff = "移除热线",
+	ContextMenu_Install_Engine = "安装引擎",
+    ContextMenu_Remove_Engine = "卸下引擎",
+}

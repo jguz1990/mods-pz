@@ -1,0 +1,6 @@
+Recipes_PT = {
+	Recipe_RemoveHotwire = "Remover ligação direta",
+    Recipe_RepairWreckType1 = "Reparar carcaça de veículo normal",
+    Recipe_RepairWreckType2 = "Reparar carcaça de veículo comercial",
+    Recipe_RepairWreckType3 = "Reparar carcaça de veículo esportivo",
+}

@@ -1,0 +1,5 @@
+UI_DE = {
+    UI_prof_AutoEngineer = "Auto-Ingenieur",
+    UI_trait_AutoEngineerDesc = "Kann Fahrzeuge kurzschließen und rückentwickeln.",
+    UI_profdesc_AutoEngineer = "Kann Fahrzeuge kurzschließen und rückentwickeln.",
+}

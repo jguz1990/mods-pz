@@ -1,0 +1,7 @@
+ItemName_PTBR = {
+    ItemName_Braven.AEEngine = "Motor",
+    ItemName_Braven.AutoTricksMagVol1 = "Truques de automóvel Vol. 1",
+    ItemName_Braven.AutoEngineerMagVol1 = "Engenharia Automotiva Vol. 1",
+    ItemName_Braven.AutoEngineerMagVol2 = "Engenharia Automotiva Vol. 2",
+    ItemName_Braven.AutoEngineerMagVol3 = "Engenharia Automotiva Vol. 3",
+}

@@ -1,0 +1,6 @@
+ContextMenu_EN = {
+    ContextMenu_Repair_Wreck = "Repair Car Wreck",
+    ContextMenu_VehicleHotwireOff = "Remove hotwire",
+    ContextMenu_Install_Engine = "Install Engine",
+    ContextMenu_Remove_Engine = "Remove Engine",
+}

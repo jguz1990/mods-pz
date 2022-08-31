@@ -1,0 +1,5 @@
+UI_JP = {
+    UI_prof_AutoEngineer = "自動車エンジニア",
+    UI_trait_AutoEngineerDesc = "車両をホットワイヤリングしてリバース エンジニアリングすることができます。",
+    UI_profdesc_AutoEngineer = "車両をホットワイヤリングしてリバース エンジニアリングすることができます。",
+}

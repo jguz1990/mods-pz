@@ -1,0 +1,6 @@
+Recipes_IT = {
+	Recipe_RemoveHotwire = "Rimuovere il filo caldo",
+    Recipe_RepairWreckType1 = "Riparare rottame di auto standard",
+    Recipe_RepairWreckType2 = "Riparare rottame di auto commerciale",
+    Recipe_RepairWreckType3 = "Riparare rottame di auto sportivo",
+}

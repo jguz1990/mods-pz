@@ -1,0 +1,9 @@
+Tooltip_ES = {
+	Tooltip_NeedsWreckMagazine = "Para ello, primero debe leer ",
+	Tooltip_WreckFixInfo = "Reparar los restos lo convertirá en un vehículo en condiciones normales nuevamente. ",
+	Tooltip_RemoveEngineInfo = "Retire este motor para poder instalarlo en otro vehículo. ",
+	Tooltip_item_AEEngine = "Haga clic derecho para cargar los detalles del motor. ",
+	Tooltip_EngineUnusable = "El motor de este vehículo está demasiado dañado para retirarlo. ",
+	Tooltip_EngineForce = "Caballos de fuerza: ",
+	Tooltip_EngineQuality = "Calidad: ",
+}

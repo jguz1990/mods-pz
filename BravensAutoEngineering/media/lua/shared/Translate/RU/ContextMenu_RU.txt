@@ -1,0 +1,6 @@
+ContextMenu_RU = {
+    ContextMenu_Repair_Wreck = "–емонт автомобил¤ остаетс¤",
+    ContextMenu_VehicleHotwireOff = "”далить гор¤чую проводку",
+	ContextMenu_Install_Engine = "Установить двигатель",
+    ContextMenu_Remove_Engine = "Удалить двигатель",
+}

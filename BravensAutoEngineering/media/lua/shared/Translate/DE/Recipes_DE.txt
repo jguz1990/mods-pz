@@ -1,0 +1,6 @@
+Recipes_DE = {
+	Recipe_RemoveHotwire = "Hitzedraht entfernen",
+    Recipe_RepairWreckType1 = "Reparieren Sie den Standard-Autounfall",
+    Recipe_RepairWreckType2 = "Reparieren Sie den kommerziell-Autounfall",
+    Recipe_RepairWreckType3 = "Reparieren Sie den Sport-Autounfall",
+}

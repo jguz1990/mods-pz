@@ -1,0 +1,6 @@
+ContextMenu_FR = {
+    ContextMenu_Repair_Wreck = "Réparer l'épave du véhicule",
+    ContextMenu_VehicleHotwireOff = "Supprimer fil chaud",
+	ContextMenu_Install_Engine = "Installer le moteur",
+    ContextMenu_Remove_Engine = "Retirer le moteur",
+}

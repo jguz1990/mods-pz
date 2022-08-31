@@ -1,0 +1,9 @@
+Tooltip_FR = {
+	Tooltip_NeedsWreckMagazine = "Pour ce faire, vous devez d'abord lire ",
+	Tooltip_WreckFixInfo = "La réparation de l'épave le transformera en un véhicule en état de marche à nouveau. ",
+	Tooltip_RemoveEngineInfo = "Retirez ce moteur afin qu'il puisse être installé dans un autre véhicule. ",
+	Tooltip_item_AEEngine = "Faites un clic droit pour charger les détails du moteur. ",
+	Tooltip_EngineUnusable = "Le moteur de ce véhicule est trop endommagé pour être retiré. ",
+	Tooltip_EngineForce = "Puissance : ",
+	Tooltip_EngineQuality = "Qualité: ",
+}

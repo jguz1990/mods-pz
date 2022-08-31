@@ -1,0 +1,7 @@
+ItemName_FR = {
+    ItemName_Braven.AEEngine = "Moteur",
+    ItemName_Braven.AutoTricksMagVol1 = "Astuces Automobiles Vol. 1",
+    ItemName_Braven.AutoEngineerMagVol1 = "Ingénierie Automobile Vol. 1",
+    ItemName_Braven.AutoEngineerMagVol2 = "Ingénierie Automobile Vol. 2",
+    ItemName_Braven.AutoEngineerMagVol3 = "Ingénierie Automobile Vol. 3",
+}

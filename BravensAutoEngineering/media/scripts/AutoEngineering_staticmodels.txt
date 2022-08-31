@@ -1,0 +1,10 @@
+module Base
+{
+
+	model AutoEngineeringGround
+    {
+        mesh      =   WorldItems/Magazine,
+        texture   =   WorldItems/MagazineAutoEngineering,
+        scale     =   0.4,
+    }
+}

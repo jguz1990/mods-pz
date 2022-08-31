@@ -1,0 +1,9 @@
+Tooltip_DE = {
+	Tooltip_NeedsWreckMagazine = "Dazu müssen Sie zuerst lesen ",
+	Tooltip_WreckFixInfo = "Die Reparatur des Wracks macht es wieder zu einem funktionstüchtigen Fahrzeug. ",
+	Tooltip_RemoveEngineInfo = "Entfernen Sie diesen Motor, damit er in ein anderes Fahrzeug eingebaut werden kann. ",
+	Tooltip_item_AEEngine = "Klicken Sie mit der rechten Maustaste, um die Motordetails zu laden. ",
+	Tooltip_EngineUnusable = "Der Motor dieses Fahrzeugs ist zu beschädigt, um ausgebaut zu werden. ",
+	Tooltip_EngineForce = "PS: ",
+	Tooltip_EngineQuality = "Qualität: ",
+}

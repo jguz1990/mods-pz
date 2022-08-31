@@ -1,0 +1,14 @@
+module Base
+{
+	sound AE_Welding
+	{
+        category = Vehicle, loop = true, is3D = true,
+        clip { file = media/sound/AE_Weld.wav, distanceMax = 10, volume = 0.8, }
+	}
+
+	sound AE_VehicleTweak
+	{
+        category = Vehicle, loop = true, is3D = true,
+        clip { file = media/sound/AE_VehicleTweak.wav, distanceMax = 10, volume = 0.8, }
+	}
+}

@@ -106,6 +106,10 @@ mods
 	mod = Simplezombietrap,
 	mod = Black_Hawk,
 	mod = AngryTurrets777,
+	mod = CleanDirt,
+	mod = BB_Auto_Engineering,
+	mod = BB_Utils,
+	mod = More Builds Plus,
 }
 
 maps

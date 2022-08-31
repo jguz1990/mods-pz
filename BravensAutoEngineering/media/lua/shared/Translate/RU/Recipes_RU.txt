@@ -1,0 +1,6 @@
+Recipes_RU = {
+	Recipe_RemoveHotwire = "Удалить горячую проводку",
+    Recipe_RepairWreckType1 = "Ремонт стандартной автокатастрофы",
+    Recipe_RepairWreckType2 = "Устранить аварию коммерческого автомобиля",
+    Recipe_RepairWreckType3 = "Устранить аварию спортивного автомобиля",
+}

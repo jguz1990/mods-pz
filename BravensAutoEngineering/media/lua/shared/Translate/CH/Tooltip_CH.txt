@@ -1,0 +1,9 @@
+Tooltip_CH = {
+	Tooltip_NeedsWreckMagazine = "为此，您必须先阅读 ",
+	Tooltip_WreckFixInfo = "修复残骸将使其再次成为处于工作状态的车辆。 ",
+	Tooltip_RemoveEngineInfo = "拆下该发动机，以便将其安装在另一辆车上。 ",
+	Tooltip_item_AEEngine = "右键单击以加载引擎详细信息。 ",
+	Tooltip_EngineUnusable = "这辆车的发动机损坏得太厉害，无法拆卸。 ",
+	Tooltip_EngineForce = "马力： ",
+	Tooltip_EngineQuality = "质量： ",
+}

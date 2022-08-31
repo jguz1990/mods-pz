@@ -1,0 +1,6 @@
+ContextMenu_PTBR = {
+    ContextMenu_Repair_Wreck = "Reparar carcaça de veículo",
+    ContextMenu_VehicleHotwireOff = "Remover ligação direta",
+	ContextMenu_Install_Engine = "Instalar motor",
+    ContextMenu_Remove_Engine = "Remover motor",
+}

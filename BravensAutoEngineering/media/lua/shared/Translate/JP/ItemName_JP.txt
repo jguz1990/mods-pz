@@ -1,0 +1,7 @@
+ItemName_JP = {
+    ItemName_Braven.AEEngine = "エンジン",
+    ItemName_Braven.AutoTricksMagVol1 = "自動車のトリック Vol. 1",
+    ItemName_Braven.AutoEngineerMagVol1 = "オートエンジニアリング Vol. 1",
+    ItemName_Braven.AutoEngineerMagVol2 = "オートエンジニアリング Vol. 2",
+    ItemName_Braven.AutoEngineerMagVol3 = "オートエンジニアリング Vol. 3",
+}

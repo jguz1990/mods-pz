@@ -1,0 +1,9 @@
+Tooltip_IT = {
+	Tooltip_NeedsWreckMagazine = "Per fare ciò, devi prima leggere ",
+	Tooltip_WreckFixInfo = "La riparazione dei rottami lo trasformerà in un veicolo di nuovo funzionante. ",
+	Tooltip_RemoveEngineInfo = "Rimuovere questo motore in modo che possa essere installato su un altro veicolo. ",
+	Tooltip_item_AEEngine = "Fare clic con il tasto destro per caricare i dettagli del motore. ",
+	Tooltip_EngineUnusable = "Il motore di questo veicolo è troppo danneggiato per essere rimosso. ",
+	Tooltip_EngineForce = "Potenza: ",
+	Tooltip_EngineQuality = "Qualità: ",
+}

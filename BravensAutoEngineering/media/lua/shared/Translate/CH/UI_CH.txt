@@ -1,0 +1,5 @@
+UI_CH = {
+    UI_prof_AutoEngineer = "汽车工程师",
+    UI_trait_AutoEngineerDesc = "可以对车辆进行热线并对其进行逆向工程。",
+    UI_profdesc_AutoEngineer = "可以对车辆进行热线并对其进行逆向工程。",
+}

@@ -1,0 +1,6 @@
+ContextMenu_JP = {
+    ContextMenu_Repair_Wreck = "修理車の残骸",
+    ContextMenu_VehicleHotwireOff = "熱線を取り外します",
+	ContextMenu_Install_Engine = "エンジンをインストール",
+    ContextMenu_Remove_Engine = "エンジンを取り外します",
+}

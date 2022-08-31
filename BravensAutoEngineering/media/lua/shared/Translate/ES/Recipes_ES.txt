@@ -1,0 +1,6 @@
+Recipes_ES = {
+	Recipe_RemoveHotwire = "Quitar puente",
+    Recipe_RepairWreckType1 = "Reparar restos de coche normal",
+    Recipe_RepairWreckType2 = "Reparar restos de coche comercial",
+    Recipe_RepairWreckType3 = "Reparar restos de coche deportivo",
+}

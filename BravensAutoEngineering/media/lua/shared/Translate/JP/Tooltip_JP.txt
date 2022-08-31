@@ -1,0 +1,9 @@
+Tooltip_JP = {
+	Tooltip_NeedsWreckMagazine = "これを行うには、最初に読む必要があります ",
+	Tooltip_WreckFixInfo = "残骸を修復すると、再び動作可能な状態の車両に変わります。 ",
+	Tooltip_RemoveEngineInfo = "このエンジンを取り外して、別の車両に取り付けることができます。 ",
+	Tooltip_item_AEEngine = "右クリックしてエンジンの詳細を読み込みます。 ",
+	Tooltip_EngineUnusable = "この車両のエンジンは損傷が大きすぎて取り外すことができません。 ",
+	Tooltip_EngineForce = "馬力： ",
+	Tooltip_EngineQuality = "品質： ",
+}

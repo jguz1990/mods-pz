@@ -1,0 +1,58 @@
+module Braven
+{
+    imports {
+        Base,
+    }
+
+    item AutoTricksMagVol1
+    {
+        DisplayCategory    =   SkillBook,
+        Weight	           =   0.1,
+        Type	           =   Literature,
+        DisplayName	       =   ItemName_Braven.AutoTricksMagVol1,
+        Icon	           =   MagazineAutoEngineering,
+        TeachedRecipes     =   RemoveHotwire,
+        ReplaceOnUse       =   AutoTricksMagVol1,
+        StaticModel        =   Magazine,
+        WorldStaticModel   =   AutoEngineeringGround,
+    }
+
+    item AutoEngineerMagVol1
+    {
+        DisplayCategory    =   SkillBook,
+        Weight	           =   0.1,
+        Type	           =   Literature,
+        DisplayName	       =   ItemName_Braven.AutoEngineerMagVol1,
+        Icon	           =   MagazineAutoEngineering,
+        TeachedRecipes     =   RepairWreckType1,
+        ReplaceOnUse       =   AutoEngineerMagVol1,
+        StaticModel        =   Magazine,
+        WorldStaticModel   =   AutoEngineeringGround,
+    }
+
+    item AutoEngineerMagVol2
+    {
+        DisplayCategory    =   SkillBook,
+        Weight	           =   0.1,
+        Type	           =   Literature,
+        DisplayName	       =   ItemName_Braven.AutoEngineerMagVol2,
+        Icon	           =   MagazineAutoEngineering,
+        TeachedRecipes     =   RepairWreckType2,
+        ReplaceOnUse       =   AutoEngineerMagVol2,
+        StaticModel        =   Magazine,
+        WorldStaticModel   =   AutoEngineeringGround,
+    }
+
+    item AutoEngineerMagVol3
+    {
+        DisplayCategory    =   SkillBook,
+        Weight	           =   0.1,
+        Type	           =   Literature,
+        DisplayName	       =   ItemName_Braven.AutoEngineerMagVol3,
+        Icon	           =   MagazineAutoEngineering,
+        TeachedRecipes     =   RepairWreckType3,
+        ReplaceOnUse       =   AutoEngineerMagVol3,
+        StaticModel        =   Magazine,
+        WorldStaticModel   =   AutoEngineeringGround,
+    }
+}

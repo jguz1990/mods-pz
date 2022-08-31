@@ -1,0 +1,6 @@
+Recipes_FR = {
+	Recipe_RemoveHotwire = "Supprimer le fil chaud",
+    Recipe_RepairWreckType1 = "Réparer un accident de voiture par défaut",
+    Recipe_RepairWreckType2 = "Repair a commercial car accident",
+    Recipe_RepairWreckType3 = "Repair a sports car accident",
+}
