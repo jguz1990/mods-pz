@@ -109,6 +109,7 @@ mods
 	mod = CleanDirt,
 	mod = BB_Auto_Engineering,
 	mod = BB_Utils,
+	mod = MoreBuilds,
 	mod = More Builds Plus,
 }
 
