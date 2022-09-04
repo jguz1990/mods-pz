@@ -14,7 +14,7 @@ module FencingKit {
 
     item ChainWireRoll {
     Type=Drainable,
-    UseDelta=0.2,
+    UseDelta=0.05,
     UseWhileEquipped=false,
     Weight=4.0,
     DisplayName=Chainlink Wire Roll,

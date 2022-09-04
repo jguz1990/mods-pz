@@ -111,6 +111,7 @@ mods
 	mod = BB_Utils,
 	mod = MoreBuilds,
 	mod = More Builds Plus,
+	mod = AuthenticLootRates,
 }
 
 maps

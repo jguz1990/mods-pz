@@ -6,7 +6,7 @@ module FencingKit {
 
   recipe Unbundle Chainlink Fencing Kit {
     FenceKit,
-    Result:MetalPipe=12,
+    Result:MetalPipe=50,
     Time:300.0,  
     Category:Welding,
     OnCreate:giveFence,
@@ -14,7 +14,7 @@ module FencingKit {
   }
 
   recipe Bundle Chainlink Fencing Kit {
-    MetalPipe=12,
+    MetalPipe=50,
     ChainWireRoll=5,
     Result:FenceKit,
     Time:500.0,  
@@ -31,7 +31,7 @@ module FencingKit {
   }
 
   recipe Combine Wire Into Roll {
-    Wire=25,
+    Wire=100,
     Result:ChainWireRoll,
     Time:100.0,  
     Category:Welding,
