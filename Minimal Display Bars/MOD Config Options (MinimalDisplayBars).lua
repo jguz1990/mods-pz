@@ -32,7 +32,7 @@ local obj1 = {
 		["showImage"] = false;
 	};
 	["hp"] = {
-		["x"] = 68;
+		["x"] = 73;
 		["y"] = 54;
 		["width"] = 15;
 		["height"] = 150;
@@ -59,7 +59,7 @@ local obj1 = {
 		["showImage"] = false;
 	};
 	["hunger"] = {
-		["x"] = 83;
+		["x"] = 88;
 		["y"] = 54;
 		["width"] = 8;
 		["height"] = 150;
@@ -86,7 +86,7 @@ local obj1 = {
 		["showImage"] = false;
 	};
 	["thirst"] = {
-		["x"] = 91;
+		["x"] = 96;
 		["y"] = 54;
 		["width"] = 8;
 		["height"] = 150;
@@ -113,7 +113,7 @@ local obj1 = {
 		["showImage"] = false;
 	};
 	["endurance"] = {
-		["x"] = 99;
+		["x"] = 104;
 		["y"] = 54;
 		["width"] = 8;
 		["height"] = 150;
@@ -140,7 +140,7 @@ local obj1 = {
 		["showImage"] = false;
 	};
 	["fatigue"] = {
-		["x"] = 107;
+		["x"] = 112;
 		["y"] = 54;
 		["width"] = 8;
 		["height"] = 150;
@@ -167,7 +167,7 @@ local obj1 = {
 		["showImage"] = false;
 	};
 	["boredomlevel"] = {
-		["x"] = 115;
+		["x"] = 120;
 		["y"] = 54;
 		["width"] = 8;
 		["height"] = 150;
@@ -194,7 +194,7 @@ local obj1 = {
 		["showImage"] = false;
 	};
 	["unhappynesslevel"] = {
-		["x"] = 123;
+		["x"] = 128;
 		["y"] = 54;
 		["width"] = 8;
 		["height"] = 150;
@@ -221,7 +221,7 @@ local obj1 = {
 		["showImage"] = false;
 	};
 	["temperature"] = {
-		["x"] = 131;
+		["x"] = 136;
 		["y"] = 54;
 		["width"] = 8;
 		["height"] = 150;
@@ -248,7 +248,7 @@ local obj1 = {
 		["showImage"] = false;
 	};
 	["calorie"] = {
-		["x"] = 139;
+		["x"] = 144;
 		["y"] = 54;
 		["width"] = 8;
 		["height"] = 150;

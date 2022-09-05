@@ -1,0 +1,5 @@
+name=Brita's Armor Pack Night Vision Patch
+poster=poster.png
+id=BWPNVPatch
+description=Patch to restore night vision functionality to Brita's Weapon Pack. Requires BAP and Eris NVG.
+require=eris_nightvision_goggles,Brita_2

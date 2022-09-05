@@ -78,8 +78,9 @@ mods
 	mod = ModManager,
 	mod = ModManagerServer,
 	mod = muldraughmilitarybase,
-	mod = NightVisionChucked,
 	mod = eris_nightvision_goggles,
+	mod = BWPNVPatch,
+	mod = NightVisionChucked,
 	mod = noirrsling,
 	mod = OutTheWindow,
 	mod = ManySpawnsAll,
@@ -112,6 +113,8 @@ mods
 	mod = MoreBuilds,
 	mod = More Builds Plus,
 	mod = AuthenticLootRates,
+	mod = POETRecycleEverything1,
+	mod = POETRecycleEverything2,
 }
 
 maps
