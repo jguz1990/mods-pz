@@ -80,7 +80,6 @@ mods
 	mod = muldraughmilitarybase,
 	mod = eris_nightvision_goggles,
 	mod = BWPNVPatch,
-	mod = NightVisionChucked,
 	mod = noirrsling,
 	mod = OutTheWindow,
 	mod = ManySpawnsAll,
